@@ -1,0 +1,15 @@
+{
+    "create_organization": {
+        "clientId": "01K2Y6MZWGNAWKQKG4RM8F347F",
+        "name": "International Federation of Red Cross and Red Crescent Societies",
+        "description": "World's largest humanitarian network, helping people before, during and after disasters.",
+        "abbreviation": "IFRC"
+    },
+    "firebase_response_data": {
+        "name": "International Federation of Red Cross and Red Crescent Societies",
+        "description": "World's largest humanitarian network, helping people before, during and after disasters.",
+        "abbreviation": "IFRC",
+        "isArchived": false,
+        "nameKey": "international_federation_of_red_cross_and_red_crescent_societies"
+    }
+}
