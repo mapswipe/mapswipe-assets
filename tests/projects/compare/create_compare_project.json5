@@ -1,0 +1,350 @@
+{
+  "create_project": {
+    "clientId": "01K49J0QPCZM2JCNC9AEE6HT8Y",
+    "topic": "Compare Forest Change",
+    "region": "southeeastern peninsula of Mexico",
+    "projectNumber": 1,
+    "projectType": "COMPARE",
+    "projectInstruction": "Forest Change",
+    "additionalInfoUrl": "https://reliefweb.int/report/honduras/ofda-situation-report-14-mexico-central-america-fires",
+    "description": "This project is a pilot to develop the types of pre-mapping projects most useful for environmental stakeholders engaged in forest monitoring in the LAC region.",
+    "requestingOrganization": "Togglecorp (test)"
+  },
+  "update_project": {
+    "clientId": "01K49J0QPCZM2JCNC9AEE6HT8Y",
+    "verificationNumber": 3,
+    "projectInstruction": "Forest Change",
+    "groupSize": 6,
+    "team": null,
+    "tutorial": null,
+    "maxTasksPerUser": 100,
+    "image": null,
+    "projectTypeSpecifics": {
+      "compare": {
+        "zoomLevel": 17,
+        "tileServerProperty": {
+          "name": "BING",
+          "bing": {
+            "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO"
+          }
+        },
+        "tileServerBProperty": {
+          "name": "BING",
+          "bing": {
+            "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO"
+          }
+        },
+        "aoiGeometry": ""
+      }
+    }
+  },
+  "update_project_status": [
+    {
+      "clientId": "01K49J0QPCZM2JCNC9AEE6HT8Y",
+      "status": "MARKED_AS_READY"
+    },
+    {
+      "clientId": "01K49J0QPCZM2JCNC9AEE6HT8Y",
+      "status": "PUBLISHED"
+    }
+  ],
+  "update_processed_project": {
+    "clientId": "01K49J0QPCZM2JCNC9AEE6HT8Y",
+    "projectInstruction": "Forest Change",
+    "image": null,
+    "tutorial": null,
+    "team": null
+  },
+  "assets": {
+    "image": "assets/tests/projects/compare/compare_image.png",
+    "aoi": "assets/tests/projects/compare/compare_geojson.json5"
+  },
+  "final_processed_project": {
+    "contributorCount": 0,
+    "created": "2025-09-02T04:43:52.328353+00:00",
+    "createdBy": "1",
+    "groupMaxSize": 6,
+    "groupSize": 6,
+    "isFeatured": false,
+    "language": "en-us",
+    "projectInstruction": "Forest Change",
+    "manualUrl": "https://reliefweb.int/report/honduras/ofda-situation-report-14-mexico-central-america-fires",
+    "maxTasksPerUser": 100,
+    "name": "Compare Forest Change - southeeastern peninsula of Mexico (1) Togglecorp (test)",
+    "progress": 0,
+    "projectDetails": "This project is a pilot to develop the types of pre-mapping projects most useful for environmental stakeholders engaged in forest monitoring in the LAC region.",
+    "projectId": "01K44BT448J2Y63QG4S2ECS09E",
+    "projectNumber": 1,
+    "projectRegion": "southeeastern peninsula of Mexico",
+    "projectTopic": "Compare Forest Change",
+    "projectTopicKey": "compare forest change - southeeastern peninsula of mexico (1) togglecorp (test)",
+    "projectType": 3,
+    "requestingOrganisation": "Togglecorp (test)",
+    "requiredResults": 72,
+    "resultCount": 0,
+    "status": "active",
+    "tileServer": {
+      "apiKey": "dummy-bing",
+      "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO",
+      "name": "bing",
+      "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&token={apiKey}"
+    },
+    "tileServerB": {
+      "apiKey": "dummy-bing",
+      "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO",
+      "name": "bing",
+      "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&token={apiKey}"
+    },
+    "tutorialId": "01K4A1Y3H7KR5T9MJZ742D8YGW",
+    "verificationNumber": 3,
+    "zoomLevel": 17
+  },
+  "final_group_data": {
+    "g101": {
+      "finishedCount": 0,
+      "groupId": "g101",
+      "numberOfTasks": 12,
+      "progress": 0,
+      "projectId": "-OZNXwEupCf4hCrpIRLR",
+      "requiredCount": 3,
+      "xMax": 96098,
+      "xMin": 96095,
+      "yMax": 54815,
+      "yMin": 54813
+    },
+    "g102": {
+      "finishedCount": 0,
+      "groupId": "g102",
+      "numberOfTasks": 12,
+      "progress": 0,
+      "projectId": "-OZNXwEupCf4hCrpIRLR",
+      "requiredCount": 3,
+      "xMax": 96098,
+      "xMin": 96095,
+      "yMax": 54818,
+      "yMin": 54816
+    }
+  },
+  "final_task_data":{
+    "g101": [
+      {
+        "groupId": "g101",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96095-54813",
+        "taskX": 96095,
+        "taskY": 54813,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101033313.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54813.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g101",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96095-54814",
+        "taskX": 96095,
+        "taskY": 54814,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101033331.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54814.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g101",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96095-54815",
+        "taskX": 96095,
+        "taskY": 54815,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101033333.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54815.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g101",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96096-54813",
+        "taskX": 96096,
+        "taskY": 54813,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122202.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54813.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g101",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96096-54814",
+        "taskX": 96096,
+        "taskY": 54814,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122220.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54814.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g101",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96096-54815",
+        "taskX": 96096,
+        "taskY": 54815,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122222.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54815.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g101",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96097-54813",
+        "taskX": 96097,
+        "taskY": 54813,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122203.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54813.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g101",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96097-54814",
+        "taskX": 96097,
+        "taskY": 54814,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122221.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54814.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g101",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96097-54815",
+        "taskX": 96097,
+        "taskY": 54815,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122223.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54815.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g101",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96098-54813",
+        "taskX": 96098,
+        "taskY": 54813,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122212.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54813.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g101",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96098-54814",
+        "taskX": 96098,
+        "taskY": 54814,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122230.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54814.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g101",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96098-54815",
+        "taskX": 96098,
+        "taskY": 54815,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122232.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54815.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      }
+    ],
+    "g102": [
+      {
+        "groupId": "g102",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96095-54816",
+        "taskX": 96095,
+        "taskY": 54816,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101211111.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54816.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g102",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96095-54817",
+        "taskX": 96095,
+        "taskY": 54817,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101211113.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54817.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g102",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96095-54818",
+        "taskX": 96095,
+        "taskY": 54818,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101211131.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54818.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g102",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96096-54816",
+        "taskX": 96096,
+        "taskY": 54816,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300000.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54816.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g102",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96096-54817",
+        "taskX": 96096,
+        "taskY": 54817,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300002.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54817.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g102",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96096-54818",
+        "taskX": 96096,
+        "taskY": 54818,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300020.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54818.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g102",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96097-54816",
+        "taskX": 96097,
+        "taskY": 54816,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300001.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54816.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g102",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96097-54817",
+        "taskX": 96097,
+        "taskY": 54817,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300003.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54817.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g102",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96097-54818",
+        "taskX": 96097,
+        "taskY": 54818,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300021.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54818.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g102",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96098-54816",
+        "taskX": 96098,
+        "taskY": 54816,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300010.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54816.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g102",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96098-54817",
+        "taskX": 96098,
+        "taskY": 54817,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300012.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54817.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      },
+      {
+        "groupId": "g102",
+        "projectId": "-OZNXwEupCf4hCrpIRLR",
+        "taskId": "17-96098-54818",
+        "taskX": 96098,
+        "taskY": 54818,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300030.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54818.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+      }
+    ]
+  }
+}
