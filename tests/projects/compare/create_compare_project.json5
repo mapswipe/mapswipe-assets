@@ -29,9 +29,9 @@
           }
         },
         "tileServerBProperty": {
-          "name": "BING",
-          "bing": {
-            "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO"
+          "name": "MAPBOX",
+          "mapbox": {
+            "credits": "© 2019 MapBox"
           }
         },
         "aoiGeometry": ""
@@ -87,13 +87,14 @@
       "apiKey": "dummy-bing",
       "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO",
       "name": "bing",
-      "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&token={apiKey}"
+      // FIXME(tnagorra): added mkt=en-US
+      "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}"
     },
     "tileServerB": {
-      "apiKey": "dummy-bing",
-      "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO",
-      "name": "bing",
-      "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&token={apiKey}"
+      "apiKey": "dummy-mapbox",
+      "credits": "© 2019 MapBox",
+      "name": "mapbox",
+      "url": "https://d.tiles.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.jpg?access_token={apiKey}"
     },
     "tutorialId": "01K4A1Y3H7KR5T9MJZ742D8YGW",
     "verificationNumber": 3,
@@ -133,8 +134,8 @@
         "taskId": "17-96095-54813",
         "taskX": 96095,
         "taskY": 54813,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101033313.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54813.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101033313.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54813.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g101",
@@ -142,8 +143,8 @@
         "taskId": "17-96095-54814",
         "taskX": 96095,
         "taskY": 54814,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101033331.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54814.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101033331.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54814.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g101",
@@ -151,8 +152,8 @@
         "taskId": "17-96095-54815",
         "taskX": 96095,
         "taskY": 54815,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101033333.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54815.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101033333.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54815.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g101",
@@ -160,8 +161,8 @@
         "taskId": "17-96096-54813",
         "taskX": 96096,
         "taskY": 54813,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122202.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54813.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122202.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54813.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g101",
@@ -169,8 +170,8 @@
         "taskId": "17-96096-54814",
         "taskX": 96096,
         "taskY": 54814,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122220.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54814.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122220.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54814.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g101",
@@ -178,8 +179,8 @@
         "taskId": "17-96096-54815",
         "taskX": 96096,
         "taskY": 54815,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122222.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54815.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122222.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54815.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g101",
@@ -187,8 +188,8 @@
         "taskId": "17-96097-54813",
         "taskX": 96097,
         "taskY": 54813,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122203.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54813.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122203.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54813.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g101",
@@ -196,8 +197,8 @@
         "taskId": "17-96097-54814",
         "taskX": 96097,
         "taskY": 54814,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122221.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54814.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122221.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54814.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g101",
@@ -205,8 +206,8 @@
         "taskId": "17-96097-54815",
         "taskX": 96097,
         "taskY": 54815,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122223.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54815.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122223.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54815.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g101",
@@ -214,8 +215,8 @@
         "taskId": "17-96098-54813",
         "taskX": 96098,
         "taskY": 54813,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122212.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54813.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122212.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54813.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g101",
@@ -223,8 +224,8 @@
         "taskId": "17-96098-54814",
         "taskX": 96098,
         "taskY": 54814,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122230.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54814.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122230.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54814.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g101",
@@ -232,8 +233,8 @@
         "taskId": "17-96098-54815",
         "taskX": 96098,
         "taskY": 54815,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122232.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54815.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101122232.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54815.jpg?access_token=dummy-mapbox"
       }
     ],
     "g102": [
@@ -243,8 +244,8 @@
         "taskId": "17-96095-54816",
         "taskX": 96095,
         "taskY": 54816,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101211111.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54816.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101211111.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54816.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g102",
@@ -252,8 +253,8 @@
         "taskId": "17-96095-54817",
         "taskX": 96095,
         "taskY": 54817,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101211113.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54817.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101211113.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54817.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g102",
@@ -261,8 +262,8 @@
         "taskId": "17-96095-54818",
         "taskX": 96095,
         "taskY": 54818,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101211131.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54818.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101211131.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96095/54818.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g102",
@@ -270,8 +271,8 @@
         "taskId": "17-96096-54816",
         "taskX": 96096,
         "taskY": 54816,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300000.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54816.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300000.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54816.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g102",
@@ -279,8 +280,8 @@
         "taskId": "17-96096-54817",
         "taskX": 96096,
         "taskY": 54817,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300002.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54817.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300002.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54817.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g102",
@@ -288,8 +289,8 @@
         "taskId": "17-96096-54818",
         "taskX": 96096,
         "taskY": 54818,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300020.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54818.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300020.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96096/54818.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g102",
@@ -297,8 +298,8 @@
         "taskId": "17-96097-54816",
         "taskX": 96097,
         "taskY": 54816,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300001.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54816.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300001.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54816.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g102",
@@ -306,8 +307,8 @@
         "taskId": "17-96097-54817",
         "taskX": 96097,
         "taskY": 54817,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300003.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54817.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300003.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54817.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g102",
@@ -315,8 +316,8 @@
         "taskId": "17-96097-54818",
         "taskX": 96097,
         "taskY": 54818,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300021.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54818.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300021.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96097/54818.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g102",
@@ -324,8 +325,8 @@
         "taskId": "17-96098-54816",
         "taskX": 96098,
         "taskY": 54816,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300010.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54816.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300010.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54816.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g102",
@@ -333,8 +334,8 @@
         "taskId": "17-96098-54817",
         "taskX": 96098,
         "taskY": 54817,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300012.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54817.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300012.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54817.jpg?access_token=dummy-mapbox"
       },
       {
         "groupId": "g102",
@@ -342,8 +343,8 @@
         "taskId": "17-96098-54818",
         "taskX": 96098,
         "taskY": 54818,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300030.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54818.jpg?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJjbGRlZXVmdmcwZDAxM3ZvMWQwODR0Nnk2In0.9D9B3vsSyda9OFxNcc2eZw"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a12313033101300030.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54818.jpg?access_token=dummy-mapbox"
       }
     ]
   }
