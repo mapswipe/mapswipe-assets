@@ -1,0 +1,136 @@
+{
+    "assets": {
+        "image": "assets/tests/projects/find/cover_image.jpg",
+        "aoi": "assets/tests/projects/find/aoi_geometry.json5"
+    },
+    "create_project": {
+        "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
+        "topic": "Emergency Response - Flood 2025",
+        "region": "Nepal",
+        "projectNumber": 1,
+        "projectType": "FIND",
+        "lookFor": "temporary shelters",
+        "projectInstruction": "Identify temporary shelters",
+        "additionalInfoUrl": "https://reliefweb.int/disaster/fl-2025-000123-npl",
+        "description": "A project aimed at mapping key infrastructure and affected communities to support flood response operations in Nepal.",
+        "requestingOrganization": "Togglecorp (test)"
+    },
+    "update_project": {
+        "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
+        "verificationNumber": 3,
+        "projectInstruction": "Identify temporary shelters",
+        "groupSize": 15,
+        "team": null,
+        "tutorial": null,
+        "maxTasksPerUser": 20,
+        "image": null,
+        "projectTypeSpecifics": {
+            "find": {
+                "zoomLevel": 18,
+                "tileServerProperty": {
+                    "name": "BING",
+                    "bing": {
+                        "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO"
+                    }
+                },
+                "aoiGeometry": null
+            }
+        }
+    },
+    "update_processed_project": {
+        "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
+        "projectInstruction": "Identify temporary shelters",
+        // NOTE: These values will be injected by test scripts
+        "image": null,
+        "tutorial": null,
+        "team": null
+    },
+    "expected_project_data": {
+        "contributorCount": 0,
+        "created": "2025-09-02T04:43:52.328353+00:00",
+        "createdBy": "1",
+        // FIXME(tnagorra): change 0 to 15
+        "groupMaxSize": 15,
+        "groupSize": 15,
+        "isFeatured": false,
+        "language": "en-us",
+        "lookFor": "temporary shelters",
+        "projectInstruction": "Identify temporary shelters",
+        "manualUrl": "https://reliefweb.int/disaster/fl-2025-000123-npl",
+        "maxTasksPerUser": 20,
+        "name": "Emergency Response - Flood 2025 - Nepal (1) Togglecorp (test)",
+        "progress": 0,
+        "projectDetails": "A project aimed at mapping key infrastructure and affected communities to support flood response operations in Nepal.",
+        "projectId": "01K44BT448J2Y63QG4S2ECS09E",
+        "projectNumber": 1,
+        "projectRegion": "Nepal",
+        "projectTopic": "Emergency Response - Flood 2025",
+        "projectTopicKey": "emergency response - flood 2025 - nepal (1) togglecorp (test)",
+        "projectType": 1,
+        "requestingOrganisation": "Togglecorp (test)",
+        "requiredResults": 324,
+        "resultCount": 0,
+        "status": "active",
+        "tileServer": {
+            "apiKey": "dummy-bing",
+            "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO",
+            "name": "bing",
+            // FIXME(tnagorra): added mkt=en-US
+            "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}"
+        },
+        "tutorialId": "01K44BT471AJ38CS4RQN1YP2RP",
+        "verificationNumber": 3,
+        "zoomLevel": 18
+    },
+    "expected_groups_data": {
+        "g101": {
+            "finishedCount": 0,
+            "groupId": "g101",
+            "numberOfTasks": 30,
+            "progress": 0,
+            "projectId": "-OZNMuPEIefentcHloSp",
+            "requiredCount": 3,
+            "xMax": 193202,
+            "xMin": 193193,
+            "yMax": 110090,
+            "yMin": 110088
+        },
+        "g102": {
+            "finishedCount": 0,
+            "groupId": "g102",
+            "numberOfTasks": 36,
+            "progress": 0,
+            "projectId": "-OZNMuPEIefentcHloSp",
+            "requiredCount": 3,
+            "xMax": 193202,
+            "xMin": 193191,
+            "yMax": 110093,
+            "yMin": 110091
+        },
+        "g103": {
+            "finishedCount": 0,
+            "groupId": "g103",
+            "numberOfTasks": 30,
+            "progress": 0,
+            "projectId": "-OZNMuPEIefentcHloSp",
+            "requiredCount": 3,
+            "xMax": 193201,
+            "xMin": 193192,
+            "yMax": 110096,
+            "yMin": 110094
+        },
+        "g104": {
+            "finishedCount": 0,
+            "groupId": "g104",
+            "numberOfTasks": 12,
+            "progress": 0,
+            "projectId": "-OZNMuPEIefentcHloSp",
+            "requiredCount": 3,
+            "xMax": 193200,
+            "xMin": 193197,
+            "yMax": 110099,
+            "yMin": 110097
+        }
+    },
+    "expected_tasks_data": null
+}
