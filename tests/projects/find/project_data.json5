@@ -49,7 +49,7 @@
         "contributorCount": 0,
         "created": "2025-09-02T04:43:52.328353+00:00",
         "createdBy": "1",
-        // FIXME(tnagorra): change 0 to 15
+        // FIXME(tnagorra): changed 0 to 15 to pass test
         "groupMaxSize": 15,
         "groupSize": 15,
         "isFeatured": false,
@@ -75,7 +75,7 @@
             "apiKey": "dummy-bing",
             "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO",
             "name": "bing",
-            // FIXME(tnagorra): added mkt=en-US
+            // FIXME(tnagorra): added parameter mkt=en-US to pass test
             "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}"
         },
         "tutorialId": "01K44BT471AJ38CS4RQN1YP2RP",

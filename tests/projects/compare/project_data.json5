@@ -78,7 +78,7 @@
             "apiKey": "dummy-bing",
             "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO",
             "name": "bing",
-            // FIXME(tnagorra): added mkt=en-US
+            // FIXME(tnagorra): added parameter mkt=en-US to pass test
             "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}"
         },
         "tileServerB": {
@@ -118,6 +118,7 @@
         }
     },
     "expected_tasks_data":{
+        // FIXME(tnagorra): replaced actual keys with dummy keys to pass tests
         "g101": [
             {
                 "groupId": "g101",
