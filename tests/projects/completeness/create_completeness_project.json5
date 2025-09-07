@@ -1,0 +1,166 @@
+{
+  "create_project": {
+    "clientId": "01K4A61HTV4RRYRQJGT2E5CJ0Z",
+    "topic": "Completeness - Housing",
+    "region": "Pokhara, Nepal",
+    "projectNumber": 1,
+    "projectType": "COMPLETENESS",
+    "projectInstruction": "House",
+    "additionalInfoUrl": "https://reliefweb.int/report/nepal/nepal-earthquake-10-years",
+    "description": "Classify areas on a map to assess the accuracy and detail of existing building footprints in OpenStreetMap (OSM), categorizing tiles as no building, complete, or incomplete to identify where more mapping is needed",
+    "requestingOrganization": "Togglecorp (test)"
+  },
+  "update_project": {
+    "clientId": "01K4A61HTV4RRYRQJGT2E5CJ0Z",
+    "verificationNumber": 3,
+    "projectInstruction": "House",
+    "groupSize": 15,
+    "team": null,
+    "tutorial": null,
+    "maxTasksPerUser": 2,
+    "image": null,
+    "projectTypeSpecifics": {
+      "completeness": {
+        "zoomLevel": 17,
+        "tileServerProperty": {
+          "name": "BING",
+          "bing": {
+            "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO"
+          }
+        },
+        "aoiGeometry": null,
+        "overlayTileServerProperty": {
+          "type": "VECTOR_TILE",
+          "vector":{
+            "circleColor": "#FF0000",
+            "circleOpacity": 0.5,
+            "circleRadius": 1.5,
+            "fillColor":"#FF0000",
+            "fillOpacity": 0.5,
+            "lineColor": "#FF0000",
+            "lineDasharray":10,
+            "lineOpacity": 0.5,
+            "lineWidth":2.0,
+            "tileServer":{
+              "name":"OPEN_STREET_MAP",
+              "openStreetMap":{
+                "credits":"Map data from OpenStreetMap",
+                "sourceLayer":"buildings"
+              }
+            }
+
+          }
+        }
+      }
+    }
+  },
+  "update_project_status": [
+    {
+      "clientId": "01K4A61HTV4RRYRQJGT2E5CJ0Z",
+      "status": "MARKED_AS_READY"
+    },
+    {
+      "clientId": "01K4A61HTV4RRYRQJGT2E5CJ0Z",
+      "status": "PUBLISHED"
+    }
+  ],
+  "update_processed_project": {
+    "clientId": "01K4A61HTV4RRYRQJGT2E5CJ0Z",
+    "projectInstruction": "House",
+    "image": null,
+    "tutorial": null,
+    "team": null
+  },
+  "assets": {
+    "image": "assets/tests/projects/completeness/completeness_image.png",
+    "aoi": "assets/tests/projects/completeness/completeness_geojson.json5"
+  },
+  "final_processed_project": {
+    "contributorCount": 0,
+    "created": "2025-09-02T04:43:52.328353+00:00",
+    "createdBy": "1",
+    "groupMaxSize": 15,
+    "groupSize": 15,
+    "isFeatured": false,
+    "language": "en-us",
+    "projectInstruction": "House",
+    "manualUrl": "https://reliefweb.int/report/nepal/nepal-earthquake-10-years",
+    "maxTasksPerUser": 2,
+    "name": "Completeness - Housing - Pokhara, Nepal (1) Togglecorp (test)",
+    "progress": 0,
+    "projectDetails": "Classify areas on a map to assess the accuracy and detail of existing building footprints in OpenStreetMap (OSM), categorizing tiles as no building, complete, or incomplete to identify where more mapping is needed",
+    "projectId": "01K4A33XT51PKF4B31ZDECJK0B",
+    "projectNumber": 1,
+    "projectRegion": "Pokhara, Nepal",
+    "projectTopic": "Completeness - Housing",
+    "projectTopicKey": "completeness - housing - pokhara, nepal (1) togglecorp (test)",
+    "projectType": 4,
+    "requestingOrganisation": "Togglecorp (test)",
+    "requiredResults": 72,
+    "resultCount": 0,
+    "status": "active",
+    "tileServer": {
+      "apiKey": "dummy-bing",
+      "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO",
+      "name": "bing",
+      "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&token={apiKey}"
+    },
+    "overlayTileServer": {
+      "type": "vector",
+      "vector": {
+        "circleColor": "#FF0000",
+        "circleOpacity": 0.5,
+        "circleRadius": 1.5,
+        "fillColor": "#FF0000",
+        "fillOpacity": 0.5,
+        "lineColor": "#FF0000",
+        "lineDasharray": [10],
+        "lineOpacity": 0.5,
+        "lineWidth": 2.0,
+        "tileServer": {
+          "credits": "Map data from OpenStreetMap",
+          "maxZoom": 14,
+          "minZoom": 0,
+          "name": "openStreetMap",
+          "sourceLayer": "buildings",
+          "url": "https://vector.osm.org/shortbread_v1/{z}/{x}/{y}.mvt"
+        }
+      }
+    },
+    "tileServerB": {
+      "apiKey": "",
+      "credits": "n/a",
+      "name": "custom",
+      "url": "https://raw.githubusercontent.com/mapswipe/mapswipe-assets/refs/heads/main/images/raster-layer-404-message.png"
+    },
+    "tutorialId": "01K4A645CQC8N2AY5X8NTRCB7S",
+    "verificationNumber": 3,
+    "zoomLevel": 17
+  },
+  "final_group_data": {
+    "g101": {
+      "finishedCount": 0,
+      "groupId": "g101",
+      "numberOfTasks": 12,
+      "progress": 0,
+      "projectId": "-OZO9eoAt6C9PpAVSwgq",
+      "requiredCount": 36,
+      "xMax": 96098,
+      "xMin": 96095,
+      "yMax": 54815,
+      "yMin": 54813
+    },
+    "g102": {
+      "finishedCount": 0,
+      "groupId": "g102",
+      "numberOfTasks": 12,
+      "progress": 0,
+      "projectId": "-OZO9eoAt6C9PpAVSwgq",
+      "requiredCount": 36,
+      "xMax": 96098,
+      "xMin": 96095,
+      "yMax": 54818,
+      "yMin": 54816
+    }
+  }
+}
