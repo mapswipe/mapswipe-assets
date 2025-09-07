@@ -72,10 +72,10 @@
     "team": null
   },
   "assets": {
-    "image": "assets/tests/projects/completeness/completeness_image.png",
-    "aoi": "assets/tests/projects/completeness/completeness_geojson.json5"
+    "image": "assets/tests/projects/completeness/cover_image.png",
+    "aoi": "assets/tests/projects/completeness/aoi_geojson.json5"
   },
-  "final_processed_project": {
+  "expected_project_data": {
     "contributorCount": 0,
     "created": "2025-09-02T04:43:52.328353+00:00",
     "createdBy": "1",
@@ -103,7 +103,7 @@
       "apiKey": "dummy-bing",
       "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO",
       "name": "bing",
-      "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&token={apiKey}"
+      "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}"
     },
     "overlayTileServer": {
       "type": "vector",
@@ -137,14 +137,14 @@
     "verificationNumber": 3,
     "zoomLevel": 17
   },
-  "final_group_data": {
+  "expected_groups_data": {
     "g101": {
       "finishedCount": 0,
       "groupId": "g101",
       "numberOfTasks": 12,
       "progress": 0,
       "projectId": "-OZO9eoAt6C9PpAVSwgq",
-      "requiredCount": 36,
+      "requiredCount": 3,
       "xMax": 96098,
       "xMin": 96095,
       "yMax": 54815,
@@ -156,11 +156,12 @@
       "numberOfTasks": 12,
       "progress": 0,
       "projectId": "-OZO9eoAt6C9PpAVSwgq",
-      "requiredCount": 36,
+      "requiredCount": 3,
       "xMax": 96098,
       "xMin": 96095,
       "yMax": 54818,
       "yMin": 54816
     }
-  }
+  },
+  "expected_tasks_data": null
 }
