@@ -3,6 +3,17 @@
         "image": "assets/tests/projects/find/cover_image.jpg",
         "aoi": "assets/tests/projects/find/aoi_geometry.json5"
     },
+    "create_organization": {
+        "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
+        "name": "Togglecorp (test)",
+        "description": "Togglecorp (test) organization",
+    },
+    "expected_organization_data": {
+        "name": "Togglecorp (test)",
+        "description": "Togglecorp (test) organization",
+        "nameKey": "togglecorp (test)",
+        "isArchived": false,
+    },
     "create_project": {
         "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
         "topic": "Emergency Response - Flood 2025",
