@@ -428,25 +428,25 @@
                 "clientId": "01K4MY3SC3XZQGXGPH7DG3XJ0W",
                 "blockNumber": 1,
                 "blockType": "TEXT",
-                "text": "You are looking for buildings. From the ground they can look like this: "
+                "text": "You are looking for buildings. From the ground they can look like this:"
               },
               {
                 "clientId": "01K4MY41RMRH8MR4KPECK857SQ",
                 "blockNumber": 2,
                 "blockType": "TEXT",
-                "text": "You'll be seeing the buildings from above, so they will look like this: "
+                "text": "You'll be seeing the buildings from above, so they will look like this:"
               },
               {
                 "clientId": "01K4MY45TWZYRC2DANKZ6Y446C",
                 "blockNumber": 3,
                 "blockType": "TEXT",
-                "text": "You'll be seeing the buildings from above, so they will look like this: "
+                "text": "You'll be seeing the buildings from above, so they will look like this:"
               },
               {
                 "clientId": "01K4MY4ARN5YW132A13E11CV4T",
                 "blockNumber": 4,
                 "blockType": "TEXT",
-                "text": "You'll be seeing the buildings from above, so they will look like this: "
+                "text": "You'll be seeing the buildings from above, so they will look like this:"
               }
             ]
           }
@@ -468,26 +468,26 @@
             {
               "blockNumber": 1,
               "blockType": "text",
-              "textDescription": "You are looking for buildings. From the ground they can look like this: "
+              "textDescription": "You are looking for buildings. From the ground they can look like this:"
             },
             {
               "blockNumber": 2,
               "blockType": "text",
-              "textDescription": "You'll be seeing the buildings from above, so they will look like this: "
+              "textDescription": "You'll be seeing the buildings from above, so they will look like this:"
             },
             {
               "blockNumber": 3,
               "blockType": "text",
-              "textDescription": "You'll be seeing the buildings from above, so they will look like this: "
+              "textDescription": "You'll be seeing the buildings from above, so they will look like this:"
             },
             {
               "blockNumber": 4,
               "blockType": "text",
-              "textDescription": "You'll be seeing the buildings from above, so they will look like this: "
+              "textDescription": "You'll be seeing the buildings from above, so they will look like this:"
             }
           ],
           "pageNumber": 1,
-          "title": "What to look for: "
+          "title": "What to look for:"
         }
       ],
       "screens": [
@@ -514,7 +514,7 @@
         "apiKey": "dummy-bing",
         "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO",
         "name": "bing",
-        "url": "https: //ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}"
       },
       "tutorialDraftId": "-OZdk3mHZdfdH_DIcyJG",
       "zoomLevel": 18
@@ -545,7 +545,7 @@
           "taskId_real": "18-157555-134647",
           "taskX": 100,
           "taskY": 131072,
-          "url": "https: //ecn.t0.tiles.virtualearth.net/tiles/a300110231323330233.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+          "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a300110231323330233.jpeg?g=7505&mkt=en-US&token=dummy-bing",
         },
         {
           "geometry": "",
