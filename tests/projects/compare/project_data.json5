@@ -3,6 +3,17 @@
         "image": "assets/tests/projects/compare/cover_image.png",
         "aoi": "assets/tests/projects/compare/aoi_geometry.json5",
     },
+    "create_organization": {
+        "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
+        "name": "Togglecorp (test)",
+        "description": "Togglecorp (test) organization",
+    },
+    "expected_organization_data": {
+        "name": "Togglecorp (test)",
+        "description": "Togglecorp (test) organization",
+        "nameKey": "togglecorp (test)",
+        "isArchived": false,
+    },
     "create_project": {
         "clientId": "01K49J0QPCZM2JCNC9AEE6HT8Y",
         "topic": "Compare Forest Change",
