@@ -11,7 +11,7 @@
         "projectType": "FIND",
         "lookFor": "temporary shelters",
         "projectInstruction": "Identify temporary shelters",
-        "additionalInfoUrl": "https://reliefweb.int/disaster/fl-2025-000123-npl",
+        "additionalInfoUrl": "https: //reliefweb.int/disaster/fl-2025-000123-npl",
         "description": "A project aimed at mapping key infrastructure and affected communities to support flood response operations in Nepal.",
         "requestingOrganization": "Togglecorp (test)"
     },
@@ -47,7 +47,7 @@
     },
     "expected_project_data": {
         "contributorCount": 0,
-        "created": "2025-09-02T04:43:52.328353+00:00",
+        "created": "2025-09-02T04: 43: 52.328353+00: 00",
         "createdBy": "1",
         // FIXME(tnagorra): change 0 to 15
         "groupMaxSize": 15,
@@ -56,7 +56,7 @@
         "language": "en-us",
         "lookFor": "temporary shelters",
         "projectInstruction": "Identify temporary shelters",
-        "manualUrl": "https://reliefweb.int/disaster/fl-2025-000123-npl",
+        "manualUrl": "https: //reliefweb.int/disaster/fl-2025-000123-npl",
         "maxTasksPerUser": 20,
         // NOTE: project type is automatically prefixed in the new system
         "name": "Find - Emergency Response - Flood 2025 - Nepal (1) Togglecorp (test)",
@@ -77,13 +77,13 @@
             "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO",
             "name": "bing",
             // FIXME(tnagorra): added mkt=en-US
-            "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}"
+            "url": "https: //ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}"
         },
         "tutorialId": "01K44BT471AJ38CS4RQN1YP2RP",
         "verificationNumber": 3,
         "zoomLevel": 18
     },
-    "expected_groups_data": {
+    "expected_project_groups_data": {
         "g101": {
             "finishedCount": 0,
             "groupId": "g101",
@@ -314,5 +314,289 @@
     "mapping_session_count": 4,
     "results_count": 108,
     "user_groups_count": 8
-  }
+  },
+    "expected_project_tasks_data": null,
+    "create_tutorial": {
+      "clientId": "01K4MQ88R61EDAMS0K0TW0N17A",
+      "name": "Find Tutorial"
+    },
+    "update_tutorial": {
+      "clientId": "01K4MQ88R61EDAMS0K0TW0N17A",
+      "scenarios": [
+        {
+          "create": {
+            "clientId": "01K4MQ88R61EDAMS0K0TW0N17C",
+            "scenarioPageNumber": 1,
+            "instructionsDescription": "You can swipe down to mark all tiles red at once.",
+            "instructionsIcon": "TAP_3",
+            "instructionsTitle": "Imagery is not available.",
+            "hintDescription": "Swipe to continue.",
+            "hintIcon": "SWIPE_LEFT",
+            "hintTitle": "This is how the tiles should look.",
+            "successDescription": "This could save you a lot of tapping, swipe to continue.",
+            "successIcon": "CHECK",
+            "successTitle": "Perfect.",
+            "tasks": [
+              {
+                "clientId": "01K4MQ88R61EDAMS0K0TW0N17D",
+                "projectTypeSpecifics": {
+                  "find": {
+                    "tileZ": 18,
+                    "tileX": 157556,
+                    "tileY": 134648
+                  }
+                },
+                "reference": 3
+              },
+              {
+                "clientId": "01K4MQ88R61EDAMS0K0TW0N17R",
+                "projectTypeSpecifics": {
+                  "find": {
+                    "tileZ": 18,
+                    "tileX": 157555,
+                    "tileY": 134649
+                  }
+                },
+                "reference": 3
+              },
+              {
+                "clientId": "01K4MY3FY1XJJBB4ZMH6BRA6D5",
+                "projectTypeSpecifics": {
+                  "find": {
+                    "tileZ": 18,
+                    "tileX": 157556,
+                    "tileY": 134649
+                  }
+                },
+                "reference": 3
+              },
+              {
+                "clientId": "01K4MQ88R61EDAMS0K0TW0N17T",
+                "projectTypeSpecifics": {
+                  "find": {
+                    "tileZ": 18,
+                    "tileX": 157555,
+                    "tileY": 134647
+                  }
+                },
+                "reference": 3
+              },
+              {
+                "clientId": "01K4MQ88R61EDAMS0K0TW0N17E",
+                "projectTypeSpecifics": {
+                  "find": {
+                    "tileZ": 18,
+                    "tileX": 157555,
+                    "tileY": 134648
+                  }
+                },
+                "reference": 3
+              },
+              {
+                "clientId": "01K4MY74QVA5JYMRWH31YSVTKG",
+                "projectTypeSpecifics": {
+                  "find": {
+                    "tileZ": 18,
+                    "tileX": 157556,
+                    "tileY": 134647
+                  }
+                },
+                "reference": 3
+              }
+            ]
+          }
+        }
+      ],
+      "informationPages": [
+        {
+          "create": {
+            "clientId": "01K4MQ88R61EDAMS0K0TW0N17F",
+            "title": "What to look for: ",
+            "pageNumber": 1,
+            "blocks": [
+              {
+                "clientId": "01K4MY3SC3XZQGXGPH7DG3XJ0W",
+                "blockNumber": 1,
+                "blockType": "TEXT",
+                "text": "You are looking for buildings. From the ground they can look like this: "
+              },
+              {
+                "clientId": "01K4MY41RMRH8MR4KPECK857SQ",
+                "blockNumber": 2,
+                "blockType": "TEXT",
+                "text": "You'll be seeing the buildings from above, so they will look like this: "
+              },
+              {
+                "clientId": "01K4MY45TWZYRC2DANKZ6Y446C",
+                "blockNumber": 3,
+                "blockType": "TEXT",
+                "text": "You'll be seeing the buildings from above, so they will look like this: "
+              },
+              {
+                "clientId": "01K4MY4ARN5YW132A13E11CV4T",
+                "blockNumber": 4,
+                "blockType": "TEXT",
+                "text": "You'll be seeing the buildings from above, so they will look like this: "
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "expected_tutorial_data": {
+      "lookFor": "temporary shelters",
+      "name": "Find Tutorial",
+      "progress": 0,
+      "projectDetails": "A project aimed at mapping key infrastructure and affected communities to support flood response operations in Nepal.",
+      "projectId": "tutorial_-OZdk3mHZdfdH_DIcyJG",
+      "projectTopicKey": "find tutorial",
+      "projectType": 1,
+      "contributorCount": 0,
+      "informationPages": [
+        {
+          "blocks": [
+            {
+              "blockNumber": 1,
+              "blockType": "text",
+              "textDescription": "You are looking for buildings. From the ground they can look like this: "
+            },
+            {
+              "blockNumber": 2,
+              "blockType": "text",
+              "textDescription": "You'll be seeing the buildings from above, so they will look like this: "
+            },
+            {
+              "blockNumber": 3,
+              "blockType": "text",
+              "textDescription": "You'll be seeing the buildings from above, so they will look like this: "
+            },
+            {
+              "blockNumber": 4,
+              "blockType": "text",
+              "textDescription": "You'll be seeing the buildings from above, so they will look like this: "
+            }
+          ],
+          "pageNumber": 1,
+          "title": "What to look for: "
+        }
+      ],
+      "screens": [
+        {
+          "hint": {
+            "description": "Swipe to continue.",
+            "icon": "swipe-left",
+            "title": "This is how the tiles should look."
+          },
+          "instructions": {
+            "description": "You can swipe down to mark all tiles red at once.",
+            "icon": "tap-3",
+            "title": "Imagery is not available."
+          },
+          "success": {
+            "description": "This could save you a lot of tapping, swipe to continue.",
+            "icon": "check",
+            "title": "Perfect."
+          }
+        }
+      ],
+      "status": "tutorial",
+      "tileServer": {
+        "apiKey": "dummy-bing",
+        "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO",
+        "name": "bing",
+        "url": "https: //ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}"
+      },
+      "tutorialDraftId": "-OZdk3mHZdfdH_DIcyJG",
+      "zoomLevel": 18
+    },
+    "expected_tutorial_groups_data": {
+      "101": {
+        "finishedCount": 0,
+        "groupId": 101,
+        "numberOfTasks": 6,
+        "progress": 0,
+        "projectId": "tutorial_-OZdk3mHZdfdH_DIcyJG",
+        "requiredCount": 0,
+        "xMax": 101,
+        "xMin": 100,
+        "yMax": 131074,
+        "yMin": 131072
+      }
+    },
+    "expected_tutorial_tasks_data": {
+      "101": [
+        {
+          "geometry": "",
+          "groupId": "101",
+          "projectId": "tutorial_-OZdk3mHZdfdH_DIcyJG",
+          "referenceAnswer": 3,
+          "screen": 1,
+          "taskId": "18-100-131072",
+          "taskId_real": "18-157555-134647",
+          "taskX": 100,
+          "taskY": 131072,
+          "url": "https: //ecn.t0.tiles.virtualearth.net/tiles/a300110231323330233.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        },
+        {
+          "geometry": "",
+          "groupId": "101",
+          "projectId": "tutorial_-OZdk3mHZdfdH_DIcyJG",
+          "referenceAnswer": 3,
+          "screen": 1,
+          "taskId": "18-100-131073",
+          "taskId_real": "18-157555-134648",
+          "taskX": 100,
+          "taskY": 131073,
+          "url": "https: //ecn.t0.tiles.virtualearth.net/tiles/a300110231323332011.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        },
+        {
+          "geometry": "",
+          "groupId": "101",
+          "projectId": "tutorial_-OZdk3mHZdfdH_DIcyJG",
+          "referenceAnswer": 3,
+          "screen": 1,
+          "taskId": "18-100-131074",
+          "taskId_real": "18-157555-134649",
+          "taskX": 100,
+          "taskY": 131074,
+          "url": "https: //ecn.t0.tiles.virtualearth.net/tiles/a300110231323332013.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        },
+        {
+          "geometry": "",
+          "groupId": "101",
+          "projectId": "tutorial_-OZdk3mHZdfdH_DIcyJG",
+          "referenceAnswer": 3,
+          "screen": 1,
+          "taskId": "18-101-131072",
+          "taskId_real": "18-157556-134647",
+          "taskX": 101,
+          "taskY": 131072,
+          "url": "https: //ecn.t0.tiles.virtualearth.net/tiles/a300110231323330322.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        },
+        {
+          "geometry": "",
+          "groupId": "101",
+          "projectId": "tutorial_-OZdk3mHZdfdH_DIcyJG",
+          "referenceAnswer": 3,
+          "screen": 1,
+          "taskId": "18-101-131073",
+          "taskId_real": "18-157556-134648",
+          "taskX": 101,
+          "taskY": 131073,
+          "url": "https: //ecn.t0.tiles.virtualearth.net/tiles/a300110231323332100.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        },
+        {
+          "geometry": "",
+          "groupId": "101",
+          "projectId": "tutorial_-OZdk3mHZdfdH_DIcyJG",
+          "referenceAnswer": 3,
+          "screen": 1,
+          "taskId": "18-101-131074",
+          "taskId_real": "18-157556-134649",
+          "taskX": 101,
+          "taskY": 131074,
+          "url": "https: //ecn.t0.tiles.virtualearth.net/tiles/a300110231323332102.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        }
+      ]
+    },
 }
