@@ -996,10 +996,198 @@
       }
     ]
   },
-  // TODO(susilnem): Add tutorial tests
-  "create_tutorial": {},
-  "update_tutorial": {},
-  "expected_tutorial_data": {},
-  "expected_tutorial_groups_data": {},
-  "expected_tutorial_tasks_data": {}
+  "create_tutorial": {
+    "clientId": "01K4RZV6VD0JYT895MQHT6CM6V",
+    "name": "Street Tutorial II"
+  },
+  "update_tutorial": {
+    "clientId": "01K4RZV6VD0JYT895MQHT6CM6V",
+    "name": "Street Tutorial II",
+    "scenarios": [
+      {
+        "create": {
+          "clientId": "01K4S0NP93KN45MAX2Z5N6PVGX",
+          "hintDescription": "This building might look like an office",
+          "hintIcon": "CLOSE_OUTLINE",
+          "hintTitle": "Look for office",
+          "instructionsDescription": "This building looks like an office",
+          "instructionsIcon": "CHECKMARK_OUTLINE",
+          "instructionsTitle": "Look for office",
+          "scenarioPageNumber": 1,
+          "successDescription": "This building does not look like an office",
+          "successIcon": "HELP_OUTLINE",
+          "successTitle": "Look for office",
+          "tasks": [
+            {
+              "reference": 1,
+              "clientId": "01K4S0NP93AQKZ6S558VPVQS19",
+              "projectTypeSpecifics": {
+                "validate": {
+                  "mapillaryImageId": 1098299960,
+                  "geometry": "{\"type\":\"Polygon\",\"coordinates\":[[[84.001574,28.1935348],[84.001576,28.1934266],[84.0016578,28.1934278],[84.0016558,28.1935359],[84.001574,28.1935348]]]}",
+                },
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "informationPages": [
+      {
+        "update": {
+          "blocks": [
+            {
+              "update": {
+                "blockNumber": 1,
+                "blockType": "TEXT",
+                "clientId": "01K4SEX7XTVT6NH3GWSN9MY2BY",
+                "id": "26",
+                "image": null,
+                "text": "There are some images in this file"
+              }
+            }
+          ],
+          "clientId": "01K4SEWZY81T3QEHCRFZF5YDZQ",
+          "id": "26",
+          "pageNumber": 1,
+          "title": "Look for buildings"
+        }
+      }
+    ]
+  },
+  "expected_tutorial_data": {
+    "contributorCount": 0,
+    "customOptions": [
+      {
+        "description": "the object you are looking for is in the image.",
+        "icon": "checkmark-outline",
+        "iconColor": "#388E3C",
+        "title": "Yes",
+        "value": 1
+      },
+      {
+        "description": "the object you are looking for is NOT in the image.",
+        "icon": "close-outline",
+        "iconColor": "#D32F2F",
+        "title": "No",
+        "value": 0
+      },
+      {
+        "description": "if you're not sure or there is bad imagery",
+        "icon": "remove-outline",
+        "iconColor": "#616161",
+        "title": "Not Sure",
+        "value": 2
+      }
+    ],
+    "informationPages": [
+      {
+        "blocks": [
+          {
+            "blockNumber": 1,
+            "blockType": "text",
+            "textDescription": "There are some images in this file"
+          },
+          {
+            "blockNumber": 2,
+            "blockType": "image",
+            "image": "https://firebasestorage.googleapis.com/v0/b/dev-mapswipe.appspot.com/o/tutorialImages%2F1757502708837-block-image-2-1753867190929-project-image-project1.jpg?alt=media&token=29536888-fb6a-4c4d-bb3d-15468ae7682e"
+          }
+        ],
+        "pageNumber": 1,
+        "title": "Look for buildings"
+      }
+    ],
+    "lookFor": "buildings",
+    "name": "Street Tutorial II",
+    "progress": 0,
+    "projectDetails": "This is a tutorial",
+    "projectId": "tutorial_-OZnJmMsHRLVjcd-_6AF",
+    "projectType": 7,
+    "screens": [
+      {
+        "hint": {
+          "description": "Description",
+          "icon": "checkmark-outline",
+          "title": "Title"
+        },
+        "instructions": {
+          "description": "Description",
+          "icon": "checkmark-outline",
+          "title": "Title"
+        },
+        "success": {
+          "description": "Description",
+          "icon": "checkmark-outline",
+          "title": "Title"
+        }
+      },
+      {
+        "hint": {
+          "description": "Description",
+          "icon": "checkmark-outline",
+          "title": "Title"
+        },
+        "instructions": {
+          "description": "Description",
+          "icon": "checkmark-outline",
+          "title": "Title"
+        },
+        "success": {
+          "description": "Description",
+          "icon": "checkmark-outline",
+          "title": "Title"
+        }
+      },
+      {
+        "hint": {
+          "description": "Description",
+          "icon": "checkmark-outline",
+          "title": "Title"
+        },
+        "instructions": {
+          "description": "Description",
+          "icon": "checkmark-outline",
+          "title": "Title"
+        },
+        "success": {
+          "description": "Description",
+          "icon": "checkmark-outline",
+          "title": "Title"
+        }
+      },
+      {
+        "hint": {
+          "description": "Description",
+          "icon": "checkmark-outline",
+          "title": "Title"
+        },
+        "instructions": {
+          "description": "Description",
+          "icon": "checkmark-outline",
+          "title": "Title"
+        },
+        "success": {
+          "description": "Description",
+          "icon": "checkmark-outline",
+          "title": "Title"
+        }
+      }
+    ],
+    "status": "tutorial",
+    "tutorialDraftId": "-OZnJmMsHRLVjcd-_6AF"
+  },
+  "expected_tutorial_groups_data": {
+    "101": {
+      "finishedCount": 0,
+      "groupId": 101,
+      "numberOfTasks": 4,
+      "progress": 0,
+      "projectId": "tutorial_-OZnJmMsHRLVjcd-_6AF",
+      "requiredCount": 0
+    }
+  },
+  "expected_tutorial_tasks_data": {
+    "101": "H4sIAFFdwWgC/63OTwuCQBAF8O+yZ4Xd2dHd7eYlKoqgQ4ciRHSKLP+wrkSE3z3t4rECb/OY9+B3fLHaVjmlbpmxGXOtq+w1ucf+9lCuik2z2K33eZr5cRjNmccutmrroSm48JhLmttnJoSSKgCQUikFKIYmVQU5++y/fbJ0JktlSlHZPMj2e481qSUq+7PzJkJAgByNAW5MYPAvBEyF4Bq11qhkiEoHPyBgRMipEIAGDdcclJECw+8IOSKwO70BQ4foOxUCAAA="
+  }
 }
