@@ -339,5 +339,76 @@
                 "urlB": "https://d.tiles.mapbox.com/v4/mapbox.satellite/17/96098/54818.jpg?access_token=dummy-mapbox"
             }
         ]
-    }
+    },
+    "create_contributor_user_group_data": [
+      {
+        "clientId": "01K49J0QPCZM2JCNC9AEE6HT8Y",
+        "name": "User Group 01",
+        "description": "A user group for contributor user 01"
+      },
+      {
+        "clientId": "01K49J0QPCZM2JCNC9AEE6HT8R",
+        "name": "User Group 01",
+        "description": "A user group for contributor user 01"
+      }
+    ],
+    "results_firebase_input_data": {
+     "project_firebase_id":{
+        "g101":{
+           "contributor_user_firebase_id_01":{
+              "startTime":"2025-08-05T10:04:38.933Z",
+              "endTime": "2025-08-05T11:04:38.933Z",
+              "appVersion": "0.2.8",
+              "ClientType": "web",
+              "userGroups":{
+                 "user_group_firebase_id_01":true,
+              },
+              "results":{
+                 "17-96095-54813":1,
+                 "17-96095-54814":1,
+                 "17-96095-54815":1,
+                 "17-96096-54813":1,
+                 "17-96096-54814":1,
+                 "17-96096-54815":1,
+                 "17-96097-54813":1,
+                 "17-96097-54814":1,
+                 "17-96097-54815":1,
+                 "17-96098-54813":1,
+                 "17-96098-54814":1,
+                 "17-96098-54815":1,
+              }
+           },
+        },
+        "g102":{
+           "contributor_user_firebase_id_01":{
+              "startTime":"2025-08-05T10:04:38.933Z",
+              "endTime": "2025-08-05T11:04:38.933Z",
+              "appVersion": "0.2.8",
+              "ClientType": "web",
+              "userGroups":{
+                 "user_group_firebase_id_01":true,
+              },
+              "results":{
+                 "17-96095-54816":1,
+                 "17-96095-54817":1,
+                 "17-96095-54818":1,
+                 "17-96096-54816":1,
+                 "17-96096-54817":1,
+                 "17-96096-54818":1,
+                 "17-96097-54816":1,
+                 "17-96097-54817":1,
+                 "17-96097-54818":1,
+                 "17-96098-54816":1,
+                 "17-96098-54817":1,
+                 "17-96098-54818":1,
+              }
+           },
+        },
+     }
+  },
+  "expected_pulled_results_data": {
+    "mapping_session_count": 2,
+    "results_count": 24,
+    "user_groups_count": 4
+  }
 }
