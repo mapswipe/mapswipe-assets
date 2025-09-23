@@ -1,0 +1,354 @@
+{
+  "assets":{
+    "image":"assets/tests/projects/validate/cover_image.jpg",
+    "aoi":"assets/tests/projects/validate/aoi_geometry.json5"
+  },
+  "create_organization":{
+    "clientId":"01K339HAWZCTCBRVQMQFWRTHXX",
+    "name":"Togglecorp",
+    "description":"Togglecorp (test) organization"
+  },
+  "expected_organization_data":{
+    "name":"Togglecorp",
+    "description":"Togglecorp (test) organization",
+    "nameKey":"togglecorp",
+    "isArchived":false
+  },
+  "create_project":{
+    "clientId":"01K4PG9NNAFSHTR6WAW0AWKGRM",
+    "topic":"Validate Offices",
+    "region":"Manbhawan",
+    "projectNumber":2,
+    "projectType":"VALIDATE",
+    "projectInstruction":"Validate official buildings",
+    "lookFor":"buildings",
+    "additionalInfoUrl":"https://reliefweb.int/disaster/dr-2025-000125-npl",
+    "description":"The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.",
+    "requestingOrganization":"Togglecorp"
+  },
+  "update_project":{
+    "clientId":"01K4PG9NNAFSHTR6WAW0AWKGRM",
+    "additionalInfoUrl":"https://reliefweb.int/disaster/dr-2025-000125-npl",
+    "description":"The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.",
+    "verificationNumber":3,
+    "projectInstruction":"Validate official buildings",
+    "groupSize":10,
+    "team":null,
+    "topic":"Validate Offices",
+    "tutorial":null,
+    "maxTasksPerUser":2,
+    "projectNumber":2,
+    "region":"Manbhawan",
+    "image":null,
+    "projectTypeSpecifics":{
+      "validate":{
+        "customOptions":[
+          {
+            "clientId":"01K4PJVZWT4VFZEGN4N4KZB6MF",
+            "description":"the shape does outline a building in the image",
+            "icon":"CHECKMARK_OUTLINE",
+            "iconColor":"#388E3C",
+            "title":"Yes",
+            "value":1,
+            "subOptions":[]
+          },
+          {
+            "clientId":"01K4PJVZWTGXF92W20YPD2G4XR",
+            "description":"the shape doesn't match a building in the image",
+            "icon":"CLOSE_OUTLINE",
+            "iconColor":"#D32F2F",
+            "title":"No",
+            "value":2,
+            "subOptions":[]
+          },
+          {
+            "clientId":"01K4PJVZWTJXGC19J5V9CS1FVW",
+            "description":"if you're not sure or there is cloud cover / bad imagery",
+            "icon":"REMOVE_OUTLINE",
+            "iconColor":"#616161",
+            "title":"Not Sure",
+            "value":3,
+            "subOptions":[
+
+            ]
+          }
+        ],
+        "objectSource":{
+          "sourceType":"AOI_GEOJSON_FILE",
+          "aoiGeometry":null,
+          "ohsomeFilter":"building=* and geometry:polygon"
+        },
+        "tileServerProperty":{
+          "name":"BING",
+          "bing":{
+            "credits":"© 2019 Microsoft Corporation, Earthstar Geographics SIO"
+          }
+        }
+      }
+    }
+  },
+  "update_processed_project":{
+    "clientId":"01K4PG9NNAFSHTR6WAW0AWKGRM",
+    "additionalInfoUrl":"https://reliefweb.int/disaster/dr-2025-000125-npl",
+    "description":"The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.",
+    "projectInstruction":"Validate official buildings",
+    "image":null,
+    "tutorial":null,
+    "projectNumber":2,
+    "region":"Manbhawan",
+    "team":null,
+    "topic":"Validate Offices"
+  },
+  "expected_project_data":{
+    "contributorCount":0,
+    "created":"2025-09-09T06:31:20.042850Z",
+    "createdBy":"Tyf9vhtd8aZCgLlaRWQGzBE52w82",
+    "customOptions":[
+      {
+        "description":"the shape does outline a building in the image",
+        "icon":"checkmark-outline",
+        "iconColor":"#388E3C",
+        "title":"Yes",
+        "value":1
+      },
+      {
+        "description":"the shape doesn't match a building in the image",
+        "icon":"close-outline",
+        "iconColor":"#D32F2F",
+        "title":"No",
+        "value":2
+      },
+      {
+        "description":"if you're not sure or there is cloud cover / bad imagery",
+        "icon":"remove-outline",
+        "iconColor":"#616161",
+        "title":"Not Sure",
+        "value":3
+      }
+    ],
+    "filter":"building=* and geometry:polygon",
+    "groupMaxSize":10,
+    "groupSize":10,
+    "inputType":"aoi_file",
+    "isFeatured":false,
+    "language":"en-us",
+    "lookFor":"buildings",
+    "manualUrl":"https://reliefweb.int/disaster/dr-2025-000125-npl",
+    "maxTasksPerUser":2,
+    "name":"Validate Offices - Manbhawan (2) Togglecorp",
+    "progress":0,
+    "projectDetails":"The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.",
+    "projectId":"-OZh9fqOCzdJgK-nIeAY",
+    "projectNumber":2,
+    "projectRegion":"Manbhawan",
+    "projectTopic":"Validate Offices",
+    "projectTopicKey":"validate offices - manbhawan (2) togglecorp",
+    "projectType":2,
+    "projectInstruction":"Validate official buildings",
+    "requestingOrganisation":"Togglecorp",
+    "requiredResults":102,
+    "resultCount":0,
+    "status":"active",
+    "tileServer":{
+      "apiKey":"dummy-bing",
+      "credits":"© 2019 Microsoft Corporation, Earthstar Geographics SIO",
+      "name":"bing",
+      "url":"https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}"
+    },
+    "tutorialId":"tutorial_-OWfbyo7H7PcfSjGXc1a",
+    "verificationNumber":3
+  },
+  "expected_project_groups_data":{
+    "g100":{
+      "finishedCount":0,
+      "groupId":"g100",
+      "numberOfTasks":10,
+      "progress":0,
+      "projectId":"-OZh9fqOCzdJgK-nIeAY",
+      "requiredCount":3
+    },
+    "g101":{
+      "finishedCount":0,
+      "groupId":"g101",
+      "numberOfTasks":11,
+      "progress":0,
+      "projectId":"-OZh9fqOCzdJgK-nIeAY",
+      "requiredCount":3
+    },
+    "g102":{
+      "finishedCount":0,
+      "groupId":"g102",
+      "numberOfTasks":11,
+      "progress":0,
+      "projectId":"-OZh9fqOCzdJgK-nIeAY",
+      "requiredCount":3
+    },
+    "g103":{
+      "finishedCount":0,
+      "groupId":"g103",
+      "numberOfTasks":2,
+      "progress":0,
+      "projectId":"-OZh9fqOCzdJgK-nIeAY",
+      "requiredCount":3
+    }
+  },
+  "expected_project_tasks_data":{
+    "g100":"H4sIANrJv2gC/52UzW7bMBCE30VnISD3l+s36C13w4egMYL+IC5qX4Ii714m0HJXVnvRdSQMvx3O8vhnuj1df3x5ng7TrU7z9HK+fL9eXqdD//D269zlx8vPt5euzNPXy+X387fXp9v5Oh2Ox2PjB6zCKjPog2jF2vQ0L7Jo0aEThi7UFh0qh85a6tBNk76yP53e3+cMDfugAZxCsPE4jUxg0ZlbGzpq6FZq/F/CR8yC+s5/g427sMHIFttaCMZxYM3D7ulJYJv95/+1zwaPduGRVRtp1EiVO9SiK1eKLlT1VBUh0mbzaSQ15959A837oMn8qlAkQXMdOktkykTeU8PUHPJRsCAlee2+gZad/WW3VZXUOwJfl2arrWPPrrWSboDRo1bjKIgg8NA1hhdQ99F+WOr7mmczpu4aE4lxsaWWHhfi0V9SyGl71oZpebG4TjUt7737Brrtgi5aPItekIAuKn43Jhp3BjiW1IgCG/oHvzOWZDPsm6r+S/88djON7ZvGzENiseg7lOoN6U+3JH1gCNSEZ02GXjjpa/8Ndi27uHvPx9sCVnPao9kASeexOL1HQ67qL1dLD1THxrEGEkP25GM9kvk9zMeQp79lbZh5fAcAAA==",
+    "g101":"H4sIANrJv2gC/6WVu27jQAxF/0W1EAwfQ3L8B9ulN1wEiRFkdxEt1m6CIP8eJbBI6lEp7fHgzuFjrON7d324/Pn11B26K0DXd8/n4fdleO0O4y9v/84jvx/+vj2PpO8eh+H/08vrw/V86Q7H49HqHYGQKfSod6IgynDqbxyrOW+YOItzTOdJSpt4scxFJk7NglsJri3xuc/p9PHRz+rEXXVK01ssiqpfJw3EubXE/bilahYpaznaJQfoFlApmlQM1Tlz4syTBxM6ByRyjpL4PH/tzfu8Raf7oHDyEAuehpv8ADTaClwn3NKOoLJrayoTq9Tta+c66zLrvjKZfexFUlu54cSpxHiQ1McDmjk2r5Nyzjx/7S373ja1qU+kNfpE6HqaJNyhlZp6ip7Rajgvs9fOusu5kvjKG8R9LLELDcOPtdjkjRy7w9j8KRDEqjGjz6xZzKbW2vzFQ/Rq6bOu03bVycCT95dg6iv7DpNS8Ora419BlJNmWZL2Mn6t3fZpM9jW0+PqHlALpLaWKAejnMq0nbPIX3lj2eWNdttWHMcYD9I4cBoCourm8RyyVoOffZmwGMVkxYSdS/4EyZZbpGzT7+wv5dMnvna7VjYIAAA=",
+    "g102":"H4sIANrJv2gC/52Vy24bMQxF/2XWg0ASX6L/oLvsDS+Cxgj6QKaovQmK/HsVICI5o6wEeHUtcM4lL6Xzv+X+dPv17Xk5LfdSlnV5uW4/b9vrcmr/vP25Nv1x+/320pR1+b5tf59/vD7dr7fldD6fKz1AZiiga5EHllwL8mX91AtlNF1K0KF2Xaqfh8JgepT35S+X9/d1hw1z2JByr1vB6RhM1qRB106tQO4GgKXrRSDou/IjNc5Ra6VellPAwCymkwade/c0icmYwKhTRj9+KD9i02SzrauisUvoXSKsrksxDsoS9GQ6UA5+koUESmiLktp3c5zOnmf0yXM+LQwC+FWmBCnoUmwTMoahuZyqfrUgohybQu4xzHLHMjqUKYfUfh0OQ6exbadNrIaklVo9gG6GiuU1Qh/Lj9h1ChuV2LtRQ3CK6ZSDnYI2A1QIfFI9aG7nWH/k1jnuSr2tzByHi/1y5Rqjw2ocOZPrVWwRUhgPqF3GAhoWSj1rJUT5yDP4hDS3OBn73Cna8b1uV5OPLUlPD2Z0N6lFrFfhYH5ffGTOc6uQcu81cOh1W3ExnUNP26FOXVLIVKpobkiCvq8/cs892ITQZ4jtBnI+kP69FvmQbcpg7ZPAR/a2UGF/sY/1P7gv/wFuNRm3aggAAA==",
+    "g103":"H4sIANrJv2gC/53PywrCMBCF4XeZdSidTC5j38Cd+5BFsaV4oRHTTZG+u1GMUenK7Rc488fdYGrjadtBAxMRCBj6cIxhhCa9zJc++S6c5yGJgH0I1+4wtlMfoXHOsa4IjUQmIW1lLBol2YuX18xYfLPmVtb09o+d5HLNn/veL4v46lZ/daMmm+9ZLh2IRmdno4tTzmClyjfR1jI7GVP8Z/6R7e/D9sO8cAEAAA=="
+  },
+  "create_tutorial":{
+    "clientId":"01K4RZV6VD0JYT895MQHT6CM6V",
+    "name":"Validate Offices Tutorial"
+  },
+  "update_tutorial":{
+    "clientId":"01K4RZV6VD0JYT895MQHT6CM6V",
+    "name":"Validate Offices Tutorial",
+    "scenarios":[
+      {
+        "create":{
+          "clientId":"01K4S0NP93KN45MAX2Z5N6PVGX",
+          "hintDescription":"This building might look like an office",
+          "hintIcon":"CLOSE_OUTLINE",
+          "hintTitle":"Look for office",
+          "instructionsDescription":"This building looks like an office",
+          "instructionsIcon":"CHECKMARK_OUTLINE",
+          "instructionsTitle":"Look for office",
+          "scenarioPageNumber":1,
+          "successDescription":"This building does not look like an office",
+          "successIcon":"HELP_OUTLINE",
+          "successTitle":"Look for office",
+          "tasks":[
+            {
+              "clientId":"01K4S0NP93AQKZ6S558VPVQS19",
+              "projectTypeSpecifics":{
+                "validate":{
+                  "identifier":1098299960,
+                  "objectGeometry":"{\"type\":\"Polygon\",\"coordinates\":[[[84.001574,28.1935348],[84.001576,28.1934266],[84.0016578,28.1934278],[84.0016558,28.1935359],[84.001574,28.1935348]]]}"
+                }
+              },
+              "reference":1
+            }
+          ]
+        }
+      }
+    ],
+    "informationPages":[
+      {
+        "create":{
+          "clientId":"01K4S214M1SSN4N862GYP0BA12",
+          "pageNumber":1,
+          "title":"Look for office buildings",
+          "blocks":[
+            {
+              "blockNumber":1,
+              "blockType":"TEXT",
+              "clientId":"01K4S21NP6BG28SYXV0W6EYRVZ",
+              "text":"It might look something like this as well"
+            },
+            {
+              "blockNumber":2,
+              "blockType":"TEXT",
+              "clientId":"01K4S21W8S2EMAH4GQZRXPPE6K",
+              "text":"It might look something like this as well"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "expected_tutorial_data":{
+    "contributorCount":0,
+    "customOptions":[
+      {
+        "description":"the shape does outline a building in the image",
+        "icon":"checkmark-outline",
+        "iconColor":"#388E3C",
+        "title":"Yes",
+        "value":1
+      },
+      {
+        "description":"the shape doesn't match a building in the image",
+        "icon":"close-outline",
+        "iconColor":"#D32F2F",
+        "title":"No",
+        "value":2
+      },
+      {
+        "description":"if you're not sure or there is cloud cover / bad imagery",
+        "icon":"remove-outline",
+        "iconColor":"#616161",
+        "title":"Not Sure",
+        "value":3
+      }
+    ],
+    "informationPages":[
+      {
+        "blocks":[
+          {
+            "blockNumber":1,
+            "blockType":"text",
+            "textDescription":"It might look something like this as well"
+          },
+          {
+            "blockNumber":2,
+            "blockType":"text",
+            "textDescription":"It might look something like this as well"
+          }
+        ],
+        "pageNumber":1,
+        "title":"Look for office buildings"
+      }
+    ],
+    "inputGeometries":"",
+    "lookFor":"buildings",
+    "name":"Validate Offices Tutorial",
+    "progress":0,
+    "projectDetails":"The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.",
+    "projectId":"tutorial_-OZm7mGQ36bw41EyZ90Y",
+    "projectTopicKey": "validate offices tutorial",
+    "projectType":2,
+    "screens":[
+      {
+        "hint":{
+          "description":"This building might look like an office",
+          "icon":"close-outline",
+          "title":"Look for office"
+        },
+        "instructions":{
+          "description":"This building looks like an office",
+          "icon":"checkmark-outline",
+          "title":"Look for office"
+        },
+        "success":{
+          "description":"This building does not look like an office",
+          "icon":"help-outline",
+          "title":"Look for office"
+        }
+      }
+    ],
+    "status":"tutorial",
+    "tileServer":{
+      "apiKey":"dummy-bing",
+      "credits":"© 2019 Microsoft Corporation, Earthstar Geographics SIO",
+      "name":"bing",
+      "url":"https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}"
+    },
+    "tutorialDraftId":"-OZm7mGQ36bw41EyZ90Y",
+    "zoomLevel":18
+},
+"expected_tutorial_groups_data":{
+  "101":{
+    "finishedCount":0,
+    "groupId":101,
+    "numberOfTasks":1,
+    "progress":0,
+    "projectId":"tutorial_-OZm7mGQ36bw41EyZ90Y",
+    "requiredCount":0
+  }
+},
+"expected_tutorial_tasks_data":{
+  "101":"H4sIAAQQwWgC/22PXwuCMBRHv8t9SriEMzc3v0AEUb2G+CB6E/vjZO5FxO/eitgKej1wz/2dYgZbjbddAzlYBggt6euoe8hnqLU2TddXlkbIi6KQ6TqOGc9STOSaqQ3fpLJEj8UHp4kQHgueSc8z+cW59BquvjQ/9rJEsNNAbt1J36fWDVsQBqMHMrZ77Zqhc9tZrGSilBIxgqELGeprd8QQxtoQuRy2vNseZM30sh335+3xsFr5t+Er+qIQhCEn1GBoCSn4xxhFsJRP/NXmZWsBAAA="
+}
+}
