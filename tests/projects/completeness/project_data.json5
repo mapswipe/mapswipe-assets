@@ -92,13 +92,13 @@
     "lookFor": "buildings",
     "manualUrl": "https://togglecorp.com",
     "maxTasksPerUser": 3,
-    "name": "Find incomplete buildings - Bagmati (1) Togglecorp (test)",
+    "name": "Completeness Find incomplete buildings - Bagmati (1) Togglecorp (test)",
     "overlayTileServer": {
       "type": "vector",
       "vector": {
         "circleColor": "#0000ff",
-        "circleOpacity": 1,
-        "circleRadius": 10,
+        "circleOpacity": 1.0,
+        "circleRadius": 10.0,
         "fillColor": "#ffff00",
         "fillOpacity": 0.25,
         "lineColor": "#ff00ff",
@@ -107,7 +107,7 @@
           1
         ],
         "lineOpacity": 0.5,
-        "lineWidth": 1,
+        "lineWidth": 1.0,
         "tileServer": {
           "credits": "Map data from OpenStreetMap",
           "maxZoom": 14,
@@ -125,7 +125,7 @@
     "projectNumber": 1,
     "projectRegion": "Bagmati",
     "projectTopic": "Find incomplete buildings",
-    "projectTopicKey": "find incomplete buildings - bagmati (1) togglecorp (test)",
+    "projectTopicKey": "completeness find incomplete buildings - bagmati (1) togglecorp (test)",
     "projectType": 4,
     "requestingOrganisation": "Togglecorp (test)",
     "requiredResults": 36,
