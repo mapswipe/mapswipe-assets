@@ -1,0 +1,612 @@
+interactions:
+- request:
+    body: bpolys=%7B%22type%22%3A%22FeatureCollection%22%2C%22features%22%3A%5B%7B%22type%22%3A%22Feature%22%2C%22geometry%22%3A%7B%22type%22%3A%22Polygon%22%2C%22coordinates%22%3A%5B%5B%5B85.31607078054628%2C27.672118011307035%5D%2C%5B85.31607078054628%2C27.671104197435426%5D%2C%5B85.31669702365383%2C27.671104197435426%5D%2C%5B85.31669702365383%2C27.672118011307035%5D%2C%5B85.31607078054628%2C27.672118011307035%5D%5D%5D%7D%2C%22properties%22%3A%7B%7D%7D%5D%7D&filter=building%3D%2A+and+geometry%3Apolygon&properties=tags%2C+metadata
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '527'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - python-requests/2.32.5
+    method: POST
+    uri: https://api.ohsome.org/v1/elements/geometry
+  response:
+    body:
+      string: "{\n  \"attribution\" : {\n    \"url\" : \"https://ohsome.org/copyrights\",\n
+        \   \"text\" : \"\xA9 OpenStreetMap contributors\"\n  },\n  \"apiVersion\"
+        : \"1.10.4\",\n  \"type\" : \"FeatureCollection\",\n  \"features\" : [{\n
+        \   \"type\" : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n
+        \     \"coordinates\" : [\n        [\n          [\n            85.316576,\n
+        \           27.6713187\n          ],\n          [\n            85.3166707,\n
+        \           27.6713143\n          ],\n          [\n            85.3166648,\n
+        \           27.6712153\n          ],\n          [\n            85.3165701,\n
+        \           27.6712197\n          ],\n          [\n            85.316576,\n
+        \           27.6713187\n          ]\n        ]\n      ]\n    },\n    \"properties\"
+        : {\n      \"@changesetId\" : 49360535,\n      \"@lastEdit\" : \"2017-06-08T09:13:12Z\",\n
+        \     \"@osmId\" : \"way/203446478\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 3,\n      \"building\" :
+        \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
+        \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
+        \           85.3165228,\n            27.6716385\n          ],\n          [\n
+        \           85.3164962,\n            27.6715588\n          ],\n          [\n
+        \           85.3163762,\n            27.6715901\n          ],\n          [\n
+        \           85.3164028,\n            27.6716699\n          ],\n          [\n
+        \           85.3165228,\n            27.6716385\n          ]\n        ]\n
+        \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 43047110,\n
+        \     \"@lastEdit\" : \"2016-10-20T23:26:42Z\",\n      \"@osmId\" : \"way/203446798\",\n
+        \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-08-20T11:00:00Z\",\n
+        \     \"@version\" : 2,\n      \"building\" : \"residential\",\n      \"name\"
+        : \"Earthquake 2015 damaged House\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n
+        \   \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
+        : [\n        [\n          [\n            85.3162949,\n            27.6711042\n
+        \         ],\n          [\n            85.3162987,\n            27.6711216\n
+        \         ],\n          [\n            85.3163999,\n            27.6711042\n
+        \         ],\n          [\n            85.3162949,\n            27.6711042\n
+        \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
+        : 14844487,\n      \"@lastEdit\" : \"2013-01-30T09:18:13Z\",\n      \"@osmId\"
+        : \"way/203447248\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
+        \"residential\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\"
+        : {\n      \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n
+        \         [\n            85.3164919,\n            27.6716615\n          ],\n
+        \         [\n            85.3165121,\n            27.6717514\n          ],\n
+        \         [\n            85.3166172,\n            27.6717328\n          ],\n
+        \         [\n            85.316597,\n            27.671643\n          ],\n
+        \         [\n            85.3164919,\n            27.6716615\n          ]\n
+        \       ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
+        : 15280884,\n      \"@lastEdit\" : \"2013-03-07T11:21:17Z\",\n      \"@osmId\"
+        : \"way/208683409\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
+        \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
+        \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
+        \           85.3164498,\n            27.6713665\n          ],\n          [\n
+        \           85.3165518,\n            27.6713566\n          ],\n          [\n
+        \           85.316544,\n            27.6712935\n          ],\n          [\n
+        \           85.316442,\n            27.6713034\n          ],\n          [\n
+        \           85.3164498,\n            27.6713665\n          ]\n        ]\n
+        \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 15280884,\n
+        \     \"@lastEdit\" : \"2013-03-07T11:21:17Z\",\n      \"@osmId\" : \"way/208683411\",\n
+        \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-08-20T11:00:00Z\",\n
+        \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
+        : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
+        : [\n        [\n          [\n            85.3165258,\n            27.6717769\n
+        \         ],\n          [\n            85.3165426,\n            27.6718943\n
+        \         ],\n          [\n            85.3166659,\n            27.6718804\n
+        \         ],\n          [\n            85.3166537,\n            27.6717952\n
+        \         ],\n          [\n            85.3166325,\n            27.6717976\n
+        \         ],\n          [\n            85.3166279,\n            27.6717654\n
+        \         ],\n          [\n            85.3165258,\n            27.6717769\n
+        \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
+        : 49584905,\n      \"@lastEdit\" : \"2017-06-16T09:07:26Z\",\n      \"@osmId\"
+        : \"way/208683418\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 3,\n      \"building\" :
+        \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
+        \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
+        \           85.3163453,\n            27.6714887\n          ],\n          [\n
+        \           85.3164549,\n            27.6714724\n          ],\n          [\n
+        \           85.31644,\n            27.6713938\n          ],\n          [\n
+        \           85.3163304,\n            27.6714101\n          ],\n          [\n
+        \           85.3163453,\n            27.6714887\n          ]\n        ]\n
+        \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 15280884,\n
+        \     \"@lastEdit\" : \"2013-03-07T11:21:18Z\",\n      \"@osmId\" : \"way/208683423\",\n
+        \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-08-20T11:00:00Z\",\n
+        \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
+        : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
+        : [\n        [\n          [\n            85.3160708,\n            27.6719357\n
+        \         ],\n          [\n            85.3160766,\n            27.6719679\n
+        \         ],\n          [\n            85.3162399,\n            27.6719448\n
+        \         ],\n          [\n            85.3162239,\n            27.671856\n
+        \         ],\n          [\n            85.3160708,\n            27.6718777\n
+        \         ],\n          [\n            85.3160708,\n            27.6719357\n
+        \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
+        : 30673993,\n      \"@lastEdit\" : \"2015-04-30T21:24:12Z\",\n      \"@osmId\"
+        : \"way/341905603\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
+        \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
+        \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
+        \           85.3160993,\n            27.6715695\n          ],\n          [\n
+        \           85.3162015,\n            27.6715706\n          ],\n          [\n
+        \           85.3162008,\n            27.6716217\n          ],\n          [\n
+        \           85.3160986,\n            27.6716205\n          ],\n          [\n
+        \           85.3160993,\n            27.6715695\n          ]\n        ]\n
+        \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 30673993,\n
+        \     \"@lastEdit\" : \"2015-04-30T21:24:12Z\",\n      \"@osmId\" : \"way/341905612\",\n
+        \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-08-20T11:00:00Z\",\n
+        \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
+        : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
+        : [\n        [\n          [\n            85.3161882,\n            27.6717291\n
+        \         ],\n          [\n            85.3162395,\n            27.6717221\n
+        \         ],\n          [\n            85.316256,\n            27.6718164\n
+        \         ],\n          [\n            85.316171,\n            27.671828\n
+        \         ],\n          [\n            85.3161603,\n            27.6717667\n
+        \         ],\n          [\n            85.3161939,\n            27.6717621\n
+        \         ],\n          [\n            85.3161882,\n            27.6717291\n
+        \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
+        : 49585108,\n      \"@lastEdit\" : \"2017-06-16T09:14:11Z\",\n      \"@osmId\"
+        : \"way/341905614\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 2,\n      \"building\" :
+        \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
+        \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
+        \           85.3163871,\n            27.6716741\n          ],\n          [\n
+        \           85.3162581,\n            27.6716921\n          ],\n          [\n
+        \           85.3162461,\n            27.6716241\n          ],\n          [\n
+        \           85.3163609,\n            27.6716081\n          ],\n          [\n
+        \           85.3163666,\n            27.6716398\n          ],\n          [\n
+        \           85.3163806,\n            27.6716379\n          ],\n          [\n
+        \           85.3163871,\n            27.6716741\n          ]\n        ]\n
+        \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 163528377,\n
+        \     \"@lastEdit\" : \"2025-03-12T13:35:26Z\",\n      \"@osmId\" : \"way/447957160\",\n
+        \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-08-20T11:00:00Z\",\n
+        \     \"@version\" : 3,\n      \"building\" : \"house\"\n    }\n  }, {\n    \"type\"
+        : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
+        : [\n        [\n          [\n            85.316697,\n            27.6712677\n
+        \         ],\n          [\n            85.3166916,\n            27.6712689\n
+        \         ],\n          [\n            85.316697,\n            27.6712881\n
+        \         ],\n          [\n            85.316697,\n            27.6712677\n
+        \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
+        : 49360535,\n      \"@lastEdit\" : \"2017-06-08T09:13:10Z\",\n      \"@osmId\"
+        : \"way/499025218\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
+        \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
+        \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
+        \           85.3161216,\n            27.6711538\n          ],\n          [\n
+        \           85.3160827,\n            27.6711544\n          ],\n          [\n
+        \           85.3160844,\n            27.6712432\n          ],\n          [\n
+        \           85.3161233,\n            27.6712426\n          ],\n          [\n
+        \           85.3161216,\n            27.6711538\n          ]\n        ]\n
+        \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49360651,\n
+        \     \"@lastEdit\" : \"2017-06-08T09:17:08Z\",\n      \"@osmId\" : \"way/499025998\",\n
+        \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-08-20T11:00:00Z\",\n
+        \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
+        : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
+        : [\n        [\n          [\n            85.3161673,\n            27.6711042\n
+        \         ],\n          [\n            85.3161683,\n            27.6711079\n
+        \         ],\n          [\n            85.3161233,\n            27.6711171\n
+        \         ],\n          [\n            85.316145,\n            27.6711998\n
+        \         ],\n          [\n            85.3162746,\n            27.6711732\n
+        \         ],\n          [\n            85.3162565,\n            27.6711042\n
+        \         ],\n          [\n            85.3161673,\n            27.6711042\n
+        \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
+        : 49360651,\n      \"@lastEdit\" : \"2017-06-08T09:17:08Z\",\n      \"@osmId\"
+        : \"way/499025999\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
+        \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
+        \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
+        \           85.3161447,\n            27.6712066\n          ],\n          [\n
+        \           85.3161492,\n            27.6712304\n          ],\n          [\n
+        \           85.3162374,\n            27.6712174\n          ],\n          [\n
+        \           85.3162329,\n            27.6711936\n          ],\n          [\n
+        \           85.3161447,\n            27.6712066\n          ]\n        ]\n
+        \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49360651,\n
+        \     \"@lastEdit\" : \"2017-06-08T09:17:08Z\",\n      \"@osmId\" : \"way/499026000\",\n
+        \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-08-20T11:00:00Z\",\n
+        \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
+        : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
+        : [\n        [\n          [\n            85.3163395,\n            27.6713752\n
+        \         ],\n          [\n            85.316324,\n            27.67127\n
+        \         ],\n          [\n            85.316147,\n            27.6712905\n
+        \         ],\n          [\n            85.3161625,\n            27.6713956\n
+        \         ],\n          [\n            85.3163395,\n            27.6713752\n
+        \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
+        : 49360651,\n      \"@lastEdit\" : \"2017-06-08T09:17:08Z\",\n      \"@osmId\"
+        : \"way/499026001\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
+        \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
+        \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
+        \           85.3165367,\n            27.6711816\n          ],\n          [\n
+        \           85.3164646,\n            27.6711925\n          ],\n          [\n
+        \           85.3164708,\n            27.6712248\n          ],\n          [\n
+        \           85.3164293,\n            27.6712311\n          ],\n          [\n
+        \           85.3164422,\n            27.6712984\n          ],\n          [\n
+        \           85.3165559,\n            27.6712812\n          ],\n          [\n
+        \           85.3165367,\n            27.6711816\n          ]\n        ]\n
+        \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49360651,\n
+        \     \"@lastEdit\" : \"2017-06-08T09:17:08Z\",\n      \"@osmId\" : \"way/499026002\",\n
+        \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-08-20T11:00:00Z\",\n
+        \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
+        : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
+        : [\n        [\n          [\n            85.3164148,\n            27.6711231\n
+        \         ],\n          [\n            85.3163343,\n            27.6711373\n
+        \         ],\n          [\n            85.316352,\n            27.6712154\n
+        \         ],\n          [\n            85.3164324,\n            27.6712012\n
+        \         ],\n          [\n            85.3164148,\n            27.6711231\n
+        \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
+        : 49360651,\n      \"@lastEdit\" : \"2017-06-08T09:17:08Z\",\n      \"@osmId\"
+        : \"way/499026003\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
+        \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
+        \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
+        \           85.3164418,\n            27.6711042\n          ],\n          [\n
+        \           85.3164524,\n            27.6711501\n          ],\n          [\n
+        \           85.3165503,\n            27.6711323\n          ],\n          [\n
+        \           85.3165438,\n            27.6711042\n          ],\n          [\n
+        \           85.3164418,\n            27.6711042\n          ]\n        ]\n
+        \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49360651,\n
+        \     \"@lastEdit\" : \"2017-06-08T09:17:08Z\",\n      \"@osmId\" : \"way/499026005\",\n
+        \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-08-20T11:00:00Z\",\n
+        \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
+        : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
+        : [\n        [\n          [\n            85.316285,\n            27.672118\n
+        \         ],\n          [\n            85.3162845,\n            27.6721131\n
+        \         ],\n          [\n            85.3162277,\n            27.672118\n
+        \         ],\n          [\n            85.316285,\n            27.672118\n
+        \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
+        : 49584423,\n      \"@lastEdit\" : \"2017-06-16T08:50:40Z\",\n      \"@osmId\"
+        : \"way/500898789\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
+        \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
+        \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
+        \           85.316697,\n            27.6720834\n          ],\n          [\n
+        \           85.3166864,\n            27.6720861\n          ],\n          [\n
+        \           85.3166967,\n            27.672118\n          ],\n          [\n
+        \           85.316697,\n            27.672118\n          ],\n          [\n
+        \           85.316697,\n            27.6720834\n          ]\n        ]\n      ]\n
+        \   },\n    \"properties\" : {\n      \"@changesetId\" : 49584423,\n      \"@lastEdit\"
+        : \"2017-06-16T08:50:40Z\",\n      \"@osmId\" : \"way/500898793\",\n      \"@osmType\"
+        : \"way\",\n      \"@snapshotTimestamp\" : \"2025-08-20T11:00:00Z\",\n      \"@version\"
+        : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n
+        \   \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
+        : [\n        [\n          [\n            85.3163239,\n            27.6718246\n
+        \         ],\n          [\n            85.3162514,\n            27.6718272\n
+        \         ],\n          [\n            85.3162538,\n            27.6718786\n
+        \         ],\n          [\n            85.3163263,\n            27.671876\n
+        \         ],\n          [\n            85.3163239,\n            27.6718246\n
+        \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
+        : 49584905,\n      \"@lastEdit\" : \"2017-06-16T09:07:24Z\",\n      \"@osmId\"
+        : \"way/500904926\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
+        \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
+        \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
+        \           85.3163301,\n            27.671883\n          ],\n          [\n
+        \           85.3162631,\n            27.6718909\n          ],\n          [\n
+        \           85.3162698,\n            27.6719352\n          ],\n          [\n
+        \           85.3163367,\n            27.6719273\n          ],\n          [\n
+        \           85.3163301,\n            27.671883\n          ]\n        ]\n      ]\n
+        \   },\n    \"properties\" : {\n      \"@changesetId\" : 49584905,\n      \"@lastEdit\"
+        : \"2017-06-16T09:07:24Z\",\n      \"@osmId\" : \"way/500904927\",\n      \"@osmType\"
+        : \"way\",\n      \"@snapshotTimestamp\" : \"2025-08-20T11:00:00Z\",\n      \"@version\"
+        : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n
+        \   \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
+        : [\n        [\n          [\n            85.3163985,\n            27.6718602\n
+        \         ],\n          [\n            85.3163417,\n            27.6718659\n
+        \         ],\n          [\n            85.3163469,\n            27.671907\n
+        \         ],\n          [\n            85.3164037,\n            27.6719014\n
+        \         ],\n          [\n            85.3163985,\n            27.6718602\n
+        \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
+        : 49584905,\n      \"@lastEdit\" : \"2017-06-16T09:07:24Z\",\n      \"@osmId\"
+        : \"way/500904929\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
+        \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
+        \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
+        \           85.3163331,\n            27.6717973\n          ],\n          [\n
+        \           85.3163401,\n            27.6718548\n          ],\n          [\n
+        \           85.3163725,\n            27.6718517\n          ],\n          [\n
+        \           85.3163705,\n            27.6718351\n          ],\n          [\n
+        \           85.3164009,\n            27.6718322\n          ],\n          [\n
+        \           85.3163959,\n            27.6717913\n          ],\n          [\n
+        \           85.3163331,\n            27.6717973\n          ]\n        ]\n
+        \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49584905,\n
+        \     \"@lastEdit\" : \"2017-06-16T09:07:24Z\",\n      \"@osmId\" : \"way/500904930\",\n
+        \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-08-20T11:00:00Z\",\n
+        \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
+        : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
+        : [\n        [\n          [\n            85.316367,\n            27.671734\n
+        \         ],\n          [\n            85.3162631,\n            27.6717454\n
+        \         ],\n          [\n            85.3162728,\n            27.6718149\n
+        \         ],\n          [\n            85.316328,\n            27.6718089\n
+        \         ],\n          [\n            85.3163263,\n            27.6717967\n
+        \         ],\n          [\n            85.316375,\n            27.6717914\n
+        \         ],\n          [\n            85.316367,\n            27.671734\n
+        \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
+        : 49584905,\n      \"@lastEdit\" : \"2017-06-16T09:07:24Z\",\n      \"@osmId\"
+        : \"way/500904932\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
+        \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
+        \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
+        \           85.3165165,\n            27.6718422\n          ],\n          [\n
+        \           85.3164182,\n            27.6718587\n          ],\n          [\n
+        \           85.3164288,\n            27.6719079\n          ],\n          [\n
+        \           85.316527,\n            27.6718914\n          ],\n          [\n
+        \           85.3165165,\n            27.6718422\n          ]\n        ]\n
+        \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49584905,\n
+        \     \"@lastEdit\" : \"2017-06-16T09:07:25Z\",\n      \"@osmId\" : \"way/500904934\",\n
+        \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-08-20T11:00:00Z\",\n
+        \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
+        : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
+        : [\n        [\n          [\n            85.3164956,\n            27.6717348\n
+        \         ],\n          [\n            85.3164026,\n            27.6717512\n
+        \         ],\n          [\n            85.3164248,\n            27.6718493\n
+        \         ],\n          [\n            85.3165178,\n            27.6718329\n
+        \         ],\n          [\n            85.3164956,\n            27.6717348\n
+        \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
+        : 49584905,\n      \"@lastEdit\" : \"2017-06-16T09:07:25Z\",\n      \"@osmId\"
+        : \"way/500904935\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
+        \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
+        \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
+        \           85.3164852,\n            27.6716664\n          ],\n          [\n
+        \           85.3163644,\n            27.6716849\n          ],\n          [\n
+        \           85.3163696,\n            27.6717115\n          ],\n          [\n
+        \           85.3163879,\n            27.6717087\n          ],\n          [\n
+        \           85.3163938,\n            27.6717391\n          ],\n          [\n
+        \           85.3164963,\n            27.6717234\n          ],\n          [\n
+        \           85.3164852,\n            27.6716664\n          ]\n        ]\n
+        \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49584905,\n
+        \     \"@lastEdit\" : \"2017-06-16T09:07:25Z\",\n      \"@osmId\" : \"way/500904937\",\n
+        \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-08-20T11:00:00Z\",\n
+        \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
+        : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
+        : [\n        [\n          [\n            85.3163145,\n            27.671549\n
+        \         ],\n          [\n            85.3163009,\n            27.6713988\n
+        \         ],\n          [\n            85.316077,\n            27.6714147\n
+        \         ],\n          [\n            85.3160907,\n            27.671565\n
+        \         ],\n          [\n            85.3163145,\n            27.671549\n
+        \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
+        : 49585108,\n      \"@lastEdit\" : \"2017-06-16T09:14:10Z\",\n      \"@osmId\"
+        : \"way/500907160\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
+        \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
+        \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
+        \           85.3165016,\n            27.6713615\n          ],\n          [\n
+        \           85.3164547,\n            27.6713661\n          ],\n          [\n
+        \           85.3164615,\n            27.6714203\n          ],\n          [\n
+        \           85.3165084,\n            27.6714157\n          ],\n          [\n
+        \           85.3165016,\n            27.6713615\n          ]\n        ]\n
+        \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49585108,\n
+        \     \"@lastEdit\" : \"2017-06-16T09:14:10Z\",\n      \"@osmId\" : \"way/500907161\",\n
+        \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-08-20T11:00:00Z\",\n
+        \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
+        : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
+        : [\n        [\n          [\n            85.3165432,\n            27.6714728\n
+        \         ],\n          [\n            85.3164376,\n            27.6714939\n
+        \         ],\n          [\n            85.3164513,\n            27.6715477\n
+        \         ],\n          [\n            85.3165569,\n            27.6715266\n
+        \         ],\n          [\n            85.3165432,\n            27.6714728\n
+        \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
+        : 49585108,\n      \"@lastEdit\" : \"2017-06-16T09:14:10Z\",\n      \"@osmId\"
+        : \"way/500907162\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
+        \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
+        \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
+        \           85.3162183,\n            27.6716428\n          ],\n          [\n
+        \           85.3160881,\n            27.6716429\n          ],\n          [\n
+        \           85.3160881,\n            27.6717203\n          ],\n          [\n
+        \           85.3162183,\n            27.6717202\n          ],\n          [\n
+        \           85.3162183,\n            27.6716428\n          ]\n        ]\n
+        \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49585108,\n
+        \     \"@lastEdit\" : \"2017-06-16T09:14:11Z\",\n      \"@osmId\" : \"way/500907163\",\n
+        \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-08-20T11:00:00Z\",\n
+        \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
+        : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
+        : [\n        [\n          [\n            85.3161537,\n            27.6717783\n
+        \         ],\n          [\n            85.3161165,\n            27.6717865\n
+        \         ],\n          [\n            85.316133,\n            27.6718448\n
+        \         ],\n          [\n            85.3161702,\n            27.6718366\n
+        \         ],\n          [\n            85.3161537,\n            27.6717783\n
+        \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
+        : 49585108,\n      \"@lastEdit\" : \"2017-06-16T09:14:11Z\",\n      \"@osmId\"
+        : \"way/500907164\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
+        : \"2025-08-20T11:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
+        \"yes\"\n    }\n  }]\n}\n"
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Origin,Accept,X-Requested-With,Content-Type,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization
+      Access-Control-Allow-Methods:
+      - POST, GET
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '3600'
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/geo+json;charset=utf-8
+      Content-disposition:
+      - attachment;filename=ohsome.geojson
+      Date:
+      - Thu, 25 Sep 2025 10:53:05 GMT
+      Keep-Alive:
+      - timeout=5, max=100
+      Server:
+      - Apache/2.4.58 (Ubuntu)
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains;
+      Transfer-Encoding:
+      - chunked
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: ''
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token DUMMY_TOKEN
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://osmcha.org/api/v1/changesets/?ids=49360535,43047110,14844487,15280884,49584905,30673993,49585108,163528377,49360651,49584423
+  response:
+    body:
+      string: '{"type":"FeatureCollection","count":1,"next":null,"previous":null,"features":[{"id":163528377,"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[27.6709269,85.3162461],[27.6709269,85.3176223],[27.6719987,85.3176223],[27.6719987,85.3162461],[27.6709269,85.3162461]]]},"properties":{"check_user":null,"reasons":[{"id":3,"name":"mass
+        deletion"}],"tags":[],"features":[],"user":"tnagorra","uid":"4326462","editor":"iD
+        2.32.0","comment":"Updates after recent constructions","comments_count":0,"source":"Not
+        reported","imagery_used":"Bing Maps Aerial;Esri World Imagery (Clarity) Beta","date":"2025-03-12T13:35:25Z","reviewed_features":[],"tag_changes":{"name":["Prasadi
+        Academy","My Place"],"route":["micro","tempo","bus"],"source":["OpenDRI survey"],"amenity":["college","cafe","shelter","parking"],"highway":["residential","primary","service"],"landuse":["commercial"],"leisure":["park"],"building":["house","yes","college"],"isced:level":["college"],"operator:type":["private"],"student:count":["1100"],"building_count":["4"],"personnel:count":["90"]},"create":16,"modify":6,"delete":100,"area":1.4750111599930601e-06,"is_suspect":true,"harmful":null,"checked":false,"check_date":null,"metadata":{"host":"https://www.openstreetmap.org/edit","locale":"en-US","changesets_count":84}}}]}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '737'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 25 Sep 2025 10:53:08 GMT
+      ETag:
+      - W/"c69303a85aba45af4cc485b0c6490d8e"
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Vary:
+      - Accept, Origin, Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://www.openstreetmap.org/api/0.6/changesets?changesets=49360535,43047110,14844487,15280884,49584905,30673993,49585108,49360651,49584423
+  response:
+    body:
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<osm version=\"0.6\" generator=\"OpenStreetMap
+        server\" copyright=\"OpenStreetMap and contributors\" attribution=\"http://www.openstreetmap.org/copyright\"
+        license=\"http://opendatacommons.org/licenses/odbl/1-0/\">\n<changeset id=\"49585108\"
+        created_at=\"2017-06-16T09:14:07Z\" open=\"false\" comments_count=\"0\" changes_count=\"121\"
+        closed_at=\"2017-06-16T09:14:12Z\" min_lat=\"27.6712993\" min_lon=\"85.3152433\"
+        max_lat=\"27.6721284\" max_lon=\"85.3165958\" uid=\"4204463\" user=\"Alisha12\">\n
+        \ <tag k=\"comment\" v=\"#hotosm-project-3047 #kll #data-cleaning #kathmandu
+        #fridaymapping\"/>\n  <tag k=\"created_by\" v=\"JOSM/1.5 (11639 en)\"/>\n
+        \ <tag k=\"source\" v=\"Bing\"/>\n</changeset>\n<changeset id=\"49584905\"
+        created_at=\"2017-06-16T09:07:22Z\" open=\"false\" comments_count=\"0\" changes_count=\"138\"
+        closed_at=\"2017-06-16T09:07:27Z\" min_lat=\"27.6712071\" min_lon=\"85.3159534\"
+        max_lat=\"27.6720835\" max_lon=\"85.3171545\" uid=\"4204463\" user=\"Alisha12\">\n
+        \ <tag k=\"comment\" v=\"#hotosm-project-3047 #kll #data-cleaning #kathmandu
+        #fridaymapping\"/>\n  <tag k=\"created_by\" v=\"JOSM/1.5 (11639 en)\"/>\n
+        \ <tag k=\"source\" v=\"Bing\"/>\n</changeset>\n<changeset id=\"49584423\"
+        created_at=\"2017-06-16T08:50:37Z\" open=\"false\" comments_count=\"0\" changes_count=\"96\"
+        closed_at=\"2017-06-16T08:50:43Z\" min_lat=\"27.6719043\" min_lon=\"85.3156750\"
+        max_lat=\"27.6729906\" max_lon=\"85.3171380\" uid=\"4204463\" user=\"Alisha12\">\n
+        \ <tag k=\"comment\" v=\"#hotosm-project-3047 #kll #data-cleaning #kathmandu\"/>\n
+        \ <tag k=\"created_by\" v=\"JOSM/1.5 (11639 en)\"/>\n  <tag k=\"source\" v=\"Bing\"/>\n</changeset>\n<changeset
+        id=\"49360651\" created_at=\"2017-06-08T09:17:05Z\" open=\"false\" comments_count=\"0\"
+        changes_count=\"180\" closed_at=\"2017-06-08T09:17:11Z\" min_lat=\"27.6693288\"
+        min_lon=\"85.3131283\" max_lat=\"27.6719692\" max_lon=\"85.3167303\" uid=\"4204463\"
+        user=\"Alisha12\">\n  <tag k=\"comment\" v=\"#hotosm-project-3047 #kll #data-cleaning
+        #kathmandu\"/>\n  <tag k=\"created_by\" v=\"JOSM/1.5 (11639 en)\"/>\n  <tag
+        k=\"source\" v=\"Bing\"/>\n</changeset>\n<changeset id=\"49360535\" created_at=\"2017-06-08T09:13:08Z\"
+        open=\"false\" comments_count=\"0\" changes_count=\"181\" closed_at=\"2017-06-08T09:13:13Z\"
+        min_lat=\"27.6695183\" min_lon=\"85.3160667\" max_lat=\"27.6715209\" max_lon=\"85.3182707\"
+        uid=\"4204463\" user=\"Alisha12\">\n  <tag k=\"comment\" v=\"#hotosm-project-3047
+        #kll #data-cleaning #kathmandu\"/>\n  <tag k=\"created_by\" v=\"JOSM/1.5 (11639
+        en)\"/>\n  <tag k=\"source\" v=\"Bing\"/>\n</changeset>\n<changeset id=\"43047110\"
+        created_at=\"2016-10-20T23:26:41Z\" open=\"false\" comments_count=\"0\" changes_count=\"1\"
+        closed_at=\"2016-10-20T23:26:43Z\" min_lat=\"27.6715217\" min_lon=\"85.3164821\"
+        max_lat=\"27.6715885\" max_lon=\"85.3165894\" uid=\"4223165\" user=\"Sunil
+        Kumar Shrestha\">\n  <tag k=\"comment\" v=\"This house is damaged by earthquake
+        2015\"/>\n  <tag k=\"created_by\" v=\"iD 1.9.7\"/>\n  <tag k=\"host\" v=\"https://www.openstreetmap.org/id\"/>\n
+        \ <tag k=\"imagery_used\" v=\"Bing\"/>\n  <tag k=\"locale\" v=\"en-US\"/>\n</changeset>\n<changeset
+        id=\"30673993\" created_at=\"2015-04-30T21:24:08Z\" open=\"false\" comments_count=\"0\"
+        changes_count=\"248\" closed_at=\"2015-04-30T21:24:17Z\" min_lat=\"27.6682757\"
+        min_lon=\"85.3139147\" max_lat=\"27.6760690\" max_lon=\"85.3206851\" uid=\"223681\"
+        user=\"Wim L\">\n  <tag k=\"comment\" v=\"#hotosm-project-1008\"/>\n  <tag
+        k=\"created_by\" v=\"JOSM/1.5 (8279 en)\"/>\n  <tag k=\"source\" v=\"PLEIADES
+        \xA9 CNES 2015, Distribution Airbus DS\"/>\n</changeset>\n<changeset id=\"15280884\"
+        created_at=\"2013-03-07T11:20:37Z\" open=\"false\" comments_count=\"0\" changes_count=\"655\"
+        closed_at=\"2013-03-07T11:21:26Z\" min_lat=\"27.6628963\" min_lon=\"85.3130472\"
+        max_lat=\"27.6735166\" max_lon=\"85.3287069\" uid=\"1068220\" user=\"Helina\">\n
+        \ <tag k=\"comment\" v=\"building footprints................\"/>\n  <tag k=\"created_by\"
+        v=\"JOSM/1.5 (5576 en)\"/>\n</changeset>\n<changeset id=\"14844487\" created_at=\"2013-01-30T08:44:58Z\"
+        open=\"false\" comments_count=\"0\" changes_count=\"69\" closed_at=\"2013-01-30T10:32:51Z\"
+        min_lat=\"27.6656465\" min_lon=\"85.3145872\" max_lat=\"27.6726262\" max_lon=\"85.3190447\"
+        uid=\"1209120\" user=\"Sunita_ioe\">\n  <tag k=\"build\" v=\"2.3-554-ge648197\"/>\n
+        \ <tag k=\"created_by\" v=\"Potlatch 2\"/>\n  <tag k=\"version\" v=\"2.3\"/>\n</changeset>\n</osm>\n"
+    headers:
+      CF-RAY:
+      - 9849f9e05fc84e2a-KTM
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/xml; charset=utf-8
+      Date:
+      - Thu, 25 Sep 2025 10:53:09 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=s516nbHA2Hckdo6UFChLNr69a0hbFrjbYLab5Yf1Y1FOaMxtygTQfRLGtGPRGFuBgZ5m%2FYQlyniGLY4EG%2FREJ1U6QdFiQvdXCXsUYr7XVGXUIr69IQ%3D%3D"}]}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-security-policy:
+      - 'default-src ''self''; child-src ''self''; connect-src ''self'' matomo.openstreetmap.org;
+        font-src ''none''; form-action ''self''; frame-ancestors ''self''; frame-src
+        ''self''; img-src ''self'' data: www.gravatar.com *.wp.com tile.openstreetmap.org
+        gps.tile.openstreetmap.org *.tile.thunderforest.com tile.tracestrack.com *.openstreetmap.fr
+        matomo.openstreetmap.org https://openstreetmap-user-avatars.s3.dualstack.eu-west-1.amazonaws.com
+        https://openstreetmap-gps-images.s3.dualstack.eu-west-1.amazonaws.com; manifest-src
+        ''self''; media-src ''none''; object-src ''self''; script-src ''self'' matomo.openstreetmap.org
+        ''nonce-trhIRpJpofXKnpFp/Gm3ZBazWQ/ZCqyW''; style-src ''self'' ''nonce-trhIRpJpofXKnpFp/Gm3ZBazWQ/ZCqyW'';
+        worker-src blob:'
+      cross-origin-opener-policy:
+      - same-origin
+      etag:
+      - W/"e0969076cd84dbf02129c236a7cd4c03-br"
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      status:
+      - 200 OK
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains; preload
+      vary:
+      - Origin,Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-powered-by:
+      - Phusion Passenger(R) 6.1.0
+      x-request-id:
+      - aNUfFSvJYM4cnKCC3tobdwAAJwA
+      x-runtime:
+      - '0.033893'
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1
