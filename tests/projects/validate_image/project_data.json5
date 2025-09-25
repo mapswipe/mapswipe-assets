@@ -143,19 +143,19 @@
       {
         "fileName": "000000252219.jpg",
         "projectId": "01K4SWQY5SRN4BT3EFHBW60PQ2",
-        "taskId": "252219",
+        "taskId": "1",
         "url": "http://images.cocodataset.org/val2017/000000252219.jpg"
       },
       {
         "fileName": "000000037777.jpg",
         "projectId": "01K4SWQY5SRN4BT3EFHBW60PQ2",
-        "taskId": "37777",
+        "taskId": "2",
         "url": "http://images.cocodataset.org/val2017/000000037777.jpg"
       },
       {
         "fileName": "000000397133.jpg",
         "projectId": "01K4SWQY5SRN4BT3EFHBW60PQ2",
-        "taskId": "397133",
+        "taskId": "3",
         "url": "http://images.cocodataset.org/val2017/000000397133.jpg"
       }
     ]
