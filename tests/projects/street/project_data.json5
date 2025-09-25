@@ -1,8 +1,7 @@
 {
   "assets": {
-        // NOTE: this is for the street project with no filter
-        "image": "assets/tests/projects/street/cover_image.jpg",
-        "aoi": "assets/tests/projects/street/aoi_geometry.json5"
+    "image": "assets/tests/projects/street/cover_image.jpg",
+    "aoi": "assets/tests/projects/street/aoi_geometry.json5"
   },
   "create_organization":{
     "clientId":"01K339HAWZCTCBRVQMQFWRTHXX",
@@ -53,10 +52,10 @@
   "update_processed_project": {
     "clientId": "01K4MAYEFBAFV850TGQ9GTXXF2",
     "projectInstruction": "House",
-        // NOTE: These values will be injected by test scripts
-        "image": null,
-        "tutorial": null,
-        "team": null
+      // NOTE: These values will be injected by test scripts
+      "image": null,
+      "tutorial": null,
+      "team": null
   },
   "expected_project_data": {
     "contributorCount": 0,
@@ -1022,8 +1021,8 @@
               "reference": 1,
               "clientId": "01K4S0NP93AQKZ6S558VPVQS19",
               "projectTypeSpecifics": {
-                "validate": {
-                  "mapillaryImageId": 1098299960,
+                "street": {
+                  "mapillaryImageId": "1098299960",
                   "geometry": "{\"type\":\"Polygon\",\"coordinates\":[[[84.001574,28.1935348],[84.001576,28.1934266],[84.0016578,28.1934278],[84.0016558,28.1935359],[84.001574,28.1935348]]]}",
                 },
               }
@@ -1034,21 +1033,19 @@
     ],
     "informationPages": [
       {
-        "update": {
+        "create": {
           "blocks": [
             {
-              "update": {
+              "create": {
                 "blockNumber": 1,
                 "blockType": "TEXT",
                 "clientId": "01K4SEX7XTVT6NH3GWSN9MY2BY",
-                "id": "26",
                 "image": null,
                 "text": "There are some images in this file"
               }
             }
           ],
           "clientId": "01K4SEWZY81T3QEHCRFZF5YDZQ",
-          "id": "26",
           "pageNumber": 1,
           "title": "Look for buildings"
         }
