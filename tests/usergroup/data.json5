@@ -1,0 +1,87 @@
+[
+    // Test create
+    {
+        "create": {
+            "clientId": "01K30C20TVQBMBVFF7BES2ZAGX",
+            "name": "Editors",
+            "description": "Can create and edit content, but cannot manage system-level settings."
+        },
+        "updates": [],
+        "expected": {
+            "createdAt": 1714466199171,
+            "createdBy": "Tyf9vhtd8aZCgLlaRWQGzBE52w82",
+            "name": "Editors",
+            "nameKey": "editors",
+            "description": "Can create and edit content, but cannot manage system-level settings."
+        }
+    },
+    // Test update
+    {
+        "create": {
+            "clientId": "01K30C1Q5MYSAT95HKNZYQ1CSC",
+            "name": "Administrators",
+            "description": "Full access to manage users, organizations, and system configurations."
+        },
+        "updates": [
+            {
+                "clientId": "01K30C1Q5MYSAT95HKNZYQ1CSC",
+                "name": "Admins"
+            }
+        ],
+        "expected": {
+            "createdAt": 1714466199171,
+            "createdBy": "Tyf9vhtd8aZCgLlaRWQGzBE52w82",
+            "name": "Admins",
+            "nameKey": "admins",
+            "description": "Full access to manage users, organizations, and system configurations."
+        }
+    },
+    // Test archive
+    {
+        "create": {
+            "clientId": "01K30C2C371DKN2P4K51XVDGB3",
+            "name": "Viewers",
+            "description": "Read-only access to dashboards, reports, and public resources."
+        },
+        "updates": [
+            {
+                "clientId": "01K30C2C371DKN2P4K51XVDGB3",
+                "isArchived": true,
+            },
+        ],
+        "expected": {
+            "archivedAt": 1714466199171,
+            "archivedBy": "Tyf9vhtd8aZCgLlaRWQGzBE52w82",
+            "createdAt": 1714466199171,
+            "createdBy": "Tyf9vhtd8aZCgLlaRWQGzBE52w82",
+            "name": "Viewers",
+            "nameKey": "viewers",
+            "description": "Read-only access to dashboards, reports, and public resources."
+        }
+    },
+    // Test un-archive
+    {
+        "create": {
+            "clientId": "01K30C2NR3WQMNFVZWR2G0BW29",
+            "name": "Contributors",
+            "description": "Can add and update datasets but requires approval for publishing."
+        },
+        "updates": [
+            {
+                "clientId": "01K30C2NR3WQMNFVZWR2G0BW29",
+                "isArchived": true,
+            },
+            {
+                "clientId": "01K30C2NR3WQMNFVZWR2G0BW29",
+                "isArchived": false,
+            }
+        ],
+        "expected": {
+            "createdAt": 1714466199171,
+            "createdBy": "Tyf9vhtd8aZCgLlaRWQGzBE52w82",
+            "name": "Contributors",
+            "nameKey": "contributors",
+            "description": "Can add and update datasets but requires approval for publishing."
+        }
+    },
+]
