@@ -16,7 +16,7 @@
   },
   "create_project": {
     "clientId": "01K4MAYEFBAFV850TGQ9GTXXF2",
-    "topic": "Street - House Mapping",
+    "topic": "House Mapping",
     "region": "Pokhara, Nepal",
     "projectNumber": 1,
     "projectType": "STREET",
@@ -76,7 +76,7 @@
     "projectId": "01K4MAZMPS1Q41DV7JK1Y5SBDS",
     "projectNumber": 1,
     "projectRegion": "Pokhara, Nepal",
-    "projectTopic": "Street - House Mapping",
+    "projectTopic": "House Mapping",
     "projectTopicKey": "street - house mapping - pokhara, nepal (1) togglecorp",
     "projectType": 7,
     "requestingOrganisation": "Togglecorp",
