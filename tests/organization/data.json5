@@ -1,4 +1,5 @@
 [
+  // Test update
   {
     "create": {
       "clientId": "01K2Y6MZWGNAWKQKG4RM8F347F",
@@ -6,21 +7,23 @@
       "description": "World's largest humanitarian network, helping people before, during and after disasters.",
       "abbreviation": "IFRC"
     },
-    "update": {
-      "clientId": "01K2Y6MZWGNAWKQKG4RM8F347F",
-      "name": "International Federation of Red Cross and Red Crescent Societies Updated",
-      "description": "World's largest humanitarian network, helping people before, during and after disasters. (edited)",
-      "abbreviation": "IFRC-U",
-      "isArchived": false
-    },
+    "updates": [
+        {
+            "clientId": "01K2Y6MZWGNAWKQKG4RM8F347F",
+            "name": "International Federation of Red Cross and Red Crescent",
+            "description": "World's largest humanitarian network",
+            "abbreviation": "IFRC"
+        }
+    ],
     "expected": {
-      "abbreviation": "IFRC-U",
-      "description": "World's largest humanitarian network, helping people before, during and after disasters. (edited)",
+      "abbreviation": "IFRC",
+      "description": "World's largest humanitarian network",
       "isArchived": false,
-      "name": "International Federation of Red Cross and Red Crescent Societies Updated",
-      "nameKey": "international federation of red cross and red crescent societies updated"
+      "name": "International Federation of Red Cross and Red Crescent",
+      "nameKey": "international federation of red cross and red crescent"
     }
   },
+  // Test archive
   {
     "create": {
       "clientId": "01K2Y6N9W78PS935GQR9AB3NB7",
@@ -28,21 +31,21 @@
       "description": "Coordinates international humanitarian response to emergencies and disasters.",
       "abbreviation": "OCHA"
     },
-    "update": {
-      "clientId": "01K2Y6N9W78PS935GQR9AB3NB7",
-      "name": "United Nations Office for the Coordination of Humanitarian Affairs Updated",
-      "description": "Coordinates international humanitarian response to emergencies and disasters. (edited)",
-      "abbreviation": "OCHA-U",
-      "isArchived": true
-    },
+    "updates": [
+        {
+            "clientId": "01K2Y6N9W78PS935GQR9AB3NB7",
+            "isArchived": true
+        },
+    ],
     "expected": {
-      "abbreviation": "OCHA-U",
-      "description": "Coordinates international humanitarian response to emergencies and disasters. (edited)",
+      "abbreviation": "OCHA",
+      "description": "Coordinates international humanitarian response to emergencies and disasters.",
       "isArchived": true,
-      "name": "United Nations Office for the Coordination of Humanitarian Affairs Updated",
-      "nameKey": "united nations office for the coordination of humanitarian affairs updated"
+      "name": "United Nations Office for the Coordination of Humanitarian Affairs",
+      "nameKey": "united nations office for the coordination of humanitarian affairs"
     }
   },
+  // Test create
   {
     "create": {
       "clientId": "01K2Y6NQTHR0V8RD8Y3K177FYS",
@@ -50,21 +53,16 @@
       "description": "Specialized agency of the United Nations responsible for international public health.",
       "abbreviation": "WHO"
     },
-    "update": {
-      "clientId": "01K2Y6NQTHR0V8RD8Y3K177FYS",
-      "name": "World Health Organization Updated",
-      "description": "Specialized agency of the United Nations responsible for international public health. (edited)",
-      "abbreviation": "WHO-U",
-      "isArchived": false
-    },
+    "updates": [],
     "expected": {
-      "abbreviation": "WHO-U",
-      "description": "Specialized agency of the United Nations responsible for international public health. (edited)",
+      "abbreviation": "WHO",
+      "description": "Specialized agency of the United Nations responsible for international public health.",
       "isArchived": false,
-      "name": "World Health Organization Updated",
-      "nameKey": "world health organization updated"
+      "name": "World Health Organization",
+      "nameKey": "world health organization"
     }
   },
+  // Test un-archive
   {
     "create": {
       "clientId": "01K2Y6P0PCK04SSR2MP7Z7CD41",
@@ -72,41 +70,22 @@
       "description": "International NGO that promotes children's rights, provides relief and helps support children in developing countries.",
       "abbreviation": "STC"
     },
-    "update": {
-      "clientId": "01K2Y6P0PCK04SSR2MP7Z7CD41",
-      "name": "Save the Children Updated",
-      "description": "International NGO that promotes children's rights, provides relief and helps support children in developing countries. (edited)",
-      "abbreviation": "STC-U",
-      "isArchived": true
-    },
+    "updates": [
+        {
+            "clientId": "01K2Y6P0PCK04SSR2MP7Z7CD41",
+            "isArchived": true
+        },
+        {
+            "clientId": "01K2Y6P0PCK04SSR2MP7Z7CD41",
+            "isArchived": false
+        }
+    ],
     "expected": {
-      "abbreviation": "STC-U",
-      "description": "International NGO that promotes children's rights, provides relief and helps support children in developing countries. (edited)",
-      "isArchived": true,
-      "name": "Save the Children Updated",
-      "nameKey": "save the children updated"
+      "abbreviation": "STC",
+      "description": "International NGO that promotes children's rights, provides relief and helps support children in developing countries.",
+      "isArchived": false,
+      "name": "Save the Children",
+      "nameKey": "save the children"
     }
   },
-  {
-    "create": {
-      "clientId": "01K2Y6P965W02BE2BK0BW8A88N",
-      "name": "ToggleCorp",
-      "description": "Technology company building data systems for humanitarian and development organizations.",
-      "abbreviation": "TC"
-    },
-    "update": {
-      "clientId": "01K2Y6P965W02BE2BK0BW8A88N",
-      "name": "ToggleCorp Updated",
-      "description": "Technology company building data systems for humanitarian and development organizations. (edited)",
-      "abbreviation": "TC-U",
-      "isArchived": false
-    },
-    "expected": {
-      "abbreviation": "TC-U",
-      "description": "Technology company building data systems for humanitarian and development organizations. (edited)",
-      "isArchived": false,
-      "name": "ToggleCorp Updated",
-      "nameKey": "togglecorp updated"
-    }
-  }
 ]
