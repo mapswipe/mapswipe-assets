@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  pull_request:
+
+jobs:
+  pre_commit_checks:
+    name: Pre-Commit checks
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@main
+
+      - name: Install pre-commit and run
+        uses: pre-commit/action@v3.0.1
+        with:
+          extra_args: --all-files --hook-stage manual --show-diff-on-failure
