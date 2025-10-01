@@ -1,91 +1,91 @@
 [
   // Test update
   {
-    "create": {
-      "clientId": "01K2Y6MZWGNAWKQKG4RM8F347F",
-      "name": "International Federation of Red Cross and Red Crescent Societies",
-      "description": "World's largest humanitarian network, helping people before, during and after disasters.",
-      "abbreviation": "IFRC"
+    create: {
+      clientId: '01K2Y6MZWGNAWKQKG4RM8F347F',
+      name: 'International Federation of Red Cross and Red Crescent Societies',
+      description: "World's largest humanitarian network, helping people before, during and after disasters.",
+      abbreviation: 'IFRC',
     },
-    "updates": [
-        {
-            "clientId": "01K2Y6MZWGNAWKQKG4RM8F347F",
-            "name": "International Federation of Red Cross and Red Crescent",
-            "description": "World's largest humanitarian network",
-            "abbreviation": "IFRC"
-        }
+    updates: [
+      {
+        clientId: '01K2Y6MZWGNAWKQKG4RM8F347F',
+        name: 'International Federation of Red Cross and Red Crescent',
+        description: "World's largest humanitarian network",
+        abbreviation: 'IFRC',
+      },
     ],
-    "expected": {
-      "abbreviation": "IFRC",
-      "description": "World's largest humanitarian network",
-      "isArchived": false,
-      "name": "International Federation of Red Cross and Red Crescent",
-      "nameKey": "international federation of red cross and red crescent"
-    }
+    expected: {
+      abbreviation: 'IFRC',
+      description: "World's largest humanitarian network",
+      isArchived: false,
+      name: 'International Federation of Red Cross and Red Crescent',
+      nameKey: 'international federation of red cross and red crescent',
+    },
   },
   // Test archive
   {
-    "create": {
-      "clientId": "01K2Y6N9W78PS935GQR9AB3NB7",
-      "name": "United Nations Office for the Coordination of Humanitarian Affairs",
-      "description": "Coordinates international humanitarian response to emergencies and disasters.",
-      "abbreviation": "OCHA"
+    create: {
+      clientId: '01K2Y6N9W78PS935GQR9AB3NB7',
+      name: 'United Nations Office for the Coordination of Humanitarian Affairs',
+      description: 'Coordinates international humanitarian response to emergencies and disasters.',
+      abbreviation: 'OCHA',
     },
-    "updates": [
-        {
-            "clientId": "01K2Y6N9W78PS935GQR9AB3NB7",
-            "isArchived": true
-        },
+    updates: [
+      {
+        clientId: '01K2Y6N9W78PS935GQR9AB3NB7',
+        isArchived: true,
+      },
     ],
-    "expected": {
-      "abbreviation": "OCHA",
-      "description": "Coordinates international humanitarian response to emergencies and disasters.",
-      "isArchived": true,
-      "name": "United Nations Office for the Coordination of Humanitarian Affairs",
-      "nameKey": "united nations office for the coordination of humanitarian affairs"
-    }
+    expected: {
+      abbreviation: 'OCHA',
+      description: 'Coordinates international humanitarian response to emergencies and disasters.',
+      isArchived: true,
+      name: 'United Nations Office for the Coordination of Humanitarian Affairs',
+      nameKey: 'united nations office for the coordination of humanitarian affairs',
+    },
   },
   // Test create
   {
-    "create": {
-      "clientId": "01K2Y6NQTHR0V8RD8Y3K177FYS",
-      "name": "World Health Organization",
-      "description": "Specialized agency of the United Nations responsible for international public health.",
-      "abbreviation": "WHO"
+    create: {
+      clientId: '01K2Y6NQTHR0V8RD8Y3K177FYS',
+      name: 'World Health Organization',
+      description: 'Specialized agency of the United Nations responsible for international public health.',
+      abbreviation: 'WHO',
     },
-    "updates": [],
-    "expected": {
-      "abbreviation": "WHO",
-      "description": "Specialized agency of the United Nations responsible for international public health.",
-      "isArchived": false,
-      "name": "World Health Organization",
-      "nameKey": "world health organization"
-    }
+    updates: [],
+    expected: {
+      abbreviation: 'WHO',
+      description: 'Specialized agency of the United Nations responsible for international public health.',
+      isArchived: false,
+      name: 'World Health Organization',
+      nameKey: 'world health organization',
+    },
   },
   // Test un-archive
   {
-    "create": {
-      "clientId": "01K2Y6P0PCK04SSR2MP7Z7CD41",
-      "name": "Save the Children",
-      "description": "International NGO that promotes children's rights, provides relief and helps support children in developing countries.",
-      "abbreviation": "STC"
+    create: {
+      clientId: '01K2Y6P0PCK04SSR2MP7Z7CD41',
+      name: 'Save the Children',
+      description: "International NGO that promotes children's rights, provides relief and helps support children in developing countries.",
+      abbreviation: 'STC',
     },
-    "updates": [
-        {
-            "clientId": "01K2Y6P0PCK04SSR2MP7Z7CD41",
-            "isArchived": true
-        },
-        {
-            "clientId": "01K2Y6P0PCK04SSR2MP7Z7CD41",
-            "isArchived": false
-        }
+    updates: [
+      {
+        clientId: '01K2Y6P0PCK04SSR2MP7Z7CD41',
+        isArchived: true,
+      },
+      {
+        clientId: '01K2Y6P0PCK04SSR2MP7Z7CD41',
+        isArchived: false,
+      },
     ],
-    "expected": {
-      "abbreviation": "STC",
-      "description": "International NGO that promotes children's rights, provides relief and helps support children in developing countries.",
-      "isArchived": false,
-      "name": "Save the Children",
-      "nameKey": "save the children"
-    }
+    expected: {
+      abbreviation: 'STC',
+      description: "International NGO that promotes children's rights, provides relief and helps support children in developing countries.",
+      isArchived: false,
+      name: 'Save the Children',
+      nameKey: 'save the children',
+    },
   },
 ]
