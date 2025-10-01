@@ -421,6 +421,7 @@
             "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}"
         },
         "projectId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
+        // FIXME(tnagorra): cleared this because new system does not have drafts
         "tutorialDraftId": "",
         "zoomLevel": 18
     },
@@ -519,7 +520,7 @@
         "contributorCount": 0,
         "created": "2025-09-02T04:43:52.328353+00:00", // NOTE: This is dynamic
         "createdBy": "01K6CPB1ETTF7MT9EAAQDQM4A9",
-        // FIXME(tnagorra): change 0 to 15
+        // FIXME(tnagorra): changed 0 to 15
         "groupMaxSize": 15,
         "groupSize": 15,
         "isFeatured": false,

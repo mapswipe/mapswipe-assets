@@ -317,6 +317,7 @@
             "name": "custom",
             "url": "https://raw.githubusercontent.com/mapswipe/mapswipe-assets/refs/heads/main/images/raster-layer-404-message.png"
         },
+        // FIXME(tnagorra): cleared this because new system does not have drafts
         "tutorialDraftId": "",
         "zoomLevel": 18
     },

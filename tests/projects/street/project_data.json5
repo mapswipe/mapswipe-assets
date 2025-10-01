@@ -1,0 +1,1120 @@
+{
+    "contributor_user_firebase_id": "01K6CPB1ETTF7MT9EAAQDQM4A9",
+    "assets": {
+        "image": "assets/tests/projects/street/cover_image.jpg",
+        "aoi": "assets/tests/projects/street/aoi_geometry.json5"
+    },
+    // Create organization
+    "create_organization":{
+        "clientId": "01K6CKWDFX8HZFY5PHJZN1AYH9",
+        "name":"Togglecorp",
+        "description":"Togglecorp (test) organization"
+    },
+    // Create tutorial
+    "create_tutorial": {
+        "clientId": "01K4MQ88R61EDAMS0K0TW0N17A",
+        "name": "Street Tutorial II"
+    },
+    "update_tutorial": {
+        "clientId": "01K4MQ88R61EDAMS0K0TW0N17A",
+        "name": "Street Tutorial II",
+        "scenarios": [
+            {
+                "create": {
+                    "clientId": "01K4S0NP93KN45MAX2Z5N6PVGX",
+                    "hintDescription": "This building might look like an office",
+                    "hintIcon": "CLOSE_OUTLINE",
+                    "hintTitle": "Look for office",
+                    "instructionsDescription": "This building looks like an office",
+                    "instructionsIcon": "CHECKMARK_OUTLINE",
+                    "instructionsTitle": "Look for office",
+                    "scenarioPageNumber": 1,
+                    "successDescription": "This building does not look like an office",
+                    "successIcon": "HELP_OUTLINE",
+                    "successTitle": "Look for office",
+                    "tasks": [
+                        {
+                            "reference": 1,
+                            "clientId": "01K4S0NP93AQKZ6S558VPVQS19",
+                            "projectTypeSpecifics": {
+                                "street": {
+                                    "mapillaryImageId": "1098299960",
+                                    "geometry": "{\"type\":\"Polygon\",\"coordinates\":[[[84.001574,28.1935348],[84.001576,28.1934266],[84.0016578,28.1934278],[84.0016558,28.1935359],[84.001574,28.1935348]]]}",
+                                },
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "informationPages": [
+            {
+                "create": {
+                    "blocks": [
+                        {
+                            "blockNumber": 1,
+                            "blockType": "TEXT",
+                            "clientId": "01K4SEX7XTVT6NH3GWSN9MY2BY",
+                            "text": "There are some images in this file"
+                        },
+                    ],
+                    "clientId": "01K4SEWZY81T3QEHCRFZF5YDZQ",
+                    "pageNumber": 1,
+                    "title": "Look for buildings"
+                }
+            }
+        ]
+    },
+    // Create project
+    "create_project": {
+        "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
+        "topic": "House Mapping",
+        "region": "Pokhara, Nepal",
+        "projectNumber": 1,
+        "projectType": "STREET",
+        "projectInstruction": "House",
+        "additionalInfoUrl": "https://reliefweb.int/disaster/dr-2025-000125-npl",
+        "description": "This project engages volunteers in mapping and validating streets across Nepal. Using high-resolution satellite and street-level imagery, contributors trace and confirm road networks.",
+        "requestingOrganization": "Togglecorp"
+    },
+    "update_project": {
+        "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
+        "verificationNumber": 3,
+        "projectInstruction": "House",
+        "groupSize": 40,
+        "team": null,
+        "tutorial": null,
+        "maxTasksPerUser": 2,
+        "image": null,
+        "projectTypeSpecifics": {
+            "street": {
+                "aoiGeometry": null,
+                "mapillaryImageFilters":{
+                    "isPano": null,
+                    "creatorId": null,
+                    "organizationId": null,
+                    "startTime": "2017-11-01",
+                    "endTime": "2017-12-30",
+                    "randomizeOrder": false,
+                    "samplingThreshold": null,
+                }
+            }
+        }
+    },
+    "update_processed_project": {
+        "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
+        "projectInstruction": "House",
+        // NOTE: These values will be injected by test scripts
+        "image": null,
+        "tutorial": null,
+        "team": null
+    },
+    // Expected tutorial
+    "expected_tutorial_data": {
+        "contributorCount": 0,
+        "informationPages": [
+            {
+                "blocks": [
+                    {
+                        "blockNumber": 1,
+                        "blockType": "text",
+                        "textDescription": "There are some images in this file"
+                    },
+                ],
+                "pageNumber": 1,
+                "title": "Look for buildings"
+            }
+        ],
+        "name": "Street Tutorial II",
+        "progress": 0,
+        "projectDetails": "This project engages volunteers in mapping and validating streets across Nepal. Using high-resolution satellite and street-level imagery, contributors trace and confirm road networks.",
+        "projectId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
+        "projectTopicKey": "street tutorial ii",
+        "projectType": 7,
+        "screens": [
+            {
+                "hint": {
+                    "description": "This building might look like an office",
+                    "icon": "close-outline",
+                    "title": "Look for office"
+                },
+                "instructions": {
+                    "description": "This building looks like an office",
+                    "icon": "checkmark-outline",
+                    "title": "Look for office"
+                },
+                "success": {
+                    "description": "This building does not look like an office",
+                    "icon": "help-outline",
+                    "title": "Look for office"
+                }
+            },
+        ],
+        "status": "tutorial",
+        // FIXME(tnagorra): cleared this because new system does not have drafts
+        "tutorialDraftId": ""
+    },
+    "expected_tutorial_groups_data": {
+        "101": {
+            "finishedCount": 0,
+            "groupId": 101,
+            "numberOfTasks": 1,
+            "progress": 0,
+            "projectId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
+            "requiredCount": 0
+        }
+    },
+    "expected_tutorial_tasks_data": {
+        // NOTE: The tasks have been decoded
+        "101": [
+            {
+                "projectId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
+                "groupId": 101,
+                "taskId": "1098299960",
+                "geometry": "",
+                "referenceAnswer": 1,
+                "screen": 1
+            },
+        ],
+    },
+    // Expected project
+    "expected_project_data": {
+        "contributorCount": 0,
+        "created": "2025-09-02T04:43:52.328353+00:00", // NOTE: This is dynamic
+        "createdBy": "01K6CPB1ETTF7MT9EAAQDQM4A9",
+        // Number of groups new fields of street
+        "numberOfGroups": 5,
+        "groupMaxSize": 40,
+        "groupSize": 40,
+        "isFeatured": false,
+        "language": "en-us",
+        "projectInstruction": "House",
+        "manualUrl": "https://reliefweb.int/disaster/dr-2025-000125-npl",
+        "maxTasksPerUser": 2,
+        "name": "Street - House Mapping - Pokhara, Nepal (1) Togglecorp",
+        "progress": 0,
+        "projectDetails": "This project engages volunteers in mapping and validating streets across Nepal. Using high-resolution satellite and street-level imagery, contributors trace and confirm road networks.",
+        "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+        "projectNumber": 1,
+        "projectRegion": "Pokhara, Nepal",
+        "projectTopic": "House Mapping",
+        "projectTopicKey": "street - house mapping - pokhara, nepal (1) togglecorp",
+        "projectType": 7,
+        "requestingOrganisation": "Togglecorp",
+        "requiredResults": 513,
+        "resultCount": 0,
+        "status": "active",
+        "tutorialId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
+        "verificationNumber": 3,
+    },
+    "expected_project_groups_data": {
+        "g0":{
+            "finishedCount":0,
+            "groupId":"g0",
+            "numberOfTasks":40,
+            "progress":0,
+            "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+            "requiredCount":3
+        },
+        "g1":{
+            "finishedCount":0,
+            "groupId":"g1",
+            "numberOfTasks":40,
+            "progress":0,
+            "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+            "requiredCount":3
+        },
+        "g2":{
+            "finishedCount":0,
+            "groupId":"g2",
+            "numberOfTasks":40,
+            "progress":0,
+            "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+            "requiredCount":3
+        },
+        "g3":{
+            "finishedCount":0,
+            "groupId":"g3",
+            "numberOfTasks":40,
+            "progress":0,
+            "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+            "requiredCount":3
+        },
+        "g4":{
+            "finishedCount":0,
+            "groupId":"g4",
+            "numberOfTasks":11,
+            "progress":0,
+            "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+            "requiredCount":3
+        }
+    },
+    "expected_project_tasks_data":{
+        // NOTE: The tasks have been decoded
+        "g0":[
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"2629104817382199"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"174805894554235"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"806573983587062"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"479937313124812"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"152146946843764"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"143086751066761"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"774910503418323"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"480402069978017"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"390212139013642"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"398375021151837"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"493237418776513"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"196973792249760"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1251533841931538"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"298982435062263"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"300666078199844"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"320662422916658"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"475019200408945"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"472475507146778"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"341418657403722"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"2598618860283352"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"165523582163930"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"312547873550324"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"294289882166817"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"304384581292398"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"815259072444796"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"494752791570146"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"235250958355083"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"168566248520818"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"311729943801998"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"854308908765158"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1028003340940649"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"2961830694066872"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"306015047591357"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"169115391779413"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"2859406180969280"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1788340767993363"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"503753824311822"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1018204235374983"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"769498343925625"
+            },
+            {
+                "groupId":"g0",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"506042960530456"
+            }
+        ],
+        "g1":[
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"3838968319534044"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"140750361403050"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"149421197191246"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"857574681460256"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"238377178076011"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"909933389740484"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"470420360844622"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"549193183134176"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"495526724824213"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"802291447328688"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"486638032539895"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"321241836093298"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"396161598054049"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"468150024517151"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"956016295154502"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"229673152268446"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"287718009721935"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"220197396199300"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1182454468842679"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"3002424186656283"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"917640915747361"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1108171933000450"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"3844082628974073"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"368767987900082"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"900404487481037"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"907399896499536"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1416579425368800"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"462800421451629"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1198065777311077"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"813811119241543"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"457076672066445"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"204180808184379"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"136394635176053"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"4208257919239854"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"2602941143342845"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1420742151594525"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"4153589141328795"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"311842720449803"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"315725296748345"
+            },
+            {
+                "groupId":"g1",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"472853240617660"
+            }
+        ],
+        "g2":[
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1222597928184889"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1793596897469068"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1209181326175741"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"807434826852382"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"2973720656243481"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"456587068772890"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"466878447723976"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"2552356178401310"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"213980510165083"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"171071091559874"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"512310906793400"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"488406752508356"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"456366318769995"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"960688504674840"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"318114939678618"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"177481414160179"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1427682247580746"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"311386080551161"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"3110665589153812"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1433094837054800"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"759283841445402"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1345839685790380"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"196667055629633"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"154146103255589"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"118767386895631"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"227456839145239"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"293354825581638"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"294089462218151"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"4101601863225395"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"168021655123362"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1134045040355365"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"309930367289344"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"234410925150909"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"549643079528528"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"311681900569392"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"305915757788899"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"478763590104893"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"530966058074560"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"412993719916472"
+            },
+            {
+                "groupId":"g2",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"482915389682780"
+            }
+        ],
+        "g3":[
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"221455562705097"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1089503238205597"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"810726503213585"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"177484247567754"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"215609613317462"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1237118526705864"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1105969113220260"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"3013407598940570"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"2893886520927602"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"465333154730658"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"794673368150801"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1421550691542425"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"494858831756994"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"898696484313028"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"283627973312023"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"4148310468564528"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"486007482743424"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"557802475257465"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"134128248759779"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"523673395326228"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"931578997687523"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"843457026514227"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"461724764924720"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"993584358068657"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"164528198843925"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"293406132412281"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"224238712393196"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"471714694047247"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"554606375945216"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1009548882910893"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"829056081324841"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"313080463768918"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"471169427482486"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"497071404823486"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"966595770812880"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"467710170993543"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"221598516015995"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"522644478760221"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"280627930426105"
+            },
+            {
+                "groupId":"g3",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"466027641152607"
+            }
+        ],
+        "g4":[
+            {
+                "groupId":"g4",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"215954383375487"
+            },
+            {
+                "groupId":"g4",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"374218523870341"
+            },
+            {
+                "groupId":"g4",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"997935114280043"
+            },
+            {
+                "groupId":"g4",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"538541777553481"
+            },
+            {
+                "groupId":"g4",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"929881347798900"
+            },
+            {
+                "groupId":"g4",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"2934961363417101"
+            },
+            {
+                "groupId":"g4",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"763599141019142"
+            },
+            {
+                "groupId":"g4",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"532278331102701"
+            },
+            {
+                "groupId":"g4",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"863416307545602"
+            },
+            {
+                "groupId":"g4",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"1262231680875078"
+            },
+            {
+                "groupId":"g4",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId":"514600672896404"
+            }
+        ]
+    },
+}

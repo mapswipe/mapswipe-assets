@@ -1,0 +1,319 @@
+{
+    "contributor_user_firebase_id": "01K6CPB1ETTF7MT9EAAQDQM4A9",
+    "assets":{
+        "image":"assets/tests/projects/validate_image/cover_image.jpg",
+        "coco_dataset":"assets/tests/projects/validate_image/coco_dataset.json5"
+    },
+    // Create organization
+    "create_organization":{
+        "clientId": "01K6CKWDFX8HZFY5PHJZN1AYH9",
+        "name":"Togglecorp",
+        "description":"Togglecorp (test) organization"
+    },
+    // Create tutorial
+    "create_tutorial":{
+        "clientId": "01K4MQ88R61EDAMS0K0TW0N17A",
+        "name":"Validate Images Tutorial"
+    },
+    "update_tutorial":{
+        "clientId": "01K4MQ88R61EDAMS0K0TW0N17A",
+        "name":"Validate Images Tutorial",
+        "informationPages":[
+            {
+                "create":{
+                    "blocks":[
+                        {
+                            "blockNumber":1,
+                            "blockType":"TEXT",
+                            "clientId":"01K4S6BR3HFDQ0E9Q3W7F44EBR",
+                            "text":"You will see images"
+                        }
+                    ],
+                    "clientId":"01K4S6BF6NKWYJD1Y30FE46K4N",
+                    "pageNumber":1,
+                    "title":"Look for office buildings"
+                }
+            }
+        ],
+        "scenarios":[
+            {
+                "create":{
+                    "clientId":"01K4S6F7QYDZF65CE4W099WF2R",
+                    "hintDescription":"Description",
+                    "hintIcon":"CHECKMARK_OUTLINE",
+                    "hintTitle":"Title",
+                    "instructionsDescription":"Description",
+                    "instructionsIcon":"CHECKMARK_OUTLINE",
+                    "instructionsTitle":"Title",
+                    "scenarioPageNumber":96,
+                    "successDescription":"Description",
+                    "successIcon":"CHECKMARK_OUTLINE",
+                    "successTitle":"Title",
+                    "tasks":[
+                        {
+                            "clientId":"01K4S6F7QY07ZTPKC4RV26F13E",
+                            "projectTypeSpecifics":{
+                                "validateImage":{
+                                    "annotation":{
+                                        "bbox":[
+                                            28.03,
+                                            252.91,
+                                            293.72,
+                                            239.92
+                                        ],
+                                        "id":"1096069"
+                                    },
+                                    "imageId":"331352",
+                                    "fileName":"000000331352.jpg",
+                                    "height":500,
+                                    "url":"http://images.cocodataset.org/val2017/000000331352.jpg",
+                                    "width":351
+                                }
+                            },
+                            "reference":1
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    // Create project
+    "create_project":{
+        "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
+        "topic":"Project",
+        "region":"Spain",
+        "projectNumber":1,
+        "projectType":"VALIDATE_IMAGE",
+        "projectInstruction":"Potholes",
+        "lookFor":"Potholes",
+        "additionalInfoUrl":"https://reliefweb.int/report/nepal/nepal-anticipatory-action-framework-floods-2025",
+        "description":"This project engages volunteers in validating previously mapped potholes using satellite and street-level imagery. By confirming the accuracy of these identified road issues, the project ensures high-quality data that local governments and organizations can rely on.",
+        "requestingOrganization":"Togglecorp"
+    },
+    "update_project": {
+        "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
+        "verificationNumber":3,
+        "projectInstruction":"Potholes",
+        "groupSize":15,
+        "team":null,
+        "tutorial":null,
+        "maxTasksPerUser":2,
+        "image":null,
+        "projectTypeSpecifics":{
+            "validateImage":{
+                "sourceType":"DATASET_FILE",
+                "customOptions":[
+                    {
+                        "clientId":"01K4S56G376DXA5X3MQDFJ4M2E",
+                        "description":"the image contains the feature",
+                        "icon":"CHECKMARK_OUTLINE",
+                        "iconColor":"#388E3C",
+                        "subOptions":[],
+                        "title":"Yes",
+                        "value":1
+                    },
+                    {
+                        "clientId":"01K4S56G37J8Z3WSZ50VJARA00",
+                        "description":"the image does not contain the feature",
+                        "icon":"CLOSE_OUTLINE",
+                        "iconColor":"#D32F2F",
+                        "subOptions":[],
+                        "title":"No",
+                        "value":0
+                    },
+                    {
+                        "clientId":"01K4S56G37DQXE8HQ004MBZEWW",
+                        "description":"it's not clear if the image contains the feature",
+                        "icon":"REMOVE_OUTLINE",
+                        "iconColor":"#616161",
+                        "subOptions":[],
+                        "title":"Not Sure",
+                        "value":2
+                    }
+                ]
+            }
+        }
+    },
+    "update_processed_project":{
+        "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
+        "projectInstruction":"Potholes",
+        // NOTE: These values will be injected by test scripts
+        "image":null,
+        "tutorial":null,
+        "team":null
+    },
+    // Expected tutorial
+    "expected_tutorial_data":{
+        "contributorCount":0,
+        "customOptions":[
+            {
+                "description": "the image contains the feature",
+                "icon":"checkmark-outline",
+                "iconColor":"#388E3C",
+                "title":"Yes",
+                "value":1
+            },
+            {
+                "description":"the image does not contain the feature",
+                "icon":"close-outline",
+                "iconColor":"#D32F2F",
+                "title":"No",
+                "value":0
+            },
+            {
+                "description":"it's not clear if the image contains the feature",
+                "icon":"remove-outline",
+                "iconColor":"#616161",
+                "title":"Not Sure",
+                "value":2
+            }
+        ],
+        "informationPages":[
+            {
+                "blocks":[
+                    {
+                        "blockNumber":1,
+                        "blockType":"text",
+                        "textDescription":"You will see images"
+                    },
+                ],
+                "pageNumber":1,
+                "title":"Look for office buildings"
+            }
+        ],
+        "lookFor":"Potholes",
+        "name": "Validate Images Tutorial",
+        "projectTopicKey": "validate images tutorial",
+        "progress":0,
+        "projectDetails":"This project engages volunteers in validating previously mapped potholes using satellite and street-level imagery. By confirming the accuracy of these identified road issues, the project ensures high-quality data that local governments and organizations can rely on.",
+        "projectId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
+        "projectType":10,
+        "screens":[
+            {
+                "instructions": {"description": "Description", "icon": "checkmark-outline", "title": "Title"},
+                "hint": {"description": "Description", "icon": "checkmark-outline", "title": "Title"},
+                "success": {"description": "Description", "icon": "checkmark-outline", "title": "Title"}
+            }
+        ],
+        "status":"tutorial",
+        // FIXME(tnagorra): cleared this because new system does not have drafts
+        "tutorialDraftId":"",
+    },
+    "expected_tutorial_groups_data":{
+        "101":{
+            "finishedCount":0,
+            "groupId":101,
+            "numberOfTasks":1,
+            "progress":0,
+            "projectId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
+            "requiredCount":0
+        }
+    },
+    "expected_tutorial_tasks_data":{
+        "101": [
+            {
+                "annotationId": "1096069",
+                "bbox": [
+                    28.03,
+                    252.91,
+                    293.72,
+                    239.92
+                ],
+                "fileName": "000000331352.jpg",
+                "geometry": "",
+                "groupId": 101,
+                "height": 500,
+                "projectId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
+                "referenceAnswer": 1,
+                "screen": 96,
+                "taskId": "331352",
+                "url": "http://images.cocodataset.org/val2017/000000331352.jpg",
+                "width": 351
+            }
+        ]
+    },
+    // Expected project
+    "expected_project_data":{
+        "contributorCount":0,
+        "created": "2025-09-02T04:43:52.328353+00:00", // NOTE: This is dynamic
+        "createdBy": "01K6CPB1ETTF7MT9EAAQDQM4A9",
+        "customOptions":[
+            {
+                "description":"the image contains the feature",
+                "icon":"checkmark-outline",
+                "iconColor":"#388E3C",
+                "title":"Yes",
+                "value":1
+            },
+            {
+                "description":"the image does not contain the feature",
+                "icon":"close-outline",
+                "iconColor":"#D32F2F",
+                "title":"No",
+                "value":0
+            },
+            {
+                "description":"it's not clear if the image contains the feature",
+                "icon":"remove-outline",
+                "iconColor":"#616161",
+                "title":"Not Sure",
+                "value":2
+            }
+        ],
+        "manualUrl": "https://reliefweb.int/report/nepal/nepal-anticipatory-action-framework-floods-2025",
+        "groupMaxSize":15,
+        "groupSize":15,
+        "isFeatured":false,
+        "language":"en-us",
+        "lookFor":"Potholes",
+        "maxTasksPerUser":2,
+        "name":"Validate Image - Project - Spain (1) Togglecorp",
+        "projectInstruction":"Potholes",
+        "progress":0,
+        "projectDetails":"This project engages volunteers in validating previously mapped potholes using satellite and street-level imagery. By confirming the accuracy of these identified road issues, the project ensures high-quality data that local governments and organizations can rely on.",
+        "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+        "projectNumber":1,
+        "projectRegion":"Spain",
+        "projectTopic":"Project",
+        "projectTopicKey":"validate image - project - spain (1) togglecorp",
+        "projectType":10,
+        "requestingOrganisation":"Togglecorp",
+        "requiredResults":9,
+        "resultCount":0,
+        "status":"active",
+        "tutorialId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
+        "verificationNumber":3
+    },
+    "expected_project_groups_data":{
+        "g100":{
+            "finishedCount":0,
+            "groupId":"g100",
+            "numberOfTasks":3,
+            "progress":0,
+            "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+            "requiredCount":3
+        },
+    },
+    "expected_project_tasks_data":{
+        "g100": [
+            {
+                "fileName": "000000252219.jpg",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId": "252219",
+                "url": "http://images.cocodataset.org/val2017/000000252219.jpg"
+            },
+            {
+                "fileName": "000000037777.jpg",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId": "37777",
+                "url": "http://images.cocodataset.org/val2017/000000037777.jpg"
+            },
+            {
+                "fileName": "000000397133.jpg",
+                "projectId":"01K339HAWZCTCBRVQMQFWRTHXX",
+                "taskId": "397133",
+                "url": "http://images.cocodataset.org/val2017/000000397133.jpg"
+            }
+        ]
+    },
+}

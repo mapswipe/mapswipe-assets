@@ -235,6 +235,7 @@
         "projectTopicKey":"compare tutorial",
         "projectType":3,
         "contributorCount":0,
+        // FIXME(tnagorra): cleared this because new system does not have drafts
         "tutorialDraftId": "",
         "zoomLevel":17,
         "status":"tutorial",
