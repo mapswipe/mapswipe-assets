@@ -1,615 +1,615 @@
 {
-    "contributor_user_firebase_id": "01K6CPB1ETTF7MT9EAAQDQM4A9",
-    "assets": {
-        "image": "assets/tests/projects/find/cover_image.jpg",
-        "aoi": "assets/tests/projects/find/aoi_geometry.json5"
+  contributor_user_firebase_id: '01K6CPB1ETTF7MT9EAAQDQM4A9',
+  assets: {
+    image: 'assets/tests/projects/find/cover_image.jpg',
+    aoi: 'assets/tests/projects/find/aoi_geometry.json',
+  },
+  // Create organization
+  create_organization: {
+    clientId: '01K6CKWDFX8HZFY5PHJZN1AYH9',
+    name: 'Togglecorp (test)',
+    description: 'Software company',
+  },
+  // Create contributor group
+  create_contributor_user_group: [
+    {
+      clientId: '01K49J0QPCZM2JCNC9AEE6HT8Y',
+      name: 'User Group 01',
+      description: 'First user group',
     },
-    // Create organization
-    "create_organization": {
-        "clientId": "01K6CKWDFX8HZFY5PHJZN1AYH9",
-        "name": "Togglecorp (test)",
-        "description": "Software company",
+    {
+      clientId: '01K49J0QPCZM2JCNC9AEE6HT8R',
+      name: 'User Group 02',
+      description: 'Second user group',
     },
-    // Create contributor group
-    "create_contributor_user_group": [
-        {
-            "clientId": "01K49J0QPCZM2JCNC9AEE6HT8Y",
-            "name": "User Group 01",
-            "description": "First user group"
+  ],
+  // Create tutorial
+  create_tutorial: {
+    clientId: '01K4MQ88R61EDAMS0K0TW0N17A',
+    name: 'Find Tutorial',
+  },
+  update_tutorial: {
+    clientId: '01K4MQ88R61EDAMS0K0TW0N17A',
+    scenarios: [
+      {
+        create: {
+          clientId: '01K4MQ88R61EDAMS0K0TW0N17C',
+          scenarioPageNumber: 1,
+          instructionsDescription: 'You can swipe down to mark all tiles red at once.',
+          instructionsIcon: 'TAP_3',
+          instructionsTitle: 'Imagery is not available.',
+          hintDescription: 'Swipe to continue.',
+          hintIcon: 'SWIPE_LEFT',
+          hintTitle: 'This is how the tiles should look.',
+          successDescription: 'This could save you a lot of tapping, swipe to continue.',
+          successIcon: 'CHECK',
+          successTitle: 'Perfect.',
+          tasks: [
+            {
+              clientId: '01K4MQ88R61EDAMS0K0TW0N17D',
+              projectTypeSpecifics: {
+                find: {
+                  tileZ: 18,
+                  tileX: 157556,
+                  tileY: 134648,
+                },
+              },
+              reference: 3,
+            },
+            {
+              clientId: '01K4MQ88R61EDAMS0K0TW0N17R',
+              projectTypeSpecifics: {
+                find: {
+                  tileZ: 18,
+                  tileX: 157555,
+                  tileY: 134649,
+                },
+              },
+              reference: 3,
+            },
+            {
+              clientId: '01K4MY3FY1XJJBB4ZMH6BRA6D5',
+              projectTypeSpecifics: {
+                find: {
+                  tileZ: 18,
+                  tileX: 157556,
+                  tileY: 134649,
+                },
+              },
+              reference: 3,
+            },
+            {
+              clientId: '01K4MQ88R61EDAMS0K0TW0N17T',
+              projectTypeSpecifics: {
+                find: {
+                  tileZ: 18,
+                  tileX: 157555,
+                  tileY: 134647,
+                },
+              },
+              reference: 3,
+            },
+            {
+              clientId: '01K4MQ88R61EDAMS0K0TW0N17E',
+              projectTypeSpecifics: {
+                find: {
+                  tileZ: 18,
+                  tileX: 157555,
+                  tileY: 134648,
+                },
+              },
+              reference: 3,
+            },
+            {
+              clientId: '01K4MY74QVA5JYMRWH31YSVTKG',
+              projectTypeSpecifics: {
+                find: {
+                  tileZ: 18,
+                  tileX: 157556,
+                  tileY: 134647,
+                },
+              },
+              reference: 3,
+            },
+          ],
         },
-        {
-            "clientId": "01K49J0QPCZM2JCNC9AEE6HT8R",
-            "name": "User Group 02",
-            "description": "Second user group"
-        }
+      },
     ],
-    // Create tutorial
-    "create_tutorial": {
-        "clientId": "01K4MQ88R61EDAMS0K0TW0N17A",
-        "name": "Find Tutorial"
-    },
-    "update_tutorial": {
-        "clientId": "01K4MQ88R61EDAMS0K0TW0N17A",
-        "scenarios": [
+    informationPages: [
+      {
+        create: {
+          clientId: '01K4MQ88R61EDAMS0K0TW0N17F',
+          title: 'What to look for: ',
+          pageNumber: 1,
+          blocks: [
             {
-                "create": {
-                    "clientId": "01K4MQ88R61EDAMS0K0TW0N17C",
-                    "scenarioPageNumber": 1,
-                    "instructionsDescription": "You can swipe down to mark all tiles red at once.",
-                    "instructionsIcon": "TAP_3",
-                    "instructionsTitle": "Imagery is not available.",
-                    "hintDescription": "Swipe to continue.",
-                    "hintIcon": "SWIPE_LEFT",
-                    "hintTitle": "This is how the tiles should look.",
-                    "successDescription": "This could save you a lot of tapping, swipe to continue.",
-                    "successIcon": "CHECK",
-                    "successTitle": "Perfect.",
-                    "tasks": [
-                        {
-                            "clientId": "01K4MQ88R61EDAMS0K0TW0N17D",
-                            "projectTypeSpecifics": {
-                                "find": {
-                                    "tileZ": 18,
-                                    "tileX": 157556,
-                                    "tileY": 134648
-                                }
-                            },
-                            "reference": 3
-                        },
-                        {
-                            "clientId": "01K4MQ88R61EDAMS0K0TW0N17R",
-                            "projectTypeSpecifics": {
-                                "find": {
-                                    "tileZ": 18,
-                                    "tileX": 157555,
-                                    "tileY": 134649
-                                }
-                            },
-                            "reference": 3
-                        },
-                        {
-                            "clientId": "01K4MY3FY1XJJBB4ZMH6BRA6D5",
-                            "projectTypeSpecifics": {
-                                "find": {
-                                    "tileZ": 18,
-                                    "tileX": 157556,
-                                    "tileY": 134649
-                                }
-                            },
-                            "reference": 3
-                        },
-                        {
-                            "clientId": "01K4MQ88R61EDAMS0K0TW0N17T",
-                            "projectTypeSpecifics": {
-                                "find": {
-                                    "tileZ": 18,
-                                    "tileX": 157555,
-                                    "tileY": 134647
-                                }
-                            },
-                            "reference": 3
-                        },
-                        {
-                            "clientId": "01K4MQ88R61EDAMS0K0TW0N17E",
-                            "projectTypeSpecifics": {
-                                "find": {
-                                    "tileZ": 18,
-                                    "tileX": 157555,
-                                    "tileY": 134648
-                                }
-                            },
-                            "reference": 3
-                        },
-                        {
-                            "clientId": "01K4MY74QVA5JYMRWH31YSVTKG",
-                            "projectTypeSpecifics": {
-                                "find": {
-                                    "tileZ": 18,
-                                    "tileX": 157556,
-                                    "tileY": 134647
-                                }
-                            },
-                            "reference": 3
-                        }
-                    ]
-                }
-            }
+              clientId: '01K4MY3SC3XZQGXGPH7DG3XJ0W',
+              blockNumber: 1,
+              blockType: 'TEXT',
+              text: 'You are looking for buildings. From the ground they can look like this:',
+            },
+            {
+              clientId: '01K4MY41RMRH8MR4KPECK857SQ',
+              blockNumber: 2,
+              blockType: 'TEXT',
+              text: "You'll be seeing the buildings from above, so they will look like this:",
+            },
+            {
+              clientId: '01K4MY45TWZYRC2DANKZ6Y446C',
+              blockNumber: 3,
+              blockType: 'TEXT',
+              text: "You'll be seeing the buildings from above, so they will look like this:",
+            },
+            {
+              clientId: '01K4MY4ARN5YW132A13E11CV4T',
+              blockNumber: 4,
+              blockType: 'TEXT',
+              text: "You'll be seeing the buildings from above, so they will look like this:",
+            },
+          ],
+        },
+      },
+    ],
+  },
+  // Create project
+  create_project: {
+    clientId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    topic: 'Emergency Response - Flood 2025',
+    region: 'Nepal',
+    projectNumber: 1,
+    projectType: 'FIND',
+    lookFor: 'temporary shelters',
+    projectInstruction: 'Identify temporary shelters',
+    additionalInfoUrl: 'https: //reliefweb.int/disaster/fl-2025-000123-npl',
+    description: 'A project aimed at mapping key infrastructure and affected communities to support flood response operations in Nepal.',
+    requestingOrganization: 'Togglecorp (test)',
+  },
+  update_project: {
+    clientId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    verificationNumber: 3,
+    projectInstruction: 'Identify temporary shelters',
+    groupSize: 15,
+    team: null,
+    tutorial: null,
+    maxTasksPerUser: 20,
+    image: null,
+    projectTypeSpecifics: {
+      find: {
+        zoomLevel: 18,
+        tileServerProperty: {
+          name: 'BING',
+          bing: {
+            credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
+          },
+        },
+        aoiGeometry: null,
+      },
+    },
+  },
+  update_processed_project: {
+    clientId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    projectInstruction: 'Identify temporary shelters',
+    // NOTE: These values will be injected by test scripts
+    image: null,
+    tutorial: null,
+    team: null,
+  },
+  // Create results (mock app)
+  create_results: {
+    g101: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        startTime: '2025-08-05T10:04:38.933Z',
+        endTime: '2025-08-05T11:04:38.933Z',
+        appVersion: '0.2.8',
+        ClientType: 'web',
+        userGroups: {
+          '01K49J0QPCZM2JCNC9AEE6HT8Y': true,
+        },
+        results: {
+          '18-193193-110088': 1,
+          '18-193193-110089': 1,
+          '18-193193-110090': 1,
+          '18-193194-110088': 1,
+          '18-193194-110089': 1,
+          '18-193194-110090': 1,
+          '18-193195-110088': 1,
+          '18-193195-110089': 1,
+          '18-193195-110090': 1,
+          '18-193196-110088': 1,
+          '18-193196-110089': 1,
+          '18-193196-110090': 1,
+          '18-193197-110088': 1,
+          '18-193197-110089': 1,
+          '18-193197-110090': 1,
+          '18-193198-110088': 1,
+          '18-193198-110089': 1,
+          '18-193198-110090': 1,
+          '18-193199-110088': 1,
+          '18-193199-110089': 1,
+          '18-193199-110090': 1,
+          '18-193200-110088': 1,
+          '18-193200-110089': 1,
+          '18-193200-110090': 1,
+          '18-193201-110088': 1,
+          '18-193201-110089': 1,
+          '18-193201-110090': 1,
+          '18-193202-110088': 1,
+          '18-193202-110089': 1,
+          '18-193202-110090': 1,
+        },
+      },
+    },
+    g102: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        startTime: '2025-08-05T10:04:38.933Z',
+        endTime: '2025-08-05T11:04:38.933Z',
+        appVersion: '0.2.8',
+        ClientType: 'web',
+        userGroups: {
+          '01K49J0QPCZM2JCNC9AEE6HT8Y': true,
+        },
+        results: {
+          '18-193191-110091': 1,
+          '18-193191-110092': 1,
+          '18-193191-110093': 1,
+          '18-193192-110091': 2,
+          '18-193192-110092': 3,
+          '18-193192-110093': 1,
+          '18-193193-110091': 1,
+          '18-193193-110092': 1,
+          '18-193193-110093': 1,
+          '18-193194-110091': 2,
+          '18-193194-110092': 1,
+          '18-193194-110093': 1,
+          '18-193195-110091': 1,
+          '18-193195-110092': 1,
+          '18-193195-110093': 1,
+          '18-193196-110091': 2,
+          '18-193196-110092': 1,
+          '18-193196-110093': 1,
+          '18-193197-110091': 3,
+          '18-193197-110092': 3,
+          '18-193197-110093': 1,
+          '18-193198-110091': 2,
+          '18-193198-110092': 1,
+          '18-193198-110093': 1,
+          '18-193199-110091': 1,
+          '18-193199-110092': 1,
+          '18-193199-110093': 1,
+          '18-193200-110091': 1,
+          '18-193200-110092': 1,
+          '18-193200-110093': 1,
+          '18-193201-110091': 1,
+          '18-193201-110092': 1,
+          '18-193201-110093': 1,
+          '18-193202-110091': 1,
+          '18-193202-110092': 1,
+          '18-193202-110093': 2,
+        },
+      },
+    },
+    g103: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        startTime: '2025-08-05T10:04:38.933Z',
+        endTime: '2025-08-05T11:04:38.933Z',
+        appVersion: '0.2.8',
+        ClientType: 'web',
+        userGroups: {
+          '01K49J0QPCZM2JCNC9AEE6HT8Y': true,
+        },
+        results: {
+          '18-193192-110094': 1,
+          '18-193192-110095': 1,
+          '18-193192-110096': 1,
+          '18-193193-110094': 1,
+          '18-193193-110095': 2,
+          '18-193193-110096': 2,
+          '18-193194-110094': 1,
+          '18-193194-110095': 1,
+          '18-193194-110096': 1,
+          '18-193195-110094': 1,
+          '18-193195-110095': 2,
+          '18-193195-110096': 2,
+          '18-193196-110094': 1,
+          '18-193196-110095': 2,
+          '18-193196-110096': 2,
+          '18-193197-110094': 1,
+          '18-193197-110095': 2,
+          '18-193197-110096': 2,
+          '18-193198-110094': 1,
+          '18-193198-110095': 1,
+          '18-193198-110096': 2,
+          '18-193199-110094': 1,
+          '18-193199-110095': 1,
+          '18-193199-110096': 1,
+          '18-193200-110094': 1,
+          '18-193200-110095': 1,
+          '18-193200-110096': 1,
+          '18-193201-110094': 1,
+          '18-193201-110095': 1,
+          '18-193201-110096': 1,
+        },
+      },
+    },
+    g104: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        startTime: '2025-08-05T10:04:38.933Z',
+        endTime: '2025-08-05T11:04:38.933Z',
+        appVersion: '0.2.8',
+        ClientType: 'web',
+        userGroups: {
+          '01K49J0QPCZM2JCNC9AEE6HT8Y': true,
+        },
+        results: {
+          '18-193197-110097': 1,
+          '18-193197-110098': 1,
+          '18-193197-110099': 1,
+          '18-193198-110097': 1,
+          '18-193198-110098': 1,
+          '18-193198-110099': 1,
+          '18-193199-110097': 1,
+          '18-193199-110098': 3,
+          '18-193199-110099': 2,
+          '18-193200-110097': 1,
+          '18-193200-110098': 1,
+          '18-193200-110099': 1,
+        },
+      },
+    },
+  },
+  // Expected tutorial
+  expected_tutorial_data: {
+    lookFor: 'temporary shelters',
+    name: 'Find Tutorial',
+    progress: 0,
+    projectDetails: 'A project aimed at mapping key infrastructure and affected communities to support flood response operations in Nepal.',
+    projectTopicKey: 'find tutorial',
+    projectType: 1,
+    contributorCount: 0,
+    informationPages: [
+      {
+        blocks: [
+          {
+            blockNumber: 1,
+            blockType: 'text',
+            textDescription: 'You are looking for buildings. From the ground they can look like this:',
+          },
+          {
+            blockNumber: 2,
+            blockType: 'text',
+            textDescription: "You'll be seeing the buildings from above, so they will look like this:",
+          },
+          {
+            blockNumber: 3,
+            blockType: 'text',
+            textDescription: "You'll be seeing the buildings from above, so they will look like this:",
+          },
+          {
+            blockNumber: 4,
+            blockType: 'text',
+            textDescription: "You'll be seeing the buildings from above, so they will look like this:",
+          },
         ],
-        "informationPages": [
-            {
-                "create": {
-                    "clientId": "01K4MQ88R61EDAMS0K0TW0N17F",
-                    "title": "What to look for: ",
-                    "pageNumber": 1,
-                    "blocks": [
-                        {
-                            "clientId": "01K4MY3SC3XZQGXGPH7DG3XJ0W",
-                            "blockNumber": 1,
-                            "blockType": "TEXT",
-                            "text": "You are looking for buildings. From the ground they can look like this:"
-                        },
-                        {
-                            "clientId": "01K4MY41RMRH8MR4KPECK857SQ",
-                            "blockNumber": 2,
-                            "blockType": "TEXT",
-                            "text": "You'll be seeing the buildings from above, so they will look like this:"
-                        },
-                        {
-                            "clientId": "01K4MY45TWZYRC2DANKZ6Y446C",
-                            "blockNumber": 3,
-                            "blockType": "TEXT",
-                            "text": "You'll be seeing the buildings from above, so they will look like this:"
-                        },
-                        {
-                            "clientId": "01K4MY4ARN5YW132A13E11CV4T",
-                            "blockNumber": 4,
-                            "blockType": "TEXT",
-                            "text": "You'll be seeing the buildings from above, so they will look like this:"
-                        }
-                    ]
-                }
-            }
-        ]
-    },
-    // Create project
-    "create_project": {
-        "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
-        "topic": "Emergency Response - Flood 2025",
-        "region": "Nepal",
-        "projectNumber": 1,
-        "projectType": "FIND",
-        "lookFor": "temporary shelters",
-        "projectInstruction": "Identify temporary shelters",
-        "additionalInfoUrl": "https: //reliefweb.int/disaster/fl-2025-000123-npl",
-        "description": "A project aimed at mapping key infrastructure and affected communities to support flood response operations in Nepal.",
-        "requestingOrganization": "Togglecorp (test)"
-    },
-    "update_project": {
-        "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
-        "verificationNumber": 3,
-        "projectInstruction": "Identify temporary shelters",
-        "groupSize": 15,
-        "team": null,
-        "tutorial": null,
-        "maxTasksPerUser": 20,
-        "image": null,
-        "projectTypeSpecifics": {
-            "find": {
-                "zoomLevel": 18,
-                "tileServerProperty": {
-                    "name": "BING",
-                    "bing": {
-                        "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO"
-                    }
-                },
-                "aoiGeometry": null
-            }
-        }
-    },
-    "update_processed_project": {
-        "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
-        "projectInstruction": "Identify temporary shelters",
-        // NOTE: These values will be injected by test scripts
-        "image": null,
-        "tutorial": null,
-        "team": null
-    },
-    // Create results (mock app)
-    "create_results": {
-        "g101":{
-            "01K6CPB1ETTF7MT9EAAQDQM4A9":{
-                "startTime":"2025-08-05T10:04:38.933Z",
-                "endTime": "2025-08-05T11:04:38.933Z",
-                "appVersion": "0.2.8",
-                "ClientType": "web",
-                "userGroups":{
-                    "01K49J0QPCZM2JCNC9AEE6HT8Y":true,
-                },
-                "results":{
-                    "18-193193-110088": 1,
-                    "18-193193-110089": 1,
-                    "18-193193-110090": 1,
-                    "18-193194-110088": 1,
-                    "18-193194-110089": 1,
-                    "18-193194-110090": 1,
-                    "18-193195-110088": 1,
-                    "18-193195-110089": 1,
-                    "18-193195-110090": 1,
-                    "18-193196-110088": 1,
-                    "18-193196-110089": 1,
-                    "18-193196-110090": 1,
-                    "18-193197-110088": 1,
-                    "18-193197-110089": 1,
-                    "18-193197-110090": 1,
-                    "18-193198-110088": 1,
-                    "18-193198-110089": 1,
-                    "18-193198-110090": 1,
-                    "18-193199-110088": 1,
-                    "18-193199-110089": 1,
-                    "18-193199-110090": 1,
-                    "18-193200-110088": 1,
-                    "18-193200-110089": 1,
-                    "18-193200-110090": 1,
-                    "18-193201-110088": 1,
-                    "18-193201-110089": 1,
-                    "18-193201-110090": 1,
-                    "18-193202-110088": 1,
-                    "18-193202-110089": 1,
-                    "18-193202-110090": 1
-                }
-            },
+        pageNumber: 1,
+        title: 'What to look for:',
+      },
+    ],
+    screens: [
+      {
+        hint: {
+          description: 'Swipe to continue.',
+          icon: 'swipe-left',
+          title: 'This is how the tiles should look.',
         },
-        "g102":{
-            "01K6CPB1ETTF7MT9EAAQDQM4A9":{
-                "startTime":"2025-08-05T10:04:38.933Z",
-                "endTime": "2025-08-05T11:04:38.933Z",
-                "appVersion": "0.2.8",
-                "ClientType": "web",
-                "userGroups":{
-                    "01K49J0QPCZM2JCNC9AEE6HT8Y":true,
-                },
-                "results":{
-                    "18-193191-110091": 1,
-                    "18-193191-110092": 1,
-                    "18-193191-110093": 1,
-                    "18-193192-110091": 2,
-                    "18-193192-110092": 3,
-                    "18-193192-110093": 1,
-                    "18-193193-110091": 1,
-                    "18-193193-110092": 1,
-                    "18-193193-110093": 1,
-                    "18-193194-110091": 2,
-                    "18-193194-110092": 1,
-                    "18-193194-110093": 1,
-                    "18-193195-110091": 1,
-                    "18-193195-110092": 1,
-                    "18-193195-110093": 1,
-                    "18-193196-110091": 2,
-                    "18-193196-110092": 1,
-                    "18-193196-110093": 1,
-                    "18-193197-110091": 3,
-                    "18-193197-110092": 3,
-                    "18-193197-110093": 1,
-                    "18-193198-110091": 2,
-                    "18-193198-110092": 1,
-                    "18-193198-110093": 1,
-                    "18-193199-110091": 1,
-                    "18-193199-110092": 1,
-                    "18-193199-110093": 1,
-                    "18-193200-110091": 1,
-                    "18-193200-110092": 1,
-                    "18-193200-110093": 1,
-                    "18-193201-110091": 1,
-                    "18-193201-110092": 1,
-                    "18-193201-110093": 1,
-                    "18-193202-110091": 1,
-                    "18-193202-110092": 1,
-                    "18-193202-110093": 2
-                }
-            },
+        instructions: {
+          description: 'You can swipe down to mark all tiles red at once.',
+          icon: 'tap-3',
+          title: 'Imagery is not available.',
         },
-        "g103":{
-            "01K6CPB1ETTF7MT9EAAQDQM4A9":{
-                "startTime":"2025-08-05T10:04:38.933Z",
-                "endTime": "2025-08-05T11:04:38.933Z",
-                "appVersion": "0.2.8",
-                "ClientType": "web",
-                "userGroups":{
-                    "01K49J0QPCZM2JCNC9AEE6HT8Y":true,
-                },
-                "results":{
-                    "18-193192-110094": 1,
-                    "18-193192-110095": 1,
-                    "18-193192-110096": 1,
-                    "18-193193-110094": 1,
-                    "18-193193-110095": 2,
-                    "18-193193-110096": 2,
-                    "18-193194-110094": 1,
-                    "18-193194-110095": 1,
-                    "18-193194-110096": 1,
-                    "18-193195-110094": 1,
-                    "18-193195-110095": 2,
-                    "18-193195-110096": 2,
-                    "18-193196-110094": 1,
-                    "18-193196-110095": 2,
-                    "18-193196-110096": 2,
-                    "18-193197-110094": 1,
-                    "18-193197-110095": 2,
-                    "18-193197-110096": 2,
-                    "18-193198-110094": 1,
-                    "18-193198-110095": 1,
-                    "18-193198-110096": 2,
-                    "18-193199-110094": 1,
-                    "18-193199-110095": 1,
-                    "18-193199-110096": 1,
-                    "18-193200-110094": 1,
-                    "18-193200-110095": 1,
-                    "18-193200-110096": 1,
-                    "18-193201-110094": 1,
-                    "18-193201-110095": 1,
-                    "18-193201-110096": 1
-                }
-            },
+        success: {
+          description: 'This could save you a lot of tapping, swipe to continue.',
+          icon: 'check',
+          title: 'Perfect.',
         },
-        "g104":{
-            "01K6CPB1ETTF7MT9EAAQDQM4A9":{
-                "startTime":"2025-08-05T10:04:38.933Z",
-                "endTime": "2025-08-05T11:04:38.933Z",
-                "appVersion": "0.2.8",
-                "ClientType": "web",
-                "userGroups":{
-                    "01K49J0QPCZM2JCNC9AEE6HT8Y":true,
-                },
-                "results":{
-                    "18-193197-110097": 1,
-                    "18-193197-110098": 1,
-                    "18-193197-110099": 1,
-                    "18-193198-110097": 1,
-                    "18-193198-110098": 1,
-                    "18-193198-110099": 1,
-                    "18-193199-110097": 1,
-                    "18-193199-110098": 3,
-                    "18-193199-110099": 2,
-                    "18-193200-110097": 1,
-                    "18-193200-110098": 1,
-                    "18-193200-110099": 1
-                }
-            },
-        }
+      },
+    ],
+    status: 'tutorial',
+    tileServer: {
+      apiKey: 'dummy-bing',
+      credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
+      name: 'bing',
+      url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}',
     },
-    // Expected tutorial
-    "expected_tutorial_data": {
-        "lookFor": "temporary shelters",
-        "name": "Find Tutorial",
-        "progress": 0,
-        "projectDetails": "A project aimed at mapping key infrastructure and affected communities to support flood response operations in Nepal.",
-        "projectTopicKey": "find tutorial",
-        "projectType": 1,
-        "contributorCount": 0,
-        "informationPages": [
-            {
-                "blocks": [
-                    {
-                        "blockNumber": 1,
-                        "blockType": "text",
-                        "textDescription": "You are looking for buildings. From the ground they can look like this:"
-                    },
-                    {
-                        "blockNumber": 2,
-                        "blockType": "text",
-                        "textDescription": "You'll be seeing the buildings from above, so they will look like this:"
-                    },
-                    {
-                        "blockNumber": 3,
-                        "blockType": "text",
-                        "textDescription": "You'll be seeing the buildings from above, so they will look like this:"
-                    },
-                    {
-                        "blockNumber": 4,
-                        "blockType": "text",
-                        "textDescription": "You'll be seeing the buildings from above, so they will look like this:"
-                    }
-                ],
-                "pageNumber": 1,
-                "title": "What to look for:"
-            }
-        ],
-        "screens": [
-            {
-                "hint": {
-                    "description": "Swipe to continue.",
-                    "icon": "swipe-left",
-                    "title": "This is how the tiles should look."
-                },
-                "instructions": {
-                    "description": "You can swipe down to mark all tiles red at once.",
-                    "icon": "tap-3",
-                    "title": "Imagery is not available."
-                },
-                "success": {
-                    "description": "This could save you a lot of tapping, swipe to continue.",
-                    "icon": "check",
-                    "title": "Perfect."
-                }
-            }
-        ],
-        "status": "tutorial",
-        "tileServer": {
-            "apiKey": "dummy-bing",
-            "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO",
-            "name": "bing",
-            "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}"
-        },
-        "projectId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
-        // FIXME(tnagorra): cleared this because new system does not have drafts
-        "tutorialDraftId": "",
-        "zoomLevel": 18
+    projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+    // FIXME(tnagorra): cleared this because new system does not have drafts
+    tutorialDraftId: '',
+    zoomLevel: 18,
+  },
+  expected_tutorial_groups_data: {
+    '101': {
+      finishedCount: 0,
+      groupId: 101,
+      numberOfTasks: 6,
+      progress: 0,
+      projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+      requiredCount: 0,
+      xMax: 101,
+      xMin: 100,
+      yMax: 131074,
+      yMin: 131072,
     },
-    "expected_tutorial_groups_data": {
-        "101": {
-            "finishedCount": 0,
-            "groupId": 101,
-            "numberOfTasks": 6,
-            "progress": 0,
-            "projectId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
-            "requiredCount": 0,
-            "xMax": 101,
-            "xMin": 100,
-            "yMax": 131074,
-            "yMin": 131072
-        }
+  },
+  expected_tutorial_tasks_data: {
+    '101': [
+      {
+        geometry: '',
+        groupId: 101,
+        projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+        referenceAnswer: 3,
+        screen: 1,
+        taskId: '18-101-131073',
+        taskId_real: '18-157555-134647',
+        taskX: 101,
+        taskY: 131073,
+        url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a300110231323330233.jpeg?g=7505&mkt=en-US&token=dummy-bing',
+      },
+      {
+        geometry: '',
+        groupId: 101,
+        projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+        referenceAnswer: 3,
+        screen: 1,
+        taskId: '18-101-131074',
+        taskId_real: '18-157555-134648',
+        taskX: 101,
+        taskY: 131074,
+        url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a300110231323332011.jpeg?g=7505&mkt=en-US&token=dummy-bing',
+      },
+      {
+        geometry: '',
+        groupId: 101,
+        projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+        referenceAnswer: 3,
+        screen: 1,
+        taskId: '18-102-131072',
+        taskId_real: '18-157555-134649',
+        taskX: 102,
+        taskY: 131072,
+        url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a300110231323332013.jpeg?g=7505&mkt=en-US&token=dummy-bing',
+      },
+      {
+        geometry: '',
+        groupId: 101,
+        projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+        referenceAnswer: 3,
+        screen: 1,
+        taskId: '18-102-131073',
+        taskId_real: '18-157556-134647',
+        taskX: 102,
+        taskY: 131073,
+        url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a300110231323330322.jpeg?g=7505&mkt=en-US&token=dummy-bing',
+      },
+      {
+        geometry: '',
+        groupId: 101,
+        projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+        referenceAnswer: 3,
+        screen: 1,
+        taskId: '18-102-131074',
+        taskId_real: '18-157556-134648',
+        taskX: 102,
+        taskY: 131074,
+        url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a300110231323332100.jpeg?g=7505&mkt=en-US&token=dummy-bing',
+      },
+      {
+        geometry: '',
+        groupId: 101,
+        projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+        referenceAnswer: 3,
+        screen: 1,
+        taskId: '18-101-131072',
+        taskId_real: '18-157556-134649',
+        taskX: 101,
+        taskY: 131072,
+        url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a300110231323332102.jpeg?g=7505&mkt=en-US&token=dummy-bing',
+      },
+    ],
+  },
+  // Expected project
+  expected_project_data: {
+    contributorCount: 0,
+    created: '2025-09-02T04:43:52.328353+00:00', // NOTE: This is dynamic
+    createdBy: '01K6CPB1ETTF7MT9EAAQDQM4A9',
+    // FIXME(tnagorra): changed 0 to 15
+    groupMaxSize: 15,
+    groupSize: 15,
+    isFeatured: false,
+    language: 'en-us',
+    lookFor: 'temporary shelters',
+    projectInstruction: 'Identify temporary shelters',
+    manualUrl: 'https: //reliefweb.int/disaster/fl-2025-000123-npl',
+    maxTasksPerUser: 20,
+    // NOTE: project type is automatically prefixed in the new system
+    name: 'Find Features - Emergency Response - Flood 2025 - Nepal (1) Togglecorp (test)',
+    progress: 0,
+    projectDetails: 'A project aimed at mapping key infrastructure and affected communities to support flood response operations in Nepal.',
+    projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    projectNumber: 1,
+    projectRegion: 'Nepal',
+    projectTopic: 'Emergency Response - Flood 2025',
+    projectTopicKey: 'find features - emergency response - flood 2025 - nepal (1) togglecorp (test)',
+    projectType: 1,
+    requestingOrganisation: 'Togglecorp (test)',
+    requiredResults: 324,
+    resultCount: 0,
+    status: 'active',
+    tileServer: {
+      apiKey: 'dummy-bing',
+      credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
+      name: 'bing',
+      // FIXME(tnagorra): added mkt=en-US
+      url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}',
     },
-    "expected_tutorial_tasks_data": {
-        "101": [
-            {
-                "geometry": "",
-                "groupId": 101,
-                "projectId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
-                "referenceAnswer": 3,
-                "screen": 1,
-                "taskId": "18-101-131073",
-                "taskId_real": "18-157555-134647",
-                "taskX": 101,
-                "taskY": 131073,
-                "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a300110231323330233.jpeg?g=7505&mkt=en-US&token=dummy-bing"
-            },
-            {
-                "geometry": "",
-                "groupId": 101,
-                "projectId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
-                "referenceAnswer": 3,
-                "screen": 1,
-                "taskId": "18-101-131074",
-                "taskId_real": "18-157555-134648",
-                "taskX": 101,
-                "taskY": 131074,
-                "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a300110231323332011.jpeg?g=7505&mkt=en-US&token=dummy-bing"
-            },
-            {
-                "geometry": "",
-                "groupId": 101,
-                "projectId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
-                "referenceAnswer": 3,
-                "screen": 1,
-                "taskId": "18-102-131072",
-                "taskId_real": "18-157555-134649",
-                "taskX": 102,
-                "taskY": 131072,
-                "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a300110231323332013.jpeg?g=7505&mkt=en-US&token=dummy-bing"
-            },
-            {
-                "geometry": "",
-                "groupId": 101,
-                "projectId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
-                "referenceAnswer": 3,
-                "screen": 1,
-                "taskId": "18-102-131073",
-                "taskId_real": "18-157556-134647",
-                "taskX": 102,
-                "taskY": 131073,
-                "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a300110231323330322.jpeg?g=7505&mkt=en-US&token=dummy-bing"
-            },
-            {
-                "geometry": "",
-                "groupId": 101,
-                "projectId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
-                "referenceAnswer": 3,
-                "screen": 1,
-                "taskId": "18-102-131074",
-                "taskId_real": "18-157556-134648",
-                "taskX": 102,
-                "taskY": 131074,
-                "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a300110231323332100.jpeg?g=7505&mkt=en-US&token=dummy-bing"
-            },
-            {
-                "geometry": "",
-                "groupId": 101,
-                "projectId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
-                "referenceAnswer": 3,
-                "screen": 1,
-                "taskId": "18-101-131072",
-                "taskId_real": "18-157556-134649",
-                "taskX": 101,
-                "taskY": 131072,
-                "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a300110231323332102.jpeg?g=7505&mkt=en-US&token=dummy-bing"
-            }
-        ]
+    tutorialId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+    verificationNumber: 3,
+    zoomLevel: 18,
+  },
+  expected_project_groups_data: {
+    g101: {
+      finishedCount: 0,
+      groupId: 'g101',
+      numberOfTasks: 30,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+      xMax: 193202,
+      xMin: 193193,
+      yMax: 110090,
+      yMin: 110088,
     },
-    // Expected project
-    "expected_project_data": {
-        "contributorCount": 0,
-        "created": "2025-09-02T04:43:52.328353+00:00", // NOTE: This is dynamic
-        "createdBy": "01K6CPB1ETTF7MT9EAAQDQM4A9",
-        // FIXME(tnagorra): changed 0 to 15
-        "groupMaxSize": 15,
-        "groupSize": 15,
-        "isFeatured": false,
-        "language": "en-us",
-        "lookFor": "temporary shelters",
-        "projectInstruction": "Identify temporary shelters",
-        "manualUrl": "https: //reliefweb.int/disaster/fl-2025-000123-npl",
-        "maxTasksPerUser": 20,
-        // NOTE: project type is automatically prefixed in the new system
-        "name": "Find - Emergency Response - Flood 2025 - Nepal (1) Togglecorp (test)",
-        "progress": 0,
-        "projectDetails": "A project aimed at mapping key infrastructure and affected communities to support flood response operations in Nepal.",
-        "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-        "projectNumber": 1,
-        "projectRegion": "Nepal",
-        "projectTopic": "Emergency Response - Flood 2025",
-        "projectTopicKey": "find - emergency response - flood 2025 - nepal (1) togglecorp (test)",
-        "projectType": 1,
-        "requestingOrganisation": "Togglecorp (test)",
-        "requiredResults": 324,
-        "resultCount": 0,
-        "status": "active",
-        "tileServer": {
-            "apiKey": "dummy-bing",
-            "credits": "© 2019 Microsoft Corporation, Earthstar Geographics SIO",
-            "name": "bing",
-            // FIXME(tnagorra): added mkt=en-US
-            "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}"
-        },
-        "tutorialId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
-        "verificationNumber": 3,
-        "zoomLevel": 18
+    g102: {
+      finishedCount: 0,
+      groupId: 'g102',
+      numberOfTasks: 36,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+      xMax: 193202,
+      xMin: 193191,
+      yMax: 110093,
+      yMin: 110091,
     },
-    "expected_project_groups_data": {
-        "g101": {
-            "finishedCount": 0,
-            "groupId": "g101",
-            "numberOfTasks": 30,
-            "progress": 0,
-            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-            "requiredCount": 3,
-            "xMax": 193202,
-            "xMin": 193193,
-            "yMax": 110090,
-            "yMin": 110088
-        },
-        "g102": {
-            "finishedCount": 0,
-            "groupId": "g102",
-            "numberOfTasks": 36,
-            "progress": 0,
-            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-            "requiredCount": 3,
-            "xMax": 193202,
-            "xMin": 193191,
-            "yMax": 110093,
-            "yMin": 110091
-        },
-        "g103": {
-            "finishedCount": 0,
-            "groupId": "g103",
-            "numberOfTasks": 30,
-            "progress": 0,
-            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-            "requiredCount": 3,
-            "xMax": 193201,
-            "xMin": 193192,
-            "yMax": 110096,
-            "yMin": 110094
-        },
-        "g104": {
-            "finishedCount": 0,
-            "groupId": "g104",
-            "numberOfTasks": 12,
-            "progress": 0,
-            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-            "requiredCount": 3,
-            "xMax": 193200,
-            "xMin": 193197,
-            "yMax": 110099,
-            "yMin": 110097
-        }
+    g103: {
+      finishedCount: 0,
+      groupId: 'g103',
+      numberOfTasks: 30,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+      xMax: 193201,
+      xMin: 193192,
+      yMax: 110096,
+      yMin: 110094,
     },
-    "expected_project_tasks_data": null,
-    // Expected results
-    "expected_pulled_results_data": {
-        "mapping_session_count": 4,
-        "mapping_session_results_count": 108,
-        "mapping_session_user_groups_count": 4,
-        "progress": 1,
+    g104: {
+      finishedCount: 0,
+      groupId: 'g104',
+      numberOfTasks: 12,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+      xMax: 193200,
+      xMin: 193197,
+      yMax: 110099,
+      yMin: 110097,
     },
+  },
+  expected_project_tasks_data: null,
+  // Expected results
+  expected_pulled_results_data: {
+    mapping_session_count: 4,
+    mapping_session_results_count: 108,
+    mapping_session_user_groups_count: 4,
+    progress: 1,
+  },
 }

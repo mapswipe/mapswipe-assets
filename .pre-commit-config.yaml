@@ -1,0 +1,29 @@
+default_language_version:
+  python: python3
+
+files: tests/
+
+# NOTE: Update in pyproject.toml as well
+exclude: |
+    (?x)^(
+      \.git|
+      __pycache__|
+      .venv
+    )
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-toml
+      - id: check-xml
+      - id: check-yaml
+        args: [--unsafe]
+      - id: detect-private-key
+
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: 'v3.1.0'
+    hooks:
+    - id: prettier

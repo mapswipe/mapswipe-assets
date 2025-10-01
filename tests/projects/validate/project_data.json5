@@ -1,1544 +1,975 @@
 {
-    "contributor_user_firebase_id": "01K6CPB1ETTF7MT9EAAQDQM4A9",
-    "assets":{
-        "image":"assets/tests/projects/validate/cover_image.jpg",
-        "aoi":"assets/tests/projects/validate/aoi_geometry.json5"
-    },
-    // Create organization
-    "create_organization":{
-        "clientId": "01K6CKWDFX8HZFY5PHJZN1AYH9",
-        "name":"Togglecorp",
-        "description":"Togglecorp (test) organization"
-    },
-    // Create tutorial
-    "create_tutorial":{
-        "clientId": "01K4MQ88R61EDAMS0K0TW0N17A",
-        "name":"Validate Offices Tutorial"
-    },
-    "update_tutorial":{
-        "clientId": "01K4MQ88R61EDAMS0K0TW0N17A",
-        "name":"Validate Offices Tutorial",
-        "scenarios":[
+  contributor_user_firebase_id: '01K6CPB1ETTF7MT9EAAQDQM4A9',
+  assets: {
+    image: 'assets/tests/projects/validate/cover_image.jpg',
+    aoi: 'assets/tests/projects/validate/aoi_geometry.json',
+  },
+  // Create organization
+  create_organization: {
+    clientId: '01K6CKWDFX8HZFY5PHJZN1AYH9',
+    name: 'Togglecorp',
+    description: 'Togglecorp (test) organization',
+  },
+  // Create tutorial
+  create_tutorial: {
+    clientId: '01K4MQ88R61EDAMS0K0TW0N17A',
+    name: 'Validate Offices Tutorial',
+  },
+  update_tutorial: {
+    clientId: '01K4MQ88R61EDAMS0K0TW0N17A',
+    name: 'Validate Offices Tutorial',
+    scenarios: [
+      {
+        create: {
+          clientId: '01K4S0NP93KN45MAX2Z5N6PVGX',
+          hintDescription: 'This building might look like an office',
+          hintIcon: 'CLOSE_OUTLINE',
+          hintTitle: 'Look for office',
+          instructionsDescription: 'This building looks like an office',
+          instructionsIcon: 'CHECKMARK_OUTLINE',
+          instructionsTitle: 'Look for office',
+          scenarioPageNumber: 1,
+          successDescription: 'This building does not look like an office',
+          successIcon: 'HELP_OUTLINE',
+          successTitle: 'Look for office',
+          tasks: [
             {
-                "create":{
-                    "clientId":"01K4S0NP93KN45MAX2Z5N6PVGX",
-                    "hintDescription":"This building might look like an office",
-                    "hintIcon":"CLOSE_OUTLINE",
-                    "hintTitle":"Look for office",
-                    "instructionsDescription":"This building looks like an office",
-                    "instructionsIcon":"CHECKMARK_OUTLINE",
-                    "instructionsTitle":"Look for office",
-                    "scenarioPageNumber":1,
-                    "successDescription":"This building does not look like an office",
-                    "successIcon":"HELP_OUTLINE",
-                    "successTitle":"Look for office",
-                    "tasks":[
-                        {
-                            "clientId":"01K4S0NP93AQKZ6S558VPVQS19",
-                            "projectTypeSpecifics":{
-                                "validate":{
-                                    "identifier":1098299960,
-                                    "objectGeometry":"{\"type\":\"Polygon\",\"coordinates\":[[[84.001574,28.1935348],[84.001576,28.1934266],[84.0016578,28.1934278],[84.0016558,28.1935359],[84.001574,28.1935348]]]}"
-                                }
-                            },
-                            "reference":1
-                        }
-                    ]
-                }
-            }
-        ],
-        "informationPages":[
-            {
-                "create":{
-                    "clientId":"01K4S214M1SSN4N862GYP0BA12",
-                    "pageNumber":1,
-                    "title":"Look for office buildings",
-                    "blocks":[
-                        {
-                            "blockNumber":1,
-                            "blockType":"TEXT",
-                            "clientId":"01K4S21NP6BG28SYXV0W6EYRVZ",
-                            "text":"It might look something like this as well"
-                        },
-                        {
-                            "blockNumber":2,
-                            "blockType":"TEXT",
-                            "clientId":"01K4S21W8S2EMAH4GQZRXPPE6K",
-                            "text":"It might look something like this as well"
-                        }
-                    ]
-                }
-            }
-        ]
-    },
-    // Create project
-    "create_project":{
-        "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
-        "topic":"Offices",
-        "region":"Manbhawan",
-        "projectNumber":2,
-        "projectType":"VALIDATE",
-        "projectInstruction":"Validate official buildings",
-        "lookFor":"buildings",
-        "additionalInfoUrl":"https://reliefweb.int/disaster/dr-2025-000125-npl",
-        "description":"The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.",
-        "requestingOrganization":"Togglecorp"
-    },
-    "update_project":{
-        "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
-        "additionalInfoUrl":"https://reliefweb.int/disaster/dr-2025-000125-npl",
-        "description":"The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.",
-        "verificationNumber":3,
-        "projectInstruction":"Validate official buildings",
-        "groupSize":10,
-        "team":null,
-        "topic":"Offices",
-        "tutorial":null,
-        "maxTasksPerUser":2,
-        "projectNumber":2,
-        "region":"Manbhawan",
-        "image":null,
-        "projectTypeSpecifics":{
-            "validate":{
-                "customOptions":[
-                    {
-                        "clientId":"01K4PJVZWT4VFZEGN4N4KZB6MF",
-                        "description":"the shape does outline a building in the image",
-                        "icon":"CHECKMARK_OUTLINE",
-                        "iconColor":"#388E3C",
-                        "title":"Yes",
-                        "value":1,
-                        "subOptions":[]
-                    },
-                    {
-                        "clientId":"01K4PJVZWTGXF92W20YPD2G4XR",
-                        "description":"the shape doesn't match a building in the image",
-                        "icon":"CLOSE_OUTLINE",
-                        "iconColor":"#D32F2F",
-                        "title":"No",
-                        "value":2,
-                        "subOptions":[]
-                    },
-                    {
-                        "clientId":"01K4PJVZWTJXGC19J5V9CS1FVW",
-                        "description":"if you're not sure or there is cloud cover / bad imagery",
-                        "icon":"REMOVE_OUTLINE",
-                        "iconColor":"#616161",
-                        "title":"Not Sure",
-                        "value":3,
-                        "subOptions":[
-
-                        ]
-                    }
-                ],
-                "objectSource":{
-                    "sourceType":"AOI_GEOJSON_FILE",
-                    "aoiGeometry":null,
-                    "ohsomeFilter":"building=* and geometry:polygon"
+              clientId: '01K4S0NP93AQKZ6S558VPVQS19',
+              projectTypeSpecifics: {
+                validate: {
+                  identifier: 1098299960,
+                  objectGeometry: '{"type":"Polygon","coordinates":[[[84.001574,28.1935348],[84.001576,28.1934266],[84.0016578,28.1934278],[84.0016558,28.1935359],[84.001574,28.1935348]]]}',
                 },
-                "tileServerProperty":{
-                    "name":"BING",
-                    "bing":{
-                        "credits":"© 2019 Microsoft Corporation, Earthstar Geographics SIO"
-                    }
-                }
-            }
-        }
-    },
-    "update_processed_project":{
-        "clientId": "01K339HAWZCTCBRVQMQFWRTHXX",
-        "additionalInfoUrl":"https://reliefweb.int/disaster/dr-2025-000125-npl",
-        "description":"The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.",
-        "projectInstruction":"Validate official buildings",
-        "projectNumber":2,
-        "region":"Manbhawan",
-        "topic":"Offices",
-        // NOTE: These values will be injected by test scripts
-        "image":null,
-        "tutorial":null,
-        "team":null,
-    },
-    // Expected tutorial
-    "expected_tutorial_data":{
-        "contributorCount":0,
-        "customOptions":[
-            {
-                "description":"the shape does outline a building in the image",
-                "icon":"checkmark-outline",
-                "iconColor":"#388E3C",
-                "title":"Yes",
-                "value":1
+              },
+              reference: 1,
             },
-            {
-                "description":"the shape doesn't match a building in the image",
-                "icon":"close-outline",
-                "iconColor":"#D32F2F",
-                "title":"No",
-                "value":2
-            },
-            {
-                "description":"if you're not sure or there is cloud cover / bad imagery",
-                "icon":"remove-outline",
-                "iconColor":"#616161",
-                "title":"Not Sure",
-                "value":3
-            }
-        ],
-        "informationPages":[
-            {
-                "blocks":[
-                    {
-                        "blockNumber":1,
-                        "blockType":"text",
-                        "textDescription":"It might look something like this as well"
-                    },
-                    {
-                        "blockNumber":2,
-                        "blockType":"text",
-                        "textDescription":"It might look something like this as well"
-                    }
-                ],
-                "pageNumber":1,
-                "title":"Look for office buildings"
-            }
-        ],
-        "inputGeometries":"",
-        "lookFor":"buildings",
-        "name":"Validate Offices Tutorial",
-        "progress":0,
-        "projectDetails":"The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.",
-        "projectId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
-        "projectTopicKey": "validate offices tutorial",
-        "projectType":2,
-        "screens":[
-            {
-                "hint":{
-                    "description":"This building might look like an office",
-                    "icon":"close-outline",
-                    "title":"Look for office"
-                },
-                "instructions":{
-                    "description":"This building looks like an office",
-                    "icon":"checkmark-outline",
-                    "title":"Look for office"
-                },
-                "success":{
-                    "description":"This building does not look like an office",
-                    "icon":"help-outline",
-                    "title":"Look for office"
-                }
-            }
-        ],
-        "status":"tutorial",
-        "tileServer":{
-            "apiKey":"dummy-bing",
-            "credits":"© 2019 Microsoft Corporation, Earthstar Geographics SIO",
-            "name":"bing",
-            "url":"https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}"
+          ],
         },
-        // FIXME(tnagorra): cleared this because new system does not have drafts
-        "tutorialDraftId":"",
-        "zoomLevel":18
-    },
-    "expected_tutorial_groups_data":{
-        "101":{
-            "finishedCount":0,
-            "groupId":101,
-            "numberOfTasks":1,
-            "progress":0,
-            "projectId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
-            "requiredCount":0
-        }
-    },
-    "expected_tutorial_tasks_data":{
-        // NOTE: The tasks have been decoded
-        "101":[
+      },
+    ],
+    informationPages: [
+      {
+        create: {
+          clientId: '01K4S214M1SSN4N862GYP0BA12',
+          pageNumber: 1,
+          title: 'Look for office buildings',
+          blocks: [
             {
-                "taskId": "t1",
-                "geojson": {
-                    "coordinates": [
-                        [
-                            [
-                                84.001574,
-                                28.1935348
-                            ],
-                            [
-                                84.001576,
-                                28.1934266
-                            ],
-                            [
-                                84.0016578,
-                                28.1934278
-                            ],
-                            [
-                                84.0016558,
-                                28.1935359
-                            ],
-                            [
-                                84.001574,
-                                28.1935348
-                            ]
-                        ]
-                    ],
-                    "type": "Polygon"
-                },
-                "properties": {
-                    "id": 1098299960,
-                    "reference": 1,
-                    "screen": 1
-                },
-                // FIXME(tnagorra): The geometry was wrong in previous version (Added space after POLYGON and longitude values)
-                "geometry": "POLYGON ((84.001574 28.1935348,84.001576 28.1934266,84.0016578 28.1934278,84.0016558 28.1935359,84.001574 28.1935348))"
-            }
-        ]
-    },
-    // Expected project
-    "expected_project_data":{
-        "contributorCount":0,
-        "created": "2025-09-02T04:43:52.328353+00:00", // NOTE: This is dynamic
-        "createdBy": "01K6CPB1ETTF7MT9EAAQDQM4A9",
-        "customOptions":[
-            {
-                "description":"the shape does outline a building in the image",
-                "icon":"checkmark-outline",
-                "iconColor":"#388E3C",
-                "title":"Yes",
-                "value":1
+              blockNumber: 1,
+              blockType: 'TEXT',
+              clientId: '01K4S21NP6BG28SYXV0W6EYRVZ',
+              text: 'It might look something like this as well',
             },
             {
-                "description":"the shape doesn't match a building in the image",
-                "icon":"close-outline",
-                "iconColor":"#D32F2F",
-                "title":"No",
-                "value":2
+              blockNumber: 2,
+              blockType: 'TEXT',
+              clientId: '01K4S21W8S2EMAH4GQZRXPPE6K',
+              text: 'It might look something like this as well',
             },
-            {
-                "description":"if you're not sure or there is cloud cover / bad imagery",
-                "icon":"remove-outline",
-                "iconColor":"#616161",
-                "title":"Not Sure",
-                "value":3
-            }
-        ],
-        "filter":"building=* and geometry:polygon",
-        "groupMaxSize":10,
-        "groupSize":10,
-        "inputType":"aoi_file",
-        "isFeatured":false,
-        "language":"en-us",
-        "lookFor":"buildings",
-        "manualUrl":"https://reliefweb.int/disaster/dr-2025-000125-npl",
-        "maxTasksPerUser":2,
-        "name":"Validate - Offices - Manbhawan (2) Togglecorp",
-        "progress":0,
-        "projectDetails":"The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.",
-        "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-        "projectNumber":2,
-        "projectRegion":"Manbhawan",
-        "projectTopic":"Offices",
-        "projectTopicKey":"validate - offices - manbhawan (2) togglecorp",
-        "projectType":2,
-        "projectInstruction":"Validate official buildings",
-        "requestingOrganisation":"Togglecorp",
-        "requiredResults":102,
-        "resultCount":0,
-        "status":"active",
-        "tileServer":{
-            "apiKey":"dummy-bing",
-            "credits":"© 2019 Microsoft Corporation, Earthstar Geographics SIO",
-            "name":"bing",
-            "url":"https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}"
+          ],
         },
-        "tutorialId": "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
-        "verificationNumber":3
+      },
+    ],
+  },
+  // Create project
+  create_project: {
+    clientId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    topic: 'Offices',
+    region: 'Manbhawan',
+    projectNumber: 2,
+    projectType: 'VALIDATE',
+    projectInstruction: 'Validate official buildings',
+    lookFor: 'buildings',
+    additionalInfoUrl: 'https://reliefweb.int/disaster/dr-2025-000125-npl',
+    description: 'The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.',
+    requestingOrganization: 'Togglecorp',
+  },
+  update_project: {
+    clientId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    additionalInfoUrl: 'https://reliefweb.int/disaster/dr-2025-000125-npl',
+    description: 'The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.',
+    verificationNumber: 3,
+    projectInstruction: 'Validate official buildings',
+    groupSize: 10,
+    team: null,
+    topic: 'Offices',
+    tutorial: null,
+    maxTasksPerUser: 2,
+    projectNumber: 2,
+    region: 'Manbhawan',
+    image: null,
+    projectTypeSpecifics: {
+      validate: {
+        customOptions: [
+          {
+            clientId: '01K4PJVZWT4VFZEGN4N4KZB6MF',
+            description: 'the shape does outline a building in the image',
+            icon: 'CHECKMARK_OUTLINE',
+            iconColor: '#388E3C',
+            title: 'Yes',
+            value: 1,
+            subOptions: [],
+          },
+          {
+            clientId: '01K4PJVZWTGXF92W20YPD2G4XR',
+            description: "the shape doesn't match a building in the image",
+            icon: 'CLOSE_OUTLINE',
+            iconColor: '#D32F2F',
+            title: 'No',
+            value: 2,
+            subOptions: [],
+          },
+          {
+            clientId: '01K4PJVZWTJXGC19J5V9CS1FVW',
+            description: "if you're not sure or there is cloud cover / bad imagery",
+            icon: 'REMOVE_OUTLINE',
+            iconColor: '#616161',
+            title: 'Not Sure',
+            value: 3,
+            subOptions: [],
+          },
+        ],
+        objectSource: {
+          sourceType: 'AOI_GEOJSON_FILE',
+          aoiGeometry: null,
+          ohsomeFilter: 'building=* and geometry:polygon',
+        },
+        tileServerProperty: {
+          name: 'BING',
+          bing: {
+            credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
+          },
+        },
+      },
     },
-    "expected_project_groups_data":{
-        "g100":{
-            "finishedCount":0,
-            "groupId":"g100",
-            "numberOfTasks":10,
-            "progress":0,
-            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-            "requiredCount":3
+  },
+  update_processed_project: {
+    clientId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    additionalInfoUrl: 'https://reliefweb.int/disaster/dr-2025-000125-npl',
+    description: 'The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.',
+    projectInstruction: 'Validate official buildings',
+    projectNumber: 2,
+    region: 'Manbhawan',
+    topic: 'Offices',
+    // NOTE: These values will be injected by test scripts
+    image: null,
+    tutorial: null,
+    team: null,
+  },
+  // Expected tutorial
+  expected_tutorial_data: {
+    contributorCount: 0,
+    customOptions: [
+      {
+        description: 'the shape does outline a building in the image',
+        icon: 'checkmark-outline',
+        iconColor: '#388E3C',
+        title: 'Yes',
+        value: 1,
+      },
+      {
+        description: "the shape doesn't match a building in the image",
+        icon: 'close-outline',
+        iconColor: '#D32F2F',
+        title: 'No',
+        value: 2,
+      },
+      {
+        description: "if you're not sure or there is cloud cover / bad imagery",
+        icon: 'remove-outline',
+        iconColor: '#616161',
+        title: 'Not Sure',
+        value: 3,
+      },
+    ],
+    informationPages: [
+      {
+        blocks: [
+          {
+            blockNumber: 1,
+            blockType: 'text',
+            textDescription: 'It might look something like this as well',
+          },
+          {
+            blockNumber: 2,
+            blockType: 'text',
+            textDescription: 'It might look something like this as well',
+          },
+        ],
+        pageNumber: 1,
+        title: 'Look for office buildings',
+      },
+    ],
+    inputGeometries: '',
+    lookFor: 'buildings',
+    name: 'Validate Offices Tutorial',
+    progress: 0,
+    projectDetails: 'The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.',
+    projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+    projectTopicKey: 'validate offices tutorial',
+    projectType: 2,
+    screens: [
+      {
+        hint: {
+          description: 'This building might look like an office',
+          icon: 'close-outline',
+          title: 'Look for office',
         },
-        "g101":{
-            "finishedCount":0,
-            "groupId":"g101",
-            "numberOfTasks":11,
-            "progress":0,
-            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-            "requiredCount":3
+        instructions: {
+          description: 'This building looks like an office',
+          icon: 'checkmark-outline',
+          title: 'Look for office',
         },
-        "g102":{
-            "finishedCount":0,
-            "groupId":"g102",
-            "numberOfTasks":11,
-            "progress":0,
-            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-            "requiredCount":3
+        success: {
+          description: 'This building does not look like an office',
+          icon: 'help-outline',
+          title: 'Look for office',
         },
-        "g103":{
-            "finishedCount":0,
-            "groupId":"g103",
-            "numberOfTasks":2,
-            "progress":0,
-            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-            "requiredCount":3
-        }
+      },
+    ],
+    status: 'tutorial',
+    tileServer: {
+      apiKey: 'dummy-bing',
+      credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
+      name: 'bing',
+      url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}',
     },
-    "expected_project_tasks_data":{
-        // NOTE: The tasks have been decoded
-        "g100": [
-            {
-                "taskId": "t1",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.316576,
-                                27.6713187
-                            ],
-                            [
-                                85.3166707,
-                                27.6713143
-                            ],
-                            [
-                                85.3166648,
-                                27.6712153
-                            ],
-                            [
-                                85.3165701,
-                                27.6712197
-                            ],
-                            [
-                                85.316576,
-                                27.6713187
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t2",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3165228,
-                                27.6716385
-                            ],
-                            [
-                                85.3164962,
-                                27.6715588
-                            ],
-                            [
-                                85.3163762,
-                                27.6715901
-                            ],
-                            [
-                                85.3164028,
-                                27.6716699
-                            ],
-                            [
-                                85.3165228,
-                                27.6716385
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t3",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3162949,
-                                27.6711042
-                            ],
-                            [
-                                85.3162987,
-                                27.6711216
-                            ],
-                            [
-                                85.3163999,
-                                27.6711042
-                            ],
-                            [
-                                85.3162949,
-                                27.6711042
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t4",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3164919,
-                                27.6716615
-                            ],
-                            [
-                                85.3165121,
-                                27.6717514
-                            ],
-                            [
-                                85.3166172,
-                                27.6717328
-                            ],
-                            [
-                                85.316597,
-                                27.671643
-                            ],
-                            [
-                                85.3164919,
-                                27.6716615
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t5",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3164498,
-                                27.6713665
-                            ],
-                            [
-                                85.3165518,
-                                27.6713566
-                            ],
-                            [
-                                85.316544,
-                                27.6712935
-                            ],
-                            [
-                                85.316442,
-                                27.6713034
-                            ],
-                            [
-                                85.3164498,
-                                27.6713665
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t6",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3165258,
-                                27.6717769
-                            ],
-                            [
-                                85.3165426,
-                                27.6718943
-                            ],
-                            [
-                                85.3166659,
-                                27.6718804
-                            ],
-                            [
-                                85.3166537,
-                                27.6717952
-                            ],
-                            [
-                                85.3166325,
-                                27.6717976
-                            ],
-                            [
-                                85.3166279,
-                                27.6717654
-                            ],
-                            [
-                                85.3165258,
-                                27.6717769
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t7",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3163453,
-                                27.6714887
-                            ],
-                            [
-                                85.3164549,
-                                27.6714724
-                            ],
-                            [
-                                85.31644,
-                                27.6713938
-                            ],
-                            [
-                                85.3163304,
-                                27.6714101
-                            ],
-                            [
-                                85.3163453,
-                                27.6714887
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t8",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3160708,
-                                27.6719357
-                            ],
-                            [
-                                85.3160766,
-                                27.6719679
-                            ],
-                            [
-                                85.3162399,
-                                27.6719448
-                            ],
-                            [
-                                85.3162239,
-                                27.671856
-                            ],
-                            [
-                                85.3160708,
-                                27.6718777
-                            ],
-                            [
-                                85.3160708,
-                                27.6719357
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t9",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3160993,
-                                27.6715695
-                            ],
-                            [
-                                85.3162015,
-                                27.6715706
-                            ],
-                            [
-                                85.3162008,
-                                27.6716217
-                            ],
-                            [
-                                85.3160986,
-                                27.6716205
-                            ],
-                            [
-                                85.3160993,
-                                27.6715695
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t10",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3161882,
-                                27.6717291
-                            ],
-                            [
-                                85.3162395,
-                                27.6717221
-                            ],
-                            [
-                                85.316256,
-                                27.6718164
-                            ],
-                            [
-                                85.316171,
-                                27.671828
-                            ],
-                            [
-                                85.3161603,
-                                27.6717667
-                            ],
-                            [
-                                85.3161939,
-                                27.6717621
-                            ],
-                            [
-                                85.3161882,
-                                27.6717291
-                            ]
-                        ]
-                    ]
-                }
-            }
-        ],
-        "g101": [
-            {
-                "taskId": "t11",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3163871,
-                                27.6716741
-                            ],
-                            [
-                                85.3162581,
-                                27.6716921
-                            ],
-                            [
-                                85.3162461,
-                                27.6716241
-                            ],
-                            [
-                                85.3163609,
-                                27.6716081
-                            ],
-                            [
-                                85.3163666,
-                                27.6716398
-                            ],
-                            [
-                                85.3163806,
-                                27.6716379
-                            ],
-                            [
-                                85.3163871,
-                                27.6716741
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t12",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.316697,
-                                27.6712677
-                            ],
-                            [
-                                85.3166916,
-                                27.6712689
-                            ],
-                            [
-                                85.316697,
-                                27.6712881
-                            ],
-                            [
-                                85.316697,
-                                27.6712677
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t13",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3161216,
-                                27.6711538
-                            ],
-                            [
-                                85.3160827,
-                                27.6711544
-                            ],
-                            [
-                                85.3160844,
-                                27.6712432
-                            ],
-                            [
-                                85.3161233,
-                                27.6712426
-                            ],
-                            [
-                                85.3161216,
-                                27.6711538
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t14",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3161673,
-                                27.6711042
-                            ],
-                            [
-                                85.3161683,
-                                27.6711079
-                            ],
-                            [
-                                85.3161233,
-                                27.6711171
-                            ],
-                            [
-                                85.316145,
-                                27.6711998
-                            ],
-                            [
-                                85.3162746,
-                                27.6711732
-                            ],
-                            [
-                                85.3162565,
-                                27.6711042
-                            ],
-                            [
-                                85.3161673,
-                                27.6711042
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t15",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3161447,
-                                27.6712066
-                            ],
-                            [
-                                85.3161492,
-                                27.6712304
-                            ],
-                            [
-                                85.3162374,
-                                27.6712174
-                            ],
-                            [
-                                85.3162329,
-                                27.6711936
-                            ],
-                            [
-                                85.3161447,
-                                27.6712066
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t16",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3163395,
-                                27.6713752
-                            ],
-                            [
-                                85.316324,
-                                27.67127
-                            ],
-                            [
-                                85.316147,
-                                27.6712905
-                            ],
-                            [
-                                85.3161625,
-                                27.6713956
-                            ],
-                            [
-                                85.3163395,
-                                27.6713752
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t17",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3165367,
-                                27.6711816
-                            ],
-                            [
-                                85.3164646,
-                                27.6711925
-                            ],
-                            [
-                                85.3164708,
-                                27.6712248
-                            ],
-                            [
-                                85.3164293,
-                                27.6712311
-                            ],
-                            [
-                                85.3164422,
-                                27.6712984
-                            ],
-                            [
-                                85.3165559,
-                                27.6712812
-                            ],
-                            [
-                                85.3165367,
-                                27.6711816
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t18",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3164148,
-                                27.6711231
-                            ],
-                            [
-                                85.3163343,
-                                27.6711373
-                            ],
-                            [
-                                85.316352,
-                                27.6712154
-                            ],
-                            [
-                                85.3164324,
-                                27.6712012
-                            ],
-                            [
-                                85.3164148,
-                                27.6711231
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t19",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3164418,
-                                27.6711042
-                            ],
-                            [
-                                85.3164524,
-                                27.6711501
-                            ],
-                            [
-                                85.3165503,
-                                27.6711323
-                            ],
-                            [
-                                85.3165438,
-                                27.6711042
-                            ],
-                            [
-                                85.3164418,
-                                27.6711042
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t20",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.316285,
-                                27.672118
-                            ],
-                            [
-                                85.3162845,
-                                27.6721131
-                            ],
-                            [
-                                85.3162277,
-                                27.672118
-                            ],
-                            [
-                                85.316285,
-                                27.672118
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t21",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.316697,
-                                27.6720834
-                            ],
-                            [
-                                85.3166864,
-                                27.6720861
-                            ],
-                            [
-                                85.3166967,
-                                27.672118
-                            ],
-                            [
-                                85.316697,
-                                27.672118
-                            ],
-                            [
-                                85.316697,
-                                27.6720834
-                            ]
-                        ]
-                    ]
-                }
-            }
-        ],
-        "g102": [
-            {
-                "taskId": "t22",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3163239,
-                                27.6718246
-                            ],
-                            [
-                                85.3162514,
-                                27.6718272
-                            ],
-                            [
-                                85.3162538,
-                                27.6718786
-                            ],
-                            [
-                                85.3163263,
-                                27.671876
-                            ],
-                            [
-                                85.3163239,
-                                27.6718246
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t23",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3163301,
-                                27.671883
-                            ],
-                            [
-                                85.3162631,
-                                27.6718909
-                            ],
-                            [
-                                85.3162698,
-                                27.6719352
-                            ],
-                            [
-                                85.3163367,
-                                27.6719273
-                            ],
-                            [
-                                85.3163301,
-                                27.671883
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t24",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3163985,
-                                27.6718602
-                            ],
-                            [
-                                85.3163417,
-                                27.6718659
-                            ],
-                            [
-                                85.3163469,
-                                27.671907
-                            ],
-                            [
-                                85.3164037,
-                                27.6719014
-                            ],
-                            [
-                                85.3163985,
-                                27.6718602
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t25",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3163331,
-                                27.6717973
-                            ],
-                            [
-                                85.3163401,
-                                27.6718548
-                            ],
-                            [
-                                85.3163725,
-                                27.6718517
-                            ],
-                            [
-                                85.3163705,
-                                27.6718351
-                            ],
-                            [
-                                85.3164009,
-                                27.6718322
-                            ],
-                            [
-                                85.3163959,
-                                27.6717913
-                            ],
-                            [
-                                85.3163331,
-                                27.6717973
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t26",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.316367,
-                                27.671734
-                            ],
-                            [
-                                85.3162631,
-                                27.6717454
-                            ],
-                            [
-                                85.3162728,
-                                27.6718149
-                            ],
-                            [
-                                85.316328,
-                                27.6718089
-                            ],
-                            [
-                                85.3163263,
-                                27.6717967
-                            ],
-                            [
-                                85.316375,
-                                27.6717914
-                            ],
-                            [
-                                85.316367,
-                                27.671734
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t27",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3165165,
-                                27.6718422
-                            ],
-                            [
-                                85.3164182,
-                                27.6718587
-                            ],
-                            [
-                                85.3164288,
-                                27.6719079
-                            ],
-                            [
-                                85.316527,
-                                27.6718914
-                            ],
-                            [
-                                85.3165165,
-                                27.6718422
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t28",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3164956,
-                                27.6717348
-                            ],
-                            [
-                                85.3164026,
-                                27.6717512
-                            ],
-                            [
-                                85.3164248,
-                                27.6718493
-                            ],
-                            [
-                                85.3165178,
-                                27.6718329
-                            ],
-                            [
-                                85.3164956,
-                                27.6717348
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t29",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3164852,
-                                27.6716664
-                            ],
-                            [
-                                85.3163644,
-                                27.6716849
-                            ],
-                            [
-                                85.3163696,
-                                27.6717115
-                            ],
-                            [
-                                85.3163879,
-                                27.6717087
-                            ],
-                            [
-                                85.3163938,
-                                27.6717391
-                            ],
-                            [
-                                85.3164963,
-                                27.6717234
-                            ],
-                            [
-                                85.3164852,
-                                27.6716664
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t30",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3163145,
-                                27.671549
-                            ],
-                            [
-                                85.3163009,
-                                27.6713988
-                            ],
-                            [
-                                85.316077,
-                                27.6714147
-                            ],
-                            [
-                                85.3160907,
-                                27.671565
-                            ],
-                            [
-                                85.3163145,
-                                27.671549
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t31",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3165016,
-                                27.6713615
-                            ],
-                            [
-                                85.3164547,
-                                27.6713661
-                            ],
-                            [
-                                85.3164615,
-                                27.6714203
-                            ],
-                            [
-                                85.3165084,
-                                27.6714157
-                            ],
-                            [
-                                85.3165016,
-                                27.6713615
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t32",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3165432,
-                                27.6714728
-                            ],
-                            [
-                                85.3164376,
-                                27.6714939
-                            ],
-                            [
-                                85.3164513,
-                                27.6715477
-                            ],
-                            [
-                                85.3165569,
-                                27.6715266
-                            ],
-                            [
-                                85.3165432,
-                                27.6714728
-                            ]
-                        ]
-                    ]
-                }
-            }
-        ],
-        "g103": [
-            {
-                "taskId": "t33",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3162183,
-                                27.6716428
-                            ],
-                            [
-                                85.3160881,
-                                27.6716429
-                            ],
-                            [
-                                85.3160881,
-                                27.6717203
-                            ],
-                            [
-                                85.3162183,
-                                27.6717202
-                            ],
-                            [
-                                85.3162183,
-                                27.6716428
-                            ]
-                        ]
-                    ]
-                }
-            },
-            {
-                "taskId": "t34",
-                // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
-                "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
-                "geojson": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                85.3161537,
-                                27.6717783
-                            ],
-                            [
-                                85.3161165,
-                                27.6717865
-                            ],
-                            [
-                                85.316133,
-                                27.6718448
-                            ],
-                            [
-                                85.3161702,
-                                27.6718366
-                            ],
-                            [
-                                85.3161537,
-                                27.6717783
-                            ]
-                        ]
-                    ]
-                }
-            }
-        ]
-    }
+    // FIXME(tnagorra): cleared this because new system does not have drafts
+    tutorialDraftId: '',
+    zoomLevel: 18,
+  },
+  expected_tutorial_groups_data: {
+    '101': {
+      finishedCount: 0,
+      groupId: 101,
+      numberOfTasks: 1,
+      progress: 0,
+      projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+      requiredCount: 0,
+    },
+  },
+  expected_tutorial_tasks_data: {
+    // NOTE: The tasks have been decoded
+    '101': [
+      {
+        taskId: 't1',
+        geojson: {
+          coordinates: [
+            [
+              [84.001574, 28.1935348],
+              [84.001576, 28.1934266],
+              [84.0016578, 28.1934278],
+              [84.0016558, 28.1935359],
+              [84.001574, 28.1935348],
+            ],
+          ],
+          type: 'Polygon',
+        },
+        properties: {
+          id: 1098299960,
+          reference: 1,
+          screen: 1,
+        },
+        // FIXME(tnagorra): The geometry was wrong in previous version (Added space after POLYGON and longitude values)
+        geometry: 'POLYGON ((84.001574 28.1935348,84.001576 28.1934266,84.0016578 28.1934278,84.0016558 28.1935359,84.001574 28.1935348))',
+      },
+    ],
+  },
+  // Expected project
+  expected_project_data: {
+    contributorCount: 0,
+    created: '2025-09-02T04:43:52.328353+00:00', // NOTE: This is dynamic
+    createdBy: '01K6CPB1ETTF7MT9EAAQDQM4A9',
+    customOptions: [
+      {
+        description: 'the shape does outline a building in the image',
+        icon: 'checkmark-outline',
+        iconColor: '#388E3C',
+        title: 'Yes',
+        value: 1,
+      },
+      {
+        description: "the shape doesn't match a building in the image",
+        icon: 'close-outline',
+        iconColor: '#D32F2F',
+        title: 'No',
+        value: 2,
+      },
+      {
+        description: "if you're not sure or there is cloud cover / bad imagery",
+        icon: 'remove-outline',
+        iconColor: '#616161',
+        title: 'Not Sure',
+        value: 3,
+      },
+    ],
+    filter: 'building=* and geometry:polygon',
+    groupMaxSize: 10,
+    groupSize: 10,
+    inputType: 'aoi_file',
+    isFeatured: false,
+    language: 'en-us',
+    lookFor: 'buildings',
+    manualUrl: 'https://reliefweb.int/disaster/dr-2025-000125-npl',
+    maxTasksPerUser: 2,
+    name: 'Validate Footprints - Offices - Manbhawan (2) Togglecorp',
+    progress: 0,
+    projectDetails: 'The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.',
+    projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    projectNumber: 2,
+    projectRegion: 'Manbhawan',
+    projectTopic: 'Offices',
+    projectTopicKey: 'validate footprints - offices - manbhawan (2) togglecorp',
+    projectType: 2,
+    projectInstruction: 'Validate official buildings',
+    requestingOrganisation: 'Togglecorp',
+    requiredResults: 102,
+    resultCount: 0,
+    status: 'active',
+    tileServer: {
+      apiKey: 'dummy-bing',
+      credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
+      name: 'bing',
+      url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}',
+    },
+    tutorialId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+    verificationNumber: 3,
+  },
+  expected_project_groups_data: {
+    g100: {
+      finishedCount: 0,
+      groupId: 'g100',
+      numberOfTasks: 10,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
+    g101: {
+      finishedCount: 0,
+      groupId: 'g101',
+      numberOfTasks: 11,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
+    g102: {
+      finishedCount: 0,
+      groupId: 'g102',
+      numberOfTasks: 11,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
+    g103: {
+      finishedCount: 0,
+      groupId: 'g103',
+      numberOfTasks: 2,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
+  },
+  expected_project_tasks_data: {
+    // NOTE: The tasks have been decoded
+    g100: [
+      {
+        taskId: 't1',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.316576, 27.6713187],
+              [85.3166707, 27.6713143],
+              [85.3166648, 27.6712153],
+              [85.3165701, 27.6712197],
+              [85.316576, 27.6713187],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't2',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3165228, 27.6716385],
+              [85.3164962, 27.6715588],
+              [85.3163762, 27.6715901],
+              [85.3164028, 27.6716699],
+              [85.3165228, 27.6716385],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't3',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3162949, 27.6711042],
+              [85.3162987, 27.6711216],
+              [85.3163999, 27.6711042],
+              [85.3162949, 27.6711042],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't4',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3164919, 27.6716615],
+              [85.3165121, 27.6717514],
+              [85.3166172, 27.6717328],
+              [85.316597, 27.671643],
+              [85.3164919, 27.6716615],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't5',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3164498, 27.6713665],
+              [85.3165518, 27.6713566],
+              [85.316544, 27.6712935],
+              [85.316442, 27.6713034],
+              [85.3164498, 27.6713665],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't6',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3165258, 27.6717769],
+              [85.3165426, 27.6718943],
+              [85.3166659, 27.6718804],
+              [85.3166537, 27.6717952],
+              [85.3166325, 27.6717976],
+              [85.3166279, 27.6717654],
+              [85.3165258, 27.6717769],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't7',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3163453, 27.6714887],
+              [85.3164549, 27.6714724],
+              [85.31644, 27.6713938],
+              [85.3163304, 27.6714101],
+              [85.3163453, 27.6714887],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't8',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3160708, 27.6719357],
+              [85.3160766, 27.6719679],
+              [85.3162399, 27.6719448],
+              [85.3162239, 27.671856],
+              [85.3160708, 27.6718777],
+              [85.3160708, 27.6719357],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't9',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3160993, 27.6715695],
+              [85.3162015, 27.6715706],
+              [85.3162008, 27.6716217],
+              [85.3160986, 27.6716205],
+              [85.3160993, 27.6715695],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't10',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3161882, 27.6717291],
+              [85.3162395, 27.6717221],
+              [85.316256, 27.6718164],
+              [85.316171, 27.671828],
+              [85.3161603, 27.6717667],
+              [85.3161939, 27.6717621],
+              [85.3161882, 27.6717291],
+            ],
+          ],
+        },
+      },
+    ],
+    g101: [
+      {
+        taskId: 't11',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3163871, 27.6716741],
+              [85.3162581, 27.6716921],
+              [85.3162461, 27.6716241],
+              [85.3163609, 27.6716081],
+              [85.3163666, 27.6716398],
+              [85.3163806, 27.6716379],
+              [85.3163871, 27.6716741],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't12',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.316697, 27.6712677],
+              [85.3166916, 27.6712689],
+              [85.316697, 27.6712881],
+              [85.316697, 27.6712677],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't13',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3161216, 27.6711538],
+              [85.3160827, 27.6711544],
+              [85.3160844, 27.6712432],
+              [85.3161233, 27.6712426],
+              [85.3161216, 27.6711538],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't14',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3161673, 27.6711042],
+              [85.3161683, 27.6711079],
+              [85.3161233, 27.6711171],
+              [85.316145, 27.6711998],
+              [85.3162746, 27.6711732],
+              [85.3162565, 27.6711042],
+              [85.3161673, 27.6711042],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't15',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3161447, 27.6712066],
+              [85.3161492, 27.6712304],
+              [85.3162374, 27.6712174],
+              [85.3162329, 27.6711936],
+              [85.3161447, 27.6712066],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't16',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3163395, 27.6713752],
+              [85.316324, 27.67127],
+              [85.316147, 27.6712905],
+              [85.3161625, 27.6713956],
+              [85.3163395, 27.6713752],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't17',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3165367, 27.6711816],
+              [85.3164646, 27.6711925],
+              [85.3164708, 27.6712248],
+              [85.3164293, 27.6712311],
+              [85.3164422, 27.6712984],
+              [85.3165559, 27.6712812],
+              [85.3165367, 27.6711816],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't18',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3164148, 27.6711231],
+              [85.3163343, 27.6711373],
+              [85.316352, 27.6712154],
+              [85.3164324, 27.6712012],
+              [85.3164148, 27.6711231],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't19',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3164418, 27.6711042],
+              [85.3164524, 27.6711501],
+              [85.3165503, 27.6711323],
+              [85.3165438, 27.6711042],
+              [85.3164418, 27.6711042],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't20',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.316285, 27.672118],
+              [85.3162845, 27.6721131],
+              [85.3162277, 27.672118],
+              [85.316285, 27.672118],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't21',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.316697, 27.6720834],
+              [85.3166864, 27.6720861],
+              [85.3166967, 27.672118],
+              [85.316697, 27.672118],
+              [85.316697, 27.6720834],
+            ],
+          ],
+        },
+      },
+    ],
+    g102: [
+      {
+        taskId: 't22',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3163239, 27.6718246],
+              [85.3162514, 27.6718272],
+              [85.3162538, 27.6718786],
+              [85.3163263, 27.671876],
+              [85.3163239, 27.6718246],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't23',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3163301, 27.671883],
+              [85.3162631, 27.6718909],
+              [85.3162698, 27.6719352],
+              [85.3163367, 27.6719273],
+              [85.3163301, 27.671883],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't24',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3163985, 27.6718602],
+              [85.3163417, 27.6718659],
+              [85.3163469, 27.671907],
+              [85.3164037, 27.6719014],
+              [85.3163985, 27.6718602],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't25',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3163331, 27.6717973],
+              [85.3163401, 27.6718548],
+              [85.3163725, 27.6718517],
+              [85.3163705, 27.6718351],
+              [85.3164009, 27.6718322],
+              [85.3163959, 27.6717913],
+              [85.3163331, 27.6717973],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't26',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.316367, 27.671734],
+              [85.3162631, 27.6717454],
+              [85.3162728, 27.6718149],
+              [85.316328, 27.6718089],
+              [85.3163263, 27.6717967],
+              [85.316375, 27.6717914],
+              [85.316367, 27.671734],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't27',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3165165, 27.6718422],
+              [85.3164182, 27.6718587],
+              [85.3164288, 27.6719079],
+              [85.316527, 27.6718914],
+              [85.3165165, 27.6718422],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't28',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3164956, 27.6717348],
+              [85.3164026, 27.6717512],
+              [85.3164248, 27.6718493],
+              [85.3165178, 27.6718329],
+              [85.3164956, 27.6717348],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't29',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3164852, 27.6716664],
+              [85.3163644, 27.6716849],
+              [85.3163696, 27.6717115],
+              [85.3163879, 27.6717087],
+              [85.3163938, 27.6717391],
+              [85.3164963, 27.6717234],
+              [85.3164852, 27.6716664],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't30',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3163145, 27.671549],
+              [85.3163009, 27.6713988],
+              [85.316077, 27.6714147],
+              [85.3160907, 27.671565],
+              [85.3163145, 27.671549],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't31',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3165016, 27.6713615],
+              [85.3164547, 27.6713661],
+              [85.3164615, 27.6714203],
+              [85.3165084, 27.6714157],
+              [85.3165016, 27.6713615],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't32',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3165432, 27.6714728],
+              [85.3164376, 27.6714939],
+              [85.3164513, 27.6715477],
+              [85.3165569, 27.6715266],
+              [85.3165432, 27.6714728],
+            ],
+          ],
+        },
+      },
+    ],
+    g103: [
+      {
+        taskId: 't33',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3162183, 27.6716428],
+              [85.3160881, 27.6716429],
+              [85.3160881, 27.6717203],
+              [85.3162183, 27.6717202],
+              [85.3162183, 27.6716428],
+            ],
+          ],
+        },
+      },
+      {
+        taskId: 't34',
+        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [85.3161537, 27.6717783],
+              [85.3161165, 27.6717865],
+              [85.316133, 27.6718448],
+              [85.3161702, 27.6718366],
+              [85.3161537, 27.6717783],
+            ],
+          ],
+        },
+      },
+    ],
+  },
 }
