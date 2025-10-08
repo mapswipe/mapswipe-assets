@@ -17,11 +17,6 @@
       name: 'User Group 01',
       description: 'First user group',
     },
-    {
-      clientId: '01K49J0QPCZM2JCNC9AEE6HT8R',
-      name: 'User Group 02',
-      description: 'Second user group',
-    },
   ],
   // Create tutorial
   create_tutorial: {
