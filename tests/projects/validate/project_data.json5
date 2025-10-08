@@ -972,4 +972,113 @@
       },
     ],
   },
+  // Create contributor group
+  create_contributor_user_group: [
+    {
+      clientId: '01K49J0QPCZM2JCNC9AEE6HT8Y',
+      name: 'User Group 01',
+      description: 'First user group',
+    },
+  ],
+  "create_results": {
+    g100: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        appVersion: "0.2.8-dev",
+        clientType: "web",
+        endTime: "2025-10-07T10:03:38.158Z",
+        userGroups: {
+          '01K49J0QPCZM2JCNC9AEE6HT8Y': true,
+        },
+        results: {
+          "t1": 1,
+          "t2": 0,
+          "t3": 2,
+          "t4": 2,
+          "t5": 2,
+          "t6": 1,
+          "t7": 1,
+          "t8": 1,
+          "t9": 1,
+          "t10": 0,
+        },
+        startTime: "2025-10-07T10:03:09.707Z"
+      }
+    },
+    g101: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        appVersion: "0.2.8-dev",
+        clientType: "web",
+        userGroups: {
+          '01K49J0QPCZM2JCNC9AEE6HT8Y': true,
+        },
+        endTime: "2025-10-07T10:03:38.158Z",
+        results: {
+          "t11": 1,
+          "t12": 0,
+          "t13": 2,
+          "t14": 2,
+          "t15": 2,
+          "t16": 1,
+          "t17": 1,
+          "t18": 1,
+          "t19": 1,
+          "t20": 0,
+        },
+        startTime: "2025-10-07T10:03:09.707Z"
+      }
+    },
+    g103: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        appVersion: "0.2.8-dev",
+        clientType: "web",
+        userGroups: {
+          '01K49J0QPCZM2JCNC9AEE6HT8Y': true,
+        },
+        endTime: "2025-10-07T10:03:38.158Z",
+        results: {
+          "t21": 1,
+          "t22": 0,
+          "t23": 2,
+          "t24": 2,
+          "t25": 2,
+          "t26": 1,
+          "t27": 1,
+          "t28": 1,
+          "t29": 1,
+          "t30": 0,
+        },
+        startTime: "2025-10-07T10:03:09.707Z"
+      }
+    },
+    g104: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        appVersion: "0.2.8-dev",
+        clientType: "web",
+        userGroups: {
+          '01K49J0QPCZM2JCNC9AEE6HT8Y': true,
+        },
+        endTime: "2025-10-07T10:03:38.158Z",
+        results: {
+          "t31": 1,
+          "t32": 0,
+          "t33": 2,
+          "t34": 2,
+          "t35": 2,
+          "t36": 1,
+          "t37": 1,
+          "t38": 1,
+          "t39": 1,
+          "t40": 0,
+        },
+        startTime: "2025-10-07T10:03:09.707Z"
+      }
+    }
+  },
+  expected_pulled_results_data: {
+    mapping_session_count: 2,
+    mapping_session_results_count: 20,
+    mapping_session_user_groups_count: 2,
+    progress: 33,
+  },
+
 }

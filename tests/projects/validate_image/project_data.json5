@@ -318,4 +318,35 @@
       },
     ],
   },
+  create_contributor_user_group: [
+    {
+      clientId: '01K49J0QPCZM2JCNC9AEE6HT8Y',
+      name: 'User Group 01',
+      description: 'First user group',
+    },
+  ],
+  create_results: {
+    g100: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        appVersion: "0.2.8-dev",
+        clientType: "web",
+        startTime: "2025-10-08T02:31:40.920Z",
+        endTime: "2025-10-08T02:33:03.647Z",
+        userGroups: {
+          '01K49J0QPCZM2JCNC9AEE6HT8Y': true,
+        },
+        results: {
+          "37777": 0,
+          "252219": 1,
+          "397133": 1
+        }
+      }
+    }
+  },
+  expected_pulled_results_data: {
+    mapping_session_count: 1,
+    mapping_session_results_count: 3,
+    mapping_session_user_groups_count: 1,
+    progress: 33,
+  },
 }
