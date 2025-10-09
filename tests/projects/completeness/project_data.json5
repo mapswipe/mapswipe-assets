@@ -540,4 +540,16 @@
     mapping_session_user_groups_count: 0,
     progress: 33,
   },
+  expected_project_exports_data: {
+    aggregated_results: 'assets/tests/projects/completeness/exports/expected_project_aggregated_result.csv',
+    aggregated_results_with_geometry: 'assets/tests/projects/completeness/exports/expected_project_aggregated_result_with_geometry.geojson',
+    results: 'assets/tests/projects/completeness/exports/expected_project_result.csv',
+    history: 'assets/tests/projects/completeness/exports/expected_project_history.csv',
+    groups: 'assets/tests/projects/completeness/exports/expected_project_groups.csv',
+    tasks: 'assets/tests/projects/completeness/exports/expected_project_tasks.csv',
+    users: 'assets/tests/projects/completeness/exports/expected_project_users.csv',
+    area_of_interest: 'assets/tests/projects/completeness/exports/expected_project_aoi.geojson',
+    hot_tasking_manage_geometry: 'assets/tests/projects/completeness/exports/expected_project_hot_tasking_manage.geojson',
+    moderate_to_high_agreement: 'assets/tests/projects/completeness/exports/expected_project_moderate_to_high_agreement.geojson',
+  },
 }
