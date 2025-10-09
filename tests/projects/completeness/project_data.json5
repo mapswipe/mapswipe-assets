@@ -157,10 +157,10 @@
     verificationNumber: 3,
     projectInstruction: 'Look for incomplete buildings',
     lookFor: 'buildings',
-    groupSize: 80,
+    groupSize: 25,
     team: null,
     tutorial: null,
-    maxTasksPerUser: 3,
+    maxTasksPerUser: 40,
     image: null,
     projectTypeSpecifics: {
       completeness: {
@@ -206,71 +206,72 @@
   },
   // Create results (mock app) without usergroups
   create_results: {
-      g101: {
-          'nRN0mQ9awjhtOE28agZ0eOAdnXO2': {
-              startTime: '2025-10-09T09:57:42.362Z'
-              endTime: '2025-10-09T09:58:01.780Z',
-              appVersion: '0.2.8-dev',
-              clientType: 'web',
-              results: {
-                  '18-193196-110088': 3,
-                  '18-193196-110089': 2,
-                  '18-193196-110090': 1,
-                  '18-193197-110088': 2,
-                  '18-193197-110089': 3,
-                  '18-193197-110090': 1,
-                  '18-193198-110088': 1,
-                  '18-193198-110089': 0,
-                  '18-193198-110090': 1,
-                  '18-193199-110088': 2,
-                  '18-193199-110089': 0,
-                  '18-193199-110090': 1
-              },
-          }
+    g101: {
+      nRN0mQ9awjhtOE28agZ0eOAdnXO2: {
+        startTime: '2025-10-09T09:57:42.362Z',
+        endTime: '2025-10-09T09:58:01.780Z',
+        appVersion: '0.2.8-dev',
+        clientType: 'web',
+        results: {
+          '18-193196-110088': 3,
+          '18-193196-110089': 2,
+          '18-193196-110090': 1,
+          '18-193197-110088': 2,
+          '18-193197-110089': 3,
+          '18-193197-110090': 1,
+          '18-193198-110088': 1,
+          '18-193198-110089': 0,
+          '18-193198-110090': 1,
+          '18-193199-110088': 2,
+          '18-193199-110089': 0,
+          '18-193199-110090': 1,
+        },
       },
-      g102: {
-          'nRN0mQ9awjhtOE28agZ0eOAdnXO2': {
-              startTime: '2025-10-09T09:58:47.817Z'
-              endTime: '2025-10-09T09:58:58.967Z',
-              appVersion: '0.2.8-dev',
-              clientType: 'web',
-              results: {
-                  '18-193196-110088': 0,
-                  '18-193196-110089': 2,
-                  '18-193196-110090': 1,
-                  '18-193197-110088': 0,
-                  '18-193197-110089': 1,
-                  '18-193197-110090': 0,
-                  '18-193198-110088': 1,
-                  '18-193198-110089': 3,
-                  '18-193198-110090': 3,
-                  '18-193199-110088': 2,
-                  '18-193199-110089': 1,
-                  '18-193199-110090': 0
-              },
-          }
+    },
+    g101: {
+      nRN0mQ9awjhtOE28agZ0eOAdnXO2: {
+        startTime: '2025-10-09T09:58:47.817Z',
+        endTime: '2025-10-09T09:58:58.967Z',
+        appVersion: '0.2.8-dev',
+        clientType: 'web',
+        results: {
+          '18-193196-110088': 0,
+          '18-193196-110089': 2,
+          '18-193196-110090': 1,
+          '18-193197-110088': 0,
+          '18-193197-110089': 1,
+          '18-193197-110090': 0,
+          '18-193198-110088': 1,
+          '18-193198-110089': 3,
+          '18-193198-110090': 3,
+          '18-193199-110088': 2,
+          '18-193199-110089': 1,
+          '18-193199-110090': 0,
+        },
       },
-      g103: {
-          'nRN0mQ9awjhtOE28agZ0eOAdnXO2': {
-              startTime: '2025-10-09T10:01:55.475Z'
-              appVersion: '0.2.8-dev',
-              clientType: 'web',
-              results: {
-                  '18-193196-110088': 1,
-                  '18-193196-110089': 0,
-                  '18-193196-110090': 1,
-                  '18-193197-110088': 0,
-                  '18-193197-110089': 3,
-                  '18-193197-110090': 2,
-                  '18-193198-110088': 0,
-                  '18-193198-110089': 3,
-                  '18-193198-110090': 2,
-                  '18-193199-110088': 0,
-                  '18-193199-110089': 0,
-                  '18-193199-110090': 2
-              },
-          }
-      }
+    },
+    g101: {
+      nRN0mQ9awjhtOE28agZ0eOAdnXO2: {
+        startTime: '2025-10-09T10:01:55.475Z',
+        endTime: '2025-10-09T10:02:04.339Z',
+        appVersion: '0.2.8-dev',
+        clientType: 'web',
+        results: {
+          '18-193196-110088': 1,
+          '18-193196-110089': 0,
+          '18-193196-110090': 1,
+          '18-193197-110088': 0,
+          '18-193197-110089': 3,
+          '18-193197-110090': 2,
+          '18-193198-110088': 0,
+          '18-193198-110089': 3,
+          '18-193198-110090': 2,
+          '18-193199-110088': 0,
+          '18-193199-110089': 0,
+          '18-193199-110090': 2,
+        },
+      },
+    },
   },
   // Expected tutorial
   expected_tutorial_data: {
@@ -459,13 +460,13 @@
     contributorCount: 0,
     created: '2025-09-08T18:32:43.705267Z', // NOTE: This is dynamic
     createdBy: '01K6CPB1ETTF7MT9EAAQDQM4A9',
-    groupMaxSize: 80,
-    groupSize: 80,
+    groupMaxSize: 25,
+    groupSize: 25,
     isFeatured: false,
     language: 'en-us',
     lookFor: 'buildings',
     manualUrl: 'https://togglecorp.com',
-    maxTasksPerUser: 3,
+    maxTasksPerUser: 40,
     name: 'Check Completeness - Incomplete buildings - Bagmati (1) Togglecorp (test)',
     overlayTileServer: {
       type: 'vector',
