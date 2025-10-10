@@ -89,10 +89,10 @@
     clientId: '01K339HAWZCTCBRVQMQFWRTHXX',
     verificationNumber: 3,
     projectInstruction: 'Potholes',
-    groupSize: 15,
+    groupSize: 25,
     team: null,
     tutorial: null,
-    maxTasksPerUser: 2,
+    maxTasksPerUser: 30,
     image: null,
     projectTypeSpecifics: {
       validateImage: {
@@ -263,12 +263,12 @@
       },
     ],
     manualUrl: 'https://reliefweb.int/report/nepal/nepal-anticipatory-action-framework-floods-2025',
-    groupMaxSize: 15,
-    groupSize: 15,
+    groupMaxSize: 0,
+    groupSize: 25,
     isFeatured: false,
     language: 'en-us',
     lookFor: 'Potholes',
-    maxTasksPerUser: 2,
+    maxTasksPerUser: 30,
     name: 'Assess Images - Project - Spain (1) Togglecorp',
     projectInstruction: 'Potholes',
     progress: 0,
@@ -287,36 +287,88 @@
     verificationNumber: 3,
   },
   expected_project_groups_data: {
-    g100: {
-      finishedCount: 0,
-      groupId: 'g100',
-      numberOfTasks: 3,
-      progress: 0,
-      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-      requiredCount: 3,
-    },
+      g100: {
+          finishedCount: 0,
+          groupId: 'g100',
+          numberOfTasks: 14,
+          progress: 0,
+          projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+          requiredCount: 3
+      },
   },
   expected_project_tasks_data: {
-    g100: [
-      {
-        fileName: '000000252219.jpg',
-        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-        taskId: '252219',
-        url: 'http://images.cocodataset.org/val2017/000000252219.jpg',
-      },
-      {
-        fileName: '000000037777.jpg',
-        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-        taskId: '37777',
-        url: 'http://images.cocodataset.org/val2017/000000037777.jpg',
-      },
-      {
-        fileName: '000000397133.jpg',
-        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-        taskId: '397133',
-        url: 'http://images.cocodataset.org/val2017/000000397133.jpg',
-      },
-    ],
+      g100: [
+          {
+              fileName: 'G0325473.JPG',
+              taskId: '14',
+              url: 'https://drive.google.com/uc?export=view&id=1jdU2iE1oiCb8rkAvfGcjc06qRaJSkrA5'
+          },
+          {
+              fileName: 'G0325474.JPG',
+              taskId: '13',
+              url: 'https://drive.google.com/uc?export=view&id=1D9a_kj8_cBGt3kfGBdbW0XXiB--4BoYo'
+          },
+          {
+              fileName: 'G0335487.JPG',
+              taskId: '12',
+              url: 'https://drive.google.com/uc?export=view&id=1Tb40vlT-i8f9CmvvkLaqKXDTtn0ufRXV'
+          },
+          {
+              fileName: 'G0335488.JPG',
+              taskId: '11',
+              url: 'https://drive.google.com/uc?export=view&id=1ON-42REQS7HnF7Z_KDs7AGD4xUbvovOL'
+          },
+          {
+              fileName: 'G0335489.JPG',
+              taskId: '10',
+              url: 'https://drive.google.com/uc?export=view&id=1qx_0JhIkPGi7EepOh1VIYRRPplPRM6Fk'
+          },
+          {
+              fileName: 'G0335490.JPG',
+              taskId: '9',
+              url: 'https://drive.google.com/uc?export=view&id=1MxPLPRn_vZRLFGeRAwbpHjA15Ek8h2Rb'
+          },
+          {
+              fileName: 'G0335491.JPG',
+              taskId: '8',
+              url: 'https://drive.google.com/uc?export=view&id=11zyvjZA6O0NOjvDXjY7q9Kdyr68DKsp0'
+          },
+          {
+              fileName: 'G0459766.JPG',
+              taskId: '7',
+              url: 'https://drive.google.com/uc?export=view&id=104bx320lIc-1h42w7KnSAnz3hTNZfpbd'
+          },
+          {
+              fileName: 'G0459767.JPG',
+              taskId: '6',
+              url: 'https://drive.google.com/uc?export=view&id=1vr_T64ekmxWwryQSDjLkHrGnVzIg7e1A'
+          },
+          {
+              fileName: 'G0459768.JPG',
+              taskId: '5',
+              url: 'https://drive.google.com/uc?export=view&id=16WlfKhHlwqb42SdvRPjd5yjpARc0-6nD'
+          },
+          {
+              fileName: 'G9028413.JPG',
+              taskId: '4',
+              url: 'https://drive.google.com/uc?export=view&id=1Z1ZIrUoA8rRbufv9HmgFiW0Q3zSjTXOM'
+          },
+          {
+              fileName: 'G9028754.JPG',
+              taskId: '3',
+              url: 'https://drive.google.com/uc?export=view&id=1CyIFoWfNUqEEah-Es38fSQZu_qffblGl'
+          },
+          {
+              fileName: 'G9028898.JPG',
+              taskId: '2',
+              url: 'https://drive.google.com/uc?export=view&id=1tpA8XaRC9s0sh2AEhhoVYHYcdqGwIKp-'
+          },
+          {
+              fileName: 'G9029451.JPG',
+              taskId: '1',
+              url: 'https://drive.google.com/uc?export=view&id=1-27_bHjz2mFszufVjp-FZG_fdD370Loz'
+          }
+      ]
   },
   create_contributor_user_group: [
     {
@@ -326,27 +378,86 @@
     },
   ],
   create_results: {
-    g100: {
-      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
-        appVersion: '0.2.8-dev',
-        clientType: 'web',
-        startTime: '2025-10-08T02:31:40.920Z',
-        endTime: '2025-10-08T02:33:03.647Z',
-        userGroups: {
-          '01K49J0QPCZM2JCNC9AEE6HT8Y': true,
-        },
-        results: {
-          '37777': 0,
-          '252219': 1,
-          '397133': 1,
-        },
+      g100: {
+          '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+              startTime: '2025-10-10T06:25:10.146Z',
+              endTime: '2025-10-10T06:25:38.158Z',
+              appVersion: '0.2.8-dev',
+              clientType: 'web',
+              results: [
+                  null,
+                  1,
+                  2,
+                  0,
+                  1,
+                  2,
+                  0,
+                  1,
+                  2,
+                  0,
+                  1,
+                  0,
+                  2,
+                  1,
+                  0
+              ],
+          }
       },
-    },
+      g100: {
+          '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+              startTime: '2025-10-10T06:27:06.353Z',
+              endTime: '2025-10-10T06:27:25.965Z',
+              appVersion: '0.2.8-dev',
+              clientType: 'web',
+              results: [
+                  null,
+                  0,
+                  1,
+                  2,
+                  0,
+                  1,
+                  2,
+                  0,
+                  1,
+                  2,
+                  0,
+                  1,
+                  2,
+                  0,
+                  1
+              ],
+          }
+      },
+      g100: {
+          '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+              startTime: '2025-10-10T06:28:59.901Z',
+              endTime: '2025-10-10T06:29:17.620Z',
+              appVersion: '0.2.8-dev',
+              clientType: 'web',
+              results: [
+                  null,
+                  0,
+                  1,
+                  2,
+                  0,
+                  1,
+                  0,
+                  2,
+                  1,
+                  0,
+                  2,
+                  1,
+                  2,
+                  2,
+                  0
+              ],
+          }
+      },
   },
   expected_pulled_results_data: {
-    mapping_session_count: 1,
-    mapping_session_results_count: 3,
-    mapping_session_user_groups_count: 1,
+    mapping_session_count: 3,
+    mapping_session_results_count: 45,
+    mapping_session_user_groups_count: 0,
     progress: 33,
   },
 }
