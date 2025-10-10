@@ -90,11 +90,11 @@
     description: 'The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.',
     verificationNumber: 3,
     projectInstruction: 'Validate official buildings',
-    groupSize: 10,
+    groupSize: 25,
     team: null,
     topic: 'Offices',
     tutorial: null,
-    maxTasksPerUser: 2,
+    maxTasksPerUser: 30,
     projectNumber: 2,
     region: 'Manbhawan',
     image: null,
@@ -103,29 +103,29 @@
         customOptions: [
           {
             clientId: '01K4PJVZWT4VFZEGN4N4KZB6MF',
-            description: 'the shape does outline a building in the image',
-            icon: 'CHECKMARK_OUTLINE',
-            iconColor: '#388E3C',
             title: 'Yes',
-            value: 1,
+            icon: 'CHECKMARK_OUTLINE',
+            value: 0,
+            description: 'the shape does outline a building in the image',
+            iconColor: '#388E3C',
             subOptions: [],
           },
           {
             clientId: '01K4PJVZWTGXF92W20YPD2G4XR',
-            description: "the shape doesn't match a building in the image",
-            icon: 'CLOSE_OUTLINE',
-            iconColor: '#D32F2F',
             title: 'No',
-            value: 2,
+            icon: 'CLOSE_OUTLINE',
+            value: 1,
+            description: "the shape doesn't match a building in the image",
+            iconColor: '#D32F2F',
             subOptions: [],
           },
           {
             clientId: '01K4PJVZWTJXGC19J5V9CS1FVW',
-            description: "if you're not sure or there is cloud cover / bad imagery",
-            icon: 'REMOVE_OUTLINE',
-            iconColor: '#616161',
             title: 'Not Sure',
-            value: 3,
+            icon: 'REMOVE_OUTLINE',
+            value: 2,
+            description: "if you're not sure or there is cloud cover / bad imagery",
+            iconColor: '#616161',
             subOptions: [],
           },
         ],
@@ -165,21 +165,21 @@
         icon: 'checkmark-outline',
         iconColor: '#388E3C',
         title: 'Yes',
-        value: 1,
+        value: 0,
       },
       {
         description: "the shape doesn't match a building in the image",
         icon: 'close-outline',
         iconColor: '#D32F2F',
         title: 'No',
-        value: 2,
+        value: 1,
       },
       {
         description: "if you're not sure or there is cloud cover / bad imagery",
         icon: 'remove-outline',
         iconColor: '#616161',
         title: 'Not Sure',
-        value: 3,
+        value: 2,
       },
     ],
     informationPages: [
@@ -286,32 +286,32 @@
         icon: 'checkmark-outline',
         iconColor: '#388E3C',
         title: 'Yes',
-        value: 1,
+        value: 0,
       },
       {
         description: "the shape doesn't match a building in the image",
         icon: 'close-outline',
         iconColor: '#D32F2F',
         title: 'No',
-        value: 2,
+        value: 1,
       },
       {
         description: "if you're not sure or there is cloud cover / bad imagery",
         icon: 'remove-outline',
         iconColor: '#616161',
         title: 'Not Sure',
-        value: 3,
+        value: 2,
       },
     ],
     filter: 'building=* and geometry:polygon',
-    groupMaxSize: 10,
-    groupSize: 10,
+    groupMaxSize: 25,
+    groupSize: 25,
     inputType: 'aoi_file',
     isFeatured: false,
     language: 'en-us',
     lookFor: 'buildings',
     manualUrl: 'https://reliefweb.int/disaster/dr-2025-000125-npl',
-    maxTasksPerUser: 2,
+    maxTasksPerUser: 30,
     name: 'Validate Footprints - Offices - Manbhawan (2) Togglecorp',
     progress: 0,
     projectDetails: 'The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.',
@@ -339,7 +339,7 @@
     g100: {
       finishedCount: 0,
       groupId: 'g100',
-      numberOfTasks: 10,
+      numberOfTasks: 25,
       progress: 0,
       projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
       requiredCount: 3,
@@ -347,23 +347,7 @@
     g101: {
       finishedCount: 0,
       groupId: 'g101',
-      numberOfTasks: 11,
-      progress: 0,
-      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-      requiredCount: 3,
-    },
-    g102: {
-      finishedCount: 0,
-      groupId: 'g102',
-      numberOfTasks: 11,
-      progress: 0,
-      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-      requiredCount: 3,
-    },
-    g103: {
-      finishedCount: 0,
-      groupId: 'g103',
-      numberOfTasks: 2,
+      numberOfTasks: 9,
       progress: 0,
       projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
       requiredCount: 3,
@@ -374,7 +358,6 @@
     g100: [
       {
         taskId: 't1',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -391,7 +374,6 @@
       },
       {
         taskId: 't2',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -408,7 +390,6 @@
       },
       {
         taskId: 't3',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -424,7 +405,6 @@
       },
       {
         taskId: 't4',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -441,7 +421,6 @@
       },
       {
         taskId: 't5',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -458,7 +437,6 @@
       },
       {
         taskId: 't6',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -477,7 +455,6 @@
       },
       {
         taskId: 't7',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -494,7 +471,6 @@
       },
       {
         taskId: 't8',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -512,7 +488,6 @@
       },
       {
         taskId: 't9',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -529,7 +504,6 @@
       },
       {
         taskId: 't10',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -546,11 +520,8 @@
           ],
         },
       },
-    ],
-    g101: [
       {
         taskId: 't11',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -569,7 +540,6 @@
       },
       {
         taskId: 't12',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -585,7 +555,6 @@
       },
       {
         taskId: 't13',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -602,7 +571,6 @@
       },
       {
         taskId: 't14',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -621,7 +589,6 @@
       },
       {
         taskId: 't15',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -638,7 +605,6 @@
       },
       {
         taskId: 't16',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -655,7 +621,6 @@
       },
       {
         taskId: 't17',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -674,7 +639,6 @@
       },
       {
         taskId: 't18',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -691,7 +655,6 @@
       },
       {
         taskId: 't19',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -708,7 +671,6 @@
       },
       {
         taskId: 't20',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -724,7 +686,6 @@
       },
       {
         taskId: 't21',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -739,11 +700,8 @@
           ],
         },
       },
-    ],
-    g102: [
       {
         taskId: 't22',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -760,7 +718,6 @@
       },
       {
         taskId: 't23',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -777,7 +734,6 @@
       },
       {
         taskId: 't24',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -794,7 +750,6 @@
       },
       {
         taskId: 't25',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -811,9 +766,10 @@
           ],
         },
       },
+    ],
+    g101: [
       {
         taskId: 't26',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -832,7 +788,6 @@
       },
       {
         taskId: 't27',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -849,7 +804,6 @@
       },
       {
         taskId: 't28',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -866,7 +820,6 @@
       },
       {
         taskId: 't29',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -885,7 +838,6 @@
       },
       {
         taskId: 't30',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -902,7 +854,6 @@
       },
       {
         taskId: 't31',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -919,7 +870,6 @@
       },
       {
         taskId: 't32',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -934,11 +884,8 @@
           ],
         },
       },
-    ],
-    g103: [
       {
         taskId: 't33',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -955,7 +902,6 @@
       },
       {
         taskId: 't34',
-        // FIXME(tnagorra): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
         geojson: {
           type: 'Polygon',
@@ -971,5 +917,85 @@
         },
       },
     ],
+  },
+  // Create contributor group
+  create_contributor_user_group: [
+    {
+      clientId: '01K49J0QPCZM2JCNC9AEE6HT8Y',
+      name: 'User Group 01',
+      description: 'First user group',
+    },
+  ],
+  create_results: {
+    g101: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        startTime: '2025-10-09T05:36:21.754Z',
+        endTime: '2025-10-09T05:36:56.172Z',
+        appVersion: '0.2.8-dev',
+        clientType: 'web',
+        results: {
+          t26: 0,
+          t27: 2,
+          t28: 0,
+          t29: 0,
+          t30: 2,
+          t31: 2,
+          t32: 1,
+          t33: 1,
+          t34: 0,
+        },
+      },
+    },
+    g100: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        startTime: '2025-10-09T05:38:17.257Z',
+        endTime: '2025-10-09T05:39:39.760Z',
+        appVersion: '0.2.8-dev',
+        clientType: 'web',
+        results: {
+          t1: 2,
+          t10: 1,
+          t11: 0,
+          t12: 0,
+          t13: 2,
+          t14: 2,
+          t15: 0,
+          t16: 2,
+          t17: 2,
+          t18: 2,
+          t19: 2,
+          t2: 1,
+          t20: 0,
+          t21: 0,
+          t22: 1,
+          t23: 1,
+          t24: 0,
+          t25: 2,
+          t3: 0,
+          t4: 2,
+          t5: 0,
+          t6: 0,
+          t7: 1,
+          t8: 1,
+          t9: 2,
+        },
+      },
+    },
+  },
+  expected_pulled_results_data: {
+    mapping_session_count: 2,
+    mapping_session_results_count: 34,
+    mapping_session_user_groups_count: 0,
+    progress: 33,
+  },
+  expected_project_exports_data: {
+    aggregated_results: 'assets/tests/projects/validate/exports/expected_project_aggregated_result_modified.csv',
+    aggregated_results_with_geometry: 'assets/tests/projects/validate/exports/expected_project_aggregated_result_with_geometry_modified.geojson',
+    results: 'assets/tests/projects/validate/exports/expected_project_result_modified.csv',
+    history: 'assets/tests/projects/validate/exports/expected_project_history.csv',
+    groups: 'assets/tests/projects/validate/exports/expected_project_groups_modified.csv',
+    tasks: 'assets/tests/projects/validate/exports/expected_project_tasks_modified.csv',
+    users: 'assets/tests/projects/validate/exports/expected_project_users.csv',
+    area_of_interest: 'assets/tests/projects/validate/exports/expected_project_aoi.geojson',
   },
 }

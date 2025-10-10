@@ -1,0 +1,1243 @@
+{
+  "type": "FeatureCollection",
+  "name": "tmp",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 0.0,
+        "task_id": "t1",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "changesetId": 49360535.0,
+        "lastEdit": "2017-06-08T09:13:12Z",
+        "osmId": "way/203446478",
+        "version": 3.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.316576, 27.6713187],
+              [85.3166707, 27.6713143],
+              [85.3166648, 27.6712153],
+              [85.3165701, 27.6712197],
+              [85.316576, 27.6713187]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 1.0,
+        "task_id": "t10",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "changesetId": 49585108.0,
+        "lastEdit": "2017-06-16T09:14:11Z",
+        "osmId": "way/341905614",
+        "version": 2.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu #fridaymapping",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3161882, 27.6717291],
+              [85.3162395, 27.6717221],
+              [85.316256, 27.6718164],
+              [85.316171, 27.671828],
+              [85.3161603, 27.6717667],
+              [85.3161939, 27.6717621],
+              [85.3161882, 27.6717291]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 2.0,
+        "task_id": "t11",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "changesetId": 163528377.0,
+        "lastEdit": "2025-03-12T13:35:26Z",
+        "osmId": "way/447957160",
+        "version": 3.0,
+        "osm_username": "tnagorra",
+        "comment": "Updates after recent constructions",
+        "editor": "iD 2.32.0",
+        "userid": 4326462.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3163871, 27.6716741],
+              [85.3162581, 27.6716921],
+              [85.3162461, 27.6716241],
+              [85.3163609, 27.6716081],
+              [85.3163666, 27.6716398],
+              [85.3163806, 27.6716379],
+              [85.3163871, 27.6716741]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 3.0,
+        "task_id": "t12",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "changesetId": 49360535.0,
+        "lastEdit": "2017-06-08T09:13:10Z",
+        "osmId": "way/499025218",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.316697, 27.6712677],
+              [85.3166916, 27.6712689],
+              [85.316697, 27.6712881],
+              [85.316697, 27.6712677]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 4.0,
+        "task_id": "t13",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "changesetId": 49360651.0,
+        "lastEdit": "2017-06-08T09:17:08Z",
+        "osmId": "way/499025998",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3161216, 27.6711538],
+              [85.3160827, 27.6711544],
+              [85.3160844, 27.6712432],
+              [85.3161233, 27.6712426],
+              [85.3161216, 27.6711538]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 5.0,
+        "task_id": "t14",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "changesetId": 49360651.0,
+        "lastEdit": "2017-06-08T09:17:08Z",
+        "osmId": "way/499025999",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3161673, 27.6711042],
+              [85.3161683, 27.6711079],
+              [85.3161233, 27.6711171],
+              [85.316145, 27.6711998],
+              [85.3162746, 27.6711732],
+              [85.3162565, 27.6711042],
+              [85.3161673, 27.6711042]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 6.0,
+        "task_id": "t15",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "changesetId": 49360651.0,
+        "lastEdit": "2017-06-08T09:17:08Z",
+        "osmId": "way/499026000",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3161447, 27.6712066],
+              [85.3161492, 27.6712304],
+              [85.3162374, 27.6712174],
+              [85.3162329, 27.6711936],
+              [85.3161447, 27.6712066]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 7.0,
+        "task_id": "t16",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "changesetId": 49360651.0,
+        "lastEdit": "2017-06-08T09:17:08Z",
+        "osmId": "way/499026001",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3163395, 27.6713752],
+              [85.316324, 27.67127],
+              [85.316147, 27.6712905],
+              [85.3161625, 27.6713956],
+              [85.3163395, 27.6713752]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 8.0,
+        "task_id": "t17",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "changesetId": 49360651.0,
+        "lastEdit": "2017-06-08T09:17:08Z",
+        "osmId": "way/499026002",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3165367, 27.6711816],
+              [85.3164646, 27.6711925],
+              [85.3164708, 27.6712248],
+              [85.3164293, 27.6712311],
+              [85.3164422, 27.6712984],
+              [85.3165559, 27.6712812],
+              [85.3165367, 27.6711816]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 9.0,
+        "task_id": "t18",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "changesetId": 49360651.0,
+        "lastEdit": "2017-06-08T09:17:08Z",
+        "osmId": "way/499026003",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3164148, 27.6711231],
+              [85.3163343, 27.6711373],
+              [85.316352, 27.6712154],
+              [85.3164324, 27.6712012],
+              [85.3164148, 27.6711231]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 10.0,
+        "task_id": "t19",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "changesetId": 49360651.0,
+        "lastEdit": "2017-06-08T09:17:08Z",
+        "osmId": "way/499026005",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3164418, 27.6711042],
+              [85.3164524, 27.6711501],
+              [85.3165503, 27.6711323],
+              [85.3165438, 27.6711042],
+              [85.3164418, 27.6711042]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 11.0,
+        "task_id": "t2",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "changesetId": 43047110.0,
+        "lastEdit": "2016-10-20T23:26:42Z",
+        "osmId": "way/203446798",
+        "version": 2.0,
+        "osm_username": "Sunil Kumar Shrestha",
+        "comment": "This house is damaged by earthquake 2015",
+        "editor": "iD 1.9.7",
+        "userid": 4223165.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3165228, 27.6716385],
+              [85.3164962, 27.6715588],
+              [85.3163762, 27.6715901],
+              [85.3164028, 27.6716699],
+              [85.3165228, 27.6716385]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 12.0,
+        "task_id": "t20",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "changesetId": 49584423.0,
+        "lastEdit": "2017-06-16T08:50:40Z",
+        "osmId": "way/500898789",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.316285, 27.672118],
+              [85.3162845, 27.6721131],
+              [85.3162277, 27.672118],
+              [85.316285, 27.672118]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 13.0,
+        "task_id": "t21",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "changesetId": 49584423.0,
+        "lastEdit": "2017-06-16T08:50:40Z",
+        "osmId": "way/500898793",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.316697, 27.6720834],
+              [85.3166864, 27.6720861],
+              [85.3166967, 27.672118],
+              [85.316697, 27.672118],
+              [85.316697, 27.6720834]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 14.0,
+        "task_id": "t22",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "changesetId": 49584905.0,
+        "lastEdit": "2017-06-16T09:07:24Z",
+        "osmId": "way/500904926",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu #fridaymapping",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3163239, 27.6718246],
+              [85.3162514, 27.6718272],
+              [85.3162538, 27.6718786],
+              [85.3163263, 27.671876],
+              [85.3163239, 27.6718246]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 15.0,
+        "task_id": "t23",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "changesetId": 49584905.0,
+        "lastEdit": "2017-06-16T09:07:24Z",
+        "osmId": "way/500904927",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu #fridaymapping",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3163301, 27.671883],
+              [85.3162631, 27.6718909],
+              [85.3162698, 27.6719352],
+              [85.3163367, 27.6719273],
+              [85.3163301, 27.671883]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 16.0,
+        "task_id": "t24",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "changesetId": 49584905.0,
+        "lastEdit": "2017-06-16T09:07:24Z",
+        "osmId": "way/500904929",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu #fridaymapping",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3163985, 27.6718602],
+              [85.3163417, 27.6718659],
+              [85.3163469, 27.671907],
+              [85.3164037, 27.6719014],
+              [85.3163985, 27.6718602]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 17.0,
+        "task_id": "t25",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "changesetId": 49584905.0,
+        "lastEdit": "2017-06-16T09:07:24Z",
+        "osmId": "way/500904930",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu #fridaymapping",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3163331, 27.6717973],
+              [85.3163401, 27.6718548],
+              [85.3163725, 27.6718517],
+              [85.3163705, 27.6718351],
+              [85.3164009, 27.6718322],
+              [85.3163959, 27.6717913],
+              [85.3163331, 27.6717973]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 18.0,
+        "task_id": "t3",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "changesetId": 14844487.0,
+        "lastEdit": "2013-01-30T09:18:13Z",
+        "osmId": "way/203447248",
+        "version": 1.0,
+        "osm_username": "Sunita_ioe",
+        "editor": "Potlatch 2",
+        "userid": 1209120.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3162949, 27.6711042],
+              [85.3162987, 27.6711216],
+              [85.3163999, 27.6711042],
+              [85.3162949, 27.6711042]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 19.0,
+        "task_id": "t4",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "changesetId": 15280884.0,
+        "lastEdit": "2013-03-07T11:21:17Z",
+        "osmId": "way/208683409",
+        "version": 1.0,
+        "osm_username": "Helina",
+        "comment": "building footprints................",
+        "editor": "JOSM/1.5 (5576 en)",
+        "userid": 1068220.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3164919, 27.6716615],
+              [85.3165121, 27.6717514],
+              [85.3166172, 27.6717328],
+              [85.316597, 27.671643],
+              [85.3164919, 27.6716615]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 20.0,
+        "task_id": "t5",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "changesetId": 15280884.0,
+        "lastEdit": "2013-03-07T11:21:17Z",
+        "osmId": "way/208683411",
+        "version": 1.0,
+        "osm_username": "Helina",
+        "comment": "building footprints................",
+        "editor": "JOSM/1.5 (5576 en)",
+        "userid": 1068220.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3164498, 27.6713665],
+              [85.3165518, 27.6713566],
+              [85.316544, 27.6712935],
+              [85.316442, 27.6713034],
+              [85.3164498, 27.6713665]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 21.0,
+        "task_id": "t6",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "changesetId": 49584905.0,
+        "lastEdit": "2017-06-16T09:07:26Z",
+        "osmId": "way/208683418",
+        "version": 3.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu #fridaymapping",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3165258, 27.6717769],
+              [85.3165426, 27.6718943],
+              [85.3166659, 27.6718804],
+              [85.3166537, 27.6717952],
+              [85.3166325, 27.6717976],
+              [85.3166279, 27.6717654],
+              [85.3165258, 27.6717769]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 22.0,
+        "task_id": "t7",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "changesetId": 15280884.0,
+        "lastEdit": "2013-03-07T11:21:18Z",
+        "osmId": "way/208683423",
+        "version": 1.0,
+        "osm_username": "Helina",
+        "comment": "building footprints................",
+        "editor": "JOSM/1.5 (5576 en)",
+        "userid": 1068220.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3163453, 27.6714887],
+              [85.3164549, 27.6714724],
+              [85.31644, 27.6713938],
+              [85.3163304, 27.6714101],
+              [85.3163453, 27.6714887]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 23.0,
+        "task_id": "t8",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "changesetId": 30673993.0,
+        "lastEdit": "2015-04-30T21:24:12Z",
+        "osmId": "way/341905603",
+        "version": 1.0,
+        "osm_username": "Wim L",
+        "comment": "#hotosm-project-1008",
+        "editor": "JOSM/1.5 (8279 en)",
+        "userid": 223681.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3160708, 27.6719357],
+              [85.3160766, 27.6719679],
+              [85.3162399, 27.6719448],
+              [85.3162239, 27.671856],
+              [85.3160708, 27.6718777],
+              [85.3160708, 27.6719357]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 24.0,
+        "task_id": "t9",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "changesetId": 30673993.0,
+        "lastEdit": "2015-04-30T21:24:12Z",
+        "osmId": "way/341905612",
+        "version": 1.0,
+        "osm_username": "Wim L",
+        "comment": "#hotosm-project-1008",
+        "editor": "JOSM/1.5 (8279 en)",
+        "userid": 223681.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3160993, 27.6715695],
+              [85.3162015, 27.6715706],
+              [85.3162008, 27.6716217],
+              [85.3160986, 27.6716205],
+              [85.3160993, 27.6715695]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 25.0,
+        "task_id": "t26",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "changesetId": 49584905.0,
+        "lastEdit": "2017-06-16T09:07:24Z",
+        "osmId": "way/500904932",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu #fridaymapping",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.316367, 27.671734],
+              [85.3162631, 27.6717454],
+              [85.3162728, 27.6718149],
+              [85.316328, 27.6718089],
+              [85.3163263, 27.6717967],
+              [85.316375, 27.6717914],
+              [85.316367, 27.671734]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 26.0,
+        "task_id": "t27",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "changesetId": 49584905.0,
+        "lastEdit": "2017-06-16T09:07:25Z",
+        "osmId": "way/500904934",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu #fridaymapping",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3165165, 27.6718422],
+              [85.3164182, 27.6718587],
+              [85.3164288, 27.6719079],
+              [85.316527, 27.6718914],
+              [85.3165165, 27.6718422]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 27.0,
+        "task_id": "t28",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "changesetId": 49584905.0,
+        "lastEdit": "2017-06-16T09:07:25Z",
+        "osmId": "way/500904935",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu #fridaymapping",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3164956, 27.6717348],
+              [85.3164026, 27.6717512],
+              [85.3164248, 27.6718493],
+              [85.3165178, 27.6718329],
+              [85.3164956, 27.6717348]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 28.0,
+        "task_id": "t29",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "changesetId": 49584905.0,
+        "lastEdit": "2017-06-16T09:07:25Z",
+        "osmId": "way/500904937",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu #fridaymapping",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3164852, 27.6716664],
+              [85.3163644, 27.6716849],
+              [85.3163696, 27.6717115],
+              [85.3163879, 27.6717087],
+              [85.3163938, 27.6717391],
+              [85.3164963, 27.6717234],
+              [85.3164852, 27.6716664]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 29.0,
+        "task_id": "t30",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "changesetId": 49585108.0,
+        "lastEdit": "2017-06-16T09:14:10Z",
+        "osmId": "way/500907160",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu #fridaymapping",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3163145, 27.671549],
+              [85.3163009, 27.6713988],
+              [85.316077, 27.6714147],
+              [85.3160907, 27.671565],
+              [85.3163145, 27.671549]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 30.0,
+        "task_id": "t31",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "changesetId": 49585108.0,
+        "lastEdit": "2017-06-16T09:14:10Z",
+        "osmId": "way/500907161",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu #fridaymapping",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3165016, 27.6713615],
+              [85.3164547, 27.6713661],
+              [85.3164615, 27.6714203],
+              [85.3165084, 27.6714157],
+              [85.3165016, 27.6713615]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 31.0,
+        "task_id": "t32",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "changesetId": 49585108.0,
+        "lastEdit": "2017-06-16T09:14:10Z",
+        "osmId": "way/500907162",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu #fridaymapping",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3165432, 27.6714728],
+              [85.3164376, 27.6714939],
+              [85.3164513, 27.6715477],
+              [85.3165569, 27.6715266],
+              [85.3165432, 27.6714728]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 32.0,
+        "task_id": "t33",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "changesetId": 49585108.0,
+        "lastEdit": "2017-06-16T09:14:11Z",
+        "osmId": "way/500907163",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu #fridaymapping",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3162183, 27.6716428],
+              [85.3160881, 27.6716429],
+              [85.3160881, 27.6717203],
+              [85.3162183, 27.6717202],
+              [85.3162183, 27.6716428]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 33.0,
+        "task_id": "t34",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "changesetId": 49585108.0,
+        "lastEdit": "2017-06-16T09:14:11Z",
+        "osmId": "way/500907164",
+        "version": 1.0,
+        "osm_username": "Alisha12",
+        "comment": "#hotosm-project-3047 #kll #data-cleaning #kathmandu #fridaymapping",
+        "editor": "JOSM/1.5 (11639 en)",
+        "userid": 4204463.0
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3161537, 27.6717783],
+              [85.3161165, 27.6717865],
+              [85.316133, 27.6718448],
+              [85.3161702, 27.6718366],
+              [85.3161537, 27.6717783]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
