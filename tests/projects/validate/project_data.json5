@@ -1020,8 +1020,6 @@
     mapping_session_count: 2,
     mapping_session_results_count: 34,
     mapping_session_user_groups_count: 0,
-    // ERROR(rup): PROGRESS
-    // progress: 33,
-    progress: 0,
+    progress: 33,
   },
 }
