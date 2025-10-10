@@ -22,8 +22,8 @@
         "tile_y": 110088.0,
         "taskX": 193196.0,
         "taskY": 110088.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103100.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103100.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103100.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103100.jpeg?g=7505&mkt=en-US&token=dummy-bing"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -60,8 +60,8 @@
         "tile_y": 110089.0,
         "taskX": 193196.0,
         "taskY": 110089.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103102.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103102.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103102.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103102.jpeg?g=7505&mkt=en-US&token=dummy-bing"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -98,8 +98,8 @@
         "tile_y": 110090.0,
         "taskX": 193196.0,
         "taskY": 110090.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103120.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103120.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103120.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103120.jpeg?g=7505&mkt=en-US&token=dummy-bing"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -136,8 +136,8 @@
         "tile_y": 110088.0,
         "taskX": 193197.0,
         "taskY": 110088.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103101.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103101.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103101.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103101.jpeg?g=7505&mkt=en-US&token=dummy-bing"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -174,8 +174,8 @@
         "tile_y": 110089.0,
         "taskX": 193197.0,
         "taskY": 110089.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103103.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103103.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103103.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103103.jpeg?g=7505&mkt=en-US&token=dummy-bing"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -212,8 +212,8 @@
         "tile_y": 110090.0,
         "taskX": 193197.0,
         "taskY": 110090.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103121.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103121.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103121.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103121.jpeg?g=7505&mkt=en-US&token=dummy-bing"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -250,8 +250,8 @@
         "tile_y": 110088.0,
         "taskX": 193198.0,
         "taskY": 110088.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103110.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103110.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103110.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103110.jpeg?g=7505&mkt=en-US&token=dummy-bing"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -288,8 +288,8 @@
         "tile_y": 110089.0,
         "taskX": 193198.0,
         "taskY": 110089.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103112.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103112.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103112.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103112.jpeg?g=7505&mkt=en-US&token=dummy-bing"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -326,8 +326,8 @@
         "tile_y": 110090.0,
         "taskX": 193198.0,
         "taskY": 110090.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103130.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103130.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103130.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103130.jpeg?g=7505&mkt=en-US&token=dummy-bing"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -364,8 +364,8 @@
         "tile_y": 110088.0,
         "taskX": 193199.0,
         "taskY": 110088.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103111.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103111.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103111.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103111.jpeg?g=7505&mkt=en-US&token=dummy-bing"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -402,8 +402,8 @@
         "tile_y": 110089.0,
         "taskX": 193199.0,
         "taskY": 110089.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103113.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103113.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103113.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103113.jpeg?g=7505&mkt=en-US&token=dummy-bing"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -440,8 +440,8 @@
         "tile_y": 110090.0,
         "taskX": 193199.0,
         "taskY": 110090.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103131.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn",
-        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103131.jpeg?g=7505&mkt=en-US&token=AopsdXjtTu-IwNoCTiZBtgRJ1g7yPkzAi65nXplc-eLJwZHYlAIf2yuSY_Kjg3Wn"
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103131.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103131.jpeg?g=7505&mkt=en-US&token=dummy-bing"
       },
       "geometry": {
         "type": "MultiPolygon",
