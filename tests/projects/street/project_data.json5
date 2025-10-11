@@ -208,933 +208,933 @@
     verificationNumber: 3,
   },
   expected_project_groups_data: {
-      g0: {
-          finishedCount: 0,
-          groupId: 'g0',
-          numberOfTasks: 25,
-          progress: 0,
-          projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-          requiredCount: 3
-      },
-      g1: {
-          finishedCount: 0,
-          groupId: 'g1',
-          numberOfTasks: 25,
-          progress: 0,
-          projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-          requiredCount: 3
-      },
-      g2: {
-          finishedCount: 0,
-          groupId: 'g2',
-          numberOfTasks: 25,
-          progress: 0,
-          projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-          requiredCount: 3
-      },
-      g3: {
-          finishedCount: 0,
-          groupId: 'g3',
-          numberOfTasks: 25,
-          progress: 0,
-          projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-          requiredCount: 3
-      },
-      g4: {
-          finishedCount: 0,
-          groupId: 'g4',
-          numberOfTasks: 25,
-          progress: 0,
-          projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-          requiredCount: 3
-      },
-      g5: {
-          finishedCount: 0,
-          groupId: 'g5',
-          numberOfTasks: 25,
-          progress: 0,
-          projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-          requiredCount: 3
-      },
-      g6: {
-          finishedCount: 0,
-          groupId: 'g6',
-          numberOfTasks: 21,
-          progress: 0,
-          projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-          requiredCount: 3
-      },
+    g0: {
+      finishedCount: 0,
+      groupId: 'g0',
+      numberOfTasks: 25,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
+    g1: {
+      finishedCount: 0,
+      groupId: 'g1',
+      numberOfTasks: 25,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
+    g2: {
+      finishedCount: 0,
+      groupId: 'g2',
+      numberOfTasks: 25,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
+    g3: {
+      finishedCount: 0,
+      groupId: 'g3',
+      numberOfTasks: 25,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
+    g4: {
+      finishedCount: 0,
+      groupId: 'g4',
+      numberOfTasks: 25,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
+    g5: {
+      finishedCount: 0,
+      groupId: 'g5',
+      numberOfTasks: 25,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
+    g6: {
+      finishedCount: 0,
+      groupId: 'g6',
+      numberOfTasks: 21,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
   },
   expected_project_tasks_data: {
     // NOTE: The tasks have been decoded
     g0: [
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 532278331102701
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 514600672896404
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 863416307545602
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 374218523870341
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 763599141019142
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1262231680875078
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 522644478760221
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 929881347798900
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 280627930426105
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 997935114280043
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 466027641152607
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 538541777553481
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 2934961363417101
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 221598516015995
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 215954383375487
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 486007482743424
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 3002424186656283
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1793596897469068
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 220197396199300
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1089503238205597
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 293354825581638
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 311681900569392
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 215609613317462
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 306015047591357
-        },
-        {
-            groupId: 'g0',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 472475507146778
-        }
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 532278331102701,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 514600672896404,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 863416307545602,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 374218523870341,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 763599141019142,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1262231680875078,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 522644478760221,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 929881347798900,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 280627930426105,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 997935114280043,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 466027641152607,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 538541777553481,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 2934961363417101,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 221598516015995,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 215954383375487,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 486007482743424,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 3002424186656283,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1793596897469068,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 220197396199300,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1089503238205597,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 293354825581638,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 311681900569392,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 215609613317462,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 306015047591357,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 472475507146778,
+      },
     ],
     g1: [
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 815259072444796
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 204180808184379
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1416579425368800
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 229673152268446
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 143086751066761
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1018204235374983
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 174805894554235
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 294089462218151
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 396161598054049
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 311729943801998
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 311842720449803
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 390212139013642
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 843457026514227
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 309930367289344
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 304384581292398
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 900404487481037
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 549193183134176
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 931578997687523
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 475019200408945
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1028003340940649
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 488406752508356
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 993584358068657
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 134128248759779
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 171071091559874
-        },
-        {
-            groupId: 'g1',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 313080463768918
-        }
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 815259072444796,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 204180808184379,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1416579425368800,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 229673152268446,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 143086751066761,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1018204235374983,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 174805894554235,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 294089462218151,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 396161598054049,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 311729943801998,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 311842720449803,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 390212139013642,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 843457026514227,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 309930367289344,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 304384581292398,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 900404487481037,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 549193183134176,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 931578997687523,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 475019200408945,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1028003340940649,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 488406752508356,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 993584358068657,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 134128248759779,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 171071091559874,
+      },
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 313080463768918,
+      },
     ],
     g2: [
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 486638032539895
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 960688504674840
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1433094837054800
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 829056081324841
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 118767386895631
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 512310906793400
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 493237418776513
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 2893886520927602
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 234410925150909
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 2961830694066872
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1182454468842679
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 227456839145239
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 769498343925625
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1108171933000450
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 802291447328688
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 311386080551161
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 2859406180969280
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 152146946843764
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 478763590104893
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 224238712393196
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 238377178076011
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 810726503213585
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 530966058074560
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 854308908765158
-        },
-        {
-            groupId: 'g2',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 497071404823486
-        }
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 486638032539895,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 960688504674840,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1433094837054800,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 829056081324841,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 118767386895631,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 512310906793400,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 493237418776513,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 2893886520927602,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 234410925150909,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 2961830694066872,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1182454468842679,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 227456839145239,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 769498343925625,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1108171933000450,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 802291447328688,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 311386080551161,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 2859406180969280,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 152146946843764,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 478763590104893,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 224238712393196,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 238377178076011,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 810726503213585,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 530966058074560,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 854308908765158,
+      },
+      {
+        groupId: 'g2',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 497071404823486,
+      },
     ],
     g3: [
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1421550691542425
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 557802475257465
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 177484247567754
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 3838968319534044
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1105969113220260
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 321241836093298
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 495526724824213
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 398375021151837
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 312547873550324
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 300666078199844
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 456587068772890
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 794673368150801
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1237118526705864
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 136394635176053
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 4148310468564528
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 813811119241543
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 149421197191246
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 4153589141328795
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 554606375945216
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 320662422916658
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1427682247580746
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 196973792249760
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1209181326175741
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1251533841931538
-        },
-        {
-            groupId: 'g3',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1198065777311077
-        }
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1421550691542425,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 557802475257465,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 177484247567754,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 3838968319534044,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1105969113220260,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 321241836093298,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 495526724824213,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 398375021151837,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 312547873550324,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 300666078199844,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 456587068772890,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 794673368150801,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1237118526705864,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 136394635176053,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 4148310468564528,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 813811119241543,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 149421197191246,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 4153589141328795,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 554606375945216,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 320662422916658,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1427682247580746,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 196973792249760,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1209181326175741,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1251533841931538,
+      },
+      {
+        groupId: 'g3',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1198065777311077,
+      },
     ],
     g4: [
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 466878447723976
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 4208257919239854
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 2973720656243481
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 494858831756994
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 213980510165083
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 807434826852382
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 2598618860283352
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 318114939678618
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 549643079528528
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 806573983587062
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 774910503418323
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1009548882910893
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 909933389740484
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 494752791570146
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 3844082628974073
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 298982435062263
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1134045040355365
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 315725296748345
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 461724764924720
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 465333154730658
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 503753824311822
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 506042960530456
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 907399896499536
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 165523582163930
-        },
-        {
-            groupId: 'g4',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 457076672066445
-        }
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 466878447723976,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 4208257919239854,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 2973720656243481,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 494858831756994,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 213980510165083,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 807434826852382,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 2598618860283352,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 318114939678618,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 549643079528528,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 806573983587062,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 774910503418323,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1009548882910893,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 909933389740484,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 494752791570146,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 3844082628974073,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 298982435062263,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1134045040355365,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 315725296748345,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 461724764924720,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 465333154730658,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 503753824311822,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 506042960530456,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 907399896499536,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 165523582163930,
+      },
+      {
+        groupId: 'g4',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 457076672066445,
+      },
     ],
     g5: [
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1420742151594525
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 471169427482486
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 857574681460256
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 480402069978017
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 305915757788899
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 2552356178401310
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 462800421451629
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 196667055629633
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 283627973312023
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 470420360844622
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 154146103255589
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 2602941143342845
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 966595770812880
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 3110665589153812
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1345839685790380
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 341418657403722
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 412993719916472
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 287718009721935
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 140750361403050
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 468150024517151
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 956016295154502
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 294289882166817
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 368767987900082
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 164528198843925
-        },
-        {
-            groupId: 'g5',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 469666794148622
-        }
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1420742151594525,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 471169427482486,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 857574681460256,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 480402069978017,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 305915757788899,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 2552356178401310,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 462800421451629,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 196667055629633,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 283627973312023,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 470420360844622,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 154146103255589,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 2602941143342845,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 966595770812880,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 3110665589153812,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1345839685790380,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 341418657403722,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 412993719916472,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 287718009721935,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 140750361403050,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 468150024517151,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 956016295154502,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 294289882166817,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 368767987900082,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 164528198843925,
+      },
+      {
+        groupId: 'g5',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 469666794148622,
+      },
     ],
     g6: [
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 467710170993543
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1222597928184889
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 221455562705097
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 472853240617660
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 471714694047247
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 4101601863225395
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 3013407598940570
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 169115391779413
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 456366318769995
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 1788340767993363
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 2629104817382199
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 759283841445402
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 523673395326228
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 235250958355083
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 898696484313028
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 177481414160179
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 479937313124812
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 917640915747361
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 168021655123362
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 293406132412281
-        },
-        {
-            groupId: 'g6',
-            projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-            taskId: 482915389682780
-        }
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 467710170993543,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1222597928184889,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 221455562705097,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 472853240617660,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 471714694047247,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 4101601863225395,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 3013407598940570,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 169115391779413,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 456366318769995,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1788340767993363,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 2629104817382199,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 759283841445402,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 523673395326228,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 235250958355083,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 898696484313028,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 177481414160179,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 479937313124812,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 917640915747361,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 168021655123362,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 293406132412281,
+      },
+      {
+        groupId: 'g6',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 482915389682780,
+      },
     ],
   },
   create_contributor_user_group: [
@@ -1145,111 +1145,111 @@
     },
   ],
   create_results: {
-      g0: {
-          '01K6CPB1ETTF7MT9EAAQDQM4A9': {
-              startTime: '2025-10-10T09:24:14.477Z',
-              endTime: '2025-10-10T09:25:36.351Z',
-              appVersion: '0.2.8-dev',
-              clientType: 'web',
-              results: {
-                  '1089503238205597': 1,
-                  '1262231680875078': 1,
-                  '1793596897469068': 0,
-                  '215609613317462': 0,
-                  '215954383375487': 1,
-                  '220197396199300': 1,
-                  '221598516015995': 1,
-                  '280627930426105': 1,
-                  '293354825581638': 2,
-                  '2934961363417101': 2,
-                  '3002424186656283': 1,
-                  '306015047591357': 1,
-                  '311681900569392': 1,
-                  '374218523870341': 2,
-                  '466027641152607': 0,
-                  '472475507146778': 1,
-                  '486007482743424': 2,
-                  '514600672896404': 1,
-                  '522644478760221': 0,
-                  '532278331102701': 1,
-                  '538541777553481': 1,
-                  '763599141019142': 0,
-                  '863416307545602': 1,
-                  '929881347798900': 2,
-                  '997935114280043': 1
-              },
-          }
+    g0: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        startTime: '2025-10-10T09:24:14.477Z',
+        endTime: '2025-10-10T09:25:36.351Z',
+        appVersion: '0.2.8-dev',
+        clientType: 'web',
+        results: {
+          '1089503238205597': 1,
+          '1262231680875078': 1,
+          '1793596897469068': 0,
+          '215609613317462': 0,
+          '215954383375487': 1,
+          '220197396199300': 1,
+          '221598516015995': 1,
+          '280627930426105': 1,
+          '293354825581638': 2,
+          '2934961363417101': 2,
+          '3002424186656283': 1,
+          '306015047591357': 1,
+          '311681900569392': 1,
+          '374218523870341': 2,
+          '466027641152607': 0,
+          '472475507146778': 1,
+          '486007482743424': 2,
+          '514600672896404': 1,
+          '522644478760221': 0,
+          '532278331102701': 1,
+          '538541777553481': 1,
+          '763599141019142': 0,
+          '863416307545602': 1,
+          '929881347798900': 2,
+          '997935114280043': 1,
+        },
       },
-      g0: {
-          '01K6CPB1ETTF7MT9EAAQDQM4A9': {
-              startTime: '2025-10-10T09:26:28.726Z',
-              endTime: '2025-10-10T09:27:29.583Z',
-              appVersion: '0.2.8-dev',
-              clientType: 'web',
-              results: {
-                  '1089503238205597': 2,
-                  '1262231680875078': 1,
-                  '1793596897469068': 2,
-                  '215609613317462': 1,
-                  '215954383375487': 1,
-                  '220197396199300': 1,
-                  '221598516015995': 2,
-                  '280627930426105': 0,
-                  '293354825581638': 1,
-                  '2934961363417101': 0,
-                  '3002424186656283': 1,
-                  '306015047591357': 0,
-                  '311681900569392': 1,
-                  '374218523870341': 1,
-                  '466027641152607': 0,
-                  '472475507146778': 1,
-                  '486007482743424': 0,
-                  '514600672896404': 2,
-                  '522644478760221': 1,
-                  '532278331102701': 1,
-                  '538541777553481': 1,
-                  '763599141019142': 2,
-                  '863416307545602': 0,
-                  '929881347798900': 1,
-                  '997935114280043': 1
-              },
-          }
+    },
+    g0: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        startTime: '2025-10-10T09:26:28.726Z',
+        endTime: '2025-10-10T09:27:29.583Z',
+        appVersion: '0.2.8-dev',
+        clientType: 'web',
+        results: {
+          '1089503238205597': 2,
+          '1262231680875078': 1,
+          '1793596897469068': 2,
+          '215609613317462': 1,
+          '215954383375487': 1,
+          '220197396199300': 1,
+          '221598516015995': 2,
+          '280627930426105': 0,
+          '293354825581638': 1,
+          '2934961363417101': 0,
+          '3002424186656283': 1,
+          '306015047591357': 0,
+          '311681900569392': 1,
+          '374218523870341': 1,
+          '466027641152607': 0,
+          '472475507146778': 1,
+          '486007482743424': 0,
+          '514600672896404': 2,
+          '522644478760221': 1,
+          '532278331102701': 1,
+          '538541777553481': 1,
+          '763599141019142': 2,
+          '863416307545602': 0,
+          '929881347798900': 1,
+          '997935114280043': 1,
+        },
       },
-      g1: {
-          '01K6CPB1ETTF7MT9EAAQDQM4A9': {
-              startTime: '2025-10-10T09:29:24.723Z',
-              endTime: '2025-10-10T09:30:31.669Z',
-              appVersion: '0.2.8-dev',
-              clientType: 'web',
-              results: {
-                  '1018204235374983': 0,
-                  '1028003340940649': 2,
-                  '134128248759779': 1,
-                  '1416579425368800': 2,
-                  '143086751066761': 1,
-                  '171071091559874': 0,
-                  '174805894554235': 0,
-                  '204180808184379': 1,
-                  '229673152268446': 2,
-                  '294089462218151': 1,
-                  '304384581292398': 0,
-                  '309930367289344': 1,
-                  '311729943801998': 1,
-                  '311842720449803': 0,
-                  '313080463768918': 2,
-                  '390212139013642': 1,
-                  '396161598054049': 0,
-                  '475019200408945': 1,
-                  '488406752508356': 1,
-                  '549193183134176': 1,
-                  '815259072444796': 2,
-                  '843457026514227': 2,
-                  '900404487481037': 1,
-                  '931578997687523': 0,
-                  '993584358068657': 0
-              },
-          }
+    },
+    g1: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        startTime: '2025-10-10T09:29:24.723Z',
+        endTime: '2025-10-10T09:30:31.669Z',
+        appVersion: '0.2.8-dev',
+        clientType: 'web',
+        results: {
+          '1018204235374983': 0,
+          '1028003340940649': 2,
+          '134128248759779': 1,
+          '1416579425368800': 2,
+          '143086751066761': 1,
+          '171071091559874': 0,
+          '174805894554235': 0,
+          '204180808184379': 1,
+          '229673152268446': 2,
+          '294089462218151': 1,
+          '304384581292398': 0,
+          '309930367289344': 1,
+          '311729943801998': 1,
+          '311842720449803': 0,
+          '313080463768918': 2,
+          '390212139013642': 1,
+          '396161598054049': 0,
+          '475019200408945': 1,
+          '488406752508356': 1,
+          '549193183134176': 1,
+          '815259072444796': 2,
+          '843457026514227': 2,
+          '900404487481037': 1,
+          '931578997687523': 0,
+          '993584358068657': 0,
+        },
       },
+    },
   },
   expected_pulled_results_data: {
     mapping_session_count: 3,
