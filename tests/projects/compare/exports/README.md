@@ -1,16 +1,18 @@
-# Changes in Find project exports
+# Changes in Compare project exports
 
 ## expected_project_aggregated_result_modified.csv
 
 - Removed `taskX`. Use `tile_x` instead
 - Removed `taskY`. Use `tile_y` instead
 - Removed `taskZ`. Use `tile_z` instead
+- Renamed `urlB` to `url_b`
 
 ## expected_project_aggregated_result_with_geometry_modified.geojson
 
 - Removed `taskX`. Use `tile_x` instead
 - Removed `taskY`. Use `tile_y` instead
 - Removed `taskZ`. Use `tile_z` instead
+- Renamed `urlB` to `url_b`
 
 ## expected_project_groups_modified.csv
 
@@ -38,3 +40,4 @@
 - Removed `taskX`. Use `tile_x` instead
 - Removed `taskY`. Use `tile_y` instead
 - Removed `taskZ`. Use `tile_z` instead
+- Renamed `urlB` to `url_b`
