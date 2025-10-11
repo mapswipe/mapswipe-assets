@@ -252,6 +252,7 @@
     ],
     lookFor: 'buildings',
     name: 'Completeness Tutorial',
+    // NOTE: Previous system does not support vector tiles so the output has to be modified
     overlayTileServer: {
       type: 'vector',
       vector: {
