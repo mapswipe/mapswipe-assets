@@ -207,7 +207,7 @@
   // Create results (mock app) without usergroups
   create_results: {
     g101: {
-      nRN0mQ9awjhtOE28agZ0eOAdnXO2: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
         startTime: '2025-10-09T09:57:42.362Z',
         endTime: '2025-10-09T09:58:01.780Z',
         appVersion: '0.2.8-dev',
@@ -225,50 +225,6 @@
           '18-193199-110088': 2,
           '18-193199-110089': 0,
           '18-193199-110090': 1,
-        },
-      },
-    },
-    g101: {
-      nRN0mQ9awjhtOE28agZ0eOAdnXO2: {
-        startTime: '2025-10-09T09:58:47.817Z',
-        endTime: '2025-10-09T09:58:58.967Z',
-        appVersion: '0.2.8-dev',
-        clientType: 'web',
-        results: {
-          '18-193196-110088': 0,
-          '18-193196-110089': 2,
-          '18-193196-110090': 1,
-          '18-193197-110088': 0,
-          '18-193197-110089': 1,
-          '18-193197-110090': 0,
-          '18-193198-110088': 1,
-          '18-193198-110089': 3,
-          '18-193198-110090': 3,
-          '18-193199-110088': 2,
-          '18-193199-110089': 1,
-          '18-193199-110090': 0,
-        },
-      },
-    },
-    g101: {
-      nRN0mQ9awjhtOE28agZ0eOAdnXO2: {
-        startTime: '2025-10-09T10:01:55.475Z',
-        endTime: '2025-10-09T10:02:04.339Z',
-        appVersion: '0.2.8-dev',
-        clientType: 'web',
-        results: {
-          '18-193196-110088': 1,
-          '18-193196-110089': 0,
-          '18-193196-110090': 1,
-          '18-193197-110088': 0,
-          '18-193197-110089': 3,
-          '18-193197-110090': 2,
-          '18-193198-110088': 0,
-          '18-193198-110089': 3,
-          '18-193198-110090': 2,
-          '18-193199-110088': 0,
-          '18-193199-110089': 0,
-          '18-193199-110090': 2,
         },
       },
     },
@@ -536,21 +492,21 @@
   expected_project_tasks_data: null,
   // Expected results
   expected_pulled_results_data: {
-    mapping_session_count: 3,
-    mapping_session_results_count: 36,
+    mapping_session_count: 1,
+    mapping_session_results_count: 12,
     mapping_session_user_groups_count: 0,
     progress: 33,
   },
   expected_project_exports_data: {
-    aggregated_results: 'assets/tests/projects/completeness/exports/expected_project_aggregated_result.csv',
-    aggregated_results_with_geometry: 'assets/tests/projects/completeness/exports/expected_project_aggregated_result_with_geometry.geojson',
-    results: 'assets/tests/projects/completeness/exports/expected_project_result.csv',
+    aggregated_results: 'assets/tests/projects/completeness/exports/expected_project_aggregated_result_modified.csv',
+    aggregated_results_with_geometry: 'assets/tests/projects/completeness/exports/expected_project_aggregated_result_with_geometry_modified.geojson',
+    results: 'assets/tests/projects/completeness/exports/expected_project_result_modified.csv',
     history: 'assets/tests/projects/completeness/exports/expected_project_history.csv',
-    groups: 'assets/tests/projects/completeness/exports/expected_project_groups.csv',
-    tasks: 'assets/tests/projects/completeness/exports/expected_project_tasks.csv',
+    groups: 'assets/tests/projects/completeness/exports/expected_project_groups_modified.csv',
+    tasks: 'assets/tests/projects/completeness/exports/expected_project_tasks_modified.csv',
     users: 'assets/tests/projects/completeness/exports/expected_project_users.csv',
     area_of_interest: 'assets/tests/projects/completeness/exports/expected_project_aoi.geojson',
-    hot_tasking_manage_geometry: 'assets/tests/projects/completeness/exports/expected_project_hot_tasking_manage.geojson',
+    hot_tasking_manager_geometry: 'assets/tests/projects/completeness/exports/expected_project_hot_aoi.geojson',
     moderate_to_high_agreement: 'assets/tests/projects/completeness/exports/expected_project_moderate_to_high_agreement.geojson',
   },
 }

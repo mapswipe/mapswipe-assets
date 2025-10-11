@@ -1,0 +1,438 @@
+{
+  "type": "FeatureCollection",
+  "name": "tmp",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 0.0,
+        "task_id": "18-193196-110088",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "3_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "3_share": 1.0,
+        "quadkey": 1.231312230101031e17,
+        "tile_z": 18.0,
+        "tile_x": 193196.0,
+        "tile_y": 110088.0,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103100.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103100.jpeg?g=7505&mkt=en-US&token=dummy-bing"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3143310546875, 27.6737989578176],
+              [85.3157043457031, 27.6737989578176],
+              [85.3157043457031, 27.672582756144],
+              [85.3143310546875, 27.672582756144],
+              [85.3143310546875, 27.6737989578176]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 1.0,
+        "task_id": "18-193196-110089",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "3_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "3_share": 0.0,
+        "quadkey": 1.231312230101031e17,
+        "tile_z": 18.0,
+        "tile_x": 193196.0,
+        "tile_y": 110089.0,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103102.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103102.jpeg?g=7505&mkt=en-US&token=dummy-bing"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3143310546875, 27.672582756144],
+              [85.3157043457031, 27.672582756144],
+              [85.3157043457031, 27.6713665409323],
+              [85.3143310546875, 27.6713665409323],
+              [85.3143310546875, 27.672582756144]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 2.0,
+        "task_id": "18-193196-110090",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "3_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "3_share": 0.0,
+        "quadkey": 1.2313122301010312e17,
+        "tile_z": 18.0,
+        "tile_x": 193196.0,
+        "tile_y": 110090.0,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103120.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103120.jpeg?g=7505&mkt=en-US&token=dummy-bing"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3143310546875, 27.6713665409323],
+              [85.3157043457031, 27.6713665409323],
+              [85.3157043457031, 27.6701503121829],
+              [85.3143310546875, 27.6701503121829],
+              [85.3143310546875, 27.6713665409323]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 3.0,
+        "task_id": "18-193197-110088",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "3_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "3_share": 0.0,
+        "quadkey": 1.231312230101031e17,
+        "tile_z": 18.0,
+        "tile_x": 193197.0,
+        "tile_y": 110088.0,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103101.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103101.jpeg?g=7505&mkt=en-US&token=dummy-bing"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3157043457031, 27.6737989578176],
+              [85.3170776367188, 27.6737989578176],
+              [85.3170776367188, 27.672582756144],
+              [85.3157043457031, 27.672582756144],
+              [85.3157043457031, 27.6737989578176]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 4.0,
+        "task_id": "18-193197-110089",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "3_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "3_share": 1.0,
+        "quadkey": 1.231312230101031e17,
+        "tile_z": 18.0,
+        "tile_x": 193197.0,
+        "tile_y": 110089.0,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103103.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103103.jpeg?g=7505&mkt=en-US&token=dummy-bing"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3157043457031, 27.672582756144],
+              [85.3170776367188, 27.672582756144],
+              [85.3170776367188, 27.6713665409323],
+              [85.3157043457031, 27.6713665409323],
+              [85.3157043457031, 27.672582756144]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 5.0,
+        "task_id": "18-193197-110090",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "3_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "3_share": 0.0,
+        "quadkey": 1.2313122301010312e17,
+        "tile_z": 18.0,
+        "tile_x": 193197.0,
+        "tile_y": 110090.0,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103121.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103121.jpeg?g=7505&mkt=en-US&token=dummy-bing"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3157043457031, 27.6713665409323],
+              [85.3170776367188, 27.6713665409323],
+              [85.3170776367188, 27.6701503121829],
+              [85.3157043457031, 27.6701503121829],
+              [85.3157043457031, 27.6713665409323]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 6.0,
+        "task_id": "18-193198-110088",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "3_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "3_share": 0.0,
+        "quadkey": 1.231312230101031e17,
+        "tile_z": 18.0,
+        "tile_x": 193198.0,
+        "tile_y": 110088.0,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103110.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103110.jpeg?g=7505&mkt=en-US&token=dummy-bing"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3170776367188, 27.6737989578176],
+              [85.3184509277344, 27.6737989578176],
+              [85.3184509277344, 27.672582756144],
+              [85.3170776367188, 27.672582756144],
+              [85.3170776367188, 27.6737989578176]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 7.0,
+        "task_id": "18-193198-110089",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "3_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "3_share": 0.0,
+        "quadkey": 1.231312230101031e17,
+        "tile_z": 18.0,
+        "tile_x": 193198.0,
+        "tile_y": 110089.0,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103112.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103112.jpeg?g=7505&mkt=en-US&token=dummy-bing"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3170776367188, 27.672582756144],
+              [85.3184509277344, 27.672582756144],
+              [85.3184509277344, 27.6713665409323],
+              [85.3170776367188, 27.6713665409323],
+              [85.3170776367188, 27.672582756144]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 8.0,
+        "task_id": "18-193198-110090",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "3_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "3_share": 0.0,
+        "quadkey": 1.2313122301010314e17,
+        "tile_z": 18.0,
+        "tile_x": 193198.0,
+        "tile_y": 110090.0,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103130.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103130.jpeg?g=7505&mkt=en-US&token=dummy-bing"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3170776367188, 27.6713665409323],
+              [85.3184509277344, 27.6713665409323],
+              [85.3184509277344, 27.6701503121829],
+              [85.3170776367188, 27.6701503121829],
+              [85.3170776367188, 27.6713665409323]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 9.0,
+        "task_id": "18-193199-110088",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "3_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "3_share": 0.0,
+        "quadkey": 1.231312230101031e17,
+        "tile_z": 18.0,
+        "tile_x": 193199.0,
+        "tile_y": 110088.0,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103111.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103111.jpeg?g=7505&mkt=en-US&token=dummy-bing"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3184509277344, 27.6737989578176],
+              [85.31982421875, 27.6737989578176],
+              [85.31982421875, 27.672582756144],
+              [85.3184509277344, 27.672582756144],
+              [85.3184509277344, 27.6737989578176]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 10.0,
+        "task_id": "18-193199-110089",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "3_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "3_share": 0.0,
+        "quadkey": 1.2313122301010312e17,
+        "tile_z": 18.0,
+        "tile_x": 193199.0,
+        "tile_y": 110089.0,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103113.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103113.jpeg?g=7505&mkt=en-US&token=dummy-bing"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3184509277344, 27.672582756144],
+              [85.31982421875, 27.672582756144],
+              [85.31982421875, 27.6713665409323],
+              [85.3184509277344, 27.6713665409323],
+              [85.3184509277344, 27.672582756144]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 11.0,
+        "task_id": "18-193199-110090",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "3_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "3_share": 0.0,
+        "quadkey": 1.2313122301010314e17,
+        "tile_z": 18.0,
+        "tile_x": 193199.0,
+        "tile_y": 110090.0,
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103131.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "urlB": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103131.jpeg?g=7505&mkt=en-US&token=dummy-bing"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85.3184509277344, 27.6713665409323],
+              [85.31982421875, 27.6713665409323],
+              [85.31982421875, 27.6701503121829],
+              [85.3184509277344, 27.6701503121829],
+              [85.3184509277344, 27.6713665409323]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
