@@ -744,17 +744,15 @@
     mapping_session_count: 2,
     mapping_session_results_count: 49,
     mapping_session_user_groups_count: 0,
-    // ERROR: PROGRESS
-    progress: 1,
-    // progress: 33,
+    progress: 33,
   },
   expected_project_exports_data: {
-    aggregated_results: 'assets/tests/projects/validate_image/exports/expected_project_aggregated_result.csv',
-    aggregated_results_with_geometry: 'assets/tests/projects/validate_image/exports/expected_project_aggregated_result_with_geometry.geojson',
-    results: 'assets/tests/projects/validate_image/exports/expected_project_result.csv',
+    aggregated_results: 'assets/tests/projects/validate_image/exports/expected_project_aggregated_result_modified.csv',
+    aggregated_results_with_geometry: 'assets/tests/projects/validate_image/exports/expected_project_aggregated_result_with_geometry_modified.geojson',
+    results: 'assets/tests/projects/validate_image/exports/expected_project_result_modified.csv',
     history: 'assets/tests/projects/validate_image/exports/expected_project_history.csv',
-    groups: 'assets/tests/projects/validate_image/exports/expected_project_groups.csv',
-    tasks: 'assets/tests/projects/validate_image/exports/expected_project_tasks.csv',
+    groups: 'assets/tests/projects/validate_image/exports/expected_project_groups_modified.csv',
+    tasks: 'assets/tests/projects/validate_image/exports/expected_project_tasks_modified.csv',
     users: 'assets/tests/projects/validate_image/exports/expected_project_users.csv',
   },
 }
