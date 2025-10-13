@@ -993,7 +993,7 @@
     aggregated_results_with_geometry: 'assets/tests/projects/validate/exports/expected_project_aggregated_result_with_geometry_modified.geojson',
     results: 'assets/tests/projects/validate/exports/expected_project_result_modified.csv',
     history: 'assets/tests/projects/validate/exports/expected_project_history.csv',
-    groups: 'assets/tests/projects/validate/exports/expected_project_groups_modified.csv',
+    groups: 'assets/tests/projects/validate/exports/expected_project_groups.csv',
     tasks: 'assets/tests/projects/validate/exports/expected_project_tasks_modified.csv',
     users: 'assets/tests/projects/validate/exports/expected_project_users.csv',
     area_of_interest: 'assets/tests/projects/validate/exports/expected_project_aoi.geojson',
