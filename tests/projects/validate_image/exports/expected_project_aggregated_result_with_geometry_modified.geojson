@@ -1,0 +1,839 @@
+{
+  "type": "FeatureCollection",
+  "name": "tmp",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 0.0,
+        "task_id": "26",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0131802.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=12J_L_iRjimVJwYrU_UFbKCeXkPk-CH2w"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 1.0,
+        "task_id": "27",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "file_name": "G0114965.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1AWzzMwTOksk4wQHTijJxfu0JfibE5gwC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 2.0,
+        "task_id": "28",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0114964.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1BVp851R1tpKnPFuOu1NLuNU9Uzdw2jxl"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 3.0,
+        "task_id": "29",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "file_name": "G0114950.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=16zCii0eMp2PzAWUwd77rwf0YG_XUmFJQ"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 4.0,
+        "task_id": "30",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0114949.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1QB75Nx3PivtysR3dIasP4KRv3SpuV4_j"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 5.0,
+        "task_id": "31",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "file_name": "G0114816.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=12jNIjKcN0W3_hAqsEKoimczTjDp2COJF"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 6.0,
+        "task_id": "32",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0114710.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1kBxKeCpteWwgWdfSLM7YvgeTkrdUVwaO"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 7.0,
+        "task_id": "33",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "file_name": "G0114707.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1MdP1zwNfO2HWoV7roWQ6R4SbuH4B9qDF"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 8.0,
+        "task_id": "34",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "file_name": "G0114706.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1eosa68j9CZSbs0PPaXYHbpDkmslHXWKs"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 9.0,
+        "task_id": "35",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0114705.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1c5kbLELintQ2R1I9_tv-xDLL0vUcw3kf"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 10.0,
+        "task_id": "36",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "file_name": "G0114703.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1TNgZatJX_QfoNT5xRXrgpw2tLTi01Wc9"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 11.0,
+        "task_id": "37",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "file_name": "G0114702.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=10mHxkpjkHAu842KRBKIjd1ohgpNMa_8x"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 12.0,
+        "task_id": "38",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0114677.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1pqZm62uPi8M7hsfrMd5aI36z5nt7Ty9P"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 13.0,
+        "task_id": "39",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "file_name": "G0114439.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1DQdVUYPoBVwgRloFyOelrFgL15K-MdDi"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 14.0,
+        "task_id": "40",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "file_name": "G0111596.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1GZ5Mx7NIfj_Y-t8GzlctBpXJ_fCJmUeE"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 15.0,
+        "task_id": "41",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "file_name": "G0104533.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1H1kdCnZTPmMjgchMoTbPmwg4SI727o5k"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 16.0,
+        "task_id": "42",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "file_name": "G0104513.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1POq2qTgd-KxeLtM2E7twoYLBidmlOlZF"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 17.0,
+        "task_id": "43",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "file_name": "G0104512.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1_1vQdis7mKNfJa-biyRPEXgZXU68OEqG"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 18.0,
+        "task_id": "44",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0104511.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1P1Frtb_zWZBk2dLlEEwzUf9j98BcQ3uX"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 19.0,
+        "task_id": "45",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "file_name": "G0104410.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1ucQZKObSOYMl9UK9DhXUTSEozhD4hYmy"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 20.0,
+        "task_id": "46",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0101486.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1DQ5vcaTF5--jmdrc7AZGKYTWdYZCAP-0"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 21.0,
+        "task_id": "47",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "file_name": "G0094499.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=17qvHtpp_IPUX6dcl9awIgrAkEHY-gPKT"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 22.0,
+        "task_id": "48",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0094485.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1Qgus69JBQU3_Y_Af-YBLFwSHzdWZodm0"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 23.0,
+        "task_id": "49",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "file_name": "G0094484.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1q6ROU1DpiptrMv7Uj2zVIP2UGdfZrgdv"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 24.0,
+        "task_id": "50",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0094483.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=12UdqfndYUccROnrOUQIdY2gFBiFFtWy1"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 25.0,
+        "task_id": "10",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0335489.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1qx_0JhIkPGi7EepOh1VIYRRPplPRM6Fk"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 26.0,
+        "task_id": "11",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "file_name": "G0335488.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1ON-42REQS7HnF7Z_KDs7AGD4xUbvovOL"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 27.0,
+        "task_id": "12",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "file_name": "G0335487.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1Tb40vlT-i8f9CmvvkLaqKXDTtn0ufRXV"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 28.0,
+        "task_id": "13",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0325474.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1D9a_kj8_cBGt3kfGBdbW0XXiB--4BoYo"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 29.0,
+        "task_id": "14",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "file_name": "G0325473.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1jdU2iE1oiCb8rkAvfGcjc06qRaJSkrA5"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 30.0,
+        "task_id": "15",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "file_name": "G0325472.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=14vk1cHdK1OneR8HyUKjEwQvR93ZGVJsS"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 31.0,
+        "task_id": "16",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0307782.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1-wv7T3VXULXKf3bTM3_azvqhOUr7wxqT"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 32.0,
+        "task_id": "17",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "file_name": "G0145176.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1PsZentl_yk3nYOuUhao52Q21luSJ4o2Y"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 33.0,
+        "task_id": "18",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "file_name": "G0145175.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1jYJkyUkkqkKyk0-2CTvrCUfeQtkQDEu9"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 34.0,
+        "task_id": "19",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0145166.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1yfYQAQBa8IvjIIdY25_zZfyr-awcjz7j"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 35.0,
+        "task_id": "2",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "file_name": "G9028898.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1tpA8XaRC9s0sh2AEhhoVYHYcdqGwIKp-"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 36.0,
+        "task_id": "20",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "file_name": "G0145165.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=14pULz4KC_f89LT-SyLzFBtD2gqa9uRiu"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 37.0,
+        "task_id": "21",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "file_name": "G0145164.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=17ED2gjxshoxj1cdz5l5e6GCwxZEE_zcq"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 38.0,
+        "task_id": "22",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0134598.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1fpjbxOpuFhZn6K5MYwg826bZ1YqhpcTl"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 39.0,
+        "task_id": "23",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0134507.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1o-M3UJriwr_jJr6DbfJe55HsN_QZsdsp"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 40.0,
+        "task_id": "24",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0134494.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1pwX-K6LQ46AeqopU2snwrKRMbNOTJnwn"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 41.0,
+        "task_id": "25",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "file_name": "G0131803.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1nEO7KQoIikbLQdZJfOuggDeA9j3a9R4n"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 42.0,
+        "task_id": "3",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G9028754.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1CyIFoWfNUqEEah-Es38fSQZu_qffblGl"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 43.0,
+        "task_id": "4",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0,
+        "file_name": "G9028413.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1Z1ZIrUoA8rRbufv9HmgFiW0Q3zSjTXOM"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 44.0,
+        "task_id": "5",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "file_name": "G0459768.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=16WlfKhHlwqb42SdvRPjd5yjpARc0-6nD"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 45.0,
+        "task_id": "6",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0459767.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1vr_T64ekmxWwryQSDjLkHrGnVzIg7e1A"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 46.0,
+        "task_id": "7",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "file_name": "G0459766.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=104bx320lIc-1h42w7KnSAnz3hTNZfpbd"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 47.0,
+        "task_id": "8",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0,
+        "file_name": "G0335491.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=11zyvjZA6O0NOjvDXjY7q9Kdyr68DKsp0"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 48.0,
+        "task_id": "9",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0,
+        "file_name": "G0335490.JPG",
+        "url": "https://drive.google.com/uc?export=view&id=1MxPLPRn_vZRLFGeRAwbpHjA15Ek8h2Rb"
+      },
+      "geometry": null
+    }
+  ]
+}

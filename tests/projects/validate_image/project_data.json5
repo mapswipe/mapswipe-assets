@@ -89,10 +89,10 @@
     clientId: '01K339HAWZCTCBRVQMQFWRTHXX',
     verificationNumber: 3,
     projectInstruction: 'Potholes',
-    groupSize: 15,
+    groupSize: 25,
     team: null,
     tutorial: null,
-    maxTasksPerUser: 2,
+    maxTasksPerUser: 30,
     image: null,
     projectTypeSpecifics: {
       validateImage: {
@@ -263,12 +263,12 @@
       },
     ],
     manualUrl: 'https://reliefweb.int/report/nepal/nepal-anticipatory-action-framework-floods-2025',
-    groupMaxSize: 15,
-    groupSize: 15,
+    groupMaxSize: 25,
+    groupSize: 25,
     isFeatured: false,
     language: 'en-us',
     lookFor: 'Potholes',
-    maxTasksPerUser: 2,
+    maxTasksPerUser: 30,
     name: 'Assess Images - Project - Spain (1) Togglecorp',
     projectInstruction: 'Potholes',
     progress: 0,
@@ -280,7 +280,7 @@
     projectTopicKey: 'assess images - project - spain (1) togglecorp',
     projectType: 10,
     requestingOrganisation: 'Togglecorp',
-    requiredResults: 9,
+    requiredResults: 150,
     resultCount: 0,
     status: 'active',
     tutorialId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
@@ -290,7 +290,15 @@
     g100: {
       finishedCount: 0,
       groupId: 'g100',
-      numberOfTasks: 3,
+      numberOfTasks: 25,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
+    g101: {
+      finishedCount: 0,
+      groupId: 'g101',
+      numberOfTasks: 25,
       progress: 0,
       projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
       requiredCount: 3,
@@ -299,23 +307,452 @@
   expected_project_tasks_data: {
     g100: [
       {
-        fileName: '000000252219.jpg',
+        fileName: 'G0094483.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-        taskId: '252219',
-        url: 'http://images.cocodataset.org/val2017/000000252219.jpg',
+        taskId: '50',
+        url: 'https://drive.google.com/uc?export=view&id=12UdqfndYUccROnrOUQIdY2gFBiFFtWy1',
       },
       {
-        fileName: '000000037777.jpg',
+        fileName: 'G0094484.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-        taskId: '37777',
-        url: 'http://images.cocodataset.org/val2017/000000037777.jpg',
+        taskId: '49',
+        url: 'https://drive.google.com/uc?export=view&id=1q6ROU1DpiptrMv7Uj2zVIP2UGdfZrgdv',
       },
       {
-        fileName: '000000397133.jpg',
+        fileName: 'G0094485.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
         projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
-        taskId: '397133',
-        url: 'http://images.cocodataset.org/val2017/000000397133.jpg',
+        taskId: '48',
+        url: 'https://drive.google.com/uc?export=view&id=1Qgus69JBQU3_Y_Af-YBLFwSHzdWZodm0',
+      },
+      {
+        fileName: 'G0094499.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '47',
+        url: 'https://drive.google.com/uc?export=view&id=17qvHtpp_IPUX6dcl9awIgrAkEHY-gPKT',
+      },
+      {
+        fileName: 'G0101486.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '46',
+        url: 'https://drive.google.com/uc?export=view&id=1DQ5vcaTF5--jmdrc7AZGKYTWdYZCAP-0',
+      },
+      {
+        fileName: 'G0104410.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '45',
+        url: 'https://drive.google.com/uc?export=view&id=1ucQZKObSOYMl9UK9DhXUTSEozhD4hYmy',
+      },
+      {
+        fileName: 'G0104511.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '44',
+        url: 'https://drive.google.com/uc?export=view&id=1P1Frtb_zWZBk2dLlEEwzUf9j98BcQ3uX',
+      },
+      {
+        fileName: 'G0104512.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '43',
+        url: 'https://drive.google.com/uc?export=view&id=1_1vQdis7mKNfJa-biyRPEXgZXU68OEqG',
+      },
+      {
+        fileName: 'G0104513.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '42',
+        url: 'https://drive.google.com/uc?export=view&id=1POq2qTgd-KxeLtM2E7twoYLBidmlOlZF',
+      },
+      {
+        fileName: 'G0104533.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '41',
+        url: 'https://drive.google.com/uc?export=view&id=1H1kdCnZTPmMjgchMoTbPmwg4SI727o5k',
+      },
+      {
+        fileName: 'G0111596.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '40',
+        url: 'https://drive.google.com/uc?export=view&id=1GZ5Mx7NIfj_Y-t8GzlctBpXJ_fCJmUeE',
+      },
+      {
+        fileName: 'G0114439.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '39',
+        url: 'https://drive.google.com/uc?export=view&id=1DQdVUYPoBVwgRloFyOelrFgL15K-MdDi',
+      },
+      {
+        fileName: 'G0114677.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '38',
+        url: 'https://drive.google.com/uc?export=view&id=1pqZm62uPi8M7hsfrMd5aI36z5nt7Ty9P',
+      },
+      {
+        fileName: 'G0114702.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '37',
+        url: 'https://drive.google.com/uc?export=view&id=10mHxkpjkHAu842KRBKIjd1ohgpNMa_8x',
+      },
+      {
+        fileName: 'G0114703.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '36',
+        url: 'https://drive.google.com/uc?export=view&id=1TNgZatJX_QfoNT5xRXrgpw2tLTi01Wc9',
+      },
+      {
+        fileName: 'G0114705.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '35',
+        url: 'https://drive.google.com/uc?export=view&id=1c5kbLELintQ2R1I9_tv-xDLL0vUcw3kf',
+      },
+      {
+        fileName: 'G0114706.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '34',
+        url: 'https://drive.google.com/uc?export=view&id=1eosa68j9CZSbs0PPaXYHbpDkmslHXWKs',
+      },
+      {
+        fileName: 'G0114707.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '33',
+        url: 'https://drive.google.com/uc?export=view&id=1MdP1zwNfO2HWoV7roWQ6R4SbuH4B9qDF',
+      },
+      {
+        fileName: 'G0114710.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '32',
+        url: 'https://drive.google.com/uc?export=view&id=1kBxKeCpteWwgWdfSLM7YvgeTkrdUVwaO',
+      },
+      {
+        fileName: 'G0114816.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '31',
+        url: 'https://drive.google.com/uc?export=view&id=12jNIjKcN0W3_hAqsEKoimczTjDp2COJF',
+      },
+      {
+        fileName: 'G0114949.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '30',
+        url: 'https://drive.google.com/uc?export=view&id=1QB75Nx3PivtysR3dIasP4KRv3SpuV4_j',
+      },
+      {
+        fileName: 'G0114950.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '29',
+        url: 'https://drive.google.com/uc?export=view&id=16zCii0eMp2PzAWUwd77rwf0YG_XUmFJQ',
+      },
+      {
+        fileName: 'G0114964.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '28',
+        url: 'https://drive.google.com/uc?export=view&id=1BVp851R1tpKnPFuOu1NLuNU9Uzdw2jxl',
+      },
+      {
+        fileName: 'G0114965.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '27',
+        url: 'https://drive.google.com/uc?export=view&id=1AWzzMwTOksk4wQHTijJxfu0JfibE5gwC',
+      },
+      {
+        fileName: 'G0131802.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '26',
+        url: 'https://drive.google.com/uc?export=view&id=12J_L_iRjimVJwYrU_UFbKCeXkPk-CH2w',
       },
     ],
+    g101: [
+      {
+        fileName: 'G0131803.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '25',
+        url: 'https://drive.google.com/uc?export=view&id=1nEO7KQoIikbLQdZJfOuggDeA9j3a9R4n',
+      },
+      {
+        fileName: 'G0134494.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '24',
+        url: 'https://drive.google.com/uc?export=view&id=1pwX-K6LQ46AeqopU2snwrKRMbNOTJnwn',
+      },
+      {
+        fileName: 'G0134507.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '23',
+        url: 'https://drive.google.com/uc?export=view&id=1o-M3UJriwr_jJr6DbfJe55HsN_QZsdsp',
+      },
+      {
+        fileName: 'G0134598.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '22',
+        url: 'https://drive.google.com/uc?export=view&id=1fpjbxOpuFhZn6K5MYwg826bZ1YqhpcTl',
+      },
+      {
+        fileName: 'G0145164.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '21',
+        url: 'https://drive.google.com/uc?export=view&id=17ED2gjxshoxj1cdz5l5e6GCwxZEE_zcq',
+      },
+      {
+        fileName: 'G0145165.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '20',
+        url: 'https://drive.google.com/uc?export=view&id=14pULz4KC_f89LT-SyLzFBtD2gqa9uRiu',
+      },
+      {
+        fileName: 'G0145166.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '19',
+        url: 'https://drive.google.com/uc?export=view&id=1yfYQAQBa8IvjIIdY25_zZfyr-awcjz7j',
+      },
+      {
+        fileName: 'G0145175.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '18',
+        url: 'https://drive.google.com/uc?export=view&id=1jYJkyUkkqkKyk0-2CTvrCUfeQtkQDEu9',
+      },
+      {
+        fileName: 'G0145176.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '17',
+        url: 'https://drive.google.com/uc?export=view&id=1PsZentl_yk3nYOuUhao52Q21luSJ4o2Y',
+      },
+      {
+        fileName: 'G0307782.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '16',
+        url: 'https://drive.google.com/uc?export=view&id=1-wv7T3VXULXKf3bTM3_azvqhOUr7wxqT',
+      },
+      {
+        fileName: 'G0325472.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '15',
+        url: 'https://drive.google.com/uc?export=view&id=14vk1cHdK1OneR8HyUKjEwQvR93ZGVJsS',
+      },
+      {
+        fileName: 'G0325473.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '14',
+        url: 'https://drive.google.com/uc?export=view&id=1jdU2iE1oiCb8rkAvfGcjc06qRaJSkrA5',
+      },
+      {
+        fileName: 'G0325474.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '13',
+        url: 'https://drive.google.com/uc?export=view&id=1D9a_kj8_cBGt3kfGBdbW0XXiB--4BoYo',
+      },
+      {
+        fileName: 'G0335487.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '12',
+        url: 'https://drive.google.com/uc?export=view&id=1Tb40vlT-i8f9CmvvkLaqKXDTtn0ufRXV',
+      },
+      {
+        fileName: 'G0335488.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '11',
+        url: 'https://drive.google.com/uc?export=view&id=1ON-42REQS7HnF7Z_KDs7AGD4xUbvovOL',
+      },
+      {
+        fileName: 'G0335489.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '10',
+        url: 'https://drive.google.com/uc?export=view&id=1qx_0JhIkPGi7EepOh1VIYRRPplPRM6Fk',
+      },
+      {
+        fileName: 'G0335490.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '9',
+        url: 'https://drive.google.com/uc?export=view&id=1MxPLPRn_vZRLFGeRAwbpHjA15Ek8h2Rb',
+      },
+      {
+        fileName: 'G0335491.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '8',
+        url: 'https://drive.google.com/uc?export=view&id=11zyvjZA6O0NOjvDXjY7q9Kdyr68DKsp0',
+      },
+      {
+        fileName: 'G0459766.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '7',
+        url: 'https://drive.google.com/uc?export=view&id=104bx320lIc-1h42w7KnSAnz3hTNZfpbd',
+      },
+      {
+        fileName: 'G0459767.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '6',
+        url: 'https://drive.google.com/uc?export=view&id=1vr_T64ekmxWwryQSDjLkHrGnVzIg7e1A',
+      },
+      {
+        fileName: 'G0459768.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '5',
+        url: 'https://drive.google.com/uc?export=view&id=16WlfKhHlwqb42SdvRPjd5yjpARc0-6nD',
+      },
+      {
+        fileName: 'G9028413.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '4',
+        url: 'https://drive.google.com/uc?export=view&id=1Z1ZIrUoA8rRbufv9HmgFiW0Q3zSjTXOM',
+      },
+      {
+        fileName: 'G9028754.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '3',
+        url: 'https://drive.google.com/uc?export=view&id=1CyIFoWfNUqEEah-Es38fSQZu_qffblGl',
+      },
+      {
+        fileName: 'G9028898.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '2',
+        url: 'https://drive.google.com/uc?export=view&id=1tpA8XaRC9s0sh2AEhhoVYHYcdqGwIKp-',
+      },
+      {
+        fileName: 'G9029451.JPG',
+        // FIXME(susilnem): projectId is added by new system. we might need to undo this change
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: '1',
+        url: 'https://drive.google.com/uc?export=view&id=1-27_bHjz2mFszufVjp-FZG_fdD370Loz',
+      },
+    ],
+  },
+  create_contributor_user_group: [
+    {
+      clientId: '01K49J0QPCZM2JCNC9AEE6HT8Y',
+      name: 'User Group 01',
+      description: 'First user group',
+    },
+  ],
+  create_results: {
+    g100: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        appVersion: '0.2.8-dev',
+        clientType: 'web',
+        startTime: '2025-10-10T10:56:10.639Z',
+        endTime: '2025-10-10T10:56:46.780Z',
+        results: {
+          '26': 1,
+          '27': 2,
+          '28': 1,
+          '29': 0,
+          '30': 1,
+          '31': 0,
+          '32': 1,
+          '33': 0,
+          '34': 2,
+          '35': 1,
+          '36': 0,
+          '37': 2,
+          '38': 1,
+          '39': 0,
+          '40': 2,
+          '41': 2,
+          '42': 2,
+          '43': 0,
+          '44': 1,
+          '45': 0,
+          '46': 1,
+          '47': 0,
+          '48': 1,
+          '49': 0,
+          '50': 1,
+        },
+      },
+    },
+    g101: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        appVersion: '0.2.8-dev',
+        clientType: 'web',
+        startTime: '2025-10-10T10:55:00.084Z',
+        endTime: '2025-10-10T10:55:37.689Z',
+        results: {
+          '0': null,
+          '1': null,
+          '2': 0,
+          '3': 1,
+          '4': 0,
+          '5': 2,
+          '6': 1,
+          '7': 2,
+          '8': 1,
+          '9': 2,
+          '10': 1,
+          '11': 2,
+          '12': 0,
+          '13': 1,
+          '14': 2,
+          '15': 0,
+          '16': 1,
+          '17': 2,
+          '18': 0,
+          '19': 1,
+          '20': 0,
+          '21': 2,
+          '22': 1,
+          '23': 1,
+          '24': 1,
+          '25': 2,
+        },
+      },
+    },
+  },
+  expected_pulled_results_data: {
+    mapping_session_count: 2,
+    mapping_session_results_count: 49,
+    mapping_session_user_groups_count: 0,
+    progress: 33,
+  },
+  expected_project_exports_data: {
+    aggregated_results: 'assets/tests/projects/validate_image/exports/expected_project_aggregated_result_modified.csv',
+    aggregated_results_with_geometry: 'assets/tests/projects/validate_image/exports/expected_project_aggregated_result_with_geometry_modified.geojson',
+    results: 'assets/tests/projects/validate_image/exports/expected_project_result_modified.csv',
+    history: 'assets/tests/projects/validate_image/exports/expected_project_history.csv',
+    groups: 'assets/tests/projects/validate_image/exports/expected_project_groups_modified.csv',
+    tasks: 'assets/tests/projects/validate_image/exports/expected_project_tasks_modified.csv',
+    users: 'assets/tests/projects/validate_image/exports/expected_project_users.csv',
   },
 }
