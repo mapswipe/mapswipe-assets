@@ -21,7 +21,3 @@
 ## expected_project_aggregated_result_with_geometry_modified.geojson
 
 - Renamed `fileName` to `file_name`
-- Removed `tile_x`
-- Removed `tile_y`
-
-> TODO: Original file is empty.
