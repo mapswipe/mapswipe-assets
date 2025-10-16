@@ -33,6 +33,45 @@
     scenarios: [
       {
         create: {
+          clientId: '01K4MCBY7752PTS4FWK3G910VS',
+          scenarioPageNumber: 3,
+          instructionsDescription: 'Anything that is not naturally occurring',
+          instructionsIcon: 'STAR_OUTLINE',
+          instructionsTitle: 'Identify natural structures',
+          hintDescription: 'They have sharp boundaries',
+          hintIcon: 'INFORMATION_OUTLINE',
+          hintTitle: 'Look closer!',
+          successDescription: 'You identified all natural structures',
+          successIcon: 'CHECK',
+          successTitle: 'Well done!',
+          tasks: [
+            {
+              clientId: '01K4MCD59TPD9KF8H09KVFB06K',
+              projectTypeSpecifics: {
+                compare: {
+                  tileZ: 18,
+                  tileX: 193204,
+                  tileY: 110087,
+                },
+              },
+              reference: 1,
+            },
+            {
+              clientId: '01K4MCCXJSBX70NV98FG1BA1WV',
+              projectTypeSpecifics: {
+                compare: {
+                  tileZ: 18,
+                  tileX: 193204,
+                  tileY: 110088,
+                },
+              },
+              reference: 1,
+            },
+          ],
+        },
+      },
+      {
+        create: {
           clientId: '01K4MCAD1B7BEQXZHXK7BP8K1Z',
           scenarioPageNumber: 1,
           instructionsDescription: 'Anything that is not naturally occurring',
@@ -70,47 +109,23 @@
           ],
         },
       },
+    ],
+    informationPages: [
       {
         create: {
-          clientId: '01K4MCBY7752PTS4FWK3G910VS',
-          scenarioPageNumber: 2,
-          instructionsDescription: 'Anything that is not naturally occurring',
-          instructionsIcon: 'STAR_OUTLINE',
-          instructionsTitle: 'Identify natural structures',
-          hintDescription: 'They have sharp boundaries',
-          hintIcon: 'INFORMATION_OUTLINE',
-          hintTitle: 'Look closer!',
-          successDescription: 'You identified all natural structures',
-          successIcon: 'CHECK',
-          successTitle: 'Well done!',
-          tasks: [
+          clientId: '01K4MCEX5PBEK4AHABT89REZHQ',
+          title: 'Natural structures',
+          pageNumber: 3,
+          blocks: [
             {
-              clientId: '01K4MCD59TPD9KF8H09KVFB06K',
-              projectTypeSpecifics: {
-                compare: {
-                  tileZ: 18,
-                  tileX: 193204,
-                  tileY: 110087,
-                },
-              },
-              reference: 1,
-            },
-            {
-              clientId: '01K4MCCXJSBX70NV98FG1BA1WV',
-              projectTypeSpecifics: {
-                compare: {
-                  tileZ: 18,
-                  tileX: 193204,
-                  tileY: 110088,
-                },
-              },
-              reference: 1,
+              clientId: '01K4MCF2PEXSB1WNGEXE6A31KD',
+              blockNumber: 1,
+              blockType: 'TEXT',
+              text: 'Natural structures are physical formations that are created by nature ',
             },
           ],
         },
       },
-    ],
-    informationPages: [
       {
         create: {
           clientId: '01K4MCDCTB42Q3HRKCTR67C6EQ',
@@ -118,31 +133,16 @@
           pageNumber: 1,
           blocks: [
             {
+              clientId: '01K4MCED7YV6HFFW7HTFK2660E',
+              blockNumber: 3,
+              blockType: 'TEXT',
+              text: 'These structures are built to serve specific purposes, such as housing, ',
+            },
+            {
               clientId: '01K4MCE9WNYF4228MD5WFGWB1F',
               blockNumber: 1,
               blockType: 'TEXT',
               text: 'Man-made structures are physical constructions created by humans',
-            },
-            {
-              clientId: '01K4MCED7YV6HFFW7HTFK2660E',
-              blockNumber: 2,
-              blockType: 'TEXT',
-              text: 'These structures are built to serve specific purposes, such as housing, ',
-            },
-          ],
-        },
-      },
-      {
-        create: {
-          clientId: '01K4MCEX5PBEK4AHABT89REZHQ',
-          title: 'Natural structures',
-          pageNumber: 2,
-          blocks: [
-            {
-              clientId: '01K4MCF2PEXSB1WNGEXE6A31KD',
-              blockNumber: 1,
-              blockType: 'TEXT',
-              text: 'Natural structures are physical formations that are created by nature ',
             },
           ],
         },
