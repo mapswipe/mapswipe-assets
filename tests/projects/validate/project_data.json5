@@ -232,7 +232,7 @@
       apiKey: 'dummy-bing',
       credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
       name: 'bing',
-      url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}',
+      url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=15384&mkt=en-US&token={apiKey}',
     },
     // FIXME(tnagorra): cleared this because new system does not have drafts
     tutorialDraftId: '',
@@ -330,7 +330,7 @@
       apiKey: 'dummy-bing',
       credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
       name: 'bing',
-      url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=7505&mkt=en-US&token={apiKey}',
+      url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=15384&mkt=en-US&token={apiKey}',
     },
     tutorialId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
     verificationNumber: 3,

@@ -227,7 +227,8 @@
         height: 500,
         projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
         referenceAnswer: 1,
-        screen: 96,
+        // FIXME: edited this from 96 to 1
+        screen: 1,
         taskId: '331352',
         url: 'http://images.cocodataset.org/val2017/000000331352.jpg',
         width: 351,

@@ -20,7 +20,7 @@
         "tile_z": 18.0,
         "tile_x": 193196.0,
         "tile_y": 110088.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103100.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103100.jpeg?g=15384&mkt=en-US&token=dummy-bing",
         "url_b": "https://vector.osm.org/shortbread_v1/{z}/{x}/{y}.mvt"
       },
       "geometry": {
@@ -56,7 +56,7 @@
         "tile_z": 18.0,
         "tile_x": 193196.0,
         "tile_y": 110089.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103102.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103102.jpeg?g=15384&mkt=en-US&token=dummy-bing",
         "url_b": "https://vector.osm.org/shortbread_v1/{z}/{x}/{y}.mvt"
       },
       "geometry": {
@@ -92,7 +92,7 @@
         "tile_z": 18.0,
         "tile_x": 193196.0,
         "tile_y": 110090.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103120.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103120.jpeg?g=15384&mkt=en-US&token=dummy-bing",
         "url_b": "https://vector.osm.org/shortbread_v1/{z}/{x}/{y}.mvt"
       },
       "geometry": {
@@ -128,7 +128,7 @@
         "tile_z": 18.0,
         "tile_x": 193197.0,
         "tile_y": 110088.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103101.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103101.jpeg?g=15384&mkt=en-US&token=dummy-bing",
         "url_b": "https://vector.osm.org/shortbread_v1/{z}/{x}/{y}.mvt"
       },
       "geometry": {
@@ -164,7 +164,7 @@
         "tile_z": 18.0,
         "tile_x": 193197.0,
         "tile_y": 110089.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103103.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103103.jpeg?g=15384&mkt=en-US&token=dummy-bing",
         "url_b": "https://vector.osm.org/shortbread_v1/{z}/{x}/{y}.mvt"
       },
       "geometry": {
@@ -200,7 +200,7 @@
         "tile_z": 18.0,
         "tile_x": 193197.0,
         "tile_y": 110090.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103121.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103121.jpeg?g=15384&mkt=en-US&token=dummy-bing",
         "url_b": "https://vector.osm.org/shortbread_v1/{z}/{x}/{y}.mvt"
       },
       "geometry": {
@@ -236,7 +236,7 @@
         "tile_z": 18.0,
         "tile_x": 193198.0,
         "tile_y": 110088.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103110.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103110.jpeg?g=15384&mkt=en-US&token=dummy-bing",
         "url_b": "https://vector.osm.org/shortbread_v1/{z}/{x}/{y}.mvt"
       },
       "geometry": {
@@ -272,7 +272,7 @@
         "tile_z": 18.0,
         "tile_x": 193198.0,
         "tile_y": 110089.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103112.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103112.jpeg?g=15384&mkt=en-US&token=dummy-bing",
         "url_b": "https://vector.osm.org/shortbread_v1/{z}/{x}/{y}.mvt"
       },
       "geometry": {
@@ -308,7 +308,7 @@
         "tile_z": 18.0,
         "tile_x": 193198.0,
         "tile_y": 110090.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103130.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103130.jpeg?g=15384&mkt=en-US&token=dummy-bing",
         "url_b": "https://vector.osm.org/shortbread_v1/{z}/{x}/{y}.mvt"
       },
       "geometry": {
@@ -344,7 +344,7 @@
         "tile_z": 18.0,
         "tile_x": 193199.0,
         "tile_y": 110088.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103111.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103111.jpeg?g=15384&mkt=en-US&token=dummy-bing",
         "url_b": "https://vector.osm.org/shortbread_v1/{z}/{x}/{y}.mvt"
       },
       "geometry": {
@@ -380,7 +380,7 @@
         "tile_z": 18.0,
         "tile_x": 193199.0,
         "tile_y": 110089.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103113.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103113.jpeg?g=15384&mkt=en-US&token=dummy-bing",
         "url_b": "https://vector.osm.org/shortbread_v1/{z}/{x}/{y}.mvt"
       },
       "geometry": {
@@ -416,7 +416,7 @@
         "tile_z": 18.0,
         "tile_x": 193199.0,
         "tile_y": 110090.0,
-        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103131.jpeg?g=7505&mkt=en-US&token=dummy-bing",
+        "url": "https://ecn.t0.tiles.virtualearth.net/tiles/a123131223010103131.jpeg?g=15384&mkt=en-US&token=dummy-bing",
         "url_b": "https://vector.osm.org/shortbread_v1/{z}/{x}/{y}.mvt"
       },
       "geometry": {
