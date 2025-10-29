@@ -558,8 +558,7 @@
     mapping_session_count: 3,
     mapping_session_results_count: 78,
     mapping_session_user_groups_count: 0,
-    // FIXME(sushilnem): should be 25
-    progress: 24,
+    progress: 25,
   },
   expected_project_exports_data: {
     aggregated_results: 'assets/tests/projects/find/exports/expected_project_aggregated_result_modified.csv',
