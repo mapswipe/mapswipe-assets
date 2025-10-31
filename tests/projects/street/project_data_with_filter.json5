@@ -1,0 +1,511 @@
+{
+  contributor_user_firebase_id: '01K6CPB1ETTF7MT9EAAQDQM4A9',
+  assets: {
+    image: 'assets/tests/projects/street/cover_image.jpg',
+    aoi: 'assets/tests/projects/street/aoi_geometry.json',
+  },
+  // Create organization
+  create_organization: {
+    clientId: '01K6CKWDFX8HZFY5PHJZN1AYH9',
+    name: 'Togglecorp',
+    description: 'Togglecorp (test) organization',
+  },
+  // Create tutorial
+  create_tutorial: {
+    clientId: '01K4MQ88R61EDAMS0K0TW0N17A',
+    name: 'Street Tutorial II',
+  },
+  update_tutorial: {
+    clientId: '01K4MQ88R61EDAMS0K0TW0N17A',
+    name: 'Street Tutorial II',
+    scenarios: [
+      {
+        create: {
+          clientId: '01K4S0NP93KN45MAX2Z5N6PVGX',
+          hintDescription: 'This building might look like an office',
+          hintIcon: 'CLOSE_OUTLINE',
+          hintTitle: 'Look for office',
+          instructionsDescription: 'This building looks like an office',
+          instructionsIcon: 'CHECKMARK_OUTLINE',
+          instructionsTitle: 'Look for office',
+          scenarioPageNumber: 1,
+          successDescription: 'This building does not look like an office',
+          successIcon: 'HELP_OUTLINE',
+          successTitle: 'Look for office',
+          tasks: [
+            {
+              reference: 1,
+              clientId: '01K4S0NP93AQKZ6S558VPVQS19',
+              projectTypeSpecifics: {
+                street: {
+                  mapillaryImageId: '1098299960',
+                  geometry: '{"type":"Polygon","coordinates":[[[84.001574,28.1935348],[84.001576,28.1934266],[84.0016578,28.1934278],[84.0016558,28.1935359],[84.001574,28.1935348]]]}',
+                },
+              },
+            },
+          ],
+        },
+      },
+    ],
+    informationPages: [
+      {
+        create: {
+          blocks: [
+            {
+              blockNumber: 1,
+              blockType: 'TEXT',
+              clientId: '01K4SEX7XTVT6NH3GWSN9MY2BY',
+              text: 'There are some images in this file',
+            },
+          ],
+          clientId: '01K4SEWZY81T3QEHCRFZF5YDZQ',
+          pageNumber: 1,
+          title: 'Look for buildings',
+        },
+      },
+    ],
+  },
+  // Create project
+  create_project: {
+    clientId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    topic: 'House Mapping',
+    region: 'Pokhara, Nepal',
+    projectNumber: 1,
+    projectType: 'STREET',
+    projectInstruction: 'House',
+    additionalInfoUrl: 'https://reliefweb.int/disaster/dr-2025-000125-npl',
+    description: 'This project engages volunteers in mapping and validating streets across Nepal. Using high-resolution satellite and street-level imagery, contributors trace and confirm road networks.',
+    requestingOrganization: 'Togglecorp',
+  },
+  update_project: {
+    clientId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    verificationNumber: 3,
+    projectInstruction: 'House',
+    groupSize: 25,
+    team: null,
+    tutorial: null,
+    maxTasksPerUser: 40,
+    image: null,
+    projectTypeSpecifics: {
+      street: {
+        customOptions: [
+          {
+            clientId: '01K4PJVZWT4VFZEGN4N4KZB6MF',
+            title: 'Yes',
+            icon: 'CHECKMARK_OUTLINE',
+            value: 1,
+            description: 'the object you are looking for is in the image.',
+            iconColor: '#388E3C',
+            subOptions: [],
+          },
+          {
+            clientId: '01K4PJVZWTGXF92W20YPD2G4XR',
+            title: 'No',
+            icon: 'CLOSE_OUTLINE',
+            value: 0,
+            description: 'the object you are looking for is NOT in the image.',
+            iconColor: '#D32F2F',
+            subOptions: [],
+          },
+          {
+            clientId: '01K4PJVZWTJXGC19J5V9CS1FVW',
+            title: 'Not Sure',
+            icon: 'REMOVE_OUTLINE',
+            value: 2,
+            description: "if you're not sure or there is bad imagery",
+            iconColor: '#616161',
+            subOptions: [],
+          },
+        ],
+        aoiGeometry: null,
+        mapillaryImageFilters: {
+          isPano: null,
+          creatorId: null,
+          organizationId: null,
+          startTime: '2022-07-01',
+          endTime: '2022-07-31',
+          randomizeOrder: false,
+          samplingThreshold: 0.1,
+        },
+      },
+    },
+  },
+  update_processed_project: {
+    clientId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    projectInstruction: 'House',
+    // NOTE: These values will be injected by test scripts
+    image: null,
+    tutorial: null,
+    team: null,
+  },
+  // Expected tutorial
+  expected_tutorial_data: {
+    contributorCount: 0,
+    customOptions: [
+      {
+        description: 'the object you are looking for is in the image.',
+        icon: 'checkmark-outline',
+        iconColor: '#388E3C',
+        title: 'Yes',
+        value: 1,
+      },
+      {
+        description: 'the object you are looking for is NOT in the image.',
+        icon: 'close-outline',
+        iconColor: '#D32F2F',
+        title: 'No',
+        value: 0,
+      },
+      {
+        description: "if you're not sure or there is bad imagery",
+        icon: 'remove-outline',
+        iconColor: '#616161',
+        title: 'Not Sure',
+        value: 2,
+      },
+    ],
+    informationPages: [
+      {
+        blocks: [
+          {
+            blockNumber: 1,
+            blockType: 'text',
+            textDescription: 'There are some images in this file',
+          },
+        ],
+        pageNumber: 1,
+        title: 'Look for buildings',
+      },
+    ],
+    name: 'Street Tutorial II',
+    progress: 0,
+    projectDetails: 'This project engages volunteers in mapping and validating streets across Nepal. Using high-resolution satellite and street-level imagery, contributors trace and confirm road networks.',
+    projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+    projectTopicKey: 'street tutorial ii',
+    projectType: 7,
+    screens: [
+      {
+        hint: {
+          description: 'This building might look like an office',
+          icon: 'close-outline',
+          title: 'Look for office',
+        },
+        instructions: {
+          description: 'This building looks like an office',
+          icon: 'checkmark-outline',
+          title: 'Look for office',
+        },
+        success: {
+          description: 'This building does not look like an office',
+          icon: 'help-outline',
+          title: 'Look for office',
+        },
+      },
+    ],
+    status: 'tutorial',
+    // FIXME(tnagorra): cleared this because new system does not have drafts
+    tutorialDraftId: '',
+  },
+  expected_tutorial_groups_data: {
+    '101': {
+      finishedCount: 0,
+      groupId: 101,
+      numberOfTasks: 1,
+      progress: 0,
+      projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+      requiredCount: 0,
+    },
+  },
+  expected_tutorial_tasks_data: {
+    // NOTE: The tasks have been decoded
+    '101': [
+      {
+        projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+        groupId: 101,
+        taskId: '1098299960',
+        geometry: '',
+        referenceAnswer: 1,
+        screen: 1,
+      },
+    ],
+  },
+  // Expected project
+  expected_project_data: {
+    customOptions: [
+      {
+        description: 'the object you are looking for is in the image.',
+        icon: 'checkmark-outline',
+        iconColor: '#388E3C',
+        title: 'Yes',
+        value: 1,
+      },
+      {
+        description: 'the object you are looking for is NOT in the image.',
+        icon: 'close-outline',
+        iconColor: '#D32F2F',
+        title: 'No',
+        value: 0,
+      },
+      {
+        description: "if you're not sure or there is bad imagery",
+        icon: 'remove-outline',
+        iconColor: '#616161',
+        title: 'Not Sure',
+        value: 2,
+      },
+    ],
+    contributorCount: 0,
+    created: '2025-09-02T04:43:52.328353+00:00', // NOTE: This is dynamic
+    createdBy: '01K6CPB1ETTF7MT9EAAQDQM4A9',
+    // Number of groups new fields of street
+    numberOfGroups: 2,
+    // FIXME: Change 0 to 25
+    groupMaxSize: 25,
+    groupSize: 25,
+    isFeatured: false,
+    language: 'en-us',
+    projectInstruction: 'House',
+    manualUrl: 'https://reliefweb.int/disaster/dr-2025-000125-npl',
+    maxTasksPerUser: 40,
+    name: 'View Streets - House Mapping - Pokhara, Nepal (1) Togglecorp',
+    progress: 0,
+    projectDetails: 'This project engages volunteers in mapping and validating streets across Nepal. Using high-resolution satellite and street-level imagery, contributors trace and confirm road networks.',
+    projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    projectNumber: 1,
+    projectRegion: 'Pokhara, Nepal',
+    projectTopic: 'House Mapping',
+    projectTopicKey: 'view streets - house mapping - pokhara, nepal (1) togglecorp',
+    projectType: 7,
+    requestingOrganisation: 'Togglecorp',
+    requiredResults: 78,
+    resultCount: 0,
+    status: 'active',
+    tutorialId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+    verificationNumber: 3,
+  },
+  expected_project_groups_data: {
+    g0: {
+      finishedCount: 0,
+      groupId: 'g0',
+      numberOfTasks: 25,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
+    g1: {
+      finishedCount: 0,
+      groupId: 'g1',
+      numberOfTasks: 1,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
+  },
+  expected_project_tasks_data: {
+    g0: [
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 404891721450849,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 767194991298957,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 616230583012239,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 615903619954638,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 592470759143634,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 191387643216523,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 5356212021166350,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 414901194017979,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 460221435923449,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 785496915808468,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1182788288957594,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 118984597522303,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 297491485878650,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 458506505710322,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1509291432845612,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 1032323287447329,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 856143412441272,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 160802573131573,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 793171638345664,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 556102919329539,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 620834112502380,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 578423837293452,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 821957525375270,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 163075062909901,
+      },
+      {
+        groupId: 'g0',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 121683970426443,
+      },
+    ],
+    g1: [
+      {
+        groupId: 'g1',
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 725082161934246,
+      },
+    ],
+  },
+  create_contributor_user_group: [
+    {
+      clientId: '01K49J0QPCZM2JCNC9AEE6HT8Y',
+      name: 'User Group 01',
+      description: 'First user group',
+    },
+  ],
+  create_results: {
+    g0: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        appVersion: '0.3.0-dev',
+        clientType: 'web',
+        endTime: '2025-10-31T08:22:44.514Z',
+        results: {
+          '1032323287447329': 1,
+          '1182788288957594': 1,
+          '118984597522303': 1,
+          '121683970426443': 1,
+          '1509291432845612': 1,
+          '160802573131573': 1,
+          '163075062909901': 1,
+          '191387643216523': 1,
+          '297491485878650': 1,
+          '404891721450849': 0,
+          '414901194017979': 1,
+          '458506505710322': 1,
+          '460221435923449': 1,
+          '5356212021166350': 1,
+          '556102919329539': 1,
+          '578423837293452': 1,
+          '592470759143634': 1,
+          '615903619954638': 1,
+          '616230583012239': 0,
+          '620834112502380': 1,
+          '767194991298957': 0,
+          '785496915808468': 1,
+          '793171638345664': 1,
+          '821957525375270': 1,
+          '856143412441272': 1,
+        },
+        startTime: '2025-10-31T08:21:42.089Z',
+      },
+    },
+    g1: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        appVersion: '0.3.0-dev',
+        clientType: 'web',
+        endTime: '2025-10-31T08:20:44.809Z',
+        results: {
+          '725082161934246': 2,
+        },
+        startTime: '2025-10-31T08:20:41.233Z',
+      },
+    },
+  },
+  expected_pulled_results_data: {
+    mapping_session_count: 2,
+    mapping_session_results_count: 26,
+    mapping_session_user_groups_count: 0,
+    progress: 33,
+  },
+  expected_project_exports_data: {
+    aggregated_results: 'assets/tests/projects/street/export_with_filters/expected_project_aggregated_result_modified.csv',
+    aggregated_results_with_geometry: 'assets/tests/projects/street/export_with_filters/expected_project_aggregated_result_with_geometry.geojson',
+    results: 'assets/tests/projects/street/export_with_filters/expected_project_result_modified.csv',
+    history: 'assets/tests/projects/street/export_with_filters/expected_project_history.csv',
+    groups: 'assets/tests/projects/street/export_with_filters/expected_project_groups.csv',
+    tasks: 'assets/tests/projects/street/export_with_filters/expected_project_tasks_modified.csv',
+    users: 'assets/tests/projects/street/export_with_filters/expected_project_users.csv',
+    area_of_interest: 'assets/tests/projects/street/export_with_filters/expected_project_aoi.geojson',
+  },
+}
