@@ -1,0 +1,1554 @@
+{
+  contributor_user_firebase_id: '01K6CPB1ETTF7MT9EAAQDQM4A9',
+  assets: {
+    image: 'assets/tests/projects/validate/cover_image.jpg',
+    aoi: null,
+  },
+  // Create organization
+  create_organization: {
+    clientId: '01K6CKWDFX8HZFY5PHJZN1AYH9',
+    name: 'Togglecorp',
+    description: 'Togglecorp (test) organization',
+  },
+  // Create tutorial
+  create_tutorial: {
+    clientId: '01K4MQ88R61EDAMS0K0TW0N17A',
+    name: 'Validate Offices Tutorial',
+  },
+  update_tutorial: {
+    clientId: '01K4MQ88R61EDAMS0K0TW0N17A',
+    name: 'Validate Offices Tutorial',
+    scenarios: [
+      {
+        create: {
+          clientId: '01K4S0NP93KN45MAX2Z5N6PVGX',
+          hintDescription: 'This building might look like an office',
+          hintIcon: 'CLOSE_OUTLINE',
+          hintTitle: 'Look for office',
+          instructionsDescription: 'This building looks like an office',
+          instructionsIcon: 'CHECKMARK_OUTLINE',
+          instructionsTitle: 'Look for office',
+          scenarioPageNumber: 1,
+          successDescription: 'This building does not look like an office',
+          successIcon: 'HELP_OUTLINE',
+          successTitle: 'Look for office',
+          tasks: [
+            {
+              clientId: '01K4S0NP93AQKZ6S558VPVQS19',
+              projectTypeSpecifics: {
+                validate: {
+                  identifier: 1098299960,
+                  objectGeometry: '{"type":"Polygon","coordinates":[[[84.001574,28.1935348],[84.001576,28.1934266],[84.0016578,28.1934278],[84.0016558,28.1935359],[84.001574,28.1935348]]]}',
+                },
+              },
+              reference: 1,
+            },
+          ],
+        },
+      },
+    ],
+    informationPages: [
+      {
+        create: {
+          clientId: '01K4S214M1SSN4N862GYP0BA12',
+          pageNumber: 1,
+          title: 'Look for office buildings',
+          blocks: [
+            {
+              blockNumber: 1,
+              blockType: 'TEXT',
+              clientId: '01K4S21NP6BG28SYXV0W6EYRVZ',
+              text: 'It might look something like this as well',
+            },
+            {
+              blockNumber: 2,
+              blockType: 'TEXT',
+              clientId: '01K4S21W8S2EMAH4GQZRXPPE6K',
+              text: 'It might look something like this as well',
+            },
+          ],
+        },
+      },
+    ],
+  },
+  // Create project
+  create_project: {
+    clientId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    topic: 'Offices',
+    region: 'Manbhawan',
+    projectNumber: 2,
+    projectType: 'VALIDATE',
+    projectInstruction: 'Validate official buildings',
+    lookFor: 'buildings',
+    additionalInfoUrl: 'https://reliefweb.int/disaster/dr-2025-000125-npl',
+    description: 'The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.',
+    requestingOrganization: 'Togglecorp',
+  },
+  update_project: {
+    clientId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    additionalInfoUrl: 'https://reliefweb.int/disaster/dr-2025-000125-npl',
+    description: 'The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.',
+    verificationNumber: 3,
+    projectInstruction: 'Validate official buildings',
+    groupSize: 25,
+    team: null,
+    topic: 'Offices',
+    tutorial: null,
+    maxTasksPerUser: 30,
+    projectNumber: 2,
+    region: 'Manbhawan',
+    image: null,
+    projectTypeSpecifics: {
+      validate: {
+        customOptions: [
+          {
+            clientId: '01K4PJVZWT4VFZEGN4N4KZB6MF',
+            title: 'Yes',
+            icon: 'CHECKMARK_OUTLINE',
+            value: 0,
+            description: 'the shape does outline a building in the image',
+            iconColor: '#388E3C',
+            subOptions: [],
+          },
+          {
+            clientId: '01K4PJVZWTGXF92W20YPD2G4XR',
+            title: 'No',
+            icon: 'CLOSE_OUTLINE',
+            value: 1,
+            description: "the shape doesn't match a building in the image",
+            iconColor: '#D32F2F',
+            subOptions: [],
+          },
+          {
+            clientId: '01K4PJVZWTJXGC19J5V9CS1FVW',
+            title: 'Not Sure',
+            icon: 'REMOVE_OUTLINE',
+            value: 2,
+            description: "if you're not sure or there is cloud cover / bad imagery",
+            iconColor: '#616161',
+            subOptions: [],
+          },
+        ],
+        objectSource: {
+          sourceType: 'OBJECT_GEOJSON_URL',
+          objectGeojsonUrl: 'https://www.dropbox.com/scl/fi/pi7wpa0nfwsb73fm3quz8/url.geojson?rlkey=gn9j0fqok91z708t2dyl1ncxe&st=05si98et&raw=1',
+        },
+        tileServerProperty: {
+          name: 'BING',
+          bing: {
+            credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
+          },
+        },
+      },
+    },
+  },
+  update_processed_project: {
+    clientId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    additionalInfoUrl: 'https://reliefweb.int/disaster/dr-2025-000125-npl',
+    description: 'The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.',
+    projectInstruction: 'Validate official buildings',
+    projectNumber: 2,
+    region: 'Manbhawan',
+    topic: 'Offices',
+    // NOTE: These values will be injected by test scripts
+    image: null,
+    tutorial: null,
+    team: null,
+  },
+  // Expected tutorial
+  expected_tutorial_data: {
+    contributorCount: 0,
+    customOptions: [
+      {
+        description: 'the shape does outline a building in the image',
+        icon: 'checkmark-outline',
+        iconColor: '#388E3C',
+        title: 'Yes',
+        value: 0,
+      },
+      {
+        description: "the shape doesn't match a building in the image",
+        icon: 'close-outline',
+        iconColor: '#D32F2F',
+        title: 'No',
+        value: 1,
+      },
+      {
+        description: "if you're not sure or there is cloud cover / bad imagery",
+        icon: 'remove-outline',
+        iconColor: '#616161',
+        title: 'Not Sure',
+        value: 2,
+      },
+    ],
+    informationPages: [
+      {
+        blocks: [
+          {
+            blockNumber: 1,
+            blockType: 'text',
+            textDescription: 'It might look something like this as well',
+          },
+          {
+            blockNumber: 2,
+            blockType: 'text',
+            textDescription: 'It might look something like this as well',
+          },
+        ],
+        pageNumber: 1,
+        title: 'Look for office buildings',
+      },
+    ],
+    inputGeometries: '',
+    lookFor: 'buildings',
+    name: 'Validate Offices Tutorial',
+    progress: 0,
+    projectDetails: 'The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.',
+    projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+    projectTopicKey: 'validate offices tutorial',
+    projectType: 2,
+    screens: [
+      {
+        hint: {
+          description: 'This building might look like an office',
+          icon: 'close-outline',
+          title: 'Look for office',
+        },
+        instructions: {
+          description: 'This building looks like an office',
+          icon: 'checkmark-outline',
+          title: 'Look for office',
+        },
+        success: {
+          description: 'This building does not look like an office',
+          icon: 'help-outline',
+          title: 'Look for office',
+        },
+      },
+    ],
+    status: 'tutorial',
+    tileServer: {
+      apiKey: 'dummy-bing',
+      credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
+      name: 'bing',
+      url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=15384&mkt=en-US&token={apiKey}',
+    },
+    // FIXME(tnagorra): cleared this because new system does not have drafts
+    tutorialDraftId: '',
+    zoomLevel: 18,
+  },
+  expected_tutorial_groups_data: {
+    '101': {
+      finishedCount: 0,
+      groupId: 101,
+      numberOfTasks: 1,
+      progress: 0,
+      projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+      requiredCount: 0,
+    },
+  },
+  expected_tutorial_tasks_data: {
+    // NOTE: The tasks have been decoded
+    '101': [
+      {
+        taskId: 't1',
+        geojson: {
+          coordinates: [
+            [
+              [84.001574, 28.1935348],
+              [84.001576, 28.1934266],
+              [84.0016578, 28.1934278],
+              [84.0016558, 28.1935359],
+              [84.001574, 28.1935348],
+            ],
+          ],
+          type: 'Polygon',
+        },
+        properties: {
+          id: 1098299960,
+          reference: 1,
+          screen: 1,
+        },
+        // FIXME(tnagorra): The geometry was wrong in previous version (Added space after POLYGON and longitude values)
+        geometry: 'POLYGON ((84.001574 28.1935348,84.001576 28.1934266,84.0016578 28.1934278,84.0016558 28.1935359,84.001574 28.1935348))',
+      },
+    ],
+  },
+  // Expected project
+  expected_project_data: {
+    contributorCount: 0,
+    created: '2025-11-07T08:43:37.064901Z', // NOTE: This is dynamic
+    createdBy: '01K6CPB1ETTF7MT9EAAQDQM4A9',
+    customOptions: [
+      {
+        description: 'the shape does outline a building in the image',
+        icon: 'checkmark-outline',
+        iconColor: '#388E3C',
+        title: 'Yes',
+        value: 0,
+      },
+      {
+        description: "the shape doesn't match a building in the image",
+        icon: 'close-outline',
+        iconColor: '#D32F2F',
+        title: 'No',
+        value: 1,
+      },
+      {
+        description: "if you're not sure or there is cloud cover / bad imagery",
+        icon: 'remove-outline',
+        iconColor: '#616161',
+        title: 'Not Sure',
+        value: 2,
+      },
+    ],
+    // filter: 'building=* and geometry:polygon',
+    groupMaxSize: 25,
+    groupSize: 25,
+    inputType: 'link',
+    isFeatured: false,
+    language: 'en-us',
+    lookFor: 'buildings',
+    manualUrl: 'https://reliefweb.int/disaster/dr-2025-000125-npl',
+    maxTasksPerUser: 30,
+    name: 'Validate Footprints - Offices - Manbhawan (2) Togglecorp',
+    progress: 0,
+    projectDetails: 'The Validate project type ensures that collected data meets required standards by verifying accuracy and consistency. It helps identify errors or mismatches so only high-quality data moves forward.',
+    projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    projectNumber: 2,
+    projectRegion: 'Manbhawan',
+    projectTopic: 'Offices',
+    projectTopicKey: 'validate footprints - offices - manbhawan (2) togglecorp',
+    projectType: 2,
+    projectInstruction: 'Validate official buildings',
+    requestingOrganisation: 'Togglecorp',
+    requiredResults: 102,
+    resultCount: 0,
+    status: 'active',
+    tileServer: {
+      apiKey: 'dummy-bing',
+      credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
+      name: 'bing',
+      url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=15384&mkt=en-US&token={apiKey}',
+    },
+    tutorialId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+    verificationNumber: 3,
+  },
+  expected_project_groups_data: {
+    g100: {
+      finishedCount: 0,
+      groupId: 'g100',
+      numberOfTasks: 25,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
+    g101: {
+      finishedCount: 0,
+      groupId: 'g101',
+      numberOfTasks: 9,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
+  },
+  expected_project_tasks_data: {
+    // NOTE: The tasks have been decoded
+    g100: [
+        {
+            "taskId": "t1",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3163395,
+                            27.6713752
+                        ],
+                        [
+                            85.316324,
+                            27.67127
+                        ],
+                        [
+                            85.316147,
+                            27.6712905
+                        ],
+                        [
+                            85.3161625,
+                            27.6713956
+                        ],
+                        [
+                            85.3163395,
+                            27.6713752
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t2",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.316576,
+                            27.6713187
+                        ],
+                        [
+                            85.3166707,
+                            27.6713143
+                        ],
+                        [
+                            85.3166648,
+                            27.6712153
+                        ],
+                        [
+                            85.3165701,
+                            27.6712197
+                        ],
+                        [
+                            85.316576,
+                            27.6713187
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t3",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3165228,
+                            27.6716385
+                        ],
+                        [
+                            85.3164962,
+                            27.6715588
+                        ],
+                        [
+                            85.3163762,
+                            27.6715901
+                        ],
+                        [
+                            85.3164028,
+                            27.6716699
+                        ],
+                        [
+                            85.3165228,
+                            27.6716385
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t4",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3162949,
+                            27.6711042
+                        ],
+                        [
+                            85.3162987,
+                            27.6711216
+                        ],
+                        [
+                            85.3163999,
+                            27.6711042
+                        ],
+                        [
+                            85.3162949,
+                            27.6711042
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t5",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3164919,
+                            27.6716615
+                        ],
+                        [
+                            85.3165121,
+                            27.6717514
+                        ],
+                        [
+                            85.3166172,
+                            27.6717328
+                        ],
+                        [
+                            85.316597,
+                            27.671643
+                        ],
+                        [
+                            85.3164919,
+                            27.6716615
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t6",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3164498,
+                            27.6713665
+                        ],
+                        [
+                            85.3165518,
+                            27.6713566
+                        ],
+                        [
+                            85.316544,
+                            27.6712935
+                        ],
+                        [
+                            85.316442,
+                            27.6713034
+                        ],
+                        [
+                            85.3164498,
+                            27.6713665
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t7",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3165258,
+                            27.6717769
+                        ],
+                        [
+                            85.3165426,
+                            27.6718943
+                        ],
+                        [
+                            85.3166659,
+                            27.6718804
+                        ],
+                        [
+                            85.3166537,
+                            27.6717952
+                        ],
+                        [
+                            85.3166325,
+                            27.6717976
+                        ],
+                        [
+                            85.3166279,
+                            27.6717654
+                        ],
+                        [
+                            85.3165258,
+                            27.6717769
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t8",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3163453,
+                            27.6714887
+                        ],
+                        [
+                            85.3164549,
+                            27.6714724
+                        ],
+                        [
+                            85.31644,
+                            27.6713938
+                        ],
+                        [
+                            85.3163304,
+                            27.6714101
+                        ],
+                        [
+                            85.3163453,
+                            27.6714887
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t9",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3160708,
+                            27.6719357
+                        ],
+                        [
+                            85.3160766,
+                            27.6719679
+                        ],
+                        [
+                            85.3162399,
+                            27.6719448
+                        ],
+                        [
+                            85.3162239,
+                            27.671856
+                        ],
+                        [
+                            85.3160708,
+                            27.6718777
+                        ],
+                        [
+                            85.3160708,
+                            27.6719357
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t10",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3160993,
+                            27.6715695
+                        ],
+                        [
+                            85.3162015,
+                            27.6715706
+                        ],
+                        [
+                            85.3162008,
+                            27.6716217
+                        ],
+                        [
+                            85.3160986,
+                            27.6716205
+                        ],
+                        [
+                            85.3160993,
+                            27.6715695
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t11",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3161882,
+                            27.6717291
+                        ],
+                        [
+                            85.3162395,
+                            27.6717221
+                        ],
+                        [
+                            85.316256,
+                            27.6718164
+                        ],
+                        [
+                            85.316171,
+                            27.671828
+                        ],
+                        [
+                            85.3161603,
+                            27.6717667
+                        ],
+                        [
+                            85.3161939,
+                            27.6717621
+                        ],
+                        [
+                            85.3161882,
+                            27.6717291
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t12",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3163871,
+                            27.6716741
+                        ],
+                        [
+                            85.3162581,
+                            27.6716921
+                        ],
+                        [
+                            85.3162461,
+                            27.6716241
+                        ],
+                        [
+                            85.3163609,
+                            27.6716081
+                        ],
+                        [
+                            85.3163666,
+                            27.6716398
+                        ],
+                        [
+                            85.3163806,
+                            27.6716379
+                        ],
+                        [
+                            85.3163871,
+                            27.6716741
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t13",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.316697,
+                            27.6712677
+                        ],
+                        [
+                            85.3166916,
+                            27.6712689
+                        ],
+                        [
+                            85.316697,
+                            27.6712881
+                        ],
+                        [
+                            85.316697,
+                            27.6712677
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t14",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3161216,
+                            27.6711538
+                        ],
+                        [
+                            85.3160827,
+                            27.6711544
+                        ],
+                        [
+                            85.3160844,
+                            27.6712432
+                        ],
+                        [
+                            85.3161233,
+                            27.6712426
+                        ],
+                        [
+                            85.3161216,
+                            27.6711538
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t15",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3161673,
+                            27.6711042
+                        ],
+                        [
+                            85.3161683,
+                            27.6711079
+                        ],
+                        [
+                            85.3161233,
+                            27.6711171
+                        ],
+                        [
+                            85.316145,
+                            27.6711998
+                        ],
+                        [
+                            85.3162746,
+                            27.6711732
+                        ],
+                        [
+                            85.3162565,
+                            27.6711042
+                        ],
+                        [
+                            85.3161673,
+                            27.6711042
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t16",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3161447,
+                            27.6712066
+                        ],
+                        [
+                            85.3161492,
+                            27.6712304
+                        ],
+                        [
+                            85.3162374,
+                            27.6712174
+                        ],
+                        [
+                            85.3162329,
+                            27.6711936
+                        ],
+                        [
+                            85.3161447,
+                            27.6712066
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t17",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3165367,
+                            27.6711816
+                        ],
+                        [
+                            85.3164646,
+                            27.6711925
+                        ],
+                        [
+                            85.3164708,
+                            27.6712248
+                        ],
+                        [
+                            85.3164293,
+                            27.6712311
+                        ],
+                        [
+                            85.3164422,
+                            27.6712984
+                        ],
+                        [
+                            85.3165559,
+                            27.6712812
+                        ],
+                        [
+                            85.3165367,
+                            27.6711816
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t18",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3164148,
+                            27.6711231
+                        ],
+                        [
+                            85.3163343,
+                            27.6711373
+                        ],
+                        [
+                            85.316352,
+                            27.6712154
+                        ],
+                        [
+                            85.3164324,
+                            27.6712012
+                        ],
+                        [
+                            85.3164148,
+                            27.6711231
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t19",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3164418,
+                            27.6711042
+                        ],
+                        [
+                            85.3164524,
+                            27.6711501
+                        ],
+                        [
+                            85.3165503,
+                            27.6711323
+                        ],
+                        [
+                            85.3165438,
+                            27.6711042
+                        ],
+                        [
+                            85.3164418,
+                            27.6711042
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t20",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.316285,
+                            27.672118
+                        ],
+                        [
+                            85.3162845,
+                            27.6721131
+                        ],
+                        [
+                            85.3162277,
+                            27.672118
+                        ],
+                        [
+                            85.316285,
+                            27.672118
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t21",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.316697,
+                            27.6720834
+                        ],
+                        [
+                            85.3166864,
+                            27.6720861
+                        ],
+                        [
+                            85.3166967,
+                            27.672118
+                        ],
+                        [
+                            85.316697,
+                            27.672118
+                        ],
+                        [
+                            85.316697,
+                            27.6720834
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t22",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3163239,
+                            27.6718246
+                        ],
+                        [
+                            85.3162514,
+                            27.6718272
+                        ],
+                        [
+                            85.3162538,
+                            27.6718786
+                        ],
+                        [
+                            85.3163263,
+                            27.671876
+                        ],
+                        [
+                            85.3163239,
+                            27.6718246
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t23",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3163301,
+                            27.671883
+                        ],
+                        [
+                            85.3162631,
+                            27.6718909
+                        ],
+                        [
+                            85.3162698,
+                            27.6719352
+                        ],
+                        [
+                            85.3163367,
+                            27.6719273
+                        ],
+                        [
+                            85.3163301,
+                            27.671883
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t24",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3163985,
+                            27.6718602
+                        ],
+                        [
+                            85.3163417,
+                            27.6718659
+                        ],
+                        [
+                            85.3163469,
+                            27.671907
+                        ],
+                        [
+                            85.3164037,
+                            27.6719014
+                        ],
+                        [
+                            85.3163985,
+                            27.6718602
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t25",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3163331,
+                            27.6717973
+                        ],
+                        [
+                            85.3163401,
+                            27.6718548
+                        ],
+                        [
+                            85.3163725,
+                            27.6718517
+                        ],
+                        [
+                            85.3163705,
+                            27.6718351
+                        ],
+                        [
+                            85.3164009,
+                            27.6718322
+                        ],
+                        [
+                            85.3163959,
+                            27.6717913
+                        ],
+                        [
+                            85.3163331,
+                            27.6717973
+                        ]
+                    ]
+                ]
+            }
+        }
+    ],
+    g101: [
+        {
+            "taskId": "t26",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.316367,
+                            27.671734
+                        ],
+                        [
+                            85.3162631,
+                            27.6717454
+                        ],
+                        [
+                            85.3162728,
+                            27.6718149
+                        ],
+                        [
+                            85.316328,
+                            27.6718089
+                        ],
+                        [
+                            85.3163263,
+                            27.6717967
+                        ],
+                        [
+                            85.316375,
+                            27.6717914
+                        ],
+                        [
+                            85.316367,
+                            27.671734
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t27",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3165165,
+                            27.6718422
+                        ],
+                        [
+                            85.3164182,
+                            27.6718587
+                        ],
+                        [
+                            85.3164288,
+                            27.6719079
+                        ],
+                        [
+                            85.316527,
+                            27.6718914
+                        ],
+                        [
+                            85.3165165,
+                            27.6718422
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t28",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3164956,
+                            27.6717348
+                        ],
+                        [
+                            85.3164026,
+                            27.6717512
+                        ],
+                        [
+                            85.3164248,
+                            27.6718493
+                        ],
+                        [
+                            85.3165178,
+                            27.6718329
+                        ],
+                        [
+                            85.3164956,
+                            27.6717348
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t29",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3164852,
+                            27.6716664
+                        ],
+                        [
+                            85.3163644,
+                            27.6716849
+                        ],
+                        [
+                            85.3163696,
+                            27.6717115
+                        ],
+                        [
+                            85.3163879,
+                            27.6717087
+                        ],
+                        [
+                            85.3163938,
+                            27.6717391
+                        ],
+                        [
+                            85.3164963,
+                            27.6717234
+                        ],
+                        [
+                            85.3164852,
+                            27.6716664
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t30",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3163145,
+                            27.671549
+                        ],
+                        [
+                            85.3163009,
+                            27.6713988
+                        ],
+                        [
+                            85.316077,
+                            27.6714147
+                        ],
+                        [
+                            85.3160907,
+                            27.671565
+                        ],
+                        [
+                            85.3163145,
+                            27.671549
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t31",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3165016,
+                            27.6713615
+                        ],
+                        [
+                            85.3164547,
+                            27.6713661
+                        ],
+                        [
+                            85.3164615,
+                            27.6714203
+                        ],
+                        [
+                            85.3165084,
+                            27.6714157
+                        ],
+                        [
+                            85.3165016,
+                            27.6713615
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t32",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3165432,
+                            27.6714728
+                        ],
+                        [
+                            85.3164376,
+                            27.6714939
+                        ],
+                        [
+                            85.3164513,
+                            27.6715477
+                        ],
+                        [
+                            85.3165569,
+                            27.6715266
+                        ],
+                        [
+                            85.3165432,
+                            27.6714728
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t33",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3162183,
+                            27.6716428
+                        ],
+                        [
+                            85.3160881,
+                            27.6716429
+                        ],
+                        [
+                            85.3160881,
+                            27.6717203
+                        ],
+                        [
+                            85.3162183,
+                            27.6717202
+                        ],
+                        [
+                            85.3162183,
+                            27.6716428
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "taskId": "t34",
+            "projectId": "01K339HAWZCTCBRVQMQFWRTHXX",
+            "geojson": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            85.3161537,
+                            27.6717783
+                        ],
+                        [
+                            85.3161165,
+                            27.6717865
+                        ],
+                        [
+                            85.316133,
+                            27.6718448
+                        ],
+                        [
+                            85.3161702,
+                            27.6718366
+                        ],
+                        [
+                            85.3161537,
+                            27.6717783
+                        ]
+                    ]
+                ]
+            }
+        }
+    ],
+  },
+  // Create contributor group
+  create_contributor_user_group: [
+    {
+      clientId: '01K49J0QPCZM2JCNC9AEE6HT8Y',
+      name: 'User Group 01',
+      description: 'First user group',
+    },
+  ],
+  create_results: {
+    g101: {
+       '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+           appVersion: '0.3.0-dev',
+           clientType: 'web',
+           endTime: '2025-11-07T08:58:45.663Z',
+           results: {
+               t26: 0,
+               t27: 1,
+               t28: 0,
+               t29: 0,
+               t30: 0,
+               t31: 0,
+               t32: 1,
+               t33: 0,
+               t34: 1
+           },
+           startTime: '2025-11-07T08:57:35.206Z'
+       },
+   },
+    g100: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+          appVersion: '0.3.0-dev',
+          clientType: 'web',
+          endTime: '2025-11-07T09:02:53.656Z',
+          results: {
+              t1: 0,
+              t10: 1,
+              t11: 1,
+              t12: 0,
+              t13: 2,
+              t14: 0,
+              t15: 0,
+              t16: 0,
+              t17: 2,
+              t18: 2,
+              t19: 0,
+              t2: 0,
+              t20: 2,
+              t21: 2,
+              t22: 0,
+              t23: 2,
+              t24: 2,
+              t25: 0,
+              t3: 0,
+              t4: 2,
+              t5: 2,
+              t6: 0,
+              t7: 0,
+              t8: 2,
+              t9: 2
+          },
+          startTime: '2025-11-07T09:02:45.572Z'
+      },
+    },
+  },
+  expected_pulled_results_data: {
+    mapping_session_count: 2,
+    mapping_session_results_count: 34,
+    mapping_session_user_groups_count: 0,
+    progress: 33,
+  },
+  expected_project_exports_data: {
+    aggregated_results: 'assets/tests/projects/validate/project_with_geojson_url/exports/expected_project_aggregated_result_modified.csv',
+    aggregated_results_with_geometry: 'assets/tests/projects/validate/project_with_geojson_url/exports/expected_project_aggregated_result_with_geometry_modified.geojson',
+    results: 'assets/tests/projects/validate/project_with_geojson_url/exports/expected_project_result_modified.csv',
+    history: 'assets/tests/projects/validate/project_with_geojson_url/exports/expected_project_history.csv',
+    groups: 'assets/tests/projects/validate/project_with_geojson_url/exports/expected_project_groups.csv',
+    tasks: 'assets/tests/projects/validate/project_with_geojson_url/exports/expected_project_tasks_modified.csv',
+    users: 'assets/tests/projects/validate/project_with_geojson_url/exports/expected_project_users.csv',
+    area_of_interest: 'assets/tests/projects/validate/project_with_geojson_url/exports/expected_project_aoi.geojson', // Export coming from the new system used here
+    // Note: The export coming from the old system and the new system do not match. For the time being, the expected_project_aoi (coming from old system) is commented out in favor of using the export coming from the new systemi
+    // area_of_interest: 'assets/tests/projects/validate/project_with_geojson_url/exports/expected_project_aoi_original.geojson', 
+  },
+}
