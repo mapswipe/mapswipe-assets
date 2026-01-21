@@ -1,0 +1,5 @@
+,project_id,group_id,task_id,user_id,timestamp,start_time,end_time,app_version,client_type,result,reference,username
+0,01K339HAWZCTCBRVQMQFWRTHXX,g100,t1,01K6CPB1ETTF7MT9EAAQDQM4A9,2026-01-21 14:38:10.783+00,2026-01-21 14:38:10.783+00,2026-01-21 14:38:33.619+00,0.3.0-dev,web,1,"{""numberIntersecting"": 0}",Ram Bahadur
+1,01K339HAWZCTCBRVQMQFWRTHXX,g100,t2,01K6CPB1ETTF7MT9EAAQDQM4A9,2026-01-21 14:38:10.783+00,2026-01-21 14:38:10.783+00,2026-01-21 14:38:33.619+00,0.3.0-dev,web,0,"{""numberIntersecting"": 0}",Ram Bahadur
+2,01K339HAWZCTCBRVQMQFWRTHXX,g100,t3,01K6CPB1ETTF7MT9EAAQDQM4A9,2026-01-21 14:38:10.783+00,2026-01-21 14:38:10.783+00,2026-01-21 14:38:33.619+00,0.3.0-dev,web,0,"{""osmId"": 1158869168, ""osmType"": ""ways_poly"", ""version"": 1, ""numberIntersecting"": 1}",Ram Bahadur
+3,01K339HAWZCTCBRVQMQFWRTHXX,g100,t4,01K6CPB1ETTF7MT9EAAQDQM4A9,2026-01-21 14:38:10.783+00,2026-01-21 14:38:10.783+00,2026-01-21 14:38:33.619+00,0.3.0-dev,web,3,"{""numberIntersecting"": 4}",Ram Bahadur
