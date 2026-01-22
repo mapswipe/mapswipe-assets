@@ -99,7 +99,7 @@
     projectTypeSpecifics: {
       conflation: {
         objectSource: {
-          objectGeojsonUrl: 'https://drive.google.com/uc?export=download&id=10e50MsbO8BdKVwsjRFmoQQzharX_Am2f',          
+          objectGeojsonUrl: 'https://drive.google.com/uc?export=download&id=10e50MsbO8BdKVwsjRFmoQQzharX_Am2f',
         },
         tileServerProperty: {
           name: 'BING',
@@ -132,17 +132,17 @@
           {
             blockNumber: 1,
             blockType: 'text',
-            textDescription: 'It might look something like this as well'
+            textDescription: 'It might look something like this as well',
           },
           {
             blockNumber: 2,
             blockType: 'text',
-            textDescription: 'It might look something like this as well'
-          }
+            textDescription: 'It might look something like this as well',
+          },
         ],
         pageNumber: 1,
-        title: 'Compare building footprints'
-      }
+        title: 'Compare building footprints',
+      },
     ],
     inputGeometries: '',
     lookFor: 'building',
@@ -157,26 +157,26 @@
         hint: {
           description: 'Click Yes',
           icon: 'help-outline',
-          title: 'This building looks correct'
+          title: 'This building looks correct',
         },
         instructions: {
           description: 'This building looks correct',
           icon: 'close-outline',
-          title: 'Correct building'
+          title: 'Correct building',
         },
         success: {
           description: 'This building is correct',
           icon: 'checkmark-outline',
-          title: 'Well done'
-        }
-      }
+          title: 'Well done',
+        },
+      },
     ],
     status: 'tutorial',
     tileServer: {
       apiKey: 'dummy-bing',
       credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
       name: 'bing',
-      url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=15384&mkt=en-US&token={apiKey}'
+      url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=15384&mkt=en-US&token={apiKey}',
     },
     tutorialDraftId: '',
     zoomLevel: 18,
@@ -221,115 +221,115 @@
   // Expected project
   expected_project_data: {
     contributorCount: 0,
-    created: "2026-01-21T13:49:30.764081+00:00",
-    createdBy: "01K6CPB1ETTF7MT9EAAQDQM4A9",
+    created: '2026-01-21T13:49:30.764081+00:00',
+    createdBy: '01K6CPB1ETTF7MT9EAAQDQM4A9',
     groupMaxSize: 25,
     groupSize: 25,
     isFeatured: false,
-    language: "en-us",
-    lookFor: "building",
-    manualUrl: "https://fair.hotosm.org",
+    language: 'en-us',
+    lookFor: 'building',
+    manualUrl: 'https://fair.hotosm.org',
     maxTasksPerUser: 30,
-    name: "Conflate Features - fAIr - Manbhawan (2) Togglecorp",
+    name: 'Conflate Features - fAIr - Manbhawan (2) Togglecorp',
     progress: 0,
-    projectDetails: "This is a conflation project with an extended description",
-    projectId: "01K339HAWZCTCBRVQMQFWRTHXX",
-    projectInstruction: "Compare buildings",
+    projectDetails: 'This is a conflation project with an extended description',
+    projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    projectInstruction: 'Compare buildings',
     projectNumber: 2,
-    projectRegion: "Manbhawan",
-    projectTopic: "fAIr",
-    projectTopicKey: "conflate features - fair - manbhawan (2) togglecorp",
+    projectRegion: 'Manbhawan',
+    projectTopic: 'fAIr',
+    projectTopicKey: 'conflate features - fair - manbhawan (2) togglecorp',
     projectType: 8,
-    requestingOrganisation: "Togglecorp",
+    requestingOrganisation: 'Togglecorp',
     requiredResults: 12,
     resultCount: 0,
-    status: "active",
+    status: 'active',
     tileServer: {
-      apiKey: "dummy-bing",
-      credits: "© 2019 Microsoft Corporation, Earthstar Geographics SIO",
-      name: "bing",
-      url: "https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=15384&mkt=en-US&token={apiKey}"
+      apiKey: 'dummy-bing',
+      credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
+      name: 'bing',
+      url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=15384&mkt=en-US&token={apiKey}',
     },
-    tutorialId: "tutorial_01K4MQ88R61EDAMS0K0TW0N17A",
-    verificationNumber: 3
+    tutorialId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+    verificationNumber: 3,
   },
   expected_project_groups_data: {
     g100: {
       finishedCount: 0,
-      groupId: "g100",
+      groupId: 'g100',
       numberOfTasks: 4,
       progress: 0,
-      projectId: "01K339HAWZCTCBRVQMQFWRTHXX",
-      requiredCount: 3
-    }
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
   },
   expected_project_tasks_data: {
     g100: [
       {
-        projectId: "01K339HAWZCTCBRVQMQFWRTHXX",
-        taskId: "t1",
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 't1',
         geojson: {
-          type: "Polygon",
+          type: 'Polygon',
           coordinates: [
             [
               [-99.0960703975439, 19.4260629712692],
               [-99.0960703975439, 19.4258370781538],
               [-99.0958707900499, 19.4258370781538],
               [-99.0958707900499, 19.4260629712692],
-              [-99.0960703975439, 19.4260629712692]
-            ]
-          ]
-        }
+              [-99.0960703975439, 19.4260629712692],
+            ],
+          ],
+        },
       },
       {
-        projectId: "01K339HAWZCTCBRVQMQFWRTHXX",
-        taskId: "t2",
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 't2',
         geojson: {
-          type: "Polygon",
+          type: 'Polygon',
           coordinates: [
             [
               [-99.096234519261, 19.4256739329314],
               [-99.096234519261, 19.4254396728378],
               [-99.0960570903775, 19.4254396728378],
               [-99.0960570903775, 19.4256739329314],
-              [-99.096234519261, 19.4256739329314]
-            ]
-          ]
-        }
+              [-99.096234519261, 19.4256739329314],
+            ],
+          ],
+        },
       },
       {
-        projectId: "01K339HAWZCTCBRVQMQFWRTHXX",
-        taskId: "t3",
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 't3',
         geojson: {
-          type: "Polygon",
+          type: 'Polygon',
           coordinates: [
             [
               [-99.0945557822443, 19.4253619867497],
               [-99.0945557822443, 19.424958657374],
               [-99.0942564104523, 19.424958657374],
               [-99.0942564104523, 19.4253619867497],
-              [-99.0945557822443, 19.4253619867497]
-            ]
-          ]
-        }
+              [-99.0945557822443, 19.4253619867497],
+            ],
+          ],
+        },
       },
       {
-        projectId: "01K339HAWZCTCBRVQMQFWRTHXX",
-        taskId: "t4",
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 't4',
         geojson: {
-          type: "Polygon",
+          type: 'Polygon',
           coordinates: [
             [
               [-99.0934675895399, 19.4222204725853],
               [-99.0934675895399, 19.4220188041236],
               [-99.0933535431433, 19.4220188041236],
               [-99.0933535431433, 19.4222204725853],
-              [-99.0934675895399, 19.4222204725853]
-            ]
-          ]
-        }
-      }
-    ]
+              [-99.0934675895399, 19.4222204725853],
+            ],
+          ],
+        },
+      },
+    ],
   },
   // Create contributor group
   create_contributor_user_group: [
@@ -349,7 +349,7 @@
         reference: {
           t1: { numberIntersecting: 0 },
           t2: { numberIntersecting: 0 },
-          t3: { 
+          t3: {
             numberIntersecting: 1,
             osmId: 1158869168,
             osmType: 'ways_poly',
