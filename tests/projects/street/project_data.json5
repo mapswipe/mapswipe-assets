@@ -90,7 +90,7 @@
       street: {
         aoiGeometry: null,
         mapillaryImageFilters: {
-          isPano: null,
+          panoOnly: null,
           creatorId: null,
           organizationId: null,
           startTime: null,
