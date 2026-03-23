@@ -112,6 +112,9 @@
   // Expected tutorial
   expected_tutorial_data: {
     contributorCount: 0,
+    imageProvider: {
+      name: 'mapillary',
+    },
     informationPages: [
       {
         blocks: [
@@ -181,6 +184,9 @@
   expected_project_data: {
     contributorCount: 0,
     created: '2025-09-02T04:43:52.328353+00:00', // NOTE: This is dynamic
+    imageProvider: {
+      name: 'mapillary',
+    },
     createdBy: '01K6CPB1ETTF7MT9EAAQDQM4A9',
     // Number of groups new fields of street
     numberOfGroups: 16,
