@@ -98,6 +98,9 @@
           randomizeOrder: false,
           samplingThreshold: null,
         },
+        imageProvider: {
+          name: 'MAPILLARY',
+        },
       },
     },
   },
