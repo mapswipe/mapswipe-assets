@@ -1,0 +1,474 @@
+{
+  "type": "FeatureCollection",
+  "name": "tmp",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 0.0,
+        "task_id": "1032323287447329",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.30988931655884, 27.68085836107852]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 1.0,
+        "task_id": "1182788288957594",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.31194388866425, 27.68358983816715]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 2.0,
+        "task_id": "118984597522303",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.30719101428986, 27.68488192178812]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 3.0,
+        "task_id": "121683970426443",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.30882179737091, 27.683627840844792]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 4.0,
+        "task_id": "1509291432845612",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.30888617038727, 27.68113388708271]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 5.0,
+        "task_id": "160802573131573",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.30985713005066, 27.682511506677713]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 6.0,
+        "task_id": "163075062909901",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.30891299247742, 27.683637341512124]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 7.0,
+        "task_id": "191387643216523",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.31028628349304, 27.680483074540916]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 8.0,
+        "task_id": "297491485878650",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.30711591243744, 27.682079221020473]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 9.0,
+        "task_id": "404891721450849",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.30711054801941, 27.68484866982776]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 10.0,
+        "task_id": "414901194017979",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.31057596206665, 27.681247897639764]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 11.0,
+        "task_id": "458506505710322",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.30794203281403, 27.68152817308659]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 12.0,
+        "task_id": "460221435923449",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.31106412410736, 27.681969961737323]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 13.0,
+        "task_id": "5356212021166350",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.3102058172226, 27.680373813661006]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 14.0,
+        "task_id": "556102919329539",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.30987322330475, 27.682644517304936]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 15.0,
+        "task_id": "578423837293452",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.30961573123932, 27.68329531696702]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 16.0,
+        "task_id": "592470759143634",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.31062424182892, 27.68123839676454]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 17.0,
+        "task_id": "615903619954638",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.31113922595978, 27.682031716997756]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 18.0,
+        "task_id": "616230583012239",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.31162202358246, 27.68284878330988]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 19.0,
+        "task_id": "620834112502380",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.31008780002594, 27.68194145929766]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 20.0,
+        "task_id": "767194991298957",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.3120082616806, 27.683665843509203]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 21.0,
+        "task_id": "785496915808468",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.31154155731201, 27.68273952479663]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 22.0,
+        "task_id": "793171638345664",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.31003952026367, 27.68155192521006]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 23.0,
+        "task_id": "821957525375270",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.3093421459198, 27.683461579032453]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 24.0,
+        "task_id": "856143412441272",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.31008243560791, 27.68120989413397]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 25.0,
+        "task_id": "725082161934246",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[85.3076308965683, 27.684539901140923]]
+      }
+    }
+  ]
+}
