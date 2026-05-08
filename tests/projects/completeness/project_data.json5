@@ -1,5 +1,11 @@
 {
-  contributor_user_firebase_id: '01K6CPB1ETTF7MT9EAAQDQM4A9',
+  contributors: [
+    {
+      name: 'Ram Bahadur',
+      firebase_id: '01K6CPB1ETTF7MT9EAAQDQM4A9',
+      is_default: true,
+    },
+  ],
   assets: {
     image: 'assets/tests/projects/completeness/cover_image.jpg',
     aoi: 'assets/tests/projects/completeness/aoi_geometry.json',
