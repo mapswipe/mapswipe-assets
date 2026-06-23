@@ -1,0 +1,385 @@
+{
+  contributor_user_firebase_id: '01K6CPB1ETTF7MT9EAAQDQM4A9',
+  assets: {
+    image: 'assets/tests/projects/conflation/cover_image.jpg',
+  },
+  // Create organization
+  create_organization: {
+    clientId: '01K6CKWDFX8HZFY5PHJZN1AYH9',
+    name: 'Togglecorp',
+    description: 'Togglecorp (test) organization',
+  },
+  // Create tutorial
+  create_tutorial: {
+    clientId: '01K4MQ88R61EDAMS0K0TW0N17A',
+    name: 'Conflation Tutorial',
+  },
+  update_tutorial: {
+    clientId: '01K4MQ88R61EDAMS0K0TW0N17A',
+    name: 'Conflation Tutorial',
+    scenarios: [
+      {
+        create: {
+          clientId: '01K4S0NP93KN45MAX2Z5N6PVGX',
+          hintDescription: 'Click Yes',
+          hintIcon: 'HELP_OUTLINE',
+          hintTitle: 'This building looks correct',
+          instructionsDescription: 'This building looks correct',
+          instructionsIcon: 'CLOSE_OUTLINE',
+          instructionsTitle: 'Correct building',
+          scenarioPageNumber: 1,
+          successDescription: 'This building is correct',
+          successIcon: 'CHECKMARK_OUTLINE',
+          successTitle: 'Well done',
+          tasks: [
+            {
+              clientId: '01K4S0NP93AQKZ6S558VPVQS19',
+              projectTypeSpecifics: {
+                conflation: {
+                  identifier: 1098299960,
+                  objectGeometry: '{"type":"Polygon","coordinates":[[[84.001574,28.1935348],[84.001576,28.1934266],[84.0016578,28.1934278],[84.0016558,28.1935359],[84.001574,28.1935348]]]}',
+                },
+              },
+              reference: 1,
+            },
+          ],
+        },
+      },
+    ],
+    informationPages: [
+      {
+        create: {
+          clientId: '01K4S214M1SSN4N862GYP0BA12',
+          pageNumber: 1,
+          title: 'Compare building footprints',
+          blocks: [
+            {
+              blockNumber: 1,
+              blockType: 'TEXT',
+              clientId: '01K4S21NP6BG28SYXV0W6EYRVZ',
+              text: 'It might look something like this as well',
+            },
+            {
+              blockNumber: 2,
+              blockType: 'TEXT',
+              clientId: '01K4S21W8S2EMAH4GQZRXPPE6K',
+              text: 'It might look something like this as well',
+            },
+          ],
+        },
+      },
+    ],
+  },
+  // Create project
+  create_project: {
+    clientId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    topic: 'fAIr',
+    region: 'Manbhawan',
+    projectNumber: 2,
+    projectType: 'CONFLATION',
+    projectInstruction: 'Compare buildings',
+    lookFor: 'building',
+    description: 'This is a conflation project.',
+    requestingOrganization: 'Togglecorp',
+  },
+  update_project: {
+    clientId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    additionalInfoUrl: 'https://fair.hotosm.org',
+    description: 'This is a conflation project with an extended description',
+    verificationNumber: 3,
+    projectInstruction: 'Compare buildings',
+    groupSize: 25,
+    team: null,
+    topic: 'fAIr',
+    tutorial: null,
+    maxTasksPerUser: 30,
+    projectNumber: 2,
+    region: 'Manbhawan',
+    image: null,
+    projectTypeSpecifics: {
+      conflation: {
+        objectSource: {
+          objectGeojsonUrl: 'https://drive.google.com/uc?export=download&id=10e50MsbO8BdKVwsjRFmoQQzharX_Am2f',
+        },
+        tileServerProperty: {
+          name: 'BING',
+          bing: {
+            credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
+          },
+        },
+      },
+    },
+  },
+  update_processed_project: {
+    clientId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    additionalInfoUrl: 'https://fair.hotosm.org',
+    description: 'This is a conflation project with an extended description',
+    projectInstruction: 'Compare buildings',
+    projectNumber: 2,
+    region: 'Manbhawan',
+    topic: 'fAIr',
+    // NOTE: These values will be injected by test scripts
+    image: null,
+    tutorial: null,
+    team: null,
+  },
+  // Expected tutorial
+  expected_tutorial_data: {
+    contributorCount: 0,
+    informationPages: [
+      {
+        blocks: [
+          {
+            blockNumber: 1,
+            blockType: 'text',
+            textDescription: 'It might look something like this as well',
+          },
+          {
+            blockNumber: 2,
+            blockType: 'text',
+            textDescription: 'It might look something like this as well',
+          },
+        ],
+        pageNumber: 1,
+        title: 'Compare building footprints',
+      },
+    ],
+    inputGeometries: '',
+    lookFor: 'building',
+    name: 'Conflation Tutorial',
+    progress: 0,
+    projectDetails: 'This is a conflation project with an extended description',
+    projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+    projectTopicKey: 'conflation tutorial',
+    projectType: 8,
+    screens: [
+      {
+        hint: {
+          description: 'Click Yes',
+          icon: 'help-outline',
+          title: 'This building looks correct',
+        },
+        instructions: {
+          description: 'This building looks correct',
+          icon: 'close-outline',
+          title: 'Correct building',
+        },
+        success: {
+          description: 'This building is correct',
+          icon: 'checkmark-outline',
+          title: 'Well done',
+        },
+      },
+    ],
+    status: 'tutorial',
+    tileServer: {
+      apiKey: 'dummy-bing',
+      credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
+      name: 'bing',
+      url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=15384&mkt=en-US&token={apiKey}',
+    },
+    tutorialDraftId: '',
+    zoomLevel: 18,
+  },
+  expected_tutorial_groups_data: {
+    '101': {
+      finishedCount: 0,
+      groupId: 101,
+      numberOfTasks: 1,
+      progress: 0,
+      projectId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+      requiredCount: 0,
+    },
+  },
+  expected_tutorial_tasks_data: {
+    // NOTE: The tasks have been decoded
+    '101': [
+      {
+        taskId: 't1',
+        geojson: {
+          coordinates: [
+            [
+              [84.001574, 28.1935348],
+              [84.001576, 28.1934266],
+              [84.0016578, 28.1934278],
+              [84.0016558, 28.1935359],
+              [84.001574, 28.1935348],
+            ],
+          ],
+          type: 'Polygon',
+        },
+        properties: {
+          id: 1098299960,
+          reference: 1,
+          screen: 1,
+        },
+        // FIXME(tnagorra): The geometry was wrong in previous version (Added space after POLYGON and longitude values)
+        geometry: 'POLYGON ((84.001574 28.1935348,84.001576 28.1934266,84.0016578 28.1934278,84.0016558 28.1935359,84.001574 28.1935348))',
+      },
+    ],
+  },
+  // Expected project
+  expected_project_data: {
+    contributorCount: 0,
+    created: '2026-01-21T13:49:30.764081+00:00',
+    createdBy: '01K6CPB1ETTF7MT9EAAQDQM4A9',
+    groupMaxSize: 25,
+    groupSize: 25,
+    isFeatured: false,
+    language: 'en-us',
+    lookFor: 'building',
+    manualUrl: 'https://fair.hotosm.org',
+    maxTasksPerUser: 30,
+    name: 'Conflate Features - fAIr - Manbhawan (2) Togglecorp',
+    progress: 0,
+    projectDetails: 'This is a conflation project with an extended description',
+    projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+    projectInstruction: 'Compare buildings',
+    projectNumber: 2,
+    projectRegion: 'Manbhawan',
+    projectTopic: 'fAIr',
+    projectTopicKey: 'conflate features - fair - manbhawan (2) togglecorp',
+    projectType: 8,
+    requestingOrganisation: 'Togglecorp',
+    requiredResults: 12,
+    resultCount: 0,
+    status: 'active',
+    tileServer: {
+      apiKey: 'dummy-bing',
+      credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
+      name: 'bing',
+      url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=15384&mkt=en-US&token={apiKey}',
+    },
+    tutorialId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
+    verificationNumber: 3,
+  },
+  expected_project_groups_data: {
+    g100: {
+      finishedCount: 0,
+      groupId: 'g100',
+      numberOfTasks: 4,
+      progress: 0,
+      projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+      requiredCount: 3,
+    },
+  },
+  expected_project_tasks_data: {
+    g100: [
+      {
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 't1',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [-99.0960703975439, 19.4260629712692],
+              [-99.0960703975439, 19.4258370781538],
+              [-99.0958707900499, 19.4258370781538],
+              [-99.0958707900499, 19.4260629712692],
+              [-99.0960703975439, 19.4260629712692],
+            ],
+          ],
+        },
+      },
+      {
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 't2',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [-99.096234519261, 19.4256739329314],
+              [-99.096234519261, 19.4254396728378],
+              [-99.0960570903775, 19.4254396728378],
+              [-99.0960570903775, 19.4256739329314],
+              [-99.096234519261, 19.4256739329314],
+            ],
+          ],
+        },
+      },
+      {
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 't3',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [-99.0945557822443, 19.4253619867497],
+              [-99.0945557822443, 19.424958657374],
+              [-99.0942564104523, 19.424958657374],
+              [-99.0942564104523, 19.4253619867497],
+              [-99.0945557822443, 19.4253619867497],
+            ],
+          ],
+        },
+      },
+      {
+        projectId: '01K339HAWZCTCBRVQMQFWRTHXX',
+        taskId: 't4',
+        geojson: {
+          type: 'Polygon',
+          coordinates: [
+            [
+              [-99.0934675895399, 19.4222204725853],
+              [-99.0934675895399, 19.4220188041236],
+              [-99.0933535431433, 19.4220188041236],
+              [-99.0933535431433, 19.4222204725853],
+              [-99.0934675895399, 19.4222204725853],
+            ],
+          ],
+        },
+      },
+    ],
+  },
+  // Create contributor group
+  create_contributor_user_group: [
+    {
+      clientId: '01K49J0QPCZM2JCNC9AEE6HT8Y',
+      name: 'User Group 01',
+      description: 'First user group',
+    },
+  ],
+  create_results: {
+    g100: {
+      '01K6CPB1ETTF7MT9EAAQDQM4A9': {
+        startTime: '2026-01-21T14:38:10.783Z',
+        endTime: '2026-01-21T14:38:33.619Z',
+        appVersion: '0.3.0-dev',
+        clientType: 'web',
+        reference: {
+          t1: { numberIntersecting: 0 },
+          t2: { numberIntersecting: 0 },
+          t3: {
+            numberIntersecting: 1,
+            osmId: 1158869168,
+            osmType: 'ways_poly',
+            version: 1,
+          },
+          t4: { numberIntersecting: 4 },
+        },
+        results: {
+          t1: 1,
+          t2: 0,
+          t3: 0,
+          t4: 3,
+        },
+      },
+    },
+  },
+  expected_pulled_results_data: {
+    mapping_session_count: 1,
+    mapping_session_results_count: 4,
+    mapping_session_user_groups_count: 0,
+    progress: 33,
+  },
+  expected_project_exports_data: {
+    aggregated_results: 'assets/tests/projects/conflation/exports/expected_project_aggregated_result_modified.csv',
+    aggregated_results_with_geometry: 'assets/tests/projects/conflation/exports/expected_project_aggregated_result_with_geometry_modified.geojson',
+    results: 'assets/tests/projects/conflation/exports/expected_project_result_modified.csv',
+    history: 'assets/tests/projects/conflation/exports/expected_project_history.csv',
+    groups: 'assets/tests/projects/conflation/exports/expected_project_groups_modified.csv',
+    tasks: 'assets/tests/projects/conflation/exports/expected_project_tasks_modified.csv',
+    users: 'assets/tests/projects/conflation/exports/expected_project_users.csv',
+    area_of_interest: 'assets/tests/projects/conflation/exports/expected_project_aoi.geojson',
+  },
+}
