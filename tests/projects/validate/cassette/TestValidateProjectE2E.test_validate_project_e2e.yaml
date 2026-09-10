@@ -1,488 +1,427 @@
 interactions:
   - request:
-      body: bpolys=%7B%22type%22%3A%22FeatureCollection%22%2C%22features%22%3A%5B%7B%22type%22%3A%22Feature%22%2C%22geometry%22%3A%7B%22type%22%3A%22Polygon%22%2C%22coordinates%22%3A%5B%5B%5B85.31607078054628%2C27.672118011307035%5D%2C%5B85.31607078054628%2C27.671104197435426%5D%2C%5B85.31669702365383%2C27.671104197435426%5D%2C%5B85.31669702365383%2C27.672118011307035%5D%2C%5B85.31607078054628%2C27.672118011307035%5D%5D%5D%7D%2C%22properties%22%3A%7B%7D%7D%5D%7D&filter=building%3D%2A+and+geometry%3Apolygon
+      body:
+        '{"aoi": {"type": "Polygon", "coordinates": [[[85.31607078054628, 27.672118011307035],
+        [85.31607078054628, 27.671104197435426], [85.31669702365383, 27.671104197435426],
+        [85.31669702365383, 27.672118011307035], [85.31607078054628, 27.672118011307035]]]},
+        "filter": "building=* and geometry:polygon", "time": "latest"}'
       headers:
         Accept:
           - '*/*'
         Accept-Encoding:
           - gzip, deflate
+        Authorization:
+          - DUMMY_TOKEN
         Connection:
           - keep-alive
         Content-Length:
-          - '499'
+          - '315'
         Content-Type:
-          - application/x-www-form-urlencoded
+          - application/json
         User-Agent:
-          - python-requests/2.32.5
+          - mapswipe-DEV/7377ce57201c81d933430752f732d9cc26fc6912
       method: POST
-      uri: https://api.ohsome.org/v1/elements/count
+      uri: https://api.heigit.org/ohsome-api/v2-rc/stats/features/count.json
     response:
       body:
         string:
-          "{\n  \"attribution\" : {\n    \"url\" : \"https://ohsome.org/copyrights\",\n
-          \   \"text\" : \"\xA9 OpenStreetMap contributors\"\n  },\n  \"apiVersion\"
-          : \"1.10.4\",\n  \"result\" : [ {\n    \"timestamp\" : \"2025-10-01T12:00:00Z\",\n
-          \   \"value\" : 34.0\n  } ]\n}"
+          "{\"apiVersion\":\"2.0.0rc2\",\"attribution\":{\"url\":\"https://ohsome.org/copyrights\",\"text\":\"\xA9
+          OpenStreetMap contributors\"},\"result\":{\"timestamp\":[\"2026-09-11T09:52:04Z\"],\"value\":[34]}}"
       headers:
-        Access-Control-Allow-Credentials:
-          - 'true'
-        Access-Control-Allow-Headers:
-          - Origin,Accept,X-Requested-With,Content-Type,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization
-        Access-Control-Allow-Methods:
-          - POST, GET
-        Access-Control-Allow-Origin:
-          - '*'
-        Access-Control-Max-Age:
-          - '3600'
-        Cache-Control:
-          - no-cache, no-store, must-revalidate
         Connection:
-          - Keep-Alive
-        Content-Encoding:
-          - gzip
+          - keep-alive
+        Content-Length:
+          - '179'
         Content-Type:
           - application/json
         Date:
-          - Wed, 05 Nov 2025 05:22:55 GMT
-        Keep-Alive:
-          - timeout=5, max=100
+          - Fri, 11 Sep 2026 09:53:54 GMT
         Server:
-          - Apache/2.4.58 (Ubuntu)
+          - nginx/1.31.0
         Strict-Transport-Security:
-          - max-age=63072000; includeSubdomains;
+          - max-age=63072000
+        X-Content-Type-Options:
+          - nosniff
         vary:
-          - accept-encoding
+          - Origin
+        x-ratelimit-limit:
+          - '250'
+        x-ratelimit-remaining:
+          - '171'
+        x-ratelimit-reset:
+          - '1789191612'
       status:
         code: 200
-        message: ''
+        message: OK
   - request:
-      body: bpolys=%7B%22type%22%3A%22FeatureCollection%22%2C%22features%22%3A%5B%7B%22type%22%3A%22Feature%22%2C%22geometry%22%3A%7B%22type%22%3A%22Polygon%22%2C%22coordinates%22%3A%5B%5B%5B85.31607078054628%2C27.672118011307035%5D%2C%5B85.31607078054628%2C27.671104197435426%5D%2C%5B85.31669702365383%2C27.671104197435426%5D%2C%5B85.31669702365383%2C27.672118011307035%5D%2C%5B85.31607078054628%2C27.672118011307035%5D%5D%5D%7D%2C%22properties%22%3A%7B%7D%7D%5D%7D&filter=building%3D%2A+and+geometry%3Apolygon&properties=tags%2C+metadata
+      body:
+        '{"aoi": {"type": "Polygon", "coordinates": [[[85.31607078054628, 27.672118011307035],
+        [85.31607078054628, 27.671104197435426], [85.31669702365383, 27.671104197435426],
+        [85.31669702365383, 27.672118011307035], [85.31607078054628, 27.672118011307035]]]},
+        "filter": "building=* and geometry:polygon", "time": "latest"}'
       headers:
         Accept:
           - '*/*'
         Accept-Encoding:
           - gzip, deflate
+        Authorization:
+          - DUMMY_TOKEN
         Connection:
           - keep-alive
         Content-Length:
-          - '527'
+          - '315'
         Content-Type:
-          - application/x-www-form-urlencoded
+          - application/json
         User-Agent:
-          - python-requests/2.32.5
+          - mapswipe-DEV/7377ce57201c81d933430752f732d9cc26fc6912
       method: POST
-      uri: https://api.ohsome.org/v1/elements/geometry
+      uri: https://api.heigit.org/ohsome-api/v2-rc/stats/features/count.json
     response:
       body:
         string:
-          "{\n  \"attribution\" : {\n    \"url\" : \"https://ohsome.org/copyrights\",\n
-          \   \"text\" : \"\xA9 OpenStreetMap contributors\"\n  },\n  \"apiVersion\"
-          : \"1.10.4\",\n  \"type\" : \"FeatureCollection\",\n  \"features\" : [{\n
-          \   \"type\" : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n
-          \     \"coordinates\" : [\n        [\n          [\n            85.316576,\n
-          \           27.6713187\n          ],\n          [\n            85.3166707,\n
-          \           27.6713143\n          ],\n          [\n            85.3166648,\n
-          \           27.6712153\n          ],\n          [\n            85.3165701,\n
-          \           27.6712197\n          ],\n          [\n            85.316576,\n
-          \           27.6713187\n          ]\n        ]\n      ]\n    },\n    \"properties\"
-          : {\n      \"@changesetId\" : 49360535,\n      \"@lastEdit\" : \"2017-06-08T09:13:12Z\",\n
-          \     \"@osmId\" : \"way/203446478\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 3,\n      \"building\" :
-          \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
-          \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
-          \           85.3165228,\n            27.6716385\n          ],\n          [\n
-          \           85.3164962,\n            27.6715588\n          ],\n          [\n
-          \           85.3163762,\n            27.6715901\n          ],\n          [\n
-          \           85.3164028,\n            27.6716699\n          ],\n          [\n
-          \           85.3165228,\n            27.6716385\n          ]\n        ]\n
-          \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 43047110,\n
-          \     \"@lastEdit\" : \"2016-10-20T23:26:42Z\",\n      \"@osmId\" : \"way/203446798\",\n
-          \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-10-01T12:00:00Z\",\n
-          \     \"@version\" : 2,\n      \"building\" : \"residential\",\n      \"name\"
-          : \"Earthquake 2015 damaged House\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n
-          \   \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
-          : [\n        [\n          [\n            85.3162949,\n            27.6711042\n
-          \         ],\n          [\n            85.3162987,\n            27.6711216\n
-          \         ],\n          [\n            85.3163999,\n            27.6711042\n
-          \         ],\n          [\n            85.3162949,\n            27.6711042\n
-          \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
-          : 14844487,\n      \"@lastEdit\" : \"2013-01-30T09:18:13Z\",\n      \"@osmId\"
-          : \"way/203447248\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
-          \"residential\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\"
-          : {\n      \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n
-          \         [\n            85.3164919,\n            27.6716615\n          ],\n
-          \         [\n            85.3165121,\n            27.6717514\n          ],\n
-          \         [\n            85.3166172,\n            27.6717328\n          ],\n
-          \         [\n            85.316597,\n            27.671643\n          ],\n
-          \         [\n            85.3164919,\n            27.6716615\n          ]\n
-          \       ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
-          : 15280884,\n      \"@lastEdit\" : \"2013-03-07T11:21:17Z\",\n      \"@osmId\"
-          : \"way/208683409\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
-          \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
-          \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
-          \           85.3164498,\n            27.6713665\n          ],\n          [\n
-          \           85.3165518,\n            27.6713566\n          ],\n          [\n
-          \           85.316544,\n            27.6712935\n          ],\n          [\n
-          \           85.316442,\n            27.6713034\n          ],\n          [\n
-          \           85.3164498,\n            27.6713665\n          ]\n        ]\n
-          \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 15280884,\n
-          \     \"@lastEdit\" : \"2013-03-07T11:21:17Z\",\n      \"@osmId\" : \"way/208683411\",\n
-          \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-10-01T12:00:00Z\",\n
-          \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
-          : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
-          : [\n        [\n          [\n            85.3165258,\n            27.6717769\n
-          \         ],\n          [\n            85.3165426,\n            27.6718943\n
-          \         ],\n          [\n            85.3166659,\n            27.6718804\n
-          \         ],\n          [\n            85.3166537,\n            27.6717952\n
-          \         ],\n          [\n            85.3166325,\n            27.6717976\n
-          \         ],\n          [\n            85.3166279,\n            27.6717654\n
-          \         ],\n          [\n            85.3165258,\n            27.6717769\n
-          \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
-          : 49584905,\n      \"@lastEdit\" : \"2017-06-16T09:07:26Z\",\n      \"@osmId\"
-          : \"way/208683418\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 3,\n      \"building\" :
-          \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
-          \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
-          \           85.3163453,\n            27.6714887\n          ],\n          [\n
-          \           85.3164549,\n            27.6714724\n          ],\n          [\n
-          \           85.31644,\n            27.6713938\n          ],\n          [\n
-          \           85.3163304,\n            27.6714101\n          ],\n          [\n
-          \           85.3163453,\n            27.6714887\n          ]\n        ]\n
-          \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 15280884,\n
-          \     \"@lastEdit\" : \"2013-03-07T11:21:18Z\",\n      \"@osmId\" : \"way/208683423\",\n
-          \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-10-01T12:00:00Z\",\n
-          \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
-          : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
-          : [\n        [\n          [\n            85.3160708,\n            27.6719357\n
-          \         ],\n          [\n            85.3160766,\n            27.6719679\n
-          \         ],\n          [\n            85.3162399,\n            27.6719448\n
-          \         ],\n          [\n            85.3162239,\n            27.671856\n
-          \         ],\n          [\n            85.3160708,\n            27.6718777\n
-          \         ],\n          [\n            85.3160708,\n            27.6719357\n
-          \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
-          : 30673993,\n      \"@lastEdit\" : \"2015-04-30T21:24:12Z\",\n      \"@osmId\"
-          : \"way/341905603\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
-          \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
-          \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
-          \           85.3160993,\n            27.6715695\n          ],\n          [\n
-          \           85.3162015,\n            27.6715706\n          ],\n          [\n
-          \           85.3162008,\n            27.6716217\n          ],\n          [\n
-          \           85.3160986,\n            27.6716205\n          ],\n          [\n
-          \           85.3160993,\n            27.6715695\n          ]\n        ]\n
-          \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 30673993,\n
-          \     \"@lastEdit\" : \"2015-04-30T21:24:12Z\",\n      \"@osmId\" : \"way/341905612\",\n
-          \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-10-01T12:00:00Z\",\n
-          \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
-          : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
-          : [\n        [\n          [\n            85.3161882,\n            27.6717291\n
-          \         ],\n          [\n            85.3162395,\n            27.6717221\n
-          \         ],\n          [\n            85.316256,\n            27.6718164\n
-          \         ],\n          [\n            85.316171,\n            27.671828\n
-          \         ],\n          [\n            85.3161603,\n            27.6717667\n
-          \         ],\n          [\n            85.3161939,\n            27.6717621\n
-          \         ],\n          [\n            85.3161882,\n            27.6717291\n
-          \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
-          : 49585108,\n      \"@lastEdit\" : \"2017-06-16T09:14:11Z\",\n      \"@osmId\"
-          : \"way/341905614\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 2,\n      \"building\" :
-          \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
-          \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
-          \           85.3163871,\n            27.6716741\n          ],\n          [\n
-          \           85.3162581,\n            27.6716921\n          ],\n          [\n
-          \           85.3162461,\n            27.6716241\n          ],\n          [\n
-          \           85.3163609,\n            27.6716081\n          ],\n          [\n
-          \           85.3163666,\n            27.6716398\n          ],\n          [\n
-          \           85.3163806,\n            27.6716379\n          ],\n          [\n
-          \           85.3163871,\n            27.6716741\n          ]\n        ]\n
-          \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 163528377,\n
-          \     \"@lastEdit\" : \"2025-03-12T13:35:26Z\",\n      \"@osmId\" : \"way/447957160\",\n
-          \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-10-01T12:00:00Z\",\n
-          \     \"@version\" : 3,\n      \"building\" : \"house\"\n    }\n  }, {\n    \"type\"
-          : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
-          : [\n        [\n          [\n            85.316697,\n            27.6712677\n
-          \         ],\n          [\n            85.3166916,\n            27.6712689\n
-          \         ],\n          [\n            85.316697,\n            27.6712881\n
-          \         ],\n          [\n            85.316697,\n            27.6712677\n
-          \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
-          : 49360535,\n      \"@lastEdit\" : \"2017-06-08T09:13:10Z\",\n      \"@osmId\"
-          : \"way/499025218\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
-          \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
-          \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
-          \           85.3161216,\n            27.6711538\n          ],\n          [\n
-          \           85.3160827,\n            27.6711544\n          ],\n          [\n
-          \           85.3160844,\n            27.6712432\n          ],\n          [\n
-          \           85.3161233,\n            27.6712426\n          ],\n          [\n
-          \           85.3161216,\n            27.6711538\n          ]\n        ]\n
-          \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49360651,\n
-          \     \"@lastEdit\" : \"2017-06-08T09:17:08Z\",\n      \"@osmId\" : \"way/499025998\",\n
-          \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-10-01T12:00:00Z\",\n
-          \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
-          : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
-          : [\n        [\n          [\n            85.3161673,\n            27.6711042\n
-          \         ],\n          [\n            85.3161683,\n            27.6711079\n
-          \         ],\n          [\n            85.3161233,\n            27.6711171\n
-          \         ],\n          [\n            85.316145,\n            27.6711998\n
-          \         ],\n          [\n            85.3162746,\n            27.6711732\n
-          \         ],\n          [\n            85.3162565,\n            27.6711042\n
-          \         ],\n          [\n            85.3161673,\n            27.6711042\n
-          \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
-          : 49360651,\n      \"@lastEdit\" : \"2017-06-08T09:17:08Z\",\n      \"@osmId\"
-          : \"way/499025999\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
-          \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
-          \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
-          \           85.3161447,\n            27.6712066\n          ],\n          [\n
-          \           85.3161492,\n            27.6712304\n          ],\n          [\n
-          \           85.3162374,\n            27.6712174\n          ],\n          [\n
-          \           85.3162329,\n            27.6711936\n          ],\n          [\n
-          \           85.3161447,\n            27.6712066\n          ]\n        ]\n
-          \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49360651,\n
-          \     \"@lastEdit\" : \"2017-06-08T09:17:08Z\",\n      \"@osmId\" : \"way/499026000\",\n
-          \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-10-01T12:00:00Z\",\n
-          \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
-          : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
-          : [\n        [\n          [\n            85.3163395,\n            27.6713752\n
-          \         ],\n          [\n            85.316324,\n            27.67127\n
-          \         ],\n          [\n            85.316147,\n            27.6712905\n
-          \         ],\n          [\n            85.3161625,\n            27.6713956\n
-          \         ],\n          [\n            85.3163395,\n            27.6713752\n
-          \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
-          : 49360651,\n      \"@lastEdit\" : \"2017-06-08T09:17:08Z\",\n      \"@osmId\"
-          : \"way/499026001\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
-          \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
-          \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
-          \           85.3165367,\n            27.6711816\n          ],\n          [\n
-          \           85.3164646,\n            27.6711925\n          ],\n          [\n
-          \           85.3164708,\n            27.6712248\n          ],\n          [\n
-          \           85.3164293,\n            27.6712311\n          ],\n          [\n
-          \           85.3164422,\n            27.6712984\n          ],\n          [\n
-          \           85.3165559,\n            27.6712812\n          ],\n          [\n
-          \           85.3165367,\n            27.6711816\n          ]\n        ]\n
-          \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49360651,\n
-          \     \"@lastEdit\" : \"2017-06-08T09:17:08Z\",\n      \"@osmId\" : \"way/499026002\",\n
-          \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-10-01T12:00:00Z\",\n
-          \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
-          : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
-          : [\n        [\n          [\n            85.3164148,\n            27.6711231\n
-          \         ],\n          [\n            85.3163343,\n            27.6711373\n
-          \         ],\n          [\n            85.316352,\n            27.6712154\n
-          \         ],\n          [\n            85.3164324,\n            27.6712012\n
-          \         ],\n          [\n            85.3164148,\n            27.6711231\n
-          \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
-          : 49360651,\n      \"@lastEdit\" : \"2017-06-08T09:17:08Z\",\n      \"@osmId\"
-          : \"way/499026003\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
-          \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
-          \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
-          \           85.3164418,\n            27.6711042\n          ],\n          [\n
-          \           85.3164524,\n            27.6711501\n          ],\n          [\n
-          \           85.3165503,\n            27.6711323\n          ],\n          [\n
-          \           85.3165438,\n            27.6711042\n          ],\n          [\n
-          \           85.3164418,\n            27.6711042\n          ]\n        ]\n
-          \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49360651,\n
-          \     \"@lastEdit\" : \"2017-06-08T09:17:08Z\",\n      \"@osmId\" : \"way/499026005\",\n
-          \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-10-01T12:00:00Z\",\n
-          \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
-          : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
-          : [\n        [\n          [\n            85.316285,\n            27.672118\n
-          \         ],\n          [\n            85.3162845,\n            27.6721131\n
-          \         ],\n          [\n            85.3162277,\n            27.672118\n
-          \         ],\n          [\n            85.316285,\n            27.672118\n
-          \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
-          : 49584423,\n      \"@lastEdit\" : \"2017-06-16T08:50:40Z\",\n      \"@osmId\"
-          : \"way/500898789\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
-          \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
-          \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
-          \           85.316697,\n            27.6720834\n          ],\n          [\n
-          \           85.3166864,\n            27.6720861\n          ],\n          [\n
-          \           85.3166967,\n            27.672118\n          ],\n          [\n
-          \           85.316697,\n            27.672118\n          ],\n          [\n
-          \           85.316697,\n            27.6720834\n          ]\n        ]\n      ]\n
-          \   },\n    \"properties\" : {\n      \"@changesetId\" : 49584423,\n      \"@lastEdit\"
-          : \"2017-06-16T08:50:40Z\",\n      \"@osmId\" : \"way/500898793\",\n      \"@osmType\"
-          : \"way\",\n      \"@snapshotTimestamp\" : \"2025-10-01T12:00:00Z\",\n      \"@version\"
-          : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n
-          \   \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
-          : [\n        [\n          [\n            85.3163239,\n            27.6718246\n
-          \         ],\n          [\n            85.3162514,\n            27.6718272\n
-          \         ],\n          [\n            85.3162538,\n            27.6718786\n
-          \         ],\n          [\n            85.3163263,\n            27.671876\n
-          \         ],\n          [\n            85.3163239,\n            27.6718246\n
-          \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
-          : 49584905,\n      \"@lastEdit\" : \"2017-06-16T09:07:24Z\",\n      \"@osmId\"
-          : \"way/500904926\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
-          \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
-          \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
-          \           85.3163301,\n            27.671883\n          ],\n          [\n
-          \           85.3162631,\n            27.6718909\n          ],\n          [\n
-          \           85.3162698,\n            27.6719352\n          ],\n          [\n
-          \           85.3163367,\n            27.6719273\n          ],\n          [\n
-          \           85.3163301,\n            27.671883\n          ]\n        ]\n      ]\n
-          \   },\n    \"properties\" : {\n      \"@changesetId\" : 49584905,\n      \"@lastEdit\"
-          : \"2017-06-16T09:07:24Z\",\n      \"@osmId\" : \"way/500904927\",\n      \"@osmType\"
-          : \"way\",\n      \"@snapshotTimestamp\" : \"2025-10-01T12:00:00Z\",\n      \"@version\"
-          : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n
-          \   \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
-          : [\n        [\n          [\n            85.3163985,\n            27.6718602\n
-          \         ],\n          [\n            85.3163417,\n            27.6718659\n
-          \         ],\n          [\n            85.3163469,\n            27.671907\n
-          \         ],\n          [\n            85.3164037,\n            27.6719014\n
-          \         ],\n          [\n            85.3163985,\n            27.6718602\n
-          \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
-          : 49584905,\n      \"@lastEdit\" : \"2017-06-16T09:07:24Z\",\n      \"@osmId\"
-          : \"way/500904929\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
-          \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
-          \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
-          \           85.3163331,\n            27.6717973\n          ],\n          [\n
-          \           85.3163401,\n            27.6718548\n          ],\n          [\n
-          \           85.3163725,\n            27.6718517\n          ],\n          [\n
-          \           85.3163705,\n            27.6718351\n          ],\n          [\n
-          \           85.3164009,\n            27.6718322\n          ],\n          [\n
-          \           85.3163959,\n            27.6717913\n          ],\n          [\n
-          \           85.3163331,\n            27.6717973\n          ]\n        ]\n
-          \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49584905,\n
-          \     \"@lastEdit\" : \"2017-06-16T09:07:24Z\",\n      \"@osmId\" : \"way/500904930\",\n
-          \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-10-01T12:00:00Z\",\n
-          \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
-          : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
-          : [\n        [\n          [\n            85.316367,\n            27.671734\n
-          \         ],\n          [\n            85.3162631,\n            27.6717454\n
-          \         ],\n          [\n            85.3162728,\n            27.6718149\n
-          \         ],\n          [\n            85.316328,\n            27.6718089\n
-          \         ],\n          [\n            85.3163263,\n            27.6717967\n
-          \         ],\n          [\n            85.316375,\n            27.6717914\n
-          \         ],\n          [\n            85.316367,\n            27.671734\n
-          \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
-          : 49584905,\n      \"@lastEdit\" : \"2017-06-16T09:07:24Z\",\n      \"@osmId\"
-          : \"way/500904932\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
-          \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
-          \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
-          \           85.3165165,\n            27.6718422\n          ],\n          [\n
-          \           85.3164182,\n            27.6718587\n          ],\n          [\n
-          \           85.3164288,\n            27.6719079\n          ],\n          [\n
-          \           85.316527,\n            27.6718914\n          ],\n          [\n
-          \           85.3165165,\n            27.6718422\n          ]\n        ]\n
-          \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49584905,\n
-          \     \"@lastEdit\" : \"2017-06-16T09:07:25Z\",\n      \"@osmId\" : \"way/500904934\",\n
-          \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-10-01T12:00:00Z\",\n
-          \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
-          : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
-          : [\n        [\n          [\n            85.3164956,\n            27.6717348\n
-          \         ],\n          [\n            85.3164026,\n            27.6717512\n
-          \         ],\n          [\n            85.3164248,\n            27.6718493\n
-          \         ],\n          [\n            85.3165178,\n            27.6718329\n
-          \         ],\n          [\n            85.3164956,\n            27.6717348\n
-          \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
-          : 49584905,\n      \"@lastEdit\" : \"2017-06-16T09:07:25Z\",\n      \"@osmId\"
-          : \"way/500904935\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
-          \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
-          \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
-          \           85.3164852,\n            27.6716664\n          ],\n          [\n
-          \           85.3163644,\n            27.6716849\n          ],\n          [\n
-          \           85.3163696,\n            27.6717115\n          ],\n          [\n
-          \           85.3163879,\n            27.6717087\n          ],\n          [\n
-          \           85.3163938,\n            27.6717391\n          ],\n          [\n
-          \           85.3164963,\n            27.6717234\n          ],\n          [\n
-          \           85.3164852,\n            27.6716664\n          ]\n        ]\n
-          \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49584905,\n
-          \     \"@lastEdit\" : \"2017-06-16T09:07:25Z\",\n      \"@osmId\" : \"way/500904937\",\n
-          \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-10-01T12:00:00Z\",\n
-          \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
-          : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
-          : [\n        [\n          [\n            85.3163145,\n            27.671549\n
-          \         ],\n          [\n            85.3163009,\n            27.6713988\n
-          \         ],\n          [\n            85.316077,\n            27.6714147\n
-          \         ],\n          [\n            85.3160907,\n            27.671565\n
-          \         ],\n          [\n            85.3163145,\n            27.671549\n
-          \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
-          : 49585108,\n      \"@lastEdit\" : \"2017-06-16T09:14:10Z\",\n      \"@osmId\"
-          : \"way/500907160\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
-          \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
-          \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
-          \           85.3165016,\n            27.6713615\n          ],\n          [\n
-          \           85.3164547,\n            27.6713661\n          ],\n          [\n
-          \           85.3164615,\n            27.6714203\n          ],\n          [\n
-          \           85.3165084,\n            27.6714157\n          ],\n          [\n
-          \           85.3165016,\n            27.6713615\n          ]\n        ]\n
-          \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49585108,\n
-          \     \"@lastEdit\" : \"2017-06-16T09:14:10Z\",\n      \"@osmId\" : \"way/500907161\",\n
-          \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-10-01T12:00:00Z\",\n
-          \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
-          : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
-          : [\n        [\n          [\n            85.3165432,\n            27.6714728\n
-          \         ],\n          [\n            85.3164376,\n            27.6714939\n
-          \         ],\n          [\n            85.3164513,\n            27.6715477\n
-          \         ],\n          [\n            85.3165569,\n            27.6715266\n
-          \         ],\n          [\n            85.3165432,\n            27.6714728\n
-          \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
-          : 49585108,\n      \"@lastEdit\" : \"2017-06-16T09:14:10Z\",\n      \"@osmId\"
-          : \"way/500907162\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
-          \"yes\"\n    }\n  }, {\n    \"type\" : \"Feature\",\n    \"geometry\" : {\n
-          \     \"type\" : \"Polygon\",\n      \"coordinates\" : [\n        [\n          [\n
-          \           85.3162183,\n            27.6716428\n          ],\n          [\n
-          \           85.3160881,\n            27.6716429\n          ],\n          [\n
-          \           85.3160881,\n            27.6717203\n          ],\n          [\n
-          \           85.3162183,\n            27.6717202\n          ],\n          [\n
-          \           85.3162183,\n            27.6716428\n          ]\n        ]\n
-          \     ]\n    },\n    \"properties\" : {\n      \"@changesetId\" : 49585108,\n
-          \     \"@lastEdit\" : \"2017-06-16T09:14:11Z\",\n      \"@osmId\" : \"way/500907163\",\n
-          \     \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\" : \"2025-10-01T12:00:00Z\",\n
-          \     \"@version\" : 1,\n      \"building\" : \"yes\"\n    }\n  }, {\n    \"type\"
-          : \"Feature\",\n    \"geometry\" : {\n      \"type\" : \"Polygon\",\n      \"coordinates\"
-          : [\n        [\n          [\n            85.3161537,\n            27.6717783\n
-          \         ],\n          [\n            85.3161165,\n            27.6717865\n
-          \         ],\n          [\n            85.316133,\n            27.6718448\n
-          \         ],\n          [\n            85.3161702,\n            27.6718366\n
-          \         ],\n          [\n            85.3161537,\n            27.6717783\n
-          \         ]\n        ]\n      ]\n    },\n    \"properties\" : {\n      \"@changesetId\"
-          : 49585108,\n      \"@lastEdit\" : \"2017-06-16T09:14:11Z\",\n      \"@osmId\"
-          : \"way/500907164\",\n      \"@osmType\" : \"way\",\n      \"@snapshotTimestamp\"
-          : \"2025-10-01T12:00:00Z\",\n      \"@version\" : 1,\n      \"building\" :
-          \"yes\"\n    }\n  }]\n}\n"
+          "{\"apiVersion\":\"2.0.0rc2\",\"attribution\":{\"url\":\"https://ohsome.org/copyrights\",\"text\":\"\xA9
+          OpenStreetMap contributors\"},\"result\":{\"timestamp\":[\"2026-09-11T09:53:06Z\"],\"value\":[34]}}"
       headers:
-        Access-Control-Allow-Credentials:
-          - 'true'
-        Access-Control-Allow-Headers:
-          - Origin,Accept,X-Requested-With,Content-Type,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization
-        Access-Control-Allow-Methods:
-          - POST, GET
-        Access-Control-Allow-Origin:
-          - '*'
-        Access-Control-Max-Age:
-          - '3600'
         Connection:
-          - Keep-Alive
-        Content-Encoding:
-          - gzip
+          - keep-alive
+        Content-Length:
+          - '179'
         Content-Type:
-          - application/geo+json;charset=utf-8
-        Content-disposition:
-          - attachment;filename=ohsome.geojson
+          - application/json
         Date:
-          - Wed, 05 Nov 2025 05:22:59 GMT
-        Keep-Alive:
-          - timeout=5, max=100
+          - Fri, 11 Sep 2026 09:53:56 GMT
         Server:
-          - Apache/2.4.58 (Ubuntu)
+          - nginx/1.31.0
         Strict-Transport-Security:
-          - max-age=63072000; includeSubdomains;
+          - max-age=63072000
+        X-Content-Type-Options:
+          - nosniff
         vary:
-          - accept-encoding
+          - Origin
+        x-ratelimit-limit:
+          - '250'
+        x-ratelimit-remaining:
+          - '170'
+        x-ratelimit-reset:
+          - '1789191612'
       status:
         code: 200
-        message: ''
+        message: OK
+  - request:
+      body:
+        '{"aoi": {"type": "Polygon", "coordinates": [[[85.31607078054628, 27.672118011307035],
+        [85.31607078054628, 27.671104197435426], [85.31669702365383, 27.671104197435426],
+        [85.31669702365383, 27.672118011307035], [85.31607078054628, 27.672118011307035]]]},
+        "filter": "building=* and geometry:polygon", "time": "latest", "clip": false}'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Authorization:
+          - DUMMY_TOKEN
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '330'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - mapswipe-DEV/7377ce57201c81d933430752f732d9cc26fc6912
+      method: POST
+      uri: https://api.heigit.org/ohsome-api/v2-rc/extraction/features.parquet
+    response:
+      body:
+        string: !!binary |
+          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
+          JvRhPBgBABgBABYAKAEAGAEAEREAGRwVABUAFQIAPCkGGSYARAAAABbIdhZEJggW2mIAGTwYA2dl
+          bxjeDnsidmVyc2lvbiI6ICIxLjEuMCIsICJwcmltYXJ5X2NvbHVtbiI6ICJnZW9tIiwgImNvbHVt
+          bnMiOiB7Imdlb20iOiB7ImVuY29kaW5nIjogIldLQiIsICJnZW9tZXRyeV90eXBlcyI6IFsiUG9p
+          bnQiLCAiTGluZVN0cmluZyIsICJQb2x5Z29uIiwgIk11bHRpUG9seWdvbiJdLCAiY3JzIjogeyIk
+          c2NoZW1hIjogImh0dHBzOi8vcHJvai5vcmcvc2NoZW1hcy92MC43L3Byb2pqc29uLnNjaGVtYS5q
+          c29uIiwgInR5cGUiOiAiR2VvZ3JhcGhpY0NSUyIsICJuYW1lIjogIldHUyA4NCIsICJkYXR1bV9l
+          bnNlbWJsZSI6IHsibmFtZSI6ICJXb3JsZCBHZW9kZXRpYyBTeXN0ZW0gMTk4NCBlbnNlbWJsZSIs
+          ICJtZW1iZXJzIjogW3sibmFtZSI6ICJXb3JsZCBHZW9kZXRpYyBTeXN0ZW0gMTk4NCAoVHJhbnNp
+          dCkiLCAiaWQiOiB7ImF1dGhvcml0eSI6ICJFUFNHIiwgImNvZGUiOiAxMTY2fX0sIHsibmFtZSI6
+          ICJXb3JsZCBHZW9kZXRpYyBTeXN0ZW0gMTk4NCAoRzczMCkiLCAiaWQiOiB7ImF1dGhvcml0eSI6
+          ICJFUFNHIiwgImNvZGUiOiAxMTUyfX0sIHsibmFtZSI6ICJXb3JsZCBHZW9kZXRpYyBTeXN0ZW0g
+          MTk4NCAoRzg3MykiLCAiaWQiOiB7ImF1dGhvcml0eSI6ICJFUFNHIiwgImNvZGUiOiAxMTUzfX0s
+          IHsibmFtZSI6ICJXb3JsZCBHZW9kZXRpYyBTeXN0ZW0gMTk4NCAoRzExNTApIiwgImlkIjogeyJh
+          dXRob3JpdHkiOiAiRVBTRyIsICJjb2RlIjogMTE1NH19LCB7Im5hbWUiOiAiV29ybGQgR2VvZGV0
+          aWMgU3lzdGVtIDE5ODQgKEcxNjc0KSIsICJpZCI6IHsiYXV0aG9yaXR5IjogIkVQU0ciLCAiY29k
+          ZSI6IDExNTV9fSwgeyJuYW1lIjogIldvcmxkIEdlb2RldGljIFN5c3RlbSAxOTg0IChHMTc2Miki
+          LCAiaWQiOiB7ImF1dGhvcml0eSI6ICJFUFNHIiwgImNvZGUiOiAxMTU2fX0sIHsibmFtZSI6ICJX
+          b3JsZCBHZW9kZXRpYyBTeXN0ZW0gMTk4NCAoRzIxMzkpIiwgImlkIjogeyJhdXRob3JpdHkiOiAi
+          RVBTRyIsICJjb2RlIjogMTMwOX19LCB7Im5hbWUiOiAiV29ybGQgR2VvZGV0aWMgU3lzdGVtIDE5
+          ODQgKEcyMjk2KSIsICJpZCI6IHsiYXV0aG9yaXR5IjogIkVQU0ciLCAiY29kZSI6IDEzODN9fV0s
+          ICJlbGxpcHNvaWQiOiB7Im5hbWUiOiAiV0dTIDg0IiwgInNlbWlfbWFqb3JfYXhpcyI6IDYzNzgx
+          MzcsICJpbnZlcnNlX2ZsYXR0ZW5pbmciOiAyOTguMjU3MjIzNTYzfSwgImFjY3VyYWN5IjogIjIu
+          MCIsICJpZCI6IHsiYXV0aG9yaXR5IjogIkVQU0ciLCAiY29kZSI6IDYzMjZ9fSwgImNvb3JkaW5h
+          dGVfc3lzdGVtIjogeyJzdWJ0eXBlIjogImVsbGlwc29pZGFsIiwgImF4aXMiOiBbeyJuYW1lIjog
+          Ikdlb2RldGljIGxhdGl0dWRlIiwgImFiYnJldmlhdGlvbiI6ICJMYXQiLCAiZGlyZWN0aW9uIjog
+          Im5vcnRoIiwgInVuaXQiOiAiZGVncmVlIn0sIHsibmFtZSI6ICJHZW9kZXRpYyBsb25naXR1ZGUi
+          LCAiYWJicmV2aWF0aW9uIjogIkxvbiIsICJkaXJlY3Rpb24iOiAiZWFzdCIsICJ1bml0IjogImRl
+          Z3JlZSJ9XX0sICJzY29wZSI6ICJIb3Jpem9udGFsIGNvbXBvbmVudCBvZiAzRCBzeXN0ZW0uIiwg
+          ImFyZWEiOiAiV29ybGQuIiwgImJib3giOiB7InNvdXRoX2xhdGl0dWRlIjogLTkwLCAid2VzdF9s
+          b25naXR1ZGUiOiAtMTgwLCAibm9ydGhfbGF0aXR1ZGUiOiA5MCwgImVhc3RfbG9uZ2l0dWRlIjog
+          MTgwfSwgImlkIjogeyJhdXRob3JpdHkiOiAiRVBTRyIsICJjb2RlIjogNDMyNn19LCAiY292ZXJp
+          bmciOiB7ImJib3giOiB7InhtaW4iOiBbImJib3giLCAieG1pbiJdLCAieW1pbiI6IFsiYmJveCIs
+          ICJ5bWluIl0sICJ4bWF4IjogWyJiYm94IiwgInhtYXgiXSwgInltYXgiOiBbImJib3giLCAieW1h
+          eCJdfX0sICJiYm94IjogWzg1LjMxNjA2MDYsIDI3LjY3MTA1NTcsIDg1LjMxNjgyMzksIDI3LjY3
+          MjIwNjFdfX19ABgKb2hzb21lIEFQSRh9eyJ2ZXJzaW9uIjogIjIuMC4wcmMyIiwgImF0dHJpYnV0
+          aW9uIjogeyJ1cmwiOiAiaHR0cHM6Ly9vaHNvbWUub3JnL2NvcHlyaWdodHMiLCAidGV4dCI6ICJc
+          dTAwYTkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMifX0AGAxBUlJPVzpzY2hlbWEYrB4vLy8v
+          LzFnTEFBQVFBQUFBQUFBS0FBd0FCZ0FGQUFnQUNnQUFBQUFCQkFBTUFBQUFDQUFJQUFBQUJBQUlB
+          QUFBQkFBQUFBOEFBQUQ0Q2dBQXJBb0FBR0FLQUFBWUNnQUE1QWtBQUtnSkFBQjBDUUFBUUFrQUFC
+          QUpBQURVQ0FBQUdBZ0FBQ2dIQUFENEJnQUFTQUFBQUFRQUFBQlU5Zi8vQUFBQkJoQUFBQUFjQUFB
+          QUJBQUFBQUFBQUFBSEFBQUFZMnhwY0hCbFpBQUVBQVlBQkFBQUFBQUFFZ0FZQUFnQUJnQUhBQXdB
+          QUFBUUFCUUFFZ0FBQUFBQUFRUVVBQUFBbkFZQUFBZ0FBQUFVQUFBQUFBQUFBQVFBQUFCblpXOXRB
+          QUFBQUFJQUFBQkFCZ0FBQkFBQUFORDUvLzhNQmdBQUJBQUFBUDBGQUFCN0lpUnpZMmhsYldFaU9p
+          QWlhSFIwY0hNNkx5OXdjbTlxTG05eVp5OXpZMmhsYldGekwzWXdMamN2Y0hKdmFtcHpiMjR1YzJO
+          b1pXMWhMbXB6YjI0aUxDQWlkSGx3WlNJNklDSkhaVzluY21Gd2FHbGpRMUpUSWl3Z0ltNWhiV1Vp
+          T2lBaVYwZFRJRGcwSWl3Z0ltUmhkSFZ0WDJWdWMyVnRZbXhsSWpvZ2V5SnVZVzFsSWpvZ0lsZHZj
+          bXhrSUVkbGIyUmxkR2xqSUZONWMzUmxiU0F4T1RnMElHVnVjMlZ0WW14bElpd2dJbTFsYldKbGNu
+          TWlPaUJiZXlKdVlXMWxJam9nSWxkdmNteGtJRWRsYjJSbGRHbGpJRk41YzNSbGJTQXhPVGcwSUNo
+          VWNtRnVjMmwwS1NJc0lDSnBaQ0k2SUhzaVlYVjBhRzl5YVhSNUlqb2dJa1ZRVTBjaUxDQWlZMjlr
+          WlNJNklERXhOalo5ZlN3Z2V5SnVZVzFsSWpvZ0lsZHZjbXhrSUVkbGIyUmxkR2xqSUZONWMzUmxi
+          U0F4T1RnMElDaEhOek13S1NJc0lDSnBaQ0k2SUhzaVlYVjBhRzl5YVhSNUlqb2dJa1ZRVTBjaUxD
+          QWlZMjlrWlNJNklERXhOVEo5ZlN3Z2V5SnVZVzFsSWpvZ0lsZHZjbXhrSUVkbGIyUmxkR2xqSUZO
+          NWMzUmxiU0F4T1RnMElDaEhPRGN6S1NJc0lDSnBaQ0k2SUhzaVlYVjBhRzl5YVhSNUlqb2dJa1ZR
+          VTBjaUxDQWlZMjlrWlNJNklERXhOVE45ZlN3Z2V5SnVZVzFsSWpvZ0lsZHZjbXhrSUVkbGIyUmxk
+          R2xqSUZONWMzUmxiU0F4T1RnMElDaEhNVEUxTUNraUxDQWlhV1FpT2lCN0ltRjFkR2h2Y21sMGVT
+          STZJQ0pGVUZOSElpd2dJbU52WkdVaU9pQXhNVFUwZlgwc0lIc2libUZ0WlNJNklDSlhiM0pzWkNC
+          SFpXOWtaWFJwWXlCVGVYTjBaVzBnTVRrNE5DQW9SekUyTnpRcElpd2dJbWxrSWpvZ2V5SmhkWFJv
+          YjNKcGRIa2lPaUFpUlZCVFJ5SXNJQ0pqYjJSbElqb2dNVEUxTlgxOUxDQjdJbTVoYldVaU9pQWlW
+          Mjl5YkdRZ1IyVnZaR1YwYVdNZ1UzbHpkR1Z0SURFNU9EUWdLRWN4TnpZeUtTSXNJQ0pwWkNJNklI
+          c2lZWFYwYUc5eWFYUjVJam9nSWtWUVUwY2lMQ0FpWTI5a1pTSTZJREV4TlRaOWZTd2dleUp1WVcx
+          bElqb2dJbGR2Y214a0lFZGxiMlJsZEdsaklGTjVjM1JsYlNBeE9UZzBJQ2hITWpFek9Ta2lMQ0Fp
+          YVdRaU9pQjdJbUYxZEdodmNtbDBlU0k2SUNKRlVGTkhJaXdnSW1OdlpHVWlPaUF4TXpBNWZYMHNJ
+          SHNpYm1GdFpTSTZJQ0pYYjNKc1pDQkhaVzlrWlhScFl5QlRlWE4wWlcwZ01UazROQ0FvUnpJeU9U
+          WXBJaXdnSW1sa0lqb2dleUpoZFhSb2IzSnBkSGtpT2lBaVJWQlRSeUlzSUNKamIyUmxJam9nTVRN
+          NE0zMTlYU3dnSW1Wc2JHbHdjMjlwWkNJNklIc2libUZ0WlNJNklDSlhSMU1nT0RRaUxDQWljMlZ0
+          YVY5dFlXcHZjbDloZUdseklqb2dOak0zT0RFek55d2dJbWx1ZG1WeWMyVmZabXhoZEhSbGJtbHVa
+          eUk2SURJNU9DNHlOVGN5TWpNMU5qTjlMQ0FpWVdOamRYSmhZM2tpT2lBaU1pNHdJaXdnSW1sa0lq
+          b2dleUpoZFhSb2IzSnBkSGtpT2lBaVJWQlRSeUlzSUNKamIyUmxJam9nTmpNeU5uMTlMQ0FpWTI5
+          dmNtUnBibUYwWlY5emVYTjBaVzBpT2lCN0luTjFZblI1Y0dVaU9pQWlaV3hzYVhCemIybGtZV3dp
+          TENBaVlYaHBjeUk2SUZ0N0ltNWhiV1VpT2lBaVIyVnZaR1YwYVdNZ2JHRjBhWFIxWkdVaUxDQWlZ
+          V0ppY21WMmFXRjBhVzl1SWpvZ0lreGhkQ0lzSUNKa2FYSmxZM1JwYjI0aU9pQWlibTl5ZEdnaUxD
+          QWlkVzVwZENJNklDSmtaV2R5WldVaWZTd2dleUp1WVcxbElqb2dJa2RsYjJSbGRHbGpJR3h2Ym1k
+          cGRIVmtaU0lzSUNKaFltSnlaWFpwWVhScGIyNGlPaUFpVEc5dUlpd2dJbVJwY21WamRHbHZiaUk2
+          SUNKbFlYTjBJaXdnSW5WdWFYUWlPaUFpWkdWbmNtVmxJbjFkZlN3Z0luTmpiM0JsSWpvZ0lraHZj
+          bWw2YjI1MFlXd2dZMjl0Y0c5dVpXNTBJRzltSURORUlITjVjM1JsYlM0aUxDQWlZWEpsWVNJNklD
+          SlhiM0pzWkM0aUxDQWlZbUp2ZUNJNklIc2ljMjkxZEdoZmJHRjBhWFIxWkdVaU9pQXRPVEFzSUNK
+          M1pYTjBYMnh2Ym1kcGRIVmtaU0k2SUMweE9EQXNJQ0p1YjNKMGFGOXNZWFJwZEhWa1pTSTZJRGt3
+          TENBaVpXRnpkRjlzYjI1bmFYUjFaR1VpT2lBeE9EQjlMQ0FpYVdRaU9pQjdJbUYxZEdodmNtbDBl
+          U0k2SUNKRlVGTkhJaXdnSW1OdlpHVWlPaUEwTXpJMmZYMEFBQUFZQUFBQVFWSlNUMWM2WlhoMFpX
+          NXphVzl1T20xbGRHRmtZWFJoQUFBQUFBZ0FEQUFFQUFnQUNBQUFBQndBQUFBRUFBQUFEQUFBQUdk
+          bGIyRnljbTkzTG5kcllnQUFBQUFVQUFBQVFWSlNUMWM2WlhoMFpXNXphVzl1T201aGJXVUFBQUFB
+          QlB6Ly8wRDgvLzhBQUFFRkVBQUFBQndBQUFBRUFBQUFBQUFBQUFrQUFBQm5aVzl0WDNSNWNHVUFB
+          QUF3L1AvL2JQei8vd0FBQVEwZ0FBQUFLQUFBQUFRQUFBQUVBQUFBcEFBQUFIUUFBQUJFQUFBQUZB
+          QUFBQVFBQUFCaVltOTRBQUFBQUdqOC8vK2svUC8vQUFBQkF4QUFBQUFZQUFBQUJBQUFBQUFBQUFB
+          RUFBQUFlVzFoZUFBQUFBQisvLy8vQUFBQ0FORDgvLzhBQUFFREVBQUFBQmdBQUFBRUFBQUFBQUFB
+          QUFRQUFBQjViV2x1QUFBQUFLci8vLzhBQUFJQS9Qei8vd0FBQVFNUUFBQUFHQUFBQUFRQUFBQUFB
+          QUFBQkFBQUFIaHRZWGdBQUFBQTF2Ly8vd0FBQWdBby9mLy9BQUFCQXhBQUFBQWNBQUFBQkFBQUFB
+          QUFBQUFFQUFBQWVHMXBiZ0FBQmdBSUFBWUFCZ0FBQUFBQUFnQlkvZi8vQUFBQkVSUUFBQUFjQUFB
+          QUJBQUFBQUVBQUFBVUFBQUFCQUFBQUhSaFozTUFBQUFBU1AzLy82ai8vLzhBQUFBTkdBQUFBQ0FB
+          QUFBRUFBQUFBZ0FBQUZBQUFBQVVBQUFBQndBQUFHVnVkSEpwWlhNQWVQMy8vN1Q5Ly84QUFBRUZF
+          QUFBQUJnQUFBQUVBQUFBQUFBQUFBVUFBQUIyWVd4MVpRQUFBS0Q5Ly84UUFCUUFDQUFBQUFjQURB
+          QUFBQkFBRUFBQUFBQUFBQVVRQUFBQUZBQUFBQVFBQUFBQUFBQUFBd0FBQUd0bGVRRFUvZi8vRVA3
+          Ly93QUFBUUlRQUFBQUlBQUFBQVFBQUFBQUFBQUFEQUFBQUdOb1lXNW5aWE5sZEY5cFpBQUFBQUJR
+          L3YvL0FBQUFBVUFBQUFCSS92Ly9BQUFCQlJBQUFBQWNBQUFBQkFBQUFBQUFBQUFKQUFBQWRYTmxj
+          bDl1WVcxbEFBQUFPUDcvLzNUKy8vOEFBQUVDRUFBQUFCZ0FBQUFFQUFBQUFBQUFBQWNBQUFCMWMy
+          VnlYMmxrQUt6Ky8vOEFBQUFCSUFBQUFLVCsvLzhBQUFFQ0VBQUFBQmdBQUFBRUFBQUFBQUFBQUFV
+          QUFBQmxaR2wwY3dBQUFOeisvLzhBQUFBQklBQUFBTlQrLy84QUFBRUNFQUFBQUNBQUFBQUVBQUFB
+          QUFBQUFBMEFBQUJ0YVc1dmNsOTJaWEp6YVc5dUFBQUFGUC8vL3dBQUFBRWdBQUFBRFAvLy93QUFB
+          UUlRQUFBQUdBQUFBQVFBQUFBQUFBQUFCd0FBQUhabGNuTnBiMjRBUlAvLy93QUFBQUVnQUFBQVBQ
+          Ly8vd0FBQVFvUUFBQUFKQUFBQUFRQUFBQUFBQUFBRWdBQUFIWmhiR2xrWDNSdlgzUnBiV1Z6ZEdG
+          dGNBQUF3UC8vL3dBQUFnQUVBQUFBQXdBQUFGVlVRd0NBLy8vL0FBQUJDaEFBQUFBb0FBQUFCQUFB
+          QUFBQUFBQU9BQUFBWldScGRGOTBhVzFsYzNSaGJYQUFBQWdBREFBR0FBZ0FDQUFBQUFBQUFnQUVB
+          QUFBQXdBQUFGVlVRd0RJLy8vL0FBQUJBaEFBQUFBZ0FBQUFCQUFBQUFBQUFBQUdBQUFBYjNOdFgy
+          bGtBQUFJQUF3QUNBQUhBQWdBQUFBQUFBQUJRQUFBQUJBQUZBQUlBQVlBQndBTUFBQUFFQUFRQUFB
+          QUFBQUJCUkFBQUFBZ0FBQUFCQUFBQUFBQUFBQUlBQUFBYjNOdFgzUjVjR1VBQUFBQUJBQUVBQVFB
+          QUFBPQAYIHBhcnF1ZXQtY3BwLWFycm93IHZlcnNpb24gMjUuMC4xGfwTHAAAHAAAHAAAHAAAHAAA
+          HAAAHAAAHAAAHAAAHAAAHAAAHAAAHAAAHAAAHAAAHAAAHAAAHAAAHAAAAF4hAABQQVIx
+      headers:
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.apache.parquet
+        Date:
+          - Fri, 11 Sep 2026 09:53:57 GMT
+        Server:
+          - nginx/1.31.0
+        Strict-Transport-Security:
+          - max-age=63072000
+        Transfer-Encoding:
+          - chunked
+        X-Content-Type-Options:
+          - nosniff
+        content-disposition:
+          - attachment; filename="features.parquet"
+        vary:
+          - Origin
+        x-ratelimit-limit:
+          - '150'
+        x-ratelimit-remaining:
+          - '122'
+        x-ratelimit-reset:
+          - '1789191632'
+      status:
+        code: 200
+        message: OK
   - request:
       body: null
       headers:
@@ -497,11 +436,22 @@ interactions:
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://osmcha.org/api/v1/changesets/?ids=49360535,43047110,14844487,15280884,49584905,30673993,49585108,163528377,49360651,49584423
+      uri: https://osmcha.org/api/v1/changesets/?ids=49585108,64858608,49584905,49360651,187269304,49360535,163528377,174005870
     response:
       body:
         string:
-          '{"type":"FeatureCollection","count":1,"next":null,"previous":null,"features":[{"id":163528377,"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[27.6709269,85.3162461],[27.6709269,85.3176223],[27.6719987,85.3176223],[27.6719987,85.3162461],[27.6709269,85.3162461]]]},"properties":{"check_user":null,"reasons":[{"id":3,"name":"mass
+          '{"type":"FeatureCollection","count":3,"next":null,"previous":null,"features":[{"id":187269304,"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[85.3166864,27.6720687],[85.3167801,27.6720687],[85.3167801,27.6721646],[85.3166864,27.6721646],[85.3166864,27.6720687]]]},"properties":{"check_user":null,"reasons":[{"id":40,"name":"New
+          mapper"},{"id":86,"name":"Review requested"}],"tags":[],"features":[],"user":"Goreto
+          Consultancy","uid":"24407316","editor":"iD 2.42.0","comment":"Added Goreto
+          Consultancy - Kumaripati business details, contact information, website and
+          opening hours.","comments_count":0,"source":"website","imagery_used":"Bing
+          Maps Aerial","date":"2026-08-11T07:59:05Z","reviewed_features":[],"tag_changes":{"name":["Goreto
+          Educational Consultancy - Kumaripati"],"phone":["01-5920463"],"office":["educational_institution"],"website":["https://goreto.edu.np/"],"building":["yes"],"addr:city":["Jawalakhel
+          Chowk, Lalitpur"],"addr:street":["Kumaripati"],"addr:postcode":["44700"],"opening_hours":["Su-Fr
+          10:00-18:00 Sat closed"]},"create":0,"modify":1,"delete":0,"area":8.985830000569756e-09,"is_suspect":true,"harmful":null,"checked":false,"check_date":null,"metadata":{"host":"https://www.openstreetmap.org/edit","locale":"en-US","changesets_count":3}}},{"id":174005870,"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[85.3164919,27.671643],[85.3166172,27.671643],[85.3166172,27.6717514],[85.3164919,27.6717514],[85.3164919,27.671643]]]},"properties":{"check_user":null,"reasons":[{"id":40,"name":"New
+          mapper"},{"id":527,"name":"Mismatched geometry"}],"tags":[],"features":[],"user":"frozenhelium","uid":"22945521","editor":"iD
+          2.37.2","comment":"Add Togglecorp office location","comments_count":0,"source":"Not
+          reported","imagery_used":"Bing Maps Aerial","date":"2025-10-31T06:44:00Z","reviewed_features":[],"tag_changes":{"office":["it"],"building":["yes"]},"create":1,"modify":1,"delete":0,"area":1.3582519999540853e-08,"is_suspect":true,"harmful":null,"checked":false,"check_date":null,"metadata":{"host":"https://www.openstreetmap.org/edit","locale":"en-US","changesets_count":1,"warnings:mismatched_geometry:area_as_vertex":1}}},{"id":163528377,"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[85.3162461,27.6709269],[85.3176223,27.6709269],[85.3176223,27.6719987],[85.3162461,27.6719987],[85.3162461,27.6709269]]]},"properties":{"check_user":null,"reasons":[{"id":3,"name":"mass
           deletion"}],"tags":[],"features":[],"user":"tnagorra","uid":"4326462","editor":"iD
           2.32.0","comment":"Updates after recent constructions","comments_count":0,"source":"Not
           reported","imagery_used":"Bing Maps Aerial;Esri World Imagery (Clarity) Beta","date":"2025-03-12T13:35:25Z","reviewed_features":[],"tag_changes":{"name":["Prasadi
@@ -509,28 +459,34 @@ interactions:
       headers:
         Allow:
           - GET, HEAD, OPTIONS
-        Connection:
-          - keep-alive
+        Alt-Svc:
+          - h3=":443"; ma=2592000
         Content-Encoding:
           - gzip
         Content-Length:
-          - '737'
+          - '1293'
         Content-Type:
           - application/json
+        Cross-Origin-Opener-Policy:
+          - same-origin
         Date:
-          - Wed, 05 Nov 2025 05:23:00 GMT
-        ETag:
-          - W/"c69303a85aba45af4cc485b0c6490d8e"
+          - Fri, 11 Sep 2026 09:53:59 GMT
+        Etag:
+          - W/"b82f7a56187b8376ce0b12ce36e23ed1"
+        Referrer-Policy:
+          - same-origin
+        Server:
+          - gunicorn
         Strict-Transport-Security:
-          - max-age=15724800; includeSubDomains
+          - max-age=60; includeSubDomains
         Vary:
-          - Accept, Origin, Accept-Encoding
+          - Accept, origin, Accept-Encoding
+        Via:
+          - 1.1 Caddy
         X-Content-Type-Options:
           - nosniff
         X-Frame-Options:
           - DENY
-        X-XSS-Protection:
-          - 1; mode=block
       status:
         code: 200
         message: OK
@@ -544,182 +500,114 @@ interactions:
         Connection:
           - keep-alive
         User-Agent:
-          - python-requests/2.32.5
+          - mapswipe-DEV/7377ce57201c81d933430752f732d9cc26fc6912
       method: GET
-      uri: https://www.openstreetmap.org/api/0.6/changesets?changesets=49360535,43047110,14844487,15280884,49584905,30673993,49585108,49360651,49584423
+      uri: https://www.openstreetmap.org/api/0.6/changesets?changesets=49585108,64858608,49584905,49360651,49360535
     response:
       body:
         string:
           "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<osm version=\"0.6\" generator=\"OpenStreetMap
           server\" copyright=\"OpenStreetMap and contributors\" attribution=\"http://www.openstreetmap.org/copyright\"
-          license=\"http://opendatacommons.org/licenses/odbl/1-0/\">\n<changeset id=\"49585108\"
-          created_at=\"2017-06-16T09:14:07Z\" open=\"false\" comments_count=\"0\" changes_count=\"121\"
+          license=\"http://opendatacommons.org/licenses/odbl/1-0/\">\n<changeset id=\"64858608\"
+          created_at=\"2018-11-25T05:04:32Z\" open=\"false\" comments_count=\"0\" changes_count=\"299\"
+          created_count=\"24\" modified_count=\"275\" deleted_count=\"0\" closed_at=\"2018-11-25T05:04:39Z\"
+          min_lat=\"27.6707814\" min_lon=\"85.3141494\" max_lat=\"27.6754838\" max_lon=\"85.3200810\"
+          uid=\"6721863\" user=\"Pradeep Rana\">\n  <tag k=\"comment\" v=\"#hotosm-project-5432
+          #KLL #METEOR #digitizingkathmandu #HOT\"/>\n  <tag k=\"created_by\" v=\"JOSM/1.5
+          (14382 en)\"/>\n  <tag k=\"source\" v=\"https://imagegeocenter.org/image/rest/services/Nepal_2018_63202_v2/MapServer/tile/{z}/{y}/{x}\"/>\n</changeset>\n<changeset
+          id=\"49585108\" created_at=\"2017-06-16T09:14:07Z\" open=\"false\" comments_count=\"0\"
+          changes_count=\"121\" created_count=\"102\" modified_count=\"19\" deleted_count=\"0\"
           closed_at=\"2017-06-16T09:14:12Z\" min_lat=\"27.6712993\" min_lon=\"85.3152433\"
           max_lat=\"27.6721284\" max_lon=\"85.3165958\" uid=\"4204463\" user=\"Alisha12\">\n
           \ <tag k=\"comment\" v=\"#hotosm-project-3047 #kll #data-cleaning #kathmandu
           #fridaymapping\"/>\n  <tag k=\"created_by\" v=\"JOSM/1.5 (11639 en)\"/>\n
           \ <tag k=\"source\" v=\"Bing\"/>\n</changeset>\n<changeset id=\"49584905\"
           created_at=\"2017-06-16T09:07:22Z\" open=\"false\" comments_count=\"0\" changes_count=\"138\"
-          closed_at=\"2017-06-16T09:07:27Z\" min_lat=\"27.6712071\" min_lon=\"85.3159534\"
-          max_lat=\"27.6720835\" max_lon=\"85.3171545\" uid=\"4204463\" user=\"Alisha12\">\n
-          \ <tag k=\"comment\" v=\"#hotosm-project-3047 #kll #data-cleaning #kathmandu
-          #fridaymapping\"/>\n  <tag k=\"created_by\" v=\"JOSM/1.5 (11639 en)\"/>\n
-          \ <tag k=\"source\" v=\"Bing\"/>\n</changeset>\n<changeset id=\"49584423\"
-          created_at=\"2017-06-16T08:50:37Z\" open=\"false\" comments_count=\"0\" changes_count=\"96\"
-          closed_at=\"2017-06-16T08:50:43Z\" min_lat=\"27.6719043\" min_lon=\"85.3156750\"
-          max_lat=\"27.6729906\" max_lon=\"85.3171380\" uid=\"4204463\" user=\"Alisha12\">\n
+          created_count=\"82\" modified_count=\"50\" deleted_count=\"6\" closed_at=\"2017-06-16T09:07:27Z\"
+          min_lat=\"27.6712071\" min_lon=\"85.3159534\" max_lat=\"27.6720835\" max_lon=\"85.3171545\"
+          uid=\"4204463\" user=\"Alisha12\">\n  <tag k=\"comment\" v=\"#hotosm-project-3047
+          #kll #data-cleaning #kathmandu #fridaymapping\"/>\n  <tag k=\"created_by\"
+          v=\"JOSM/1.5 (11639 en)\"/>\n  <tag k=\"source\" v=\"Bing\"/>\n</changeset>\n<changeset
+          id=\"49360651\" created_at=\"2017-06-08T09:17:05Z\" open=\"false\" comments_count=\"0\"
+          changes_count=\"180\" created_count=\"99\" modified_count=\"69\" deleted_count=\"12\"
+          closed_at=\"2017-06-08T09:17:11Z\" min_lat=\"27.6693288\" min_lon=\"85.3131283\"
+          max_lat=\"27.6719692\" max_lon=\"85.3167303\" uid=\"4204463\" user=\"Alisha12\">\n
           \ <tag k=\"comment\" v=\"#hotosm-project-3047 #kll #data-cleaning #kathmandu\"/>\n
           \ <tag k=\"created_by\" v=\"JOSM/1.5 (11639 en)\"/>\n  <tag k=\"source\" v=\"Bing\"/>\n</changeset>\n<changeset
-          id=\"49360651\" created_at=\"2017-06-08T09:17:05Z\" open=\"false\" comments_count=\"0\"
-          changes_count=\"180\" closed_at=\"2017-06-08T09:17:11Z\" min_lat=\"27.6693288\"
-          min_lon=\"85.3131283\" max_lat=\"27.6719692\" max_lon=\"85.3167303\" uid=\"4204463\"
-          user=\"Alisha12\">\n  <tag k=\"comment\" v=\"#hotosm-project-3047 #kll #data-cleaning
-          #kathmandu\"/>\n  <tag k=\"created_by\" v=\"JOSM/1.5 (11639 en)\"/>\n  <tag
-          k=\"source\" v=\"Bing\"/>\n</changeset>\n<changeset id=\"49360535\" created_at=\"2017-06-08T09:13:08Z\"
-          open=\"false\" comments_count=\"0\" changes_count=\"181\" closed_at=\"2017-06-08T09:13:13Z\"
-          min_lat=\"27.6695183\" min_lon=\"85.3160667\" max_lat=\"27.6715209\" max_lon=\"85.3182707\"
-          uid=\"4204463\" user=\"Alisha12\">\n  <tag k=\"comment\" v=\"#hotosm-project-3047
-          #kll #data-cleaning #kathmandu\"/>\n  <tag k=\"created_by\" v=\"JOSM/1.5 (11639
-          en)\"/>\n  <tag k=\"source\" v=\"Bing\"/>\n</changeset>\n<changeset id=\"43047110\"
-          created_at=\"2016-10-20T23:26:41Z\" open=\"false\" comments_count=\"0\" changes_count=\"1\"
-          closed_at=\"2016-10-20T23:26:43Z\" min_lat=\"27.6715217\" min_lon=\"85.3164821\"
-          max_lat=\"27.6715885\" max_lon=\"85.3165894\" uid=\"4223165\" user=\"Sunil
-          Kumar Shrestha\">\n  <tag k=\"comment\" v=\"This house is damaged by earthquake
-          2015\"/>\n  <tag k=\"created_by\" v=\"iD 1.9.7\"/>\n  <tag k=\"host\" v=\"https://www.openstreetmap.org/id\"/>\n
-          \ <tag k=\"imagery_used\" v=\"Bing\"/>\n  <tag k=\"locale\" v=\"en-US\"/>\n</changeset>\n<changeset
-          id=\"30673993\" created_at=\"2015-04-30T21:24:08Z\" open=\"false\" comments_count=\"0\"
-          changes_count=\"248\" closed_at=\"2015-04-30T21:24:17Z\" min_lat=\"27.6682757\"
-          min_lon=\"85.3139147\" max_lat=\"27.6760690\" max_lon=\"85.3206851\" uid=\"223681\"
-          user=\"Wim L\">\n  <tag k=\"comment\" v=\"#hotosm-project-1008\"/>\n  <tag
-          k=\"created_by\" v=\"JOSM/1.5 (8279 en)\"/>\n  <tag k=\"source\" v=\"PLEIADES
-          \xA9 CNES 2015, Distribution Airbus DS\"/>\n</changeset>\n<changeset id=\"15280884\"
-          created_at=\"2013-03-07T11:20:37Z\" open=\"false\" comments_count=\"0\" changes_count=\"655\"
-          closed_at=\"2013-03-07T11:21:26Z\" min_lat=\"27.6628963\" min_lon=\"85.3130472\"
-          max_lat=\"27.6735166\" max_lon=\"85.3287069\" uid=\"1068220\" user=\"Helina\">\n
-          \ <tag k=\"comment\" v=\"building footprints................\"/>\n  <tag k=\"created_by\"
-          v=\"JOSM/1.5 (5576 en)\"/>\n</changeset>\n<changeset id=\"14844487\" created_at=\"2013-01-30T08:44:58Z\"
-          open=\"false\" comments_count=\"0\" changes_count=\"69\" closed_at=\"2013-01-30T10:32:51Z\"
-          min_lat=\"27.6656465\" min_lon=\"85.3145872\" max_lat=\"27.6726262\" max_lon=\"85.3190447\"
-          uid=\"1209120\" user=\"Sunita_ioe\">\n  <tag k=\"build\" v=\"2.3-554-ge648197\"/>\n
-          \ <tag k=\"created_by\" v=\"Potlatch 2\"/>\n  <tag k=\"version\" v=\"2.3\"/>\n</changeset>\n</osm>\n"
+          id=\"49360535\" created_at=\"2017-06-08T09:13:08Z\" open=\"false\" comments_count=\"0\"
+          changes_count=\"181\" created_count=\"131\" modified_count=\"40\" deleted_count=\"10\"
+          closed_at=\"2017-06-08T09:13:13Z\" min_lat=\"27.6695183\" min_lon=\"85.3160667\"
+          max_lat=\"27.6715209\" max_lon=\"85.3182707\" uid=\"4204463\" user=\"Alisha12\">\n
+          \ <tag k=\"comment\" v=\"#hotosm-project-3047 #kll #data-cleaning #kathmandu\"/>\n
+          \ <tag k=\"created_by\" v=\"JOSM/1.5 (11639 en)\"/>\n  <tag k=\"source\" v=\"Bing\"/>\n</changeset>\n</osm>\n"
       headers:
-        CF-RAY:
-          - 9999eaac78574e25-KTM
-        Cache-Control:
-          - max-age=0, private, must-revalidate
+        Accept-Ranges:
+          - bytes
         Connection:
           - keep-alive
         Content-Encoding:
           - gzip
+        Content-Length:
+          - '825'
         Content-Type:
           - application/xml; charset=utf-8
         Date:
-          - Wed, 05 Nov 2025 05:23:02 GMT
-        Nel:
-          - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
-        Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=OQhjb4D8mtIFhVsZojJRiSKtRr1R23w3BNBaHGHpcJ%2F8RHKDbCZLf8g5B1LZ3g1EieHi%2FjWwyB8XvjMi0KTz%2FdSIOJTqN6vtIAJSxctBB6C6g%2BCTUw%3D%3D"}]}'
+          - Fri, 11 Sep 2026 09:54:00 GMT
         Server:
-          - cloudflare
+          - Apache
+        Status:
+          - 200 OK
+        Vary:
+          - Origin,Accept-Encoding
+        Via:
+          - 1.1 varnish
+        X-Cache:
+          - MISS
+        X-Cache-Hits:
+          - '0'
+        X-Powered-By:
+          - Phusion Passenger(R) 6.2.0
+        X-Served-By:
+          - cache-del-vibw2260024-DEL
+        X-Timer:
+          - S1789120440.614956,VS0,VE449
         alt-svc:
-          - h3=":443"; ma=86400
-        cf-cache-status:
-          - DYNAMIC
+          - h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+        cache-control:
+          - max-age=0, private, must-revalidate
         content-security-policy:
-          - "default-src 'self'; child-src 'self'; connect-src 'self' matomo.openstreetmap.org;
-            font-src 'self'; form-action 'self'; frame-ancestors 'self'; frame-src
-            'self'; img-src 'self' data: www.gravatar.com *.wp.com tile.openstreetmap.org
-            gps.tile.openstreetmap.org *.tile.thunderforest.com tile.tracestrack.com *.openstreetmap.fr
-            matomo.openstreetmap.org https://openstreetmap-user-avatars.s3.dualstack.eu-west-1.amazonaws.com
-            https://openstreetmap-gps-images.s3.dualstack.eu-west-1.amazonaws.com; manifest-src
-            'self'; media-src 'none'; object-src 'self'; script-src 'self' matomo.openstreetmap.org
-            'nonce-zSrMWijf5ynMFHkjo5GuZlYBqHc05JTl'; style-src 'self' 'nonce-zSrMWijf5ynMFHkjo5GuZlYBqHc05JTl';
-            worker-src blob:"
+          - "default-src 'self'; child-src 'self'; connect-src 'self' tile.openstreetmap.org
+            api.thunderforest.com tile.tracestrack.com *.openstreetmap.fr vector.openstreetmap.org
+            api.maptiler.com matomo.openstreetmap.org; font-src 'self'; form-action
+            'self'; frame-ancestors 'self'; frame-src 'self'; img-src 'self' data:
+            www.gravatar.com *.wp.com tile.openstreetmap.org gps.tile.openstreetmap.org
+            api.thunderforest.com tile.tracestrack.com *.openstreetmap.fr matomo.openstreetmap.org
+            https://openstreetmap-user-avatars.s3.dualstack.eu-west-1.amazonaws.com https://openstreetmap-gps-images.s3.dualstack.eu-west-1.amazonaws.com;
+            manifest-src 'self'; media-src 'none'; object-src 'none'; script-src
+            'self' matomo.openstreetmap.org 'nonce-KAE6fmSRJ+Q98JLftjcS55XmFvSKH9z5';
+            style-src 'self' 'nonce-KAE6fmSRJ+Q98JLftjcS55XmFvSKH9z5'; worker-src
+            blob:"
         cross-origin-opener-policy:
           - same-origin
         etag:
-          - W/"e0969076cd84dbf02129c236a7cd4c03-br"
+          - W/"993554ccafca0823914d0122c7881a2c-gzip"
         referrer-policy:
           - strict-origin-when-cross-origin
-        status:
-          - 200 OK
         strict-transport-security:
           - max-age=31536000; includeSubDomains; preload
-        vary:
-          - Origin,Accept-Encoding
         x-content-type-options:
           - nosniff
         x-frame-options:
           - SAMEORIGIN
         x-permitted-cross-domain-policies:
           - none
-        x-powered-by:
-          - Phusion Passenger(R) 6.1.0
         x-request-id:
-          - aQrfNdjk4AvZY-kgBpByEgAAjw4
+          - aqPPtzkK93NLxdH0RqJIxAAAAEc
         x-runtime:
-          - '0.023305'
+          - '0.018224'
         x-xss-protection:
           - '0'
       status:
         code: 200
         message: OK
-  - request:
-      body: bpolys=%7B%22type%22%3A%22FeatureCollection%22%2C%22features%22%3A%5B%7B%22type%22%3A%22Feature%22%2C%22geometry%22%3A%7B%22type%22%3A%22Polygon%22%2C%22coordinates%22%3A%5B%5B%5B85.31607078054628%2C27.672118011307035%5D%2C%5B85.31607078054628%2C27.671104197435426%5D%2C%5B85.31669702365383%2C27.671104197435426%5D%2C%5B85.31669702365383%2C27.672118011307035%5D%2C%5B85.31607078054628%2C27.672118011307035%5D%5D%5D%7D%2C%22properties%22%3A%7B%7D%7D%5D%7D&filter=building%3D%2A+and+geometry%3Apolygon
-      headers:
-        Accept:
-          - '*/*'
-        Accept-Encoding:
-          - gzip, deflate
-        Connection:
-          - keep-alive
-        Content-Length:
-          - '499'
-        Content-Type:
-          - application/x-www-form-urlencoded
-        User-Agent:
-          - python-requests/2.32.5
-      method: POST
-      uri: https://api.ohsome.org/v1/elements/count
-    response:
-      body:
-        string:
-          "{\n  \"attribution\" : {\n    \"url\" : \"https://ohsome.org/copyrights\",\n
-          \   \"text\" : \"\xA9 OpenStreetMap contributors\"\n  },\n  \"apiVersion\"
-          : \"1.10.4\",\n  \"result\" : [ {\n    \"timestamp\" : \"2026-01-02T11:00:00Z\",\n
-          \   \"value\" : 34.0\n  } ]\n}"
-      headers:
-        Access-Control-Allow-Credentials:
-          - 'true'
-        Access-Control-Allow-Headers:
-          - Origin,Accept,X-Requested-With,Content-Type,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization
-        Access-Control-Allow-Methods:
-          - POST, GET
-        Access-Control-Allow-Origin:
-          - '*'
-        Access-Control-Max-Age:
-          - '3600'
-        Cache-Control:
-          - no-cache, no-store, must-revalidate
-        Connection:
-          - Keep-Alive
-        Content-Encoding:
-          - gzip
-        Content-Type:
-          - application/json
-        Date:
-          - Tue, 13 Jan 2026 09:50:43 GMT
-        Keep-Alive:
-          - timeout=5, max=100
-        Server:
-          - Apache/2.4.58 (Ubuntu)
-        Strict-Transport-Security:
-          - max-age=63072000; includeSubdomains;
-        Transfer-Encoding:
-          - chunked
-        vary:
-          - accept-encoding
-      status:
-        code: 200
-        message: ''
 version: 1
