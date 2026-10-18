@@ -118,7 +118,8 @@
           },
         ],
         aoiGeometry: null,
-        mapillaryImageFilters: {
+        provider: 'MAPILLARY',
+        mapillary: {
           panoOnly: null,
           creatorId: null,
           organizationId: null,
@@ -126,9 +127,6 @@
           endTime: '2022-07-31',
           randomizeOrder: false,
           samplingThreshold: 100,
-        },
-        imageProvider: {
-          name: 'MAPILLARY',
         },
       },
     },

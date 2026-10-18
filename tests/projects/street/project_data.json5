@@ -89,7 +89,8 @@
     projectTypeSpecifics: {
       street: {
         aoiGeometry: null,
-        mapillaryImageFilters: {
+        provider: 'MAPILLARY',
+        mapillary: {
           panoOnly: null,
           creatorId: null,
           organizationId: null,
@@ -97,9 +98,6 @@
           endTime: null,
           randomizeOrder: false,
           samplingThreshold: null,
-        },
-        imageProvider: {
-          name: 'MAPILLARY',
         },
       },
     },
