@@ -1,0 +1,510 @@
+{
+  "type": "FeatureCollection",
+  "name": "tmpt5v4lwg7",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 0.0,
+        "task_id": "0bd05ba5-694a-41ec-b38a-dd0780d0be96",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.204859018325806, 48.12450560841967]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 1.0,
+        "task_id": "273ef039-34fe-4072-966a-b1f742482098",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.204175055027008, 48.12358532816609]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 2.0,
+        "task_id": "39352670-63fe-4034-a140-8dcad3af4380",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.206972599029541, 48.12352803390857]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 3.0,
+        "task_id": "3c56ab6c-6287-4507-9a65-be5de6f6779f",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.204856336116791, 48.12473299030003]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 4.0,
+        "task_id": "493a72a1-94a6-4cf4-8a28-6893c05ab5a6",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.204553246498108, 48.125295174250255]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 5.0,
+        "task_id": "49baae9f-8ecc-4091-86cb-e5e0c5cf5d02",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.206481754779816, 48.12327916123593]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 6.0,
+        "task_id": "49cdcfaf-5538-4901-b719-7f6f5ac56475",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.204695403575897, 48.12513762013319]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 7.0,
+        "task_id": "4ff7e93d-c34d-42dc-b9c4-fbba3b4ee511",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.205483973026276, 48.12318247656307]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 8.0,
+        "task_id": "764919ea-04b5-4fcf-92a4-a2834da22419",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.204684674739838, 48.123383007533704]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 9.0,
+        "task_id": "82a1a683-4a82-41de-a43d-a17f9a80faf5",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.204386949539185, 48.12433014769792]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 10.0,
+        "task_id": "8418d0bb-80db-4144-b11c-50f7f87ebfc1",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.207557320594788, 48.12352803390857]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 11.0,
+        "task_id": "87453385-5b37-4c73-876c-d51335cc3441",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.205183565616608, 48.12325230440061]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 12.0,
+        "task_id": "8b54c64c-1da5-4caa-beef-e01799ee7cf6",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.208174228668213, 48.12344925420018]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 13.0,
+        "task_id": "940113c2-1be6-4f12-bf13-7330a28700cc",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.203799545764923, 48.12415826722611]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 14.0,
+        "task_id": "96152b76-9c86-4f48-9593-230ab17eed37",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.203914880752564, 48.12379301931375]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 15.0,
+        "task_id": "97853e78-a7a4-4e9f-9bb3-97edda4f157a",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.206712424755096, 48.12341165475132]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 16.0,
+        "task_id": "9905efc3-e478-458e-90b2-a34f5f43e48e",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.207879185676575, 48.123494015412945]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 17.0,
+        "task_id": "a7f72897-f6fe-4496-988e-0213c01f0f91",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.207267642021179, 48.1235566810453]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 18.0,
+        "task_id": "c4dc6a88-02ef-489a-9bb5-6519b7dd3554",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.203826367855072, 48.12397206273258]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 19.0,
+        "task_id": "c893429a-3a54-44a6-9285-f3023260754d",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.204268932342529, 48.12542587218516]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 20.0,
+        "task_id": "d337ba25-3a61-4776-8361-367fe864bedf",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.205746829509735, 48.12310548678599]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 21.0,
+        "task_id": "e0b1e54a-efdd-4f09-911f-1b4993cfbfdc",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.204443275928497, 48.12348506317352]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 22.0,
+        "task_id": "e7d1655a-16d9-41ac-a725-e094cef3cdfd",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.20625913143158, 48.123157410136685]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 23.0,
+        "task_id": "f5eb7abc-3717-4df8-b93d-742c98fbc8ad",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.204773187637329, 48.12495320958686]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 24.0,
+        "task_id": "febd15d1-a372-4381-805e-5f565a6fe025",
+        "0_count": 0.0,
+        "1_count": 0.0,
+        "2_count": 1.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 0.0,
+        "2_share": 1.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.204134821891785, 48.12426569258838]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 25.0,
+        "task_id": "0c4a7ea5-c5d9-4b12-a6cd-6557507e855d",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.203981935977936, 48.125510019994664]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 26.0,
+        "task_id": "302ce2a3-f6ea-4612-bbdb-33ed47cf95d5",
+        "0_count": 0.0,
+        "1_count": 1.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 0.0,
+        "1_share": 1.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.203727126121521, 48.125578054293015]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idx": 27.0,
+        "task_id": "db6c6b41-8f49-4c74-bc97-fd1dbc2cb7f5",
+        "0_count": 1.0,
+        "1_count": 0.0,
+        "2_count": 0.0,
+        "total_count": 1.0,
+        "0_share": 1.0,
+        "1_share": 0.0,
+        "2_share": 0.0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[-1.2033811211586, 48.12562997514431]]
+      }
+    }
+  ]
+}
