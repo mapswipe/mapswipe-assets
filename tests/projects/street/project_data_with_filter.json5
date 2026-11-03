@@ -118,14 +118,15 @@
           },
         ],
         aoiGeometry: null,
-        mapillaryImageFilters: {
-          isPano: null,
+        provider: 'MAPILLARY',
+        mapillary: {
+          panoOnly: null,
           creatorId: null,
           organizationId: null,
           startTime: '2022-07-01',
           endTime: '2022-07-31',
           randomizeOrder: false,
-          samplingThreshold: 0.1,
+          samplingThreshold: 100,
         },
       },
     },
@@ -164,6 +165,9 @@
         value: 2,
       },
     ],
+    imageProvider: {
+      name: 'mapillary',
+    },
     informationPages: [
       {
         blocks: [
@@ -262,6 +266,9 @@
     // FIXME: Change 0 to 25
     groupMaxSize: 25,
     groupSize: 25,
+    imageProvider: {
+      name: 'mapillary',
+    },
     isFeatured: false,
     language: 'en-us',
     projectInstruction: 'House',
