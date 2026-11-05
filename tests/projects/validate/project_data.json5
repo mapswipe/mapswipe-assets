@@ -129,6 +129,7 @@
             subOptions: [],
           },
         ],
+        hasPreImagery: false,
         objectSource: {
           sourceType: 'AOI_GEOJSON_FILE',
           aoiGeometry: null,
@@ -182,6 +183,7 @@
         value: 2,
       },
     ],
+    hasPreImagery: false,
     informationPages: [
       {
         blocks: [
@@ -306,6 +308,7 @@
     filter: 'building=* and geometry:polygon',
     groupMaxSize: 25,
     groupSize: 25,
+    hasPreImagery: false,
     inputType: 'aoi_file',
     isFeatured: false,
     language: 'en-us',
