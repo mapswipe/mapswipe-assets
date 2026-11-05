@@ -139,6 +139,8 @@
           name: 'BING',
           bing: {
             credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
+            minZoom: 1,
+            maxZoom: 19,
           },
         },
       },
@@ -233,7 +235,7 @@
     tileServer: {
       apiKey: 'dummy-bing',
       credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
-      maxZoom: 21,
+      maxZoom: 19,
       minZoom: 1,
       name: 'bing',
       url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=15384&mkt=en-US&token={apiKey}',
@@ -334,7 +336,7 @@
     tileServer: {
       apiKey: 'dummy-bing',
       credits: '© 2019 Microsoft Corporation, Earthstar Geographics SIO',
-      maxZoom: 21,
+      maxZoom: 19,
       minZoom: 1,
       name: 'bing',
       url: 'https://ecn.t0.tiles.virtualearth.net/tiles/a{quad_key}.jpeg?g=15384&mkt=en-US&token={apiKey}',
