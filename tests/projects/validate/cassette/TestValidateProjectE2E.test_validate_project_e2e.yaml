@@ -21,7 +21,7 @@ interactions:
         User-Agent:
           - mapswipe-DEV/7377ce57201c81d933430752f732d9cc26fc6912
       method: POST
-      uri: https://api.heigit.org/ohsome-api/v2-rc/stats/features/count.json
+      uri: https://api.heigit.org/ohsome-api/v2/stats/features/count.json
     response:
       body:
         string:
@@ -75,7 +75,7 @@ interactions:
         User-Agent:
           - mapswipe-DEV/7377ce57201c81d933430752f732d9cc26fc6912
       method: POST
-      uri: https://api.heigit.org/ohsome-api/v2-rc/stats/features/count.json
+      uri: https://api.heigit.org/ohsome-api/v2/stats/features/count.json
     response:
       body:
         string:
@@ -129,7 +129,7 @@ interactions:
         User-Agent:
           - mapswipe-DEV/7377ce57201c81d933430752f732d9cc26fc6912
       method: POST
-      uri: https://api.heigit.org/ohsome-api/v2-rc/extraction/features.parquet
+      uri: https://api.heigit.org/ohsome-api/v2/extraction/features.parquet
     response:
       body:
         string: !!binary |
