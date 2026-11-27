@@ -318,6 +318,7 @@
       name: 'custom',
       url: 'https://raw.githubusercontent.com/mapswipe/mapswipe-assets/refs/heads/main/images/raster-layer-404-message.png',
     },
+    requiredFeatures: ['PROJECT_COMPLETENESS_VECTOR_LAYER'],
     // FIXME(tnagorra): cleared this because new system does not have drafts
     tutorialDraftId: '',
     zoomLevel: 18,
@@ -478,6 +479,7 @@
       name: 'custom',
       url: 'https://raw.githubusercontent.com/mapswipe/mapswipe-assets/refs/heads/main/images/raster-layer-404-message.png',
     },
+    requiredFeatures: ['PROJECT_COMPLETENESS_VECTOR_LAYER'],
     tutorialId: 'tutorial_01K4MQ88R61EDAMS0K0TW0N17A',
     verificationNumber: 3,
     zoomLevel: 18,
